@@ -1,0 +1,16 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Proof interface graph",
+  "type":"object",
+  "required":["experiment","status","evidence_boundary","nodes","edges","not_yet_measured"],
+  "properties":{
+    "experiment":{"const":"02-proof-interface-graph"},
+    "status":{"enum":["outline_only","source_grounded","independently_verified"]},
+    "evidence_boundary":{"type":"string"},
+    "source_artifacts":{"type":"array"},
+    "nodes":{"type":"array","items":{"type":"object","required":["id","name","assumptions","internal_construction","exported_object","validation_condition","source_refs"],"additionalProperties":true}},
+    "edges":{"type":"array","items":{"type":"object","required":["from","to","literal_interface","source_refs"],"additionalProperties":true}},
+    "not_yet_measured":{"type":"array","items":{"type":"string"}}
+  },
+  "additionalProperties":false
+}

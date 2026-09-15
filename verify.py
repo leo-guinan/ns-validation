@@ -4,9 +4,12 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 from ns_validation import (
     build_lifecycle_ledger,
+    graph_edges,
     load_stages,
+    load_proof_graph,
     parse_markdown,
     render_lifecycle_report,
+    render_proof_graph_report,
     render_report,
     stage_edges,
     write_json,
@@ -36,3 +39,8 @@ lifecycle_report = Path("data") / "experiment01-report.txt"
 lifecycle_report.write_text(render_lifecycle_report(build_lifecycle_ledger(Path("data") / "proof-stages.json", Path("data") / "source-ledger.json")), encoding="utf-8")
 print(f"experiment01_ledger={lifecycle} bytes={lifecycle.stat().st_size}")
 print(f"experiment01_report={lifecycle_report.resolve()} bytes={lifecycle_report.stat().st_size}")
+proof_graph = load_proof_graph(Path("data") / "proof-interface-graph.json")
+proof_report = Path("data") / "experiment02-outline-report.txt"
+proof_report.write_text(render_proof_graph_report(proof_graph), encoding="utf-8")
+print(f"experiment02_nodes={len(proof_graph['nodes'])} edges={len(graph_edges(proof_graph))}")
+print(f"experiment02_report={proof_report.resolve()} bytes={proof_report.stat().st_size}")

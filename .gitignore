@@ -9,3 +9,4 @@ data/*
 !data/cost-estimates.json
 !data/proof-stages.json
 !data/experiment01-ledger.json
+!data/proof-interface-graph.json
