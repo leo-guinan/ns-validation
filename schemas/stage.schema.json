@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Validation architecture stage",
+  "type": "object",
+  "required": ["id", "name", "predecessors", "work", "state_exported", "verification_burden", "trust_assumptions"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "name": {"type": "string", "minLength": 1},
+    "predecessors": {"type": "array", "items": {"type": "string"}},
+    "work": {"type": "string", "minLength": 1},
+    "state_exported": {"type": "string", "minLength": 1},
+    "verification_burden": {"type": "string", "minLength": 1},
+    "trust_assumptions": {"type": "array", "items": {"type": "string"}},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

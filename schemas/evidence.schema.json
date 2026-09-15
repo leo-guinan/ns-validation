@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Validation architecture evidence record",
+  "type": "object",
+  "required": ["id", "statement", "provenance", "source", "status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "statement": {"type": "string", "minLength": 1},
+    "provenance": {"enum": ["reported", "derived", "estimated", "modeled"]},
+    "source": {"type": "string", "minLength": 1},
+    "status": {"enum": ["unverified", "locally_checked", "independently_verified"]},
+    "value": {},
+    "unit": {"type": ["string", "null"]},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

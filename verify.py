@@ -2,7 +2,7 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
-from ns_validation import parse_markdown, render_report, write_json
+from ns_validation import load_stages, parse_markdown, render_report, stage_edges, write_json
 
 source = Path.home() / "Downloads" / "NS Validation idea.md"
 if not source.exists():
@@ -16,3 +16,5 @@ print(f"sha256={ledger.source_sha256}")
 print(f"claims={len(ledger.claims)} metrics={len(ledger.metrics)} questions={len(ledger.research_questions)} boundaries={len(ledger.boundaries)}")
 print(f"json={json_path} bytes={json_path.stat().st_size}")
 print(f"report={report_path.resolve()} bytes={report_path.stat().st_size}")
+stages = load_stages(Path("data") / "proof-stages.json")
+print(f"stages={len(stages)} edges={len(stage_edges(stages))}")

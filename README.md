@@ -1,12 +1,12 @@
 # ns-validation
 
-A small, source-hashed processor for turning validation ideas into a falsifiable working ledger.
+A validation-architecture project for turning expensive mathematical work into progressively cheaper, more durable objects of trust.
 
-This repository starts with the smallest credible slice from `~/Downloads/NS Validation idea.md`:
+The first case study is bounded by `~/Downloads/NS Validation idea.md`; it is not another attempt to solve Navier–Stokes. The initial executable slice is:
 
 `markdown source -> conservative extraction -> JSON ledger + text report`
 
-It extracts only explicit quantities and high-signal candidate claims, research questions, and limitation/boundary statements. Extracted claims are not treated as facts; their initial status is `unvalidated`. The source path and SHA-256 digest make later re-runs auditable without copying the private source into this repository.
+It extracts only explicit quantities and high-signal candidate claims, research questions, and limitation/boundary statements. It also validates a machine-readable stage graph with explicit work, exported state, verification burden, and trust assumptions. Extracted claims are not treated as facts; their initial status is `unvalidated`. The source path and SHA-256 digest make later re-runs auditable without copying the private source into this repository.
 
 ## Quickstart
 
@@ -19,11 +19,17 @@ PYTHONPATH=src python3 -m ns_validation ~/Downloads/NS\ Validation\ idea.md
 
 The CLI writes `data/ledger.json` and `data/report.txt`. Generated data is ignored by Git.
 
+The committed case-study artifacts are deliberately different: `data/source-ledger.json` preserves provenance-labeled evidence records, `data/cost-estimates.json` isolates an unverified external estimate, and `data/proof-stages.json` is the explicit stage/interface hypothesis.
+
 ## Layout
 
 - `src/ns_validation/processor.py` — pure parser, ledger model, JSON/report renderers
+- `src/ns_validation/stages.py` — stage model and graph validation
 - `src/ns_validation/cli.py` — command-line entry point
 - `tests/` — parser, hash, serialization, and report tests
+- `docs/` — research question, terminology, claims, and boundaries
+- `schemas/` — machine-readable stage and evidence contracts
+- `experiments/` — staged experiment specifications
 - `verify.py` — one-shot real-source verification
 - `data/` — ignored generated artifacts
 

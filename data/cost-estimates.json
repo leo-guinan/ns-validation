@@ -1,0 +1,8 @@
+{
+  "status": "prospective",
+  "currency": "USD",
+  "estimates": [
+    {"id":"cost-range-external","value_min":10000000,"value_max":40000000,"unit":"USD","provenance":"estimated","source":"/Users/leoguinan/Downloads/NS Validation idea.md:157","status":"unverified","notes":"External estimate repeated by the local note; not an official cost disclosure."}
+  ],
+  "missing": ["discovery compute accounting", "formalization compute accounting", "kernel runtime", "human review effort", "verifier maintenance cost", "reuse volume"]
+}

@@ -5,3 +5,6 @@ __pycache__/
 .venv/
 data/*
 !data/.gitkeep
+!data/source-ledger.json
+!data/cost-estimates.json
+!data/proof-stages.json
