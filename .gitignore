@@ -18,3 +18,4 @@ data/*
 !data/elaborated-cone.json
 !data/activation-experiment.json
 !data/environment-transfer.json
+!data/bounded-cone.json

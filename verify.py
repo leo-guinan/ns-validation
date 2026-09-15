@@ -57,3 +57,5 @@ cone = json.loads((Path("data") / "elaborated-cone.json").read_text(encoding="ut
 print(f"experiment04_status={cone['status']} target={cone['target']}")
 transfer = json.loads((Path("data") / "environment-transfer.json").read_text(encoding="utf-8"))
 print(f"experiment06_status={transfer['status']} direct_dependencies={transfer['elaborated_direct_dependencies']['count']}")
+bounded = json.loads((Path("data") / "bounded-cone.json").read_text(encoding="utf-8"))
+print(f"experiment07_status={bounded['status']} local={bounded['counts']['local_cone']} frontier={bounded['counts']['frontier']}")
