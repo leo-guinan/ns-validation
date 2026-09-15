@@ -35,7 +35,7 @@ class ProofGraphTests(unittest.TestCase):
         report = render_proof_graph_report(load_proof_graph(root / "data/proof-interface-graph.json"))
         self.assertIn("Status: outline_only", report)
         self.assertIn("complete 166-page proof artifact was not available", report)
-        self.assertIn("Not calculated", report)
+        self.assertIn("Not yet measured", report)
 
 
 if __name__ == "__main__":

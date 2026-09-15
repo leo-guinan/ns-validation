@@ -1,18 +1,21 @@
-# Experiment 02 — proof-interface graph
+# Experiment 02 — grounded proof and verification graphs
 
-Status: outline-only. Experiment 01 remains frozen.
+Experiment 01 remains frozen. The earlier outline is preserved as `proof-interface-graph.json` (v0).
 
-This graph changes levels. The lifecycle graph describes how a result was produced; this graph describes how a reported mathematical construction is said to compose.
+## G_proof_v1
 
-The current graph is transcribed from the OpenAI public announcement and a public proof-outline discussion. It is not a reconstruction of the complete proof: the complete 166-page artifact was not available to this run. Two identical local PDFs were checked and rejected as unrelated 2-page “Chronoflux” documents.
+`proof-interface-graph-v1.json` is grounded in the retrieved 166-page OpenAI paper. Nodes follow the paper's actual construction sections (§4–§10), with page, theorem, proposition, lemma, and equation references. Each edge records the literal data passed between sections. It does not claim minimal sufficiency, compression, or independent validity.
 
-Each node records `P_i = (assumptions, internal construction, exported object, validation condition)`. Each edge records the literal interface described by the outline. No edge is labeled minimal or sufficient. Interface compression is deliberately not calculated.
+## G_verification
 
-Run:
+`verification-graph.json` is a separate import-closure graph rooted at `NavierStokes`. It was generated from the pinned Lean repository commit in `data/proof-sources.json` and currently contains repository source modules and import edges. It is not a theorem dependency graph and is not merged into `G_proof_v1`.
+
+The repository's comparator target is `NavierStokes.Comparator.navier_stokes_breakdown_R3`, with permitted axioms `propext`, `Quot.sound`, and `Classical.choice`. Kernel-elaborated theorem dependencies, formal literal interfaces, and an interface comparison remain unmeasured.
+
+Build the verification graph with:
 
 ```text
-python3 verify.py
-python3 -m unittest discover -s tests -v
+python3 scripts/build_verification_graph.py /path/to/NavierStokesAndEuler data/verification-graph.json
 ```
 
-Next gate: acquire the complete proof and formalization, pin versions/hashes, then replace outline references with section/page/theorem spans. Only after that should candidate sufficient interfaces be proposed.
+Source artifact receipt: `data/proof-sources.json`.

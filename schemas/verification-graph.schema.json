@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Lean verification import graph",
+  "type":"object",
+  "required":["experiment","graph","status","source","nodes","edges","not_yet_measured"],
+  "properties":{
+    "experiment":{"const":"02-proof-interface-graph"},
+    "graph":{"const":"G_verification"},
+    "status":{"type":"string"},
+    "source":{"type":"object"},
+    "nodes":{"type":"array"},
+    "edges":{"type":"array"},
+    "not_yet_measured":{"type":"array","items":{"type":"string"}}
+  }
+}

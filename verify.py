@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 import sys
 
@@ -44,3 +45,7 @@ proof_report = Path("data") / "experiment02-outline-report.txt"
 proof_report.write_text(render_proof_graph_report(proof_graph), encoding="utf-8")
 print(f"experiment02_nodes={len(proof_graph['nodes'])} edges={len(graph_edges(proof_graph))}")
 print(f"experiment02_report={proof_report.resolve()} bytes={proof_report.stat().st_size}")
+proof_graph_v1 = load_proof_graph(Path("data") / "proof-interface-graph-v1.json")
+verification_graph = json.loads((Path("data") / "verification-graph.json").read_text(encoding="utf-8"))
+print(f"experiment02_v1_nodes={len(proof_graph_v1['nodes'])} edges={len(graph_edges(proof_graph_v1))}")
+print(f"verification_nodes={len(verification_graph['nodes'])} edges={len(verification_graph['edges'])}")

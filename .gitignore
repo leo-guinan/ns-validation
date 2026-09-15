@@ -10,3 +10,6 @@ data/*
 !data/proof-stages.json
 !data/experiment01-ledger.json
 !data/proof-interface-graph.json
+!data/proof-interface-graph-v1.json
+!data/proof-sources.json
+!data/verification-graph.json

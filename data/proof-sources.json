@@ -1,0 +1,22 @@
+{
+  "proof_artifact": {
+    "title": "Finite Time Blowup for Navier–Stokes",
+    "url": "https://openai.com/index/navier-stokes-solution/",
+    "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+    "pages": 166,
+    "retrieved_at": "2026-09-15",
+    "source_status": "retrieved_and_text_extracted"
+  },
+  "lean_artifact": {
+    "url": "https://github.com/openai/NavierStokesAndEuler",
+    "commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+    "license": "Apache-2.0",
+    "source_status": "repository_head_pinned_metadata_only"
+  },
+  "rejected_local_candidate": {
+    "filename": "Resolution_of_the_Navier_Stokes_Existenc.pdf",
+    "sha256": "a44e791ab9b7912222343e31296f0968a7a0cf27446e2a918087bc5fd14ee38c",
+    "pages": 2,
+    "reason": "unrelated Chronoflux document"
+  }
+}

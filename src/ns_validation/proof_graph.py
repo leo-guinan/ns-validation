@@ -52,9 +52,6 @@ def render_proof_graph_report(graph: dict[str, Any]) -> str:
     lines.append("\nLiteral interfaces:")
     for edge in graph["edges"]:
         lines.append(f"- {edge['from']} -> {edge['to']}: {edge['literal_interface']}")
-    lines.extend([
-        "",
-        "Not calculated: minimal sufficient interface, interface width, or compression ratio.",
-        "Those require the complete proof artifact and a declared encoding.",
-    ])
+    lines.extend(["", "Not yet measured:"])
+    lines.extend(f"- {item}" for item in graph.get("not_yet_measured", []))
     return "\n".join(lines) + "\n"
