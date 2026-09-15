@@ -1,0 +1,12 @@
+[build-system]
+requires = []
+build-backend = "backend"
+
+[project]
+name = "ns-validation"
+version = "0.1.0"
+description = "Process validation ideas into source-hashed, falsifiable ledgers"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
