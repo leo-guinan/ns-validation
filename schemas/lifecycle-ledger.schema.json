@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Experiment 01 lifecycle ledger",
+  "type": "object",
+  "required": ["experiment", "status", "metric_policy", "stages", "supported_metrics", "unsupported_metrics"],
+  "properties": {
+    "experiment": {"const": "01-cost-ledger"},
+    "status": {"enum": ["prospective", "locally_checked", "independently_verified"]},
+    "research_question": {"type": "string"},
+    "metric_policy": {"type": "string"},
+    "stages": {"type": "array", "items": {"type": "object"}},
+    "supported_metrics": {"type": "object"},
+    "unsupported_metrics": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

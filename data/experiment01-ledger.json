@@ -1,0 +1,343 @@
+{
+  "experiment": "01-cost-ledger",
+  "status": "prospective",
+  "research_question": "How does an expensive mathematical search become a progressively cheaper, more durable object of trust?",
+  "metric_policy": "Native-unit observations only; unknown quantities remain null; no cross-unit ratios are inferred.",
+  "stages": [
+    {
+      "stage_id": "search",
+      "stage": "Search",
+      "work": {
+        "construction": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "validation": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "replay": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "observations": [
+          {
+            "measure": "agents",
+            "value": 10000,
+            "provenance": "reported",
+            "unit": "mixed",
+            "source": "/Users/leoguinan/Downloads/NS Validation idea.md:157"
+          },
+          {
+            "measure": "hours",
+            "value": 88,
+            "provenance": "reported",
+            "unit": "mixed",
+            "source": "/Users/leoguinan/Downloads/NS Validation idea.md:157"
+          },
+          {
+            "measure": "messages",
+            "value": 2700000,
+            "provenance": "reported",
+            "unit": "mixed",
+            "source": "/Users/leoguinan/Downloads/NS Validation idea.md:157"
+          },
+          {
+            "measure": "output_tokens",
+            "value": 130000000000,
+            "provenance": "reported",
+            "unit": "mixed",
+            "source": "/Users/leoguinan/Downloads/NS Validation idea.md:157"
+          }
+        ]
+      },
+      "exported_state": {
+        "description": "candidate insights and intermediate search state; exact artifact not yet retrieved",
+        "size": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        }
+      },
+      "next_stage": "candidate-insight",
+      "downstream_verification_burden": "triage, synthesis, and independent reconstruction",
+      "trust_assumptions": [
+        "source note accurately reports the search process",
+        "agent outputs are available and attributable"
+      ],
+      "provenance_quality": "source-reported_unverified",
+      "evidence_refs": [
+        {
+          "id": "e-search-scale",
+          "provenance": "reported",
+          "status": "unverified",
+          "source": "/Users/leoguinan/Downloads/NS Validation idea.md:157"
+        }
+      ],
+      "edgewise_compression_ratio": {
+        "value": null,
+        "status": "unsupported_missing_state_and_interface_sizes",
+        "size_unit": null
+      }
+    },
+    {
+      "stage_id": "candidate-insight",
+      "stage": "Candidate insight",
+      "work": {
+        "construction": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "validation": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "replay": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "observations": []
+      },
+      "exported_state": {
+        "description": "candidate mathematical route or lemma",
+        "size": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        }
+      },
+      "next_stage": "proof-construction",
+      "downstream_verification_burden": "test route against stated problem and counterexamples",
+      "trust_assumptions": [
+        "selection did not discard decisive negative evidence"
+      ],
+      "provenance_quality": "unavailable",
+      "evidence_refs": [],
+      "edgewise_compression_ratio": {
+        "value": null,
+        "status": "unsupported_missing_state_and_interface_sizes",
+        "size_unit": null
+      }
+    },
+    {
+      "stage_id": "proof-construction",
+      "stage": "Proof construction",
+      "work": {
+        "construction": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "validation": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "replay": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "observations": [
+          {
+            "measure": "reported_quantity",
+            "value": 166,
+            "provenance": "reported",
+            "unit": "pages",
+            "source": "/Users/leoguinan/Downloads/NS Validation idea.md:3,157"
+          }
+        ]
+      },
+      "exported_state": {
+        "description": "structured proof text, residual/correction interfaces, and assumptions",
+        "size": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        }
+      },
+      "next_stage": "formalization",
+      "downstream_verification_burden": "human mathematical review and dependency tracing",
+      "trust_assumptions": [
+        "definitions and boundary conditions are faithfully transcribed"
+      ],
+      "provenance_quality": "source-reported_unverified",
+      "evidence_refs": [
+        {
+          "id": "e-proof-length",
+          "provenance": "reported",
+          "status": "unverified",
+          "source": "/Users/leoguinan/Downloads/NS Validation idea.md:3,157"
+        }
+      ],
+      "edgewise_compression_ratio": {
+        "value": null,
+        "status": "unsupported_missing_state_and_interface_sizes",
+        "size_unit": null
+      }
+    },
+    {
+      "stage_id": "formalization",
+      "stage": "Formalization",
+      "work": {
+        "construction": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "validation": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "replay": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "observations": [
+          {
+            "measure": "reported_quantity",
+            "value": 17,
+            "provenance": "reported",
+            "unit": "hours",
+            "source": "/Users/leoguinan/Downloads/NS Validation idea.md:157"
+          }
+        ]
+      },
+      "exported_state": {
+        "description": "machine-checkable formal proof object",
+        "size": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        }
+      },
+      "next_stage": "kernel-verification",
+      "downstream_verification_burden": "elaboration and independent environment replay",
+      "trust_assumptions": [
+        "Lean version, libraries, and imported axioms are identified"
+      ],
+      "provenance_quality": "source-reported_unverified",
+      "evidence_refs": [
+        {
+          "id": "e-formalization-time",
+          "provenance": "reported",
+          "status": "unverified",
+          "source": "/Users/leoguinan/Downloads/NS Validation idea.md:157"
+        }
+      ],
+      "edgewise_compression_ratio": {
+        "value": null,
+        "status": "unsupported_missing_state_and_interface_sizes",
+        "size_unit": null
+      }
+    },
+    {
+      "stage_id": "kernel-verification",
+      "stage": "Kernel verification",
+      "work": {
+        "construction": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "validation": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "replay": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "observations": []
+      },
+      "exported_state": {
+        "description": "kernel verdict and reproducibility metadata",
+        "size": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        }
+      },
+      "next_stage": "reuse",
+      "downstream_verification_burden": "kernel execution plus environment/provenance audit",
+      "trust_assumptions": [
+        "kernel and trusted base are correctly identified"
+      ],
+      "provenance_quality": "unavailable",
+      "evidence_refs": [],
+      "edgewise_compression_ratio": {
+        "value": null,
+        "status": "unsupported_missing_state_and_interface_sizes",
+        "size_unit": null
+      }
+    },
+    {
+      "stage_id": "reuse",
+      "stage": "Reuse",
+      "work": {
+        "construction": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "validation": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "replay": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        },
+        "observations": []
+      },
+      "exported_state": {
+        "description": "versioned theorem/proof artifact and verifier recipe",
+        "size": {
+          "value": null,
+          "unit": null,
+          "status": "unknown"
+        }
+      },
+      "next_stage": null,
+      "downstream_verification_burden": "compatibility, freshness, and re-verification under changed dependencies",
+      "trust_assumptions": [
+        "artifact remains available and its dependencies remain auditable"
+      ],
+      "provenance_quality": "unavailable",
+      "evidence_refs": [],
+      "edgewise_compression_ratio": {
+        "value": null,
+        "status": "unsupported_missing_state_and_interface_sizes",
+        "size_unit": null
+      }
+    }
+  ],
+  "supported_metrics": {
+    "reported_search_hours": 88,
+    "reported_search_messages": 2700000,
+    "reported_search_output_tokens": 130000000000,
+    "reported_formalization_hours": 17,
+    "reported_proof_pages": 166
+  },
+  "unsupported_metrics": [
+    "verification_compression_ratio",
+    "edgewise_interface_compression_ratio",
+    "verification_cost",
+    "replay_cost",
+    "exported_state_bytes",
+    "interface_bytes",
+    "verification_break_even"
+  ]
+}

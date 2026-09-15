@@ -2,7 +2,16 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
-from ns_validation import load_stages, parse_markdown, render_report, stage_edges, write_json
+from ns_validation import (
+    build_lifecycle_ledger,
+    load_stages,
+    parse_markdown,
+    render_lifecycle_report,
+    render_report,
+    stage_edges,
+    write_json,
+    write_lifecycle_ledger,
+)
 
 source = Path.home() / "Downloads" / "NS Validation idea.md"
 if not source.exists():
@@ -18,3 +27,12 @@ print(f"json={json_path} bytes={json_path.stat().st_size}")
 print(f"report={report_path.resolve()} bytes={report_path.stat().st_size}")
 stages = load_stages(Path("data") / "proof-stages.json")
 print(f"stages={len(stages)} edges={len(stage_edges(stages))}")
+lifecycle = write_lifecycle_ledger(
+    Path("data") / "proof-stages.json",
+    Path("data") / "source-ledger.json",
+    Path("data") / "experiment01-ledger.json",
+)
+lifecycle_report = Path("data") / "experiment01-report.txt"
+lifecycle_report.write_text(render_lifecycle_report(build_lifecycle_ledger(Path("data") / "proof-stages.json", Path("data") / "source-ledger.json")), encoding="utf-8")
+print(f"experiment01_ledger={lifecycle} bytes={lifecycle.stat().st_size}")
+print(f"experiment01_report={lifecycle_report.resolve()} bytes={lifecycle_report.stat().st_size}")
