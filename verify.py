@@ -61,3 +61,5 @@ bounded = json.loads((Path("data") / "bounded-cone.json").read_text(encoding="ut
 print(f"experiment07_status={bounded['status']} local={bounded['counts']['local_cone']} frontier={bounded['counts']['frontier']}")
 sweep = json.loads((Path("data") / "boundary-sweep.json").read_text(encoding="utf-8"))
 print(f"experiment08_status={sweep['status']} boundaries={len(sweep['boundaries'])}")
+frontier = json.loads((Path("data") / "frontier-anatomy.json").read_text(encoding="utf-8"))
+print(f"experiment09_status={frontier['status']} edges={frontier['graph']['edges']} frontier={frontier['graph']['frontier_declarations']}")

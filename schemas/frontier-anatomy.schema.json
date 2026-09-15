@@ -1,0 +1,17 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Frontier anatomy receipt",
+  "type":"object",
+  "required":["experiment","status","target","boundary","graph","grouping","coverage","concentration_falsifier","edges"],
+  "properties":{
+    "experiment":{"const":"09-frontier-anatomy"},
+    "status":{"type":"string"},
+    "target":{"type":"string"},
+    "boundary":{"type":"string"},
+    "graph":{"type":"object"},
+    "grouping":{"type":"object"},
+    "coverage":{"type":"object"},
+    "concentration_falsifier":{"type":"object"},
+    "edges":{"type":"array"}
+  }
+}
