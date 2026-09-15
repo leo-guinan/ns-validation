@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"One elaborated dependency cone receipt",
+  "type":"object",
+  "required":["experiment","status","target","target_module","attempt","cone","not_yet_measured"],
+  "properties":{
+    "experiment":{"const":"04-one-elaborated-cone"},
+    "status":{"type":"string"},
+    "target":{"type":"string"},
+    "target_module":{"type":"string"},
+    "attempt":{"type":"object"},
+    "cone":{"type":["array","null"]},
+    "direct_dependencies":{"type":["integer","null"]},
+    "transitive_dependencies":{"type":["integer","null"]},
+    "axioms":{"type":["array","null"]},
+    "not_yet_measured":{"type":"array","items":{"type":"string"}}
+  }
+}

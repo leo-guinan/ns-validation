@@ -53,3 +53,5 @@ alignment = json.loads((Path("data") / "interface-alignment.json").read_text(enc
 scan = json.loads((Path("data") / "declaration-source-scan.json").read_text(encoding="utf-8"))
 print(f"experiment03_status={alignment['status']} source_declarations={len(scan['nodes'])}")
 print(f"experiment03_falsifier={alignment['falsifier']['result']}")
+cone = json.loads((Path("data") / "elaborated-cone.json").read_text(encoding="utf-8"))
+print(f"experiment04_status={cone['status']} target={cone['target']}")

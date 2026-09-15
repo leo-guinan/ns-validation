@@ -1,0 +1,23 @@
+{
+  "experiment":"04-one-elaborated-cone",
+  "status":"blocked_before_elaboration",
+  "target":"NavierStokesR3.coreBreakdownStatement",
+  "target_module":"NavierStokes.R3.Theorem",
+  "source_repository":"https://github.com/openai/NavierStokesAndEuler",
+  "source_commit":"f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "attempt":{
+    "command":"lake build NavierStokes.R3.Theorem",
+    "timeout_seconds":600,
+    "exit_code":124,
+    "theorem_olean_produced":false,
+    "build_state_bytes_approx":4013350912,
+    "result":"timeout_before_target_olean"
+  },
+  "smallest_build_boundary":"The target source imports NavierStokes.R3.ActualCandidate, CandidateBreakdown, ViscosityScaling, and IntegratedDissipation; Lean began materializing the transitive Mathlib environment before timeout.",
+  "cone":null,
+  "direct_dependencies":null,
+  "transitive_dependencies":null,
+  "axioms":null,
+  "preserved_objects":["data/verification-graph.json","data/declaration-source-scan.json","data/interface-alignment.json"],
+  "not_yet_measured":["elaborated declaration dependencies","proof-term dependencies","direct dependency count","transitive cone size","axiom receipt"]
+}

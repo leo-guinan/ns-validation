@@ -15,3 +15,4 @@ data/*
 !data/verification-graph.json
 !data/declaration-source-scan.json
 !data/interface-alignment.json
+!data/elaborated-cone.json
