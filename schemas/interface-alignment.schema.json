@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Proof verifier alignment receipt",
+  "type":"object",
+  "required":["experiment","status","proof_nodes","interfaces","measurements","falsifier","not_yet_measured"],
+  "properties":{
+    "experiment":{"const":"03-proof-verifier-alignment"},
+    "status":{"type":"string"},
+    "proof_nodes":{"type":"array"},
+    "interfaces":{"type":"array"},
+    "measurements":{"type":"object"},
+    "falsifier":{"type":"object"},
+    "not_yet_measured":{"type":"array","items":{"type":"string"}}
+  }
+}

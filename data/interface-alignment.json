@@ -1,0 +1,29 @@
+{
+  "experiment":"03-proof-verifier-alignment",
+  "status":"alignment_scaffold_with_falsifier",
+  "proof_graph":"data/proof-interface-graph-v1.json",
+  "verification_graph":"data/verification-graph.json",
+  "declaration_inventory":"data/declaration-source-scan.json",
+  "source_manifest":"data/proof-sources.json",
+  "mapping_policy":"A mapping is accepted only when a declaration name and role are supported by the Lean source. Conceptual matches without an anchor are unmapped.",
+  "proof_nodes":[
+    {"proof_node":"leading_order_flow","anchor_declarations":[],"status":"unmapped","reason":"No declaration with a source-supported role corresponding specifically to paper §4 was identified in the inspected theorem surface."},
+    {"proof_node":"base_correction","anchor_declarations":["ActualCandidateAssembly.meanCycleInput","ActualCandidateAssembly.postParticularResult"],"status":"ambiguous_source_anchor","reason":"Names indicate construction stages, but elaborated theorem role has not been checked."},
+    {"proof_node":"support_separation","anchor_declarations":[],"status":"unmapped","reason":"The inspected top-level Lean source does not expose a uniquely attributable support-separation anchor."},
+    {"proof_node":"stress_realization","anchor_declarations":["ActualCandidateAssembly.stageRealizations"],"status":"ambiguous_source_anchor","reason":"Name suggests realization, but paper-to-Lean semantic correspondence is not established."},
+    {"proof_node":"mean_corrections","anchor_declarations":["ActualCandidateAssembly.meanCycleInput","ActualCandidateAssembly.postParticularResult"],"status":"ambiguous_source_anchor","reason":"Names suggest mean/particular construction, but the exact declaration support remains unelaborated."},
+    {"proof_node":"residual_improvement","anchor_declarations":["ActualCandidateAssembly.postParticularResult"],"status":"ambiguous_source_anchor","reason":"No direct proof-section label is present in the declaration name."},
+    {"proof_node":"compact_forcing","anchor_declarations":["NavierStokesR3.theorem_1_1_with_initial_rest","NavierStokesR3.theorem_1_1"],"status":"source_supported_anchor","reason":"Theorem source explicitly packages the selected candidate, viscosity scaling, global exclusion, and final statement."}
+  ],
+  "interfaces":[
+    {"proof_edge":"leading_order_flow->base_correction","observed_formal_support":[],"status":"unmapped","direct_dependencies":null,"transitive_dependencies":null},
+    {"proof_edge":"base_correction->support_separation","observed_formal_support":[],"status":"unmapped","direct_dependencies":null,"transitive_dependencies":null},
+    {"proof_edge":"support_separation->stress_realization","observed_formal_support":[],"status":"unmapped","direct_dependencies":null,"transitive_dependencies":null},
+    {"proof_edge":"stress_realization->mean_corrections","observed_formal_support":[],"status":"unmapped","direct_dependencies":null,"transitive_dependencies":null},
+    {"proof_edge":"mean_corrections->residual_improvement","observed_formal_support":["ActualCandidateAssembly.postParticularResult"],"status":"candidate_source_anchor_only","direct_dependencies":null,"transitive_dependencies":null},
+    {"proof_edge":"residual_improvement->compact_forcing","observed_formal_support":["NavierStokesR3.theorem_1_1_with_initial_rest","NavierStokesR3.theorem_1_1"],"status":"candidate_source_anchor_only","direct_dependencies":null,"transitive_dependencies":null}
+  ],
+  "measurements":{"environment_modules":977,"source_declarations":10,"elaborated_declarations":null,"theorem_cone_declarations":null,"formal_interface_declarations":null,"formalization_expansion":null},
+  "falsifier":{"condition":"The seven-node proof outline does not map cleanly onto the formal development.","result":"triggered","evidence":"four proof nodes have no source-supported anchor; three have only ambiguous name-based anchors."},
+  "not_yet_measured":["elaborated declaration dependencies","proof-term dependencies","theorem transitive cones","formal literal interfaces","axioms from #print axioms","common encoding for E_i or ΔI"]
+}

@@ -4,6 +4,7 @@ from .processor import Claim, Metric, ValidationLedger, parse_markdown, render_r
 from .stages import Stage, load_stages, stage_edges
 from .lifecycle import build_lifecycle_ledger, render_lifecycle_report, write_lifecycle_ledger
 from .proof_graph import graph_edges, load_proof_graph, render_proof_graph_report
+from .alignment import build_source_scan, write_source_scan
 
 __all__ = [
     "Claim", "Metric", "ValidationLedger", "parse_markdown", "render_report", "write_json",

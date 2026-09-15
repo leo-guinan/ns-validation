@@ -1,0 +1,137 @@
+{
+  "experiment": "03-proof-verifier-alignment",
+  "graph": "G_declaration_source_scan",
+  "status": "syntax_inventory_not_elaborated",
+  "source_files": [
+    "NavierStokes/R3/Theorem.lean",
+    "NavierStokes/ComparatorTheorem.lean",
+    "NavierStokes/ComparatorSolution.lean"
+  ],
+  "nodes": [
+    {
+      "name": "theorem_1_1_with_initial_rest",
+      "kind": "theorem",
+      "file": "NavierStokes/R3/Theorem.lean",
+      "line": 26,
+      "source_token_dependencies": []
+    },
+    {
+      "name": "theorem_1_1",
+      "kind": "theorem",
+      "file": "NavierStokes/R3/Theorem.lean",
+      "line": 46,
+      "source_token_dependencies": [
+        "breakdownStatement",
+        "theorem_1_1_with_initial_rest"
+      ]
+    },
+    {
+      "name": "candidateStatement",
+      "kind": "theorem",
+      "file": "NavierStokes/R3/Theorem.lean",
+      "line": 52,
+      "source_token_dependencies": [
+        "theorem_1_1"
+      ]
+    },
+    {
+      "name": "coreBreakdownStatement",
+      "kind": "theorem",
+      "file": "NavierStokes/R3/Theorem.lean",
+      "line": 58,
+      "source_token_dependencies": [
+        "candidateStatement"
+      ]
+    },
+    {
+      "name": "breakdownStatement",
+      "kind": "theorem",
+      "file": "NavierStokes/R3/Theorem.lean",
+      "line": 62,
+      "source_token_dependencies": [
+        "theorem_1_1"
+      ]
+    },
+    {
+      "name": "theorem_1_1_with_dissipation",
+      "kind": "theorem",
+      "file": "NavierStokes/R3/Theorem.lean",
+      "line": 66,
+      "source_token_dependencies": [
+        "theorem_1_1"
+      ]
+    },
+    {
+      "name": "option_D_of_candidate",
+      "kind": "theorem",
+      "file": "NavierStokes/ComparatorTheorem.lean",
+      "line": 25,
+      "source_token_dependencies": []
+    },
+    {
+      "name": "navier_stokes_breakdown_periodic",
+      "kind": "theorem",
+      "file": "NavierStokes/ComparatorTheorem.lean",
+      "line": 47,
+      "source_token_dependencies": []
+    },
+    {
+      "name": "navier_stokes_breakdown_R3",
+      "kind": "theorem",
+      "file": "NavierStokes/ComparatorSolution.lean",
+      "line": 16,
+      "source_token_dependencies": []
+    },
+    {
+      "name": "navier_stokes_breakdown_periodic",
+      "kind": "theorem",
+      "file": "NavierStokes/ComparatorSolution.lean",
+      "line": 23,
+      "source_token_dependencies": [
+        "navier_stokes_breakdown_R3"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "theorem_1_1",
+      "to": "breakdownStatement",
+      "kind": "source_token_reference"
+    },
+    {
+      "from": "theorem_1_1",
+      "to": "theorem_1_1_with_initial_rest",
+      "kind": "source_token_reference"
+    },
+    {
+      "from": "candidateStatement",
+      "to": "theorem_1_1",
+      "kind": "source_token_reference"
+    },
+    {
+      "from": "coreBreakdownStatement",
+      "to": "candidateStatement",
+      "kind": "source_token_reference"
+    },
+    {
+      "from": "breakdownStatement",
+      "to": "theorem_1_1",
+      "kind": "source_token_reference"
+    },
+    {
+      "from": "theorem_1_1_with_dissipation",
+      "to": "theorem_1_1",
+      "kind": "source_token_reference"
+    },
+    {
+      "from": "navier_stokes_breakdown_periodic",
+      "to": "navier_stokes_breakdown_R3",
+      "kind": "source_token_reference"
+    }
+  ],
+  "not_yet_measured": [
+    "elaborated declaration dependencies",
+    "proof-term dependencies",
+    "kernel axiom receipt"
+  ]
+}
