@@ -1,0 +1,43 @@
+{
+  "experiment": "05-verification-activation-amortization",
+  "status": "measured_activation_not_elaboration",
+  "source_commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "target": "NavierStokes.R3.Theorem",
+  "conditions": [
+    {
+      "condition": "cold",
+      "target": "NavierStokes.R3.Theorem",
+      "timeout_seconds": 180,
+      "wall_seconds": 180.637,
+      "exit_code": 124,
+      "timed_out": true,
+      "lake_bytes_before": 0,
+      "lake_bytes_after": 2601805024,
+      "lake_bytes_delta": 2601805024,
+      "target_olean_produced": false,
+      "log": "/tmp/ns-validation-exp05-cold.log"
+    },
+    {
+      "condition": "warm_preserved_after_cold",
+      "target": "NavierStokes.R3.Theorem",
+      "timeout_seconds": 180,
+      "wall_seconds": 180.763,
+      "exit_code": 124,
+      "timed_out": true,
+      "lake_bytes_before": 2601805024,
+      "lake_bytes_after": 3736616504,
+      "lake_bytes_delta": 1134811480,
+      "target_olean_produced": false,
+      "log": "/tmp/ns-validation-exp05-warm.log"
+    }
+  ],
+  "activation_ratio": null,
+  "reason_activation_ratio_unknown": "Both runs timed out before target elaboration; wall-time ratio would mix incomplete environment work with no theorem check.",
+  "cone": null,
+  "not_yet_measured": [
+    "successful target elaboration",
+    "theorem dependency cone",
+    "formal recheck time",
+    "common usable warm environment"
+  ]
+}

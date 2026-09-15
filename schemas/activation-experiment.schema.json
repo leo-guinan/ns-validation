@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Verification activation experiment",
+  "type":"object",
+  "required":["experiment","status","target","conditions","activation_ratio","cone","not_yet_measured"],
+  "properties":{
+    "experiment":{"const":"05-verification-activation-amortization"},
+    "status":{"type":"string"},
+    "target":{"type":"string"},
+    "conditions":{"type":"array","minItems":2},
+    "activation_ratio":{"type":["number","null"]},
+    "cone":{"type":["array","null"]},
+    "not_yet_measured":{"type":"array","items":{"type":"string"}}
+  }
+}
