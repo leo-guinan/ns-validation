@@ -21,3 +21,4 @@ data/*
 !data/bounded-cone.json
 !data/boundary-sweep.json
 !data/frontier-anatomy.json
+!data/trust-resolution.json

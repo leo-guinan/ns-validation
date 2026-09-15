@@ -63,3 +63,5 @@ sweep = json.loads((Path("data") / "boundary-sweep.json").read_text(encoding="ut
 print(f"experiment08_status={sweep['status']} boundaries={len(sweep['boundaries'])}")
 frontier = json.loads((Path("data") / "frontier-anatomy.json").read_text(encoding="utf-8"))
 print(f"experiment09_status={frontier['status']} edges={frontier['graph']['edges']} frontier={frontier['graph']['frontier_declarations']}")
+resolution = json.loads((Path("data") / "trust-resolution.json").read_text(encoding="utf-8"))
+print(f"experiment10_status={resolution['status']} modules={resolution['counts']['source_modules']} artifacts={resolution['counts']['compiled_artifacts']}")

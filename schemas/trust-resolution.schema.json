@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Trust resolution stack receipt",
+  "type":"object",
+  "required":["experiment","status","target","input_frontier_declarations","counts","trust_layers","mappings"],
+  "properties":{
+    "experiment":{"const":"10-trust-resolution-stack"},
+    "status":{"type":"string"},
+    "target":{"type":"string"},
+    "input_frontier_declarations":{"type":"integer"},
+    "counts":{"type":"object"},
+    "trust_layers":{"type":"object"},
+    "mappings":{"type":"array"}
+  }
+}
