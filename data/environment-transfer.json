@@ -1,0 +1,15 @@
+{
+  "experiment":"06-verification-environment-transfer",
+  "status":"target_elaborated_direct_dependencies_measured_transitive_blocked",
+  "source_commit":"f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "target":"NavierStokesR3.coreBreakdownStatement",
+  "target_module":"NavierStokes.R3.Theorem",
+  "environment_acquisition":{"mode":"precompiled_transfer","command":"lake exe cache get","wall_seconds":27,"exit_code":0,"files_downloaded":8747,"files_decompressed":8475,"lake_bytes_before":3979644928,"lake_bytes_after":9262923776,"lake_bytes_delta":5283278848,"log":"/tmp/ns-validation-exp06-acquire.log"},
+  "target_elaboration":{"command":"lake build NavierStokes.R3.Theorem","wall_seconds":446,"exit_code":0,"lake_bytes_before":9262923776,"lake_bytes_after":11309113344,"lake_bytes_delta":2046189568,"target_olean":".lake/build/lib/lean/NavierStokes/R3/Theorem.olean","target_olean_produced":true,"log":"/tmp/ns-validation-exp06-elaborate.log"},
+  "immediate_recheck":{"command":"lake build NavierStokes.R3.Theorem","wall_seconds":5,"exit_code":0,"lake_bytes_before":11309113344,"lake_bytes_after":11309113344,"lake_bytes_delta":0,"target_olean_produced":true,"log":"/tmp/ns-validation-exp06-recheck.log"},
+  "elaborated_direct_dependencies":{"count":2,"declarations":["NavierStokesR3.candidateStatement","NavierStokesR3.ProblemStatement.coreBreakdownStatement"],"extraction":"Lean Environment ConstantInfo type plus theorem value","proof_term_included":true},
+  "transitive_cone":null,
+  "transitive_attempt":{"method":"recursive Lean Environment traversal filtered to NavierStokes constants","timeout_seconds":300,"exit_code":124,"result":"blocked_during_proof_term_traversal"},
+  "activation_ratio":null,
+  "not_yet_measured":["transitive declaration cone","axiom receipt","formal interface support","common-unit activation ratio"]
+}

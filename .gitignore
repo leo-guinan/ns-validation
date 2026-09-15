@@ -17,3 +17,4 @@ data/*
 !data/interface-alignment.json
 !data/elaborated-cone.json
 !data/activation-experiment.json
+!data/environment-transfer.json

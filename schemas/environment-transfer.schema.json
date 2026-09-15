@@ -1,0 +1,16 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Verification environment transfer receipt",
+  "type":"object",
+  "required":["experiment","status","target","environment_acquisition","target_elaboration","immediate_recheck","elaborated_direct_dependencies","transitive_cone"],
+  "properties":{
+    "experiment":{"const":"06-verification-environment-transfer"},
+    "status":{"type":"string"},
+    "target":{"type":"string"},
+    "environment_acquisition":{"type":"object"},
+    "target_elaboration":{"type":"object"},
+    "immediate_recheck":{"type":"object"},
+    "elaborated_direct_dependencies":{"type":"object"},
+    "transitive_cone":{"type":["array","null"]}
+  }
+}

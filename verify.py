@@ -55,3 +55,5 @@ print(f"experiment03_status={alignment['status']} source_declarations={len(scan[
 print(f"experiment03_falsifier={alignment['falsifier']['result']}")
 cone = json.loads((Path("data") / "elaborated-cone.json").read_text(encoding="utf-8"))
 print(f"experiment04_status={cone['status']} target={cone['target']}")
+transfer = json.loads((Path("data") / "environment-transfer.json").read_text(encoding="utf-8"))
+print(f"experiment06_status={transfer['status']} direct_dependencies={transfer['elaborated_direct_dependencies']['count']}")
