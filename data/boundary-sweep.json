@@ -1,0 +1,17 @@
+{
+  "experiment":"08-trust-boundary-sweep",
+  "status":"complete_for_declared_boundaries",
+  "source_commit":"f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "target":"NavierStokesR3.coreBreakdownStatement",
+  "direct_dependencies":["NavierStokesR3.candidateStatement","NavierStokesR3.ProblemStatement.coreBreakdownStatement"],
+  "boundaries":[
+    {"id":"B0","policy":"target only","local_declarations":1,"frontier_declarations":2,"max_depth":0,"complete":true},
+    {"id":"B1","policy":"NavierStokesR3 declarations through depth 1","local_declarations":3,"frontier_declarations":21,"max_depth":1,"complete":true},
+    {"id":"B2","policy":"all NavierStokesR3 declarations","local_declarations":892,"frontier_declarations":2450,"max_depth":25,"complete":true}
+  ],
+  "extractor":"scripts/sweep_boundaries.lean",
+  "full_unbounded_cone":null,
+  "minimal_boundary":null,
+  "optimization":null,
+  "not_yet_measured":["selected Mathlib namespace expansion","full unbounded cone","trust cost in a common unit","verification work per boundary","minimal sufficient boundary"]
+}
