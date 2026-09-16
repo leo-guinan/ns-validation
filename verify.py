@@ -69,3 +69,5 @@ overlap = json.loads((Path("data") / "proof-stage-overlap.json").read_text(encod
 print(f"experiment11_status={overlap['status']} grounded={len(overlap['grounded_support'])}")
 delta = json.loads((Path("data") / "marginal-theorem-delta.json").read_text(encoding="utf-8"))
 print(f"experiment12_status={delta['status']} marginal={delta['marginal_support']['size']} subset={delta['support_accounting']['containment']}")
+transitions = json.loads((Path("data") / "marginal-proof-transitions.json").read_text(encoding="utf-8"))
+print(f"experiment13_status={transitions['status']} nodes={len(transitions['nodes'])} transitions={len(transitions['transitions'])}")

@@ -24,3 +24,4 @@ data/*
 !data/trust-resolution.json
 !data/proof-stage-overlap.json
 !data/marginal-theorem-delta.json
+!data/marginal-proof-transitions.json

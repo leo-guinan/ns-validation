@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Marginal proof transition graph receipt",
+  "type":"object",
+  "required":["experiment","status","boundary","selection_policy","nodes","transitions","falsifier"],
+  "properties":{
+    "experiment":{"const":"13-marginal-proof-transition-graph"},
+    "status":{"type":"string"},
+    "boundary":{"type":"string"},
+    "selection_policy":{"type":"string"},
+    "nodes":{"type":"array"},
+    "transitions":{"type":"array"},
+    "falsifier":{"type":"object"}
+  }
+}
