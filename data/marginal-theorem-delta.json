@@ -1,0 +1,138 @@
+{
+  "experiment": "12-marginal-theorem-delta",
+  "status": "exact_delta_and_warm_check_measured",
+  "source_commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "anchors": {
+    "A": "NavierStokesR3.theorem_1_1_with_initial_rest",
+    "B": "NavierStokesR3.theorem_1_1"
+  },
+  "support_accounting": {
+    "A_count": 3336,
+    "B_count": 3338,
+    "intersection_count": 3336,
+    "A_minus_B": [],
+    "B_minus_A": [
+      "NavierStokesR3.ProblemStatement.breakdownStatement",
+      "NavierStokesR3.theorem_1_1"
+    ],
+    "symmetric_difference_count": 2,
+    "containment": "A_is_subset_of_B"
+  },
+  "marginal_support": {
+    "direction": "A_to_B",
+    "size": 2,
+    "declarations": [
+      "NavierStokesR3.ProblemStatement.breakdownStatement",
+      "NavierStokesR3.theorem_1_1"
+    ],
+    "external_frontier_delta": 0,
+    "interpretation": "descriptive marginal support; not minimality or compression"
+  },
+  "direct_references": {
+    "NavierStokesR3.ProblemStatement.breakdownStatement": [
+      "Not",
+      "NavierStokesR3.ProblemStatement.Space",
+      "Exists",
+      "Real",
+      "Set",
+      "NavierStokesR3.ProblemStatement.GlobalFiniteEnergySolution",
+      "And",
+      "Nonempty",
+      "OfNat.ofNat",
+      "LT.lt",
+      "NavierStokesR3.ProblemStatement.PressureField",
+      "Real.instZero",
+      "Real.instLT",
+      "Zero.toOfNat0",
+      "NavierStokesR3.ProblemStatement.CandidateProperties",
+      "NavierStokesR3.ProblemStatement.VelocityField"
+    ],
+    "NavierStokesR3.theorem_1_1": [
+      "SubtractionMonoid.toSubNegZeroMonoid",
+      "Real.instAddGroup",
+      "Prod.mk",
+      "NavierStokesR3.theorem_1_1_with_initial_rest",
+      "Exists.intro",
+      "Fin",
+      "HDiv.hDiv",
+      "And.intro",
+      "Real.lattice",
+      "abs",
+      "NavierStokesR3.ProblemStatement.breakdownStatement",
+      "PiLp.innerProductSpace._proof_1",
+      "NavierStokes.ProblemStatement.Space",
+      "Exists",
+      "Real",
+      "And",
+      "Nonempty",
+      "Real.instLE",
+      "Exists.casesOn",
+      "NavierStokesR3.ProblemStatement.PressureField",
+      "Nat",
+      "AddMonoidWithOne.toNatCast",
+      "NegZeroClass.toZero",
+      "NavierStokesR3.ProblemStatement.CandidateProperties",
+      "Real.instNatCast",
+      "SubtractionCommMonoid.toSubtractionMonoid",
+      "instHDiv",
+      "SubNegZeroMonoid.toNegZeroClass",
+      "Nat.instNeZeroSucc",
+      "WithLp.instAddCommGroup",
+      "instOfNatNat",
+      "Real.instLT",
+      "ENNReal.instAddCommMonoidWithOne",
+      "Zero.toOfNat0",
+      "AddCommMonoidWithOne.toAddMonoidWithOne",
+      "Eq",
+      "Not",
+      "NavierStokesR3.ProblemStatement.Space",
+      "Set",
+      "NavierStokesR3.ProblemStatement.GlobalFiniteEnergySolution",
+      "instOfNatAtLeastTwo",
+      "OfNat.ofNat",
+      "DivInvMonoid.toDiv",
+      "LT.lt",
+      "ENNReal",
+      "Real.instZero",
+      "AddCommGroup.toDivisionAddCommMonoid",
+      "LE.le",
+      "Real.instAddCommGroup",
+      "NavierStokesR3.ProblemStatement.VelocityField",
+      "Pi.addCommGroup",
+      "Real.instDivInvMonoid",
+      "Nat.instAtLeastTwoHAddOfNat",
+      "And.casesOn"
+    ]
+  },
+  "dependency_test": {
+    "final_directly_references_initial_rest": true,
+    "final_directly_references_breakdown_statement": true
+  },
+  "warm_measurements": {
+    "environment": "cached compiled environment",
+    "module_recheck": {
+      "seconds": 7.558,
+      "bytes_changed": 0,
+      "exit_code": 0,
+      "target_olean_present": true
+    },
+    "initial_rest_interface_check": {
+      "seconds": 39.479,
+      "bytes_changed": 0,
+      "exit_code": 0
+    },
+    "final_theorem_interface_check": {
+      "seconds": 25.04,
+      "bytes_changed": 0,
+      "exit_code": 0
+    },
+    "measurement_boundary": "module and interface checks; not theorem-isolated compilation"
+  },
+  "not_yet_measured": [
+    "isolated theorem-level artifact delta",
+    "cold marginal construction",
+    "minimality",
+    "sufficiency",
+    "compression ratio"
+  ]
+}

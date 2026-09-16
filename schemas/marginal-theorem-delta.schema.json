@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Marginal theorem delta receipt",
+  "type":"object",
+  "required":["experiment","status","anchors","support_accounting","marginal_support","direct_references","warm_measurements"],
+  "properties":{
+    "experiment":{"const":"12-marginal-theorem-delta"},
+    "status":{"type":"string"},
+    "anchors":{"type":"object"},
+    "support_accounting":{"type":"object"},
+    "marginal_support":{"type":"object"},
+    "direct_references":{"type":"object"},
+    "warm_measurements":{"type":"object"}
+  }
+}
