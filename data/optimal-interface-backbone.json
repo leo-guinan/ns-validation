@@ -1,0 +1,5236 @@
+{
+  "experiment": "22-optimal-interface-backbone",
+  "status": "all_residual_components_enumerated_exactly",
+  "input": "data/exact-residual-components.json plus pinned elaborated direct-reference extraction",
+  "graphs": [
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.theorem_1_1_with_initial_rest",
+        "descendant": "NavierStokesR3.theorem_1_1_with_dissipation"
+      },
+      "forced_local_count": 12,
+      "components": [],
+      "all_components_exact": true,
+      "residual_optimum": 0,
+      "exact_total_cover": 12,
+      "total_optimal_cover_count": 1,
+      "additional_residual_backbone": []
+    },
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.theorem_1_1",
+        "descendant": "NavierStokesR3.theorem_1_1_with_dissipation"
+      },
+      "forced_local_count": 12,
+      "components": [],
+      "all_components_exact": true,
+      "residual_optimum": 0,
+      "exact_total_cover": 12,
+      "total_optimal_cover_count": 1,
+      "additional_residual_backbone": []
+    },
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+        "descendant": "NavierStokesR3.theorem_1_1"
+      },
+      "forced_local_count": 239,
+      "components": [
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 3,
+          "frontier_count": 4,
+          "edge_count": 6,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 4,
+          "refinement_signature_sha256": "61b61a0d28191bacaff24380d4b1c0658855babd5b0f3e8dd5b96813aa2e2f9b"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactEnergy.uniform_finite_energy"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 3,
+          "edge_count": 3,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.cancelledTimeKernel_measurable"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "f8ac0a9ef827c63193f3a2da2d6bfa15b8cc9b484ae110b7b0d0ea9545ef1853"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatSecondTest_eq_convolution"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.squareIntegrableAtTime_sub"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "edge_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "6f6c81dcd67215fbb488f46486bcf7af790acba33a04f9b88168fbad84759340"
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 4,
+          "edge_count": 6,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos",
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 3,
+          "refinement_signature_sha256": "04f832dc6ae286a89937407d30f5b439e6c178b8119ea5bf43ce6eee7d3b8895"
+        },
+        {
+          "local_count": 5,
+          "frontier_count": 7,
+          "edge_count": 11,
+          "optimum": 4,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+            "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+            "NavierStokesR3.PressureFlux.norm_fderiv_ofReal",
+            "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifferenceValue_bound"
+          ],
+          "status": "exact",
+          "search_nodes": 5,
+          "refinement_signature_sha256": "376951c7f82506412df3cc77238e74c61b1077e7d8c15b5183f189374207e70f"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 3,
+          "edge_count": 4,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport",
+            "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 3,
+          "refinement_signature_sha256": "ae747633b98c232fe313031f1fdb1205bcd89d72176a0a4cb8041e73d37e3b4b"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFlux.cutoff_commutator_bound"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFlux.lpNorm_ofReal"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.compact_test_decomposition"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.noncanonical_average_identity"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 4,
+          "frontier_count": 6,
+          "edge_count": 9,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_3",
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_4",
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_5"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.pderiv_rieszTest"
+          ],
+          "status": "exact",
+          "search_nodes": 4,
+          "refinement_signature_sha256": "6f4d4059c82df9598f09711ba74991f25f94889a05e56adbb651028a251ced4c"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.rieszTestLinear"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.smooth_memLp_six"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "edge_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "6f6c81dcd67215fbb488f46486bcf7af790acba33a04f9b88168fbad84759340"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 5,
+          "edge_count": 5,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ViscosityScaling.rescale_laplacian"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "86792b472f4c1977ec8f08912d8c1e84173eac68b47b6ce64c0a329c1b685cd1"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedInterpolation.cutoff_interpolation"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.lpNorm_six_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 29,
+          "edge_count": 29,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "12c06337c7d75efeeb4c3eff3a7ef3cb5764a51d22094d945cce215d399ef7eb"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        }
+      ],
+      "all_components_exact": true,
+      "residual_optimum": 63,
+      "exact_total_cover": 302,
+      "total_optimal_cover_count": 1,
+      "additional_residual_backbone": [
+        "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero",
+        "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow",
+        "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+        "NavierStokesR3.CompactEnergy.uniform_finite_energy",
+        "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn",
+        "NavierStokesR3.Comparison.cancelledTimeKernel_measurable",
+        "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le",
+        "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition",
+        "NavierStokesR3.Comparison.heatSecondTest_eq_convolution",
+        "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space",
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_sub",
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded",
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos",
+        "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5",
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply",
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1",
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian",
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le",
+        "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm",
+        "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled",
+        "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport",
+        "NavierStokesR3.PressureFlux.cutoff_commutator_bound",
+        "NavierStokesR3.PressureFlux.lpNorm_ofReal",
+        "NavierStokesR3.PressureFlux.norm_fderiv_ofReal",
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1",
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply",
+        "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage",
+        "NavierStokesR3.PressureRecovery.compact_test_decomposition",
+        "NavierStokesR3.PressureRecovery.noncanonical_average_identity",
+        "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale",
+        "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier",
+        "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms",
+        "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_3",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_4",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_5",
+        "NavierStokesR3.RieszTestOperators.rieszTestLinear",
+        "NavierStokesR3.RieszTestOperators.smooth_memLp_six",
+        "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg",
+        "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_1",
+        "NavierStokesR3.ViscosityScaling.rescale_laplacian",
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation",
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude",
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le",
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1",
+        "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg",
+        "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4"
+      ]
+    },
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+        "descendant": "NavierStokesR3.candidateStatement"
+      },
+      "forced_local_count": 239,
+      "components": [
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 3,
+          "frontier_count": 4,
+          "edge_count": 6,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 4,
+          "refinement_signature_sha256": "61b61a0d28191bacaff24380d4b1c0658855babd5b0f3e8dd5b96813aa2e2f9b"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactEnergy.uniform_finite_energy"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 3,
+          "edge_count": 3,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.cancelledTimeKernel_measurable"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "f8ac0a9ef827c63193f3a2da2d6bfa15b8cc9b484ae110b7b0d0ea9545ef1853"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatSecondTest_eq_convolution"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.squareIntegrableAtTime_sub"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "edge_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "6f6c81dcd67215fbb488f46486bcf7af790acba33a04f9b88168fbad84759340"
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 4,
+          "edge_count": 6,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos",
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 3,
+          "refinement_signature_sha256": "04f832dc6ae286a89937407d30f5b439e6c178b8119ea5bf43ce6eee7d3b8895"
+        },
+        {
+          "local_count": 5,
+          "frontier_count": 7,
+          "edge_count": 11,
+          "optimum": 4,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+            "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+            "NavierStokesR3.PressureFlux.norm_fderiv_ofReal",
+            "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifferenceValue_bound"
+          ],
+          "status": "exact",
+          "search_nodes": 5,
+          "refinement_signature_sha256": "376951c7f82506412df3cc77238e74c61b1077e7d8c15b5183f189374207e70f"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 3,
+          "edge_count": 4,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport",
+            "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 3,
+          "refinement_signature_sha256": "ae747633b98c232fe313031f1fdb1205bcd89d72176a0a4cb8041e73d37e3b4b"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFlux.cutoff_commutator_bound"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFlux.lpNorm_ofReal"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.compact_test_decomposition"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.noncanonical_average_identity"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 4,
+          "frontier_count": 6,
+          "edge_count": 9,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_3",
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_4",
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_5"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.pderiv_rieszTest"
+          ],
+          "status": "exact",
+          "search_nodes": 4,
+          "refinement_signature_sha256": "6f4d4059c82df9598f09711ba74991f25f94889a05e56adbb651028a251ced4c"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.rieszTestLinear"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.smooth_memLp_six"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "edge_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "6f6c81dcd67215fbb488f46486bcf7af790acba33a04f9b88168fbad84759340"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 5,
+          "edge_count": 5,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ViscosityScaling.rescale_laplacian"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "86792b472f4c1977ec8f08912d8c1e84173eac68b47b6ce64c0a329c1b685cd1"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedInterpolation.cutoff_interpolation"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.lpNorm_six_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 29,
+          "edge_count": 29,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "12c06337c7d75efeeb4c3eff3a7ef3cb5764a51d22094d945cce215d399ef7eb"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        }
+      ],
+      "all_components_exact": true,
+      "residual_optimum": 63,
+      "exact_total_cover": 302,
+      "total_optimal_cover_count": 1,
+      "additional_residual_backbone": [
+        "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero",
+        "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow",
+        "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+        "NavierStokesR3.CompactEnergy.uniform_finite_energy",
+        "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn",
+        "NavierStokesR3.Comparison.cancelledTimeKernel_measurable",
+        "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le",
+        "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition",
+        "NavierStokesR3.Comparison.heatSecondTest_eq_convolution",
+        "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space",
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_sub",
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded",
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos",
+        "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5",
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply",
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1",
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian",
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le",
+        "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm",
+        "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled",
+        "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport",
+        "NavierStokesR3.PressureFlux.cutoff_commutator_bound",
+        "NavierStokesR3.PressureFlux.lpNorm_ofReal",
+        "NavierStokesR3.PressureFlux.norm_fderiv_ofReal",
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1",
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply",
+        "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage",
+        "NavierStokesR3.PressureRecovery.compact_test_decomposition",
+        "NavierStokesR3.PressureRecovery.noncanonical_average_identity",
+        "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale",
+        "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier",
+        "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms",
+        "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_3",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_4",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_5",
+        "NavierStokesR3.RieszTestOperators.rieszTestLinear",
+        "NavierStokesR3.RieszTestOperators.smooth_memLp_six",
+        "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg",
+        "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_1",
+        "NavierStokesR3.ViscosityScaling.rescale_laplacian",
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation",
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude",
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le",
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1",
+        "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg",
+        "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4"
+      ]
+    },
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+        "descendant": "NavierStokesR3.coreBreakdownStatement"
+      },
+      "forced_local_count": 239,
+      "components": [
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 3,
+          "frontier_count": 4,
+          "edge_count": 6,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 4,
+          "refinement_signature_sha256": "61b61a0d28191bacaff24380d4b1c0658855babd5b0f3e8dd5b96813aa2e2f9b"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactEnergy.uniform_finite_energy"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 3,
+          "edge_count": 3,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.cancelledTimeKernel_measurable"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "f8ac0a9ef827c63193f3a2da2d6bfa15b8cc9b484ae110b7b0d0ea9545ef1853"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatSecondTest_eq_convolution"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.squareIntegrableAtTime_sub"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "edge_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "6f6c81dcd67215fbb488f46486bcf7af790acba33a04f9b88168fbad84759340"
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 4,
+          "edge_count": 6,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos",
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 3,
+          "refinement_signature_sha256": "04f832dc6ae286a89937407d30f5b439e6c178b8119ea5bf43ce6eee7d3b8895"
+        },
+        {
+          "local_count": 5,
+          "frontier_count": 7,
+          "edge_count": 11,
+          "optimum": 4,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+            "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+            "NavierStokesR3.PressureFlux.norm_fderiv_ofReal",
+            "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifferenceValue_bound"
+          ],
+          "status": "exact",
+          "search_nodes": 5,
+          "refinement_signature_sha256": "376951c7f82506412df3cc77238e74c61b1077e7d8c15b5183f189374207e70f"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 3,
+          "edge_count": 4,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport",
+            "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 3,
+          "refinement_signature_sha256": "ae747633b98c232fe313031f1fdb1205bcd89d72176a0a4cb8041e73d37e3b4b"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFlux.cutoff_commutator_bound"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFlux.lpNorm_ofReal"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.compact_test_decomposition"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.noncanonical_average_identity"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 4,
+          "frontier_count": 6,
+          "edge_count": 9,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_3",
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_4",
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_5"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.pderiv_rieszTest"
+          ],
+          "status": "exact",
+          "search_nodes": 4,
+          "refinement_signature_sha256": "6f4d4059c82df9598f09711ba74991f25f94889a05e56adbb651028a251ced4c"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.rieszTestLinear"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.smooth_memLp_six"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "edge_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "6f6c81dcd67215fbb488f46486bcf7af790acba33a04f9b88168fbad84759340"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 5,
+          "edge_count": 5,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ViscosityScaling.rescale_laplacian"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "86792b472f4c1977ec8f08912d8c1e84173eac68b47b6ce64c0a329c1b685cd1"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedInterpolation.cutoff_interpolation"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.lpNorm_six_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 29,
+          "edge_count": 29,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "12c06337c7d75efeeb4c3eff3a7ef3cb5764a51d22094d945cce215d399ef7eb"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        }
+      ],
+      "all_components_exact": true,
+      "residual_optimum": 63,
+      "exact_total_cover": 302,
+      "total_optimal_cover_count": 1,
+      "additional_residual_backbone": [
+        "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero",
+        "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow",
+        "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+        "NavierStokesR3.CompactEnergy.uniform_finite_energy",
+        "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn",
+        "NavierStokesR3.Comparison.cancelledTimeKernel_measurable",
+        "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le",
+        "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition",
+        "NavierStokesR3.Comparison.heatSecondTest_eq_convolution",
+        "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space",
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_sub",
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded",
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos",
+        "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5",
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply",
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1",
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian",
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le",
+        "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm",
+        "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled",
+        "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport",
+        "NavierStokesR3.PressureFlux.cutoff_commutator_bound",
+        "NavierStokesR3.PressureFlux.lpNorm_ofReal",
+        "NavierStokesR3.PressureFlux.norm_fderiv_ofReal",
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1",
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply",
+        "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage",
+        "NavierStokesR3.PressureRecovery.compact_test_decomposition",
+        "NavierStokesR3.PressureRecovery.noncanonical_average_identity",
+        "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale",
+        "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier",
+        "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms",
+        "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_3",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_4",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_5",
+        "NavierStokesR3.RieszTestOperators.rieszTestLinear",
+        "NavierStokesR3.RieszTestOperators.smooth_memLp_six",
+        "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg",
+        "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_1",
+        "NavierStokesR3.ViscosityScaling.rescale_laplacian",
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation",
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude",
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le",
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1",
+        "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg",
+        "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4"
+      ]
+    },
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+        "descendant": "NavierStokesR3.theorem_1_1_with_dissipation"
+      },
+      "forced_local_count": 244,
+      "components": [
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 6,
+          "frontier_count": 8,
+          "edge_count": 13,
+          "optimum": 4,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow",
+            "NavierStokesR3.CompactEnergy.force_work_le",
+            "NavierStokesR3.Comparison.squareIntegrableAtTime_sub",
+            "NavierStokesR3.WeakTimeContinuity.norm_pairing_sub_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [
+            "NavierStokesR3.Comparison.l2Sq_sub_le",
+            "NavierStokesR3.Comparison.tensorDiff_integrable"
+          ],
+          "status": "exact",
+          "search_nodes": 5,
+          "refinement_signature_sha256": "831d77216bed433a9d7f9fea8a3b684d174f91ca203ac2c57a52e53ee5811c9a"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 12,
+          "edge_count": 12,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "048186a9000162ed8494b7a4f1a086ae2de5de4d6801b489370db128cd7be199"
+        },
+        {
+          "local_count": 3,
+          "frontier_count": 4,
+          "edge_count": 6,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 4,
+          "refinement_signature_sha256": "61b61a0d28191bacaff24380d4b1c0658855babd5b0f3e8dd5b96813aa2e2f9b"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 3,
+          "edge_count": 3,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.cancelledTimeKernel_measurable"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "f8ac0a9ef827c63193f3a2da2d6bfa15b8cc9b484ae110b7b0d0ea9545ef1853"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.heatSecondTest_eq_convolution"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "edge_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "6f6c81dcd67215fbb488f46486bcf7af790acba33a04f9b88168fbad84759340"
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 4,
+          "edge_count": 6,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos",
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 3,
+          "refinement_signature_sha256": "04f832dc6ae286a89937407d30f5b439e6c178b8119ea5bf43ce6eee7d3b8895"
+        },
+        {
+          "local_count": 5,
+          "frontier_count": 7,
+          "edge_count": 11,
+          "optimum": 4,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+            "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+            "NavierStokesR3.PressureFlux.norm_fderiv_ofReal",
+            "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifferenceValue_bound"
+          ],
+          "status": "exact",
+          "search_nodes": 5,
+          "refinement_signature_sha256": "376951c7f82506412df3cc77238e74c61b1077e7d8c15b5183f189374207e70f"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 3,
+          "edge_count": 4,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport",
+            "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 3,
+          "refinement_signature_sha256": "ae747633b98c232fe313031f1fdb1205bcd89d72176a0a4cb8041e73d37e3b4b"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFlux.cutoff_commutator_bound"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFlux.lpNorm_ofReal"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.compact_test_decomposition"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.PressureRecovery.noncanonical_average_identity"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 4,
+          "frontier_count": 6,
+          "edge_count": 9,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_3",
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_4",
+            "NavierStokesR3.RieszTestOperators.partialTest._proof_5"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.pderiv_rieszTest"
+          ],
+          "status": "exact",
+          "search_nodes": 4,
+          "refinement_signature_sha256": "6f4d4059c82df9598f09711ba74991f25f94889a05e56adbb651028a251ced4c"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "edge_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.rieszTestLinear"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.RieszTestOperators.smooth_memLp_six"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "edge_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "6f6c81dcd67215fbb488f46486bcf7af790acba33a04f9b88168fbad84759340"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 5,
+          "edge_count": 5,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.ViscosityScaling.rescale_laplacian"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "86792b472f4c1977ec8f08912d8c1e84173eac68b47b6ce64c0a329c1b685cd1"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedInterpolation.cutoff_interpolation"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.lpNorm_six_le"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 29,
+          "edge_count": 29,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "12c06337c7d75efeeb4c3eff3a7ef3cb5764a51d22094d945cce215d399ef7eb"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "edge_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "every_optimum_locals": [
+            "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4"
+          ],
+          "some_optimum_locals": [],
+          "no_optimum_locals": [],
+          "status": "exact",
+          "search_nodes": 2,
+          "refinement_signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+        }
+      ],
+      "all_components_exact": true,
+      "residual_optimum": 65,
+      "exact_total_cover": 309,
+      "total_optimal_cover_count": 1,
+      "additional_residual_backbone": [
+        "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero",
+        "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow",
+        "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1",
+        "NavierStokesR3.CompactEnergy.force_work_le",
+        "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt",
+        "NavierStokesR3.Comparison.cancelledTimeKernel_measurable",
+        "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le",
+        "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition",
+        "NavierStokesR3.Comparison.heatSecondTest_eq_convolution",
+        "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space",
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_sub",
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded",
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos",
+        "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5",
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply",
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1",
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian",
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le",
+        "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm",
+        "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled",
+        "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport",
+        "NavierStokesR3.PressureFlux.cutoff_commutator_bound",
+        "NavierStokesR3.PressureFlux.lpNorm_ofReal",
+        "NavierStokesR3.PressureFlux.norm_fderiv_ofReal",
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1",
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply",
+        "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage",
+        "NavierStokesR3.PressureRecovery.compact_test_decomposition",
+        "NavierStokesR3.PressureRecovery.noncanonical_average_identity",
+        "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale",
+        "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier",
+        "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms",
+        "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_3",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_4",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_5",
+        "NavierStokesR3.RieszTestOperators.rieszTestLinear",
+        "NavierStokesR3.RieszTestOperators.smooth_memLp_six",
+        "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg",
+        "NavierStokesR3.ViscosityScaling.rescale_laplacian",
+        "NavierStokesR3.WeakTimeContinuity.norm_pairing_sub_le",
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation",
+        "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude",
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude",
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le",
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1",
+        "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg",
+        "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4"
+      ]
+    }
+  ],
+  "signature_profiles": [
+    {
+      "observations": [
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 1,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        }
+      ],
+      "signature_sha256": "8ab888a605f1d86e09fa22cfcab51092ebe8270751394325be3070738e0151bf"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 2,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        }
+      ],
+      "signature_sha256": "8ab6c51ff9aed13393fded9d465d77d3e5766aba37c70ec019f4c263b63a753d"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 3,
+          "frontier_count": 4,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "backbone_count": 3
+        },
+        {
+          "local_count": 3,
+          "frontier_count": 4,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "backbone_count": 3
+        },
+        {
+          "local_count": 3,
+          "frontier_count": 4,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "backbone_count": 3
+        },
+        {
+          "local_count": 3,
+          "frontier_count": 4,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "backbone_count": 3
+        }
+      ],
+      "signature_sha256": "61b61a0d28191bacaff24380d4b1c0658855babd5b0f3e8dd5b96813aa2e2f9b"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 1,
+          "frontier_count": 3,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 3,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 3,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 3,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        }
+      ],
+      "signature_sha256": "f8ac0a9ef827c63193f3a2da2d6bfa15b8cc9b484ae110b7b0d0ea9545ef1853"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 4,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        }
+      ],
+      "signature_sha256": "6f6c81dcd67215fbb488f46486bcf7af790acba33a04f9b88168fbad84759340"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 2,
+          "frontier_count": 4,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "backbone_count": 2
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 4,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "backbone_count": 2
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 4,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "backbone_count": 2
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 4,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "backbone_count": 2
+        }
+      ],
+      "signature_sha256": "04f832dc6ae286a89937407d30f5b439e6c178b8119ea5bf43ce6eee7d3b8895"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 5,
+          "frontier_count": 7,
+          "optimum": 4,
+          "optimal_cover_count": 1,
+          "backbone_count": 4
+        },
+        {
+          "local_count": 5,
+          "frontier_count": 7,
+          "optimum": 4,
+          "optimal_cover_count": 1,
+          "backbone_count": 4
+        },
+        {
+          "local_count": 5,
+          "frontier_count": 7,
+          "optimum": 4,
+          "optimal_cover_count": 1,
+          "backbone_count": 4
+        },
+        {
+          "local_count": 5,
+          "frontier_count": 7,
+          "optimum": 4,
+          "optimal_cover_count": 1,
+          "backbone_count": 4
+        }
+      ],
+      "signature_sha256": "376951c7f82506412df3cc77238e74c61b1077e7d8c15b5183f189374207e70f"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 2,
+          "frontier_count": 3,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "backbone_count": 2
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 3,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "backbone_count": 2
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 3,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "backbone_count": 2
+        },
+        {
+          "local_count": 2,
+          "frontier_count": 3,
+          "optimum": 2,
+          "optimal_cover_count": 1,
+          "backbone_count": 2
+        }
+      ],
+      "signature_sha256": "ae747633b98c232fe313031f1fdb1205bcd89d72176a0a4cb8041e73d37e3b4b"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 4,
+          "frontier_count": 6,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "backbone_count": 3
+        },
+        {
+          "local_count": 4,
+          "frontier_count": 6,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "backbone_count": 3
+        },
+        {
+          "local_count": 4,
+          "frontier_count": 6,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "backbone_count": 3
+        },
+        {
+          "local_count": 4,
+          "frontier_count": 6,
+          "optimum": 3,
+          "optimal_cover_count": 1,
+          "backbone_count": 3
+        }
+      ],
+      "signature_sha256": "6f4d4059c82df9598f09711ba74991f25f94889a05e56adbb651028a251ced4c"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 1,
+          "frontier_count": 5,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 5,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 5,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 5,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        }
+      ],
+      "signature_sha256": "86792b472f4c1977ec8f08912d8c1e84173eac68b47b6ce64c0a329c1b685cd1"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 1,
+          "frontier_count": 29,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 29,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 29,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        },
+        {
+          "local_count": 1,
+          "frontier_count": 29,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        }
+      ],
+      "signature_sha256": "12c06337c7d75efeeb4c3eff3a7ef3cb5764a51d22094d945cce215d399ef7eb"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 6,
+          "frontier_count": 8,
+          "optimum": 4,
+          "optimal_cover_count": 1,
+          "backbone_count": 4
+        }
+      ],
+      "signature_sha256": "831d77216bed433a9d7f9fea8a3b684d174f91ca203ac2c57a52e53ee5811c9a"
+    },
+    {
+      "observations": [
+        {
+          "local_count": 1,
+          "frontier_count": 12,
+          "optimum": 1,
+          "optimal_cover_count": 1,
+          "backbone_count": 1
+        }
+      ],
+      "signature_sha256": "048186a9000162ed8494b7a4f1a086ae2de5de4d6801b489370db128cd7be199"
+    }
+  ],
+  "summary": {
+    "graph_count": 6,
+    "all_components_exact": true,
+    "exact_total_covers": [
+      12,
+      12,
+      302,
+      302,
+      302,
+      309
+    ],
+    "optimal_interface_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "additional_residual_backbone_counts": [
+      0,
+      0,
+      63,
+      63,
+      63,
+      65
+    ],
+    "signature_class_count": 13
+  },
+  "interpretation_boundary": "Backbone and alternative-cover counts are exact for the reduced bipartite set-cover components under the measured representation. They do not establish semantic necessity, runtime behavior, sufficiency, or universality. Color-refinement signatures group observations but are not graph-isomorphism certificates.",
+  "falsifier": {
+    "question": "Is an optimal interface rigid or highly interchangeable after forced locals are separated?",
+    "result": "optimal_covers_enumerated_and_backbones_recorded"
+  }
+}

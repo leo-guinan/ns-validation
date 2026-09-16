@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Optimal interface backbone receipt",
+  "type":"object",
+  "required":["experiment","status","graphs","signature_profiles","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"22-optimal-interface-backbone"},"status":{"type":"string"},"graphs":{"type":"array"},"signature_profiles":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}
