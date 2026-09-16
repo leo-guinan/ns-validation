@@ -1,0 +1,309 @@
+{
+  "experiment": "14-transition-anatomy",
+  "status": "all_selected_transitions_analyzed",
+  "input": "data/marginal-proof-transitions.json",
+  "scope": "all 12 elaborated-reachability transitions among the six selected source-grounded theorem declarations",
+  "delta_vector_definition": {
+    "delta_local": "descendant bounded local support minus ancestor support",
+    "delta_frontier": "descendant external frontier minus ancestor frontier",
+    "delta_direct": "new direct local references on descendant relative to ancestor",
+    "delta_depth": "descendant support maximum local depth minus ancestor support maximum local depth"
+  },
+  "distribution": {
+    "transition_count": 12,
+    "delta_local": [
+      2,
+      4,
+      6,
+      29,
+      2,
+      4,
+      27,
+      2,
+      882,
+      884,
+      886,
+      909
+    ],
+    "delta_frontier": [
+      0,
+      0,
+      0,
+      72,
+      0,
+      0,
+      72,
+      0,
+      2436,
+      2436,
+      2436,
+      2508
+    ],
+    "delta_direct": [
+      2,
+      2,
+      2,
+      6,
+      2,
+      2,
+      6,
+      2,
+      2,
+      2,
+      2,
+      6
+    ],
+    "delta_depth": [
+      1,
+      2,
+      3,
+      2,
+      1,
+      2,
+      1,
+      1,
+      20,
+      21,
+      22,
+      21
+    ],
+    "class_counts": {
+      "frontier_unchanged": 6,
+      "frontier_expanding": 6
+    }
+  },
+  "transitions": [
+    {
+      "ancestor": "NavierStokesR3.theorem_1_1_with_initial_rest",
+      "descendant": "NavierStokesR3.theorem_1_1",
+      "delta_local": 2,
+      "delta_frontier": 0,
+      "delta_direct": 2,
+      "delta_depth": 1,
+      "class": "frontier_unchanged"
+    },
+    {
+      "ancestor": "NavierStokesR3.theorem_1_1_with_initial_rest",
+      "descendant": "NavierStokesR3.candidateStatement",
+      "delta_local": 4,
+      "delta_frontier": 0,
+      "delta_direct": 2,
+      "delta_depth": 2,
+      "class": "frontier_unchanged"
+    },
+    {
+      "ancestor": "NavierStokesR3.theorem_1_1_with_initial_rest",
+      "descendant": "NavierStokesR3.coreBreakdownStatement",
+      "delta_local": 6,
+      "delta_frontier": 0,
+      "delta_direct": 2,
+      "delta_depth": 3,
+      "class": "frontier_unchanged"
+    },
+    {
+      "ancestor": "NavierStokesR3.theorem_1_1_with_initial_rest",
+      "descendant": "NavierStokesR3.theorem_1_1_with_dissipation",
+      "delta_local": 29,
+      "delta_frontier": 72,
+      "delta_direct": 6,
+      "delta_depth": 2,
+      "class": "frontier_expanding"
+    },
+    {
+      "ancestor": "NavierStokesR3.theorem_1_1",
+      "descendant": "NavierStokesR3.candidateStatement",
+      "delta_local": 2,
+      "delta_frontier": 0,
+      "delta_direct": 2,
+      "delta_depth": 1,
+      "class": "frontier_unchanged"
+    },
+    {
+      "ancestor": "NavierStokesR3.theorem_1_1",
+      "descendant": "NavierStokesR3.coreBreakdownStatement",
+      "delta_local": 4,
+      "delta_frontier": 0,
+      "delta_direct": 2,
+      "delta_depth": 2,
+      "class": "frontier_unchanged"
+    },
+    {
+      "ancestor": "NavierStokesR3.theorem_1_1",
+      "descendant": "NavierStokesR3.theorem_1_1_with_dissipation",
+      "delta_local": 27,
+      "delta_frontier": 72,
+      "delta_direct": 6,
+      "delta_depth": 1,
+      "class": "frontier_expanding"
+    },
+    {
+      "ancestor": "NavierStokesR3.candidateStatement",
+      "descendant": "NavierStokesR3.coreBreakdownStatement",
+      "delta_local": 2,
+      "delta_frontier": 0,
+      "delta_direct": 2,
+      "delta_depth": 1,
+      "class": "frontier_unchanged"
+    },
+    {
+      "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+      "descendant": "NavierStokesR3.theorem_1_1",
+      "delta_local": 882,
+      "delta_frontier": 2436,
+      "delta_direct": 2,
+      "delta_depth": 20,
+      "class": "frontier_expanding"
+    },
+    {
+      "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+      "descendant": "NavierStokesR3.candidateStatement",
+      "delta_local": 884,
+      "delta_frontier": 2436,
+      "delta_direct": 2,
+      "delta_depth": 21,
+      "class": "frontier_expanding"
+    },
+    {
+      "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+      "descendant": "NavierStokesR3.coreBreakdownStatement",
+      "delta_local": 886,
+      "delta_frontier": 2436,
+      "delta_direct": 2,
+      "delta_depth": 22,
+      "class": "frontier_expanding"
+    },
+    {
+      "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+      "descendant": "NavierStokesR3.theorem_1_1_with_dissipation",
+      "delta_local": 909,
+      "delta_frontier": 2508,
+      "delta_direct": 6,
+      "delta_depth": 21,
+      "class": "frontier_expanding"
+    }
+  ],
+  "frontier_expansion_reuse": [
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.theorem_1_1_with_initial_rest",
+        "descendant": "NavierStokesR3.theorem_1_1_with_dissipation"
+      },
+      "new_frontier_count": 72,
+      "downstream": [
+        {
+          "node": "NavierStokesR3.theorem_1_1_with_dissipation",
+          "retained_count": 72,
+          "retained_fraction": 1.0
+        }
+      ],
+      "status": "measured_identity_persistence_within_selected_graph"
+    },
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.theorem_1_1",
+        "descendant": "NavierStokesR3.theorem_1_1_with_dissipation"
+      },
+      "new_frontier_count": 72,
+      "downstream": [
+        {
+          "node": "NavierStokesR3.theorem_1_1_with_dissipation",
+          "retained_count": 72,
+          "retained_fraction": 1.0
+        }
+      ],
+      "status": "measured_identity_persistence_within_selected_graph"
+    },
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+        "descendant": "NavierStokesR3.theorem_1_1"
+      },
+      "new_frontier_count": 2436,
+      "downstream": [
+        {
+          "node": "NavierStokesR3.theorem_1_1",
+          "retained_count": 2436,
+          "retained_fraction": 1.0
+        },
+        {
+          "node": "NavierStokesR3.candidateStatement",
+          "retained_count": 2436,
+          "retained_fraction": 1.0
+        },
+        {
+          "node": "NavierStokesR3.coreBreakdownStatement",
+          "retained_count": 2436,
+          "retained_fraction": 1.0
+        },
+        {
+          "node": "NavierStokesR3.theorem_1_1_with_dissipation",
+          "retained_count": 2436,
+          "retained_fraction": 1.0
+        }
+      ],
+      "status": "measured_identity_persistence_within_selected_graph"
+    },
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+        "descendant": "NavierStokesR3.candidateStatement"
+      },
+      "new_frontier_count": 2436,
+      "downstream": [
+        {
+          "node": "NavierStokesR3.candidateStatement",
+          "retained_count": 2436,
+          "retained_fraction": 1.0
+        },
+        {
+          "node": "NavierStokesR3.coreBreakdownStatement",
+          "retained_count": 2436,
+          "retained_fraction": 1.0
+        }
+      ],
+      "status": "measured_identity_persistence_within_selected_graph"
+    },
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+        "descendant": "NavierStokesR3.coreBreakdownStatement"
+      },
+      "new_frontier_count": 2436,
+      "downstream": [
+        {
+          "node": "NavierStokesR3.coreBreakdownStatement",
+          "retained_count": 2436,
+          "retained_fraction": 1.0
+        }
+      ],
+      "status": "measured_identity_persistence_within_selected_graph"
+    },
+    {
+      "edge": {
+        "ancestor": "NavierStokesR3.ProblemStatement.breakdownStatement",
+        "descendant": "NavierStokesR3.theorem_1_1_with_dissipation"
+      },
+      "new_frontier_count": 2508,
+      "downstream": [
+        {
+          "node": "NavierStokesR3.theorem_1_1_with_dissipation",
+          "retained_count": 2508,
+          "retained_fraction": 1.0
+        }
+      ],
+      "status": "measured_identity_persistence_within_selected_graph"
+    }
+  ],
+  "interpretation_boundary": "Categories describe observed support changes; they do not label transitions intrinsically hard or optimal. Downstream reuse is measured only within the selected six-node graph.",
+  "falsifier": {
+    "question": "Does every transition have a small marginal delta or does the selected graph contain world-expanding edges?",
+    "result": "small_and_expanding_transitions_both_observed"
+  },
+  "not_yet_measured": [
+    "complete project theorem DAG",
+    "runtime cost causality",
+    "minimality",
+    "sufficiency",
+    "general capability-growth law"
+  ]
+}

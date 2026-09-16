@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Transition anatomy receipt",
+  "type":"object",
+  "required":["experiment","status","distribution","transitions","frontier_expansion_reuse","falsifier"],
+  "properties":{
+    "experiment":{"const":"14-transition-anatomy"},
+    "status":{"type":"string"},
+    "distribution":{"type":"object"},
+    "transitions":{"type":"array"},
+    "frontier_expansion_reuse":{"type":"array"},
+    "falsifier":{"type":"object"}
+  }
+}

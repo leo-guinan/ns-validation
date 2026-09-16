@@ -83,3 +83,5 @@ delta = json.loads((Path("data") / "marginal-theorem-delta.json").read_text(enco
 print(f"experiment12_status={delta['status']} marginal={delta['marginal_support']['size']} subset={delta['support_accounting']['containment']}")
 transitions = json.loads((Path("data") / "marginal-proof-transitions.json").read_text(encoding="utf-8"))
 print(f"experiment13_status={transitions['status']} nodes={len(transitions['nodes'])} transitions={len(transitions['transitions'])}")
+anatomy = json.loads((Path("data") / "transition-anatomy.json").read_text(encoding="utf-8"))
+print(f"experiment14_status={anatomy['status']} unchanged={anatomy['distribution']['class_counts']['frontier_unchanged']} expanding={anatomy['distribution']['class_counts']['frontier_expanding']}")

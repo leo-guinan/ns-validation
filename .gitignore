@@ -25,3 +25,4 @@ data/*
 !data/proof-stage-overlap.json
 !data/marginal-theorem-delta.json
 !data/marginal-proof-transitions.json
+!data/transition-anatomy.json
