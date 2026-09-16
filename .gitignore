@@ -28,3 +28,4 @@ data/*
 !data/transition-anatomy.json
 !data/verification-capital-reuse.json
 !data/active-frontier-reuse.json
+!data/frontier-expansion-attribution.json

@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Frontier expansion attribution receipt",
+  "type":"object",
+  "required":["experiment","status","definitions","transitions","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"17-frontier-expansion-attribution"},"status":{"type":"string"},"definitions":{"type":"object"},"transitions":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}
