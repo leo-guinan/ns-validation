@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Interface edit anatomy receipt",
+  "type":"object",
+  "required":["experiment","status","comparison","small_interface_test","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"24-interface-edit-anatomy"},"status":{"type":"string"},"input":{"type":"string"},"comparison":{"type":"object"},"small_interface_test":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}

@@ -103,3 +103,5 @@ backbone = json.loads((Path("data") / "optimal-interface-backbone.json").read_te
 print(f"experiment22_status={backbone['status']} totals={backbone['summary']['exact_total_covers']} optimal_counts={backbone['summary']['optimal_interface_counts']}")
 identity = json.loads((Path("data") / "cross-transition-interface-identity.json").read_text(encoding="utf-8"))
 print(f"experiment23_status={identity['status']} identical_2436={identity['summary']['three_2436_optima_identical']} contained={identity['summary']['any_2436_contained_in_2508']}")
+edit = json.loads((Path("data") / "interface-edit-anatomy.json").read_text(encoding="utf-8"))
+print(f"experiment24_status={edit['status']} removed={edit['comparison']['removed_count']} added={edit['comparison']['added_count']} small_subset_added={edit['small_interface_test']['small_subset_added']}")
