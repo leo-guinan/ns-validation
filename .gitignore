@@ -30,3 +30,4 @@ data/*
 !data/active-frontier-reuse.json
 !data/frontier-expansion-attribution.json
 !data/entry-interface-anatomy.json
+!data/gateway-necessity.json

@@ -93,3 +93,5 @@ attribution = json.loads((Path("data") / "frontier-expansion-attribution.json").
 print(f"experiment17_status={attribution['status']} expanding={attribution['summary']['expanding_edges']} fractions={attribution['summary']['active_at_entry_fraction']}")
 entry = json.loads((Path("data") / "entry-interface-anatomy.json").read_text(encoding="utf-8"))
 print(f"experiment18_status={entry['status']} graphs={len(entry['graphs'])} access_width={entry['summary']['access_width']}")
+gateway = json.loads((Path("data") / "gateway-necessity.json").read_text(encoding="utf-8"))
+print(f"experiment19_status={gateway['status']} lower={gateway['summary']['lower_bounds']} upper={gateway['summary']['greedy_upper_bounds']} exact={gateway['summary']['exact_values']}")

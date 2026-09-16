@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Gateway necessity receipt",
+  "type":"object",
+  "required":["experiment","status","transitions","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"19-gateway-necessity"},"status":{"type":"string"},"transitions":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}
