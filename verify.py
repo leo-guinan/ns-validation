@@ -87,3 +87,5 @@ anatomy = json.loads((Path("data") / "transition-anatomy.json").read_text(encodi
 print(f"experiment14_status={anatomy['status']} unchanged={anatomy['distribution']['class_counts']['frontier_unchanged']} expanding={anatomy['distribution']['class_counts']['frontier_expanding']}")
 capital = json.loads((Path("data") / "verification-capital-reuse.json").read_text(encoding="utf-8"))
 print(f"experiment15_status={capital['status']} profiles={len(capital['frontier_expansion_profiles'])} dominators={sum(bool(x['dominates_selected_nodes']) for x in capital['domination']['edge_dominators'])}")
+active = json.loads((Path("data") / "active-frontier-reuse.json").read_text(encoding="utf-8"))
+print(f"experiment16_status={active['status']} observations={active['summary']['downstream_transition_observations']} direct_nonzero={active['summary']['D_nonzero_count']} transitive_nonzero={active['summary']['T_nonzero_count']}")

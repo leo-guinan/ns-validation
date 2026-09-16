@@ -54,6 +54,11 @@ elab "#transition " name:ident : command => do
     logInfo m!"SUPPORT_FRONTIER {frontier.toList.length}"
     direct.toList.filter localName |>.forM fun n => logInfo m!"DIRECT_LOCAL {n}"
     edges.toList.forM fun e => logInfo m!"LOCAL_EDGE {e.1} -> {e.2}"
+    locals.toList.forM fun n =>
+      match env.find? n with
+      | some i =>
+        (refsOf i).toList.filter (fun x => !localName x) |>.forM fun x => logInfo m!"EXTERNAL_EDGE {n} -> {x}"
+      | none => pure ()
     locals.toList.forM fun n => logInfo m!"LOCAL {n}"
     frontier.toList.forM fun n => logInfo m!"FRONTIER {n}"
 

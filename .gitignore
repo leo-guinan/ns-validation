@@ -27,3 +27,4 @@ data/*
 !data/marginal-proof-transitions.json
 !data/transition-anatomy.json
 !data/verification-capital-reuse.json
+!data/active-frontier-reuse.json

@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Active frontier reuse receipt",
+  "type":"object",
+  "required":["experiment","status","definitions","expansion_analyses","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"16-active-frontier-reuse"},"status":{"type":"string"},"definitions":{"type":"object"},"expansion_analyses":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}
