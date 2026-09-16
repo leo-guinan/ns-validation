@@ -2,7 +2,7 @@
 
 A validation-architecture project for turning expensive mathematical work into progressively cheaper, more durable objects of trust.
 
-The first case study is bounded by `~/Downloads/NS Validation idea.md`; it is not another attempt to solve Navier–Stokes. The initial executable slice is:
+The first case study originated in `~/Downloads/NS Validation idea.md`. That raw note is not repository-controlled and is not required for current verification; the checked-in derived ledger preserves its source hash and evidence status. This is not another attempt to solve Navier–Stokes. The initial executable slice is:
 
 `markdown source -> conservative extraction -> JSON ledger + text report`
 

@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 import sys
+from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 from ns_validation import (
@@ -18,15 +19,26 @@ from ns_validation import (
 )
 
 source = Path.home() / "Downloads" / "NS Validation idea.md"
-if not source.exists():
-    raise SystemExit(f"required source not found: {source}")
-ledger = parse_markdown(source)
-json_path = write_json(ledger, Path("data") / "ledger.json")
+ledger: Any
+if source.exists():
+    ledger = parse_markdown(source)
+    json_path = write_json(ledger, Path("data") / "ledger.json")
+    print(f"source_replay=available path={source}")
+else:
+    json_path = Path("data") / "ledger.json"
+    if not json_path.exists():
+        raise SystemExit(f"raw source unavailable and derived ledger missing: {source}")
+    ledger = json.loads(json_path.read_text(encoding="utf-8"))
+    print(f"source_replay=unavailable raw_source={source} derived_ledger={json_path}")
 report_path = Path("data") / "report.txt"
-report_path.write_text(render_report(ledger), encoding="utf-8")
-print(f"source={ledger.source}")
-print(f"sha256={ledger.source_sha256}")
-print(f"claims={len(ledger.claims)} metrics={len(ledger.metrics)} questions={len(ledger.research_questions)} boundaries={len(ledger.boundaries)}")
+if source.exists():
+    report_path.write_text(render_report(ledger), encoding="utf-8")
+    print(f"source={ledger.source}")
+    print(f"sha256={ledger.source_sha256}")
+    print(f"claims={len(ledger.claims)} metrics={len(ledger.metrics)} questions={len(ledger.research_questions)} boundaries={len(ledger.boundaries)}")
+else:
+    print(f"derived_ledger_sha256={ledger['source_sha256']}")
+    print(f"claims={len(ledger['claims'])} metrics={len(ledger['metrics'])} questions={len(ledger['research_questions'])} boundaries={len(ledger['boundaries'])}")
 print(f"json={json_path} bytes={json_path.stat().st_size}")
 print(f"report={report_path.resolve()} bytes={report_path.stat().st_size}")
 stages = load_stages(Path("data") / "proof-stages.json")
