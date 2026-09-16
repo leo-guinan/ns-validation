@@ -34,3 +34,4 @@ data/*
 !data/residual-gateway-kernel.json
 !data/exact-residual-components.json
 !data/optimal-interface-backbone.json
+!data/cross-transition-interface-identity.json

@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Cross-transition interface identity receipt",
+  "type":"object",
+  "required":["experiment","status","interfaces","pairwise_comparisons","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"23-cross-transition-interface-identity"},"status":{"type":"string"},"interfaces":{"type":"array"},"pairwise_comparisons":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}

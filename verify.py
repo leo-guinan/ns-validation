@@ -101,3 +101,5 @@ exact = json.loads((Path("data") / "exact-residual-components.json").read_text(e
 print(f"experiment21_status={exact['status']} totals={exact['summary']['exact_total_covers']} components={exact['summary']['component_counts']}")
 backbone = json.loads((Path("data") / "optimal-interface-backbone.json").read_text(encoding="utf-8"))
 print(f"experiment22_status={backbone['status']} totals={backbone['summary']['exact_total_covers']} optimal_counts={backbone['summary']['optimal_interface_counts']}")
+identity = json.loads((Path("data") / "cross-transition-interface-identity.json").read_text(encoding="utf-8"))
+print(f"experiment23_status={identity['status']} identical_2436={identity['summary']['three_2436_optima_identical']} contained={identity['summary']['any_2436_contained_in_2508']}")
