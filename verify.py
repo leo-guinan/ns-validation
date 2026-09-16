@@ -65,3 +65,5 @@ frontier = json.loads((Path("data") / "frontier-anatomy.json").read_text(encodin
 print(f"experiment09_status={frontier['status']} edges={frontier['graph']['edges']} frontier={frontier['graph']['frontier_declarations']}")
 resolution = json.loads((Path("data") / "trust-resolution.json").read_text(encoding="utf-8"))
 print(f"experiment10_status={resolution['status']} modules={resolution['counts']['source_modules']} artifacts={resolution['counts']['compiled_artifacts']}")
+overlap = json.loads((Path("data") / "proof-stage-overlap.json").read_text(encoding="utf-8"))
+print(f"experiment11_status={overlap['status']} grounded={len(overlap['grounded_support'])}")

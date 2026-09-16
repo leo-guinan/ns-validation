@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Proof-stage support overlap receipt",
+  "type":"object",
+  "required":["experiment","status","proof_nodes","grounded_support","pairwise_overlap","falsifier"],
+  "properties":{
+    "experiment":{"const":"11-proof-stage-support-overlap"},
+    "status":{"type":"string"},
+    "proof_nodes":{"type":"array"},
+    "grounded_support":{"type":"array"},
+    "pairwise_overlap":{"type":"object"},
+    "falsifier":{"type":"object"}
+  }
+}
