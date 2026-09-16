@@ -97,3 +97,5 @@ gateway = json.loads((Path("data") / "gateway-necessity.json").read_text(encodin
 print(f"experiment19_status={gateway['status']} lower={gateway['summary']['lower_bounds']} upper={gateway['summary']['greedy_upper_bounds']} exact={gateway['summary']['exact_values']}")
 kernel = json.loads((Path("data") / "residual-gateway-kernel.json").read_text(encoding="utf-8"))
 print(f"experiment20_status={kernel['status']} residual_frontier={kernel['summary']['residual_frontier_counts']} bounds={list(zip(kernel['summary']['total_lower_bounds'], kernel['summary']['total_upper_bounds']))}")
+exact = json.loads((Path("data") / "exact-residual-components.json").read_text(encoding="utf-8"))
+print(f"experiment21_status={exact['status']} totals={exact['summary']['exact_total_covers']} components={exact['summary']['component_counts']}")

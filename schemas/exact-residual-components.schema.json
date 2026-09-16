@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Exact residual component solve receipt",
+  "type":"object",
+  "required":["experiment","status","graphs","signature_classes","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"21-exact-residual-component-solve"},"status":{"type":"string"},"graphs":{"type":"array"},"signature_classes":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}

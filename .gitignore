@@ -32,3 +32,4 @@ data/*
 !data/entry-interface-anatomy.json
 !data/gateway-necessity.json
 !data/residual-gateway-kernel.json
+!data/exact-residual-components.json
