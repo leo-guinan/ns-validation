@@ -91,3 +91,5 @@ active = json.loads((Path("data") / "active-frontier-reuse.json").read_text(enco
 print(f"experiment16_status={active['status']} observations={active['summary']['downstream_transition_observations']} direct_nonzero={active['summary']['D_nonzero_count']} transitive_nonzero={active['summary']['T_nonzero_count']}")
 attribution = json.loads((Path("data") / "frontier-expansion-attribution.json").read_text(encoding="utf-8"))
 print(f"experiment17_status={attribution['status']} expanding={attribution['summary']['expanding_edges']} fractions={attribution['summary']['active_at_entry_fraction']}")
+entry = json.loads((Path("data") / "entry-interface-anatomy.json").read_text(encoding="utf-8"))
+print(f"experiment18_status={entry['status']} graphs={len(entry['graphs'])} access_width={entry['summary']['access_width']}")

@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Entry interface anatomy receipt",
+  "type":"object",
+  "required":["experiment","status","graphs","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"18-entry-interface-anatomy"},"status":{"type":"string"},"graphs":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}
