@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Subinterface embedding and counterfactual receipt",
+  "type":"object",
+  "required":["experiment","status","embedding","removed_gateway_coverage","counterfactuals","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"26-subinterface-embedding-counterfactuals"},"status":{"type":"string"},"embedding":{"type":"object"},"removed_gateway_coverage":{"type":"array"},"counterfactuals":{"type":"object"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}

@@ -107,3 +107,5 @@ edit = json.loads((Path("data") / "interface-edit-anatomy.json").read_text(encod
 print(f"experiment24_status={edit['status']} removed={edit['comparison']['removed_count']} added={edit['comparison']['added_count']} small_subset_added={edit['small_interface_test']['small_subset_added']}")
 flow = json.loads((Path("data") / "responsibility-flow-anatomy.json").read_text(encoding="utf-8"))
 print(f"experiment25_status={flow['status']} shared={flow['frontier_sets']['shared_count']} new={flow['frontier_sets']['new_count']} weighted_edges={flow['edit']['nonzero_weight_edge_count']}")
+embedding = json.loads((Path("data") / "subinterface-embedding-counterfactuals.json").read_text(encoding="utf-8"))
+print(f"experiment26_status={embedding['status']} literal_edges_equal={embedding['embedding']['edge_sets_equal']} forbid_i72={embedding['counterfactuals']['forbid_i72']['status']} forbid_a4={embedding['counterfactuals']['forbid_other_additions']['status']}")
