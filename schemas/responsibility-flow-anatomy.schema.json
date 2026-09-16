@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Responsibility flow anatomy receipt",
+  "type":"object",
+  "required":["experiment","status","frontier_sets","edit","removed_gateway_flows","added_groups","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"25-responsibility-flow-anatomy"},"status":{"type":"string"},"frontier_sets":{"type":"object"},"edit":{"type":"object"},"removed_gateway_flows":{"type":"array"},"added_groups":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}

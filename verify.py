@@ -105,3 +105,5 @@ identity = json.loads((Path("data") / "cross-transition-interface-identity.json"
 print(f"experiment23_status={identity['status']} identical_2436={identity['summary']['three_2436_optima_identical']} contained={identity['summary']['any_2436_contained_in_2508']}")
 edit = json.loads((Path("data") / "interface-edit-anatomy.json").read_text(encoding="utf-8"))
 print(f"experiment24_status={edit['status']} removed={edit['comparison']['removed_count']} added={edit['comparison']['added_count']} small_subset_added={edit['small_interface_test']['small_subset_added']}")
+flow = json.loads((Path("data") / "responsibility-flow-anatomy.json").read_text(encoding="utf-8"))
+print(f"experiment25_status={flow['status']} shared={flow['frontier_sets']['shared_count']} new={flow['frontier_sets']['new_count']} weighted_edges={flow['edit']['nonzero_weight_edge_count']}")

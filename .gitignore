@@ -36,3 +36,4 @@ data/*
 !data/optimal-interface-backbone.json
 !data/cross-transition-interface-identity.json
 !data/interface-edit-anatomy.json
+!data/responsibility-flow-anatomy.json
