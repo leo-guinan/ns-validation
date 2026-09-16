@@ -95,3 +95,5 @@ entry = json.loads((Path("data") / "entry-interface-anatomy.json").read_text(enc
 print(f"experiment18_status={entry['status']} graphs={len(entry['graphs'])} access_width={entry['summary']['access_width']}")
 gateway = json.loads((Path("data") / "gateway-necessity.json").read_text(encoding="utf-8"))
 print(f"experiment19_status={gateway['status']} lower={gateway['summary']['lower_bounds']} upper={gateway['summary']['greedy_upper_bounds']} exact={gateway['summary']['exact_values']}")
+kernel = json.loads((Path("data") / "residual-gateway-kernel.json").read_text(encoding="utf-8"))
+print(f"experiment20_status={kernel['status']} residual_frontier={kernel['summary']['residual_frontier_counts']} bounds={list(zip(kernel['summary']['total_lower_bounds'], kernel['summary']['total_upper_bounds']))}")

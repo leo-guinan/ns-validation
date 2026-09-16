@@ -31,3 +31,4 @@ data/*
 !data/frontier-expansion-attribution.json
 !data/entry-interface-anatomy.json
 !data/gateway-necessity.json
+!data/residual-gateway-kernel.json

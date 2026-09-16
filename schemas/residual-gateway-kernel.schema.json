@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Residual gateway kernel receipt",
+  "type":"object",
+  "required":["experiment","status","transitions","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"20-residual-gateway-kernel"},"status":{"type":"string"},"transitions":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}
