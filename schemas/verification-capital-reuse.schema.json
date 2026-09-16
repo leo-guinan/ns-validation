@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Verification capital reuse receipt",
+  "type":"object",
+  "required":["experiment","status","frontier_expansion_profiles","domination","interpretation_boundary"],
+  "properties":{"experiment":{"const":"15-verification-capital-reuse"},"status":{"type":"string"},"frontier_expansion_profiles":{"type":"array"},"domination":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}

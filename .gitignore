@@ -26,3 +26,4 @@ data/*
 !data/marginal-theorem-delta.json
 !data/marginal-proof-transitions.json
 !data/transition-anatomy.json
+!data/verification-capital-reuse.json

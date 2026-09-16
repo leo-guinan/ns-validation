@@ -85,3 +85,5 @@ transitions = json.loads((Path("data") / "marginal-proof-transitions.json").read
 print(f"experiment13_status={transitions['status']} nodes={len(transitions['nodes'])} transitions={len(transitions['transitions'])}")
 anatomy = json.loads((Path("data") / "transition-anatomy.json").read_text(encoding="utf-8"))
 print(f"experiment14_status={anatomy['status']} unchanged={anatomy['distribution']['class_counts']['frontier_unchanged']} expanding={anatomy['distribution']['class_counts']['frontier_expanding']}")
+capital = json.loads((Path("data") / "verification-capital-reuse.json").read_text(encoding="utf-8"))
+print(f"experiment15_status={capital['status']} profiles={len(capital['frontier_expansion_profiles'])} dominators={sum(bool(x['dominates_selected_nodes']) for x in capital['domination']['edge_dominators'])}")
