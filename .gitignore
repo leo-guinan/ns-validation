@@ -40,3 +40,4 @@ data/*
 !data/subinterface-embedding-counterfactuals.json
 !data/memberwise-feasibility-replacement.json
 !data/a4-forbidden-subset-lattice.json
+!data/universal-310-cover-rewiring.json

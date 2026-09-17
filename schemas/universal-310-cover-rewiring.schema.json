@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Universal 310 cover rewiring receipt",
+  "type":"object",
+  "required":["experiment","status","baseline_optimum","alternative_witness","comparison","responsibility_flow","width_310_enumeration","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"29-universal-310-cover-rewiring"},"status":{"type":"string"},"baseline_optimum":{"type":"integer"},"alternative_witness":{"type":"object"},"comparison":{"type":"object"},"responsibility_flow":{"type":"object"},"width_310_enumeration":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}

@@ -113,3 +113,5 @@ subset_lattice = json.loads((Path("data") / "a4-forbidden-subset-lattice.json").
 print(f"experiment28_status={subset_lattice['status']} feasible={subset_lattice['summary']['feasible_count']} infeasible={subset_lattice['summary']['infeasible_count']} exact={subset_lattice['summary']['exact_count']}")
 memberwise = json.loads((Path("data") / "memberwise-feasibility-replacement.json").read_text(encoding="utf-8"))
 print(f"experiment27_status={memberwise['status']} i72_infeasible={memberwise['summary']['i72_infeasible_count']} a4_infeasible={memberwise['summary']['a4_infeasible_count']}")
+rewiring = json.loads((Path("data") / "universal-310-cover-rewiring.json").read_text(encoding="utf-8"))
+print(f"experiment29_status={rewiring['status']} removed={rewiring['comparison']['removed_count']} added={rewiring['comparison']['added_count']} i72_in_alternative={rewiring['comparison']['i72_subset_alternative']}")
