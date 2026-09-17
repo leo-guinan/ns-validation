@@ -1,6 +1,6 @@
 {
   "experiment": "26-subinterface-embedding-counterfactuals",
-  "status": "embedding_flow_and_counterfactuals_measured",
+  "status": "superseded_frontier_scope_error",
   "input": "data/cross-transition-interface-identity.json plus pinned elaborated direct-reference extraction",
   "embedding": {
     "standalone_frontier_count": 72,
@@ -3164,9 +3164,15 @@
     "removed_count": 9,
     "added_count": 16
   },
-  "interpretation_boundary": "Embedding and counterfactual results are literal set-cover and direct-reference measurements. The forbid-I72 result is exact infeasibility. The corrected forbid-A4 result uses exactly the four A4 declarations and has an exact 310-member cover by the unique-309 baseline lower bound plus a valid witness. The earlier 69-unavailable result corresponded to forbidding all 16 additions, not A4 alone. These results do not establish semantic composition or causal necessity.",
+  "interpretation_boundary": "Superseded: these values describe a 72-frontier subproblem only and must not be interpreted as results for the full F2508 set-cover instance.",
   "falsifier": {
     "question": "Is the inserted 72-interface block literally the standalone block, and do counterfactual exclusions alter coverability?",
     "result": "embedding_and_counterfactuals_recorded"
+  },
+  "scope_correction": {
+    "error": "The recorded computation used new_frontier_declarations (the 72-entry frontier delta) rather than the full descendant frontier required by the F2508 contract.",
+    "raw_measurements_preserved": true,
+    "full_frontier_claims_withdrawn": true,
+    "replacement_status": "A full-frontier rerun is required before using these results."
   }
 }

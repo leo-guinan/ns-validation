@@ -1,6 +1,6 @@
 {
   "experiment": "29-universal-310-cover-rewiring",
-  "status": "exact_witness_comparison_measured",
+  "status": "superseded_frontier_scope_error",
   "baseline_optimum": 309,
   "alternative_witness": {
     "name": "J310",
@@ -8559,9 +8559,15 @@
     "status": "not_attempted",
     "reason": "The existing exact solver is component-wise over the reduced optimum contract; enumeration of all full-graph 310 covers was not run."
   },
-  "interpretation_boundary": "The measured J310 witness is broadly rewired; this does not imply that every width-310 constrained cover is broadly rewired because width-310 enumeration remains unmeasured. Set differences and neighborhood overlaps are literal interface comparisons, not semantic substitutions or causal explanations.",
+  "interpretation_boundary": "Superseded: these values describe a 72-frontier subproblem only and must not be interpreted as results for the full F2508 set-cover instance.",
   "falsifier": {
     "question": "Does the +1-width A4-forbidden witness require a broad rewrite or only replacement of A4?",
     "result": "comparison recorded"
+  },
+  "scope_correction": {
+    "error": "The recorded computation used new_frontier_declarations (the 72-entry frontier delta) rather than the full descendant frontier required by the F2508 contract.",
+    "raw_measurements_preserved": true,
+    "full_frontier_claims_withdrawn": true,
+    "replacement_status": "A full-frontier rerun is required before using these results."
   }
 }

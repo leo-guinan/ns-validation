@@ -1,6 +1,6 @@
 {
   "experiment": "27-memberwise-feasibility-replacement",
-  "status": "memberwise_feasibility_and_greedy_bounds_measured",
+  "status": "superseded_frontier_scope_error",
   "input": "data/subinterface-embedding-counterfactuals.json plus pinned elaborated direct-reference extraction",
   "baseline_optimum": 309,
   "groups": {
@@ -1659,9 +1659,15 @@
     "all_i72_have_original_private_witness": true,
     "all_a4_have_original_private_witness": false
   },
-  "interpretation_boundary": "Member-wise feasibility and greedy bounds are measured on the literal elaborated set-cover candidate universe. Infeasibility from unavailable frontier identities is exact. Greedy upper bounds are valid only when the recorded witness covers the full frontier. Feasible cases are not claimed optimal unless separately certified. No semantic necessity or runtime claim is made.",
+  "interpretation_boundary": "Superseded: these values describe a 72-frontier subproblem only and must not be interpreted as results for the full F2508 set-cover instance.",
   "falsifier": {
     "question": "Are block-level necessities also individually feasibility-essential, and does any individual exclusion preserve a 309-cover?",
     "result": "memberwise results and witnesses recorded"
+  },
+  "scope_correction": {
+    "error": "The recorded computation used new_frontier_declarations (the 72-entry frontier delta) rather than the full descendant frontier required by the F2508 contract.",
+    "raw_measurements_preserved": true,
+    "full_frontier_claims_withdrawn": true,
+    "replacement_status": "A full-frontier rerun is required before using these results."
   }
 }

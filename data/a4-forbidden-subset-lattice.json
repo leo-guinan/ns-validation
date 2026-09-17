@@ -1,6 +1,6 @@
 {
   "experiment": "28-a4-forbidden-subset-lattice",
-  "status": "all_forbidden_subsets_measured",
+  "status": "superseded_frontier_scope_error",
   "input": "data/memberwise-feasibility-replacement.json plus pinned elaborated direct-reference extraction",
   "a4_declarations": [
     "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1",
@@ -5239,7 +5239,7 @@
     "minimum_infeasible_subset_size": null,
     "maximum_feasible_forbidden_size": 4
   },
-  "interpretation_boundary": "This is an exhaustive forbidden-subset analysis of the four A4 declarations under the literal elaborated set-cover candidate universe. Exact values require a valid witness plus the unique 309 baseline lower bound; larger feasible cases retain bounds. No semantic necessity, causal transfer, or runtime claim is made.",
+  "interpretation_boundary": "Superseded: these values describe a 72-frontier subproblem only and must not be interpreted as results for the full F2508 set-cover instance.",
   "falsifier": {
     "question": "At what forbidden-subset size does collective A4 feasibility fail?",
     "result": "all 16 subsets evaluated"
@@ -5565,5 +5565,11 @@
   "penalty_function": {
     "empty": 0,
     "nonempty": 1
+  },
+  "scope_correction": {
+    "error": "The recorded computation used new_frontier_declarations (the 72-entry frontier delta) rather than the full descendant frontier required by the F2508 contract.",
+    "raw_measurements_preserved": true,
+    "full_frontier_claims_withdrawn": true,
+    "replacement_status": "A full-frontier rerun is required before using these results."
   }
 }

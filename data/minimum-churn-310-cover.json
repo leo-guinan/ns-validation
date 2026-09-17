@@ -1,6 +1,6 @@
 {
   "experiment": "30-minimum-churn-310-cover",
-  "status": "exact_secondary_optimization_measured",
+  "status": "superseded_frontier_scope_error",
   "baseline_optimum": 309,
   "constraint": "cover F2508 with exactly 310 locals and forbid all A4 declarations",
   "objective": "maximize intersection with the unique 309-member optimum, equivalently minimize symmetric difference",
@@ -469,9 +469,15 @@
     "status": "not_attempted",
     "reason": "Only the minimum-churn 310 cover was optimized; the complete width-310 solution family remains unenumerated."
   },
-  "interpretation_boundary": "This exact result concerns the minimum identity churn among measured width-310 covers excluding A4. It establishes a localized 4-for-5 realization exists and that D_min=9. It does not characterize all width-310 covers or imply the greedy witness is necessary. All structure is literal set-cover data, not semantic substitution or causal transfer.",
+  "interpretation_boundary": "Superseded: these values describe a 72-frontier subproblem only and must not be interpreted as results for the full F2508 set-cover instance.",
   "falsifier": {
     "question": "Does escaping the unique 309 optimum by one width unit require broad rewiring?",
     "result": "No: an exact minimum-churn 4-for-5 alternative exists."
+  },
+  "scope_correction": {
+    "error": "The recorded computation used new_frontier_declarations (the 72-entry frontier delta) rather than the full descendant frontier required by the F2508 contract.",
+    "raw_measurements_preserved": true,
+    "full_frontier_claims_withdrawn": true,
+    "replacement_status": "A full-frontier rerun is required before using these results."
   }
 }
