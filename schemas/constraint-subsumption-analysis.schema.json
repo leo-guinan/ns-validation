@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Constraint subsumption analysis receipt",
+  "type":"object",
+  "required":["experiment","status","counts","hashes","inherited_certificates","basis_representatives","basis_verification","interpretation_boundary"],
+  "properties":{"experiment":{"const":"40-constraint-subsumption-analysis"},"status":{"const":"exact_neighborhood_basis_measured"},"counts":{"type":"object"},"hashes":{"type":"object"},"inherited_certificates":{"type":"object"},"basis_representatives":{"type":"array"},"basis_verification":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}

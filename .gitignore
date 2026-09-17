@@ -51,3 +51,4 @@ data/*
 !data/scope-effect-under-fixed-contract.json
 !data/optimal-face-scope-redundancy.json
 !data/scope-activation-depth.json
+!data/constraint-subsumption-analysis.json

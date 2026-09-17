@@ -135,3 +135,5 @@ face = json.loads((Path("data") / "optimal-face-scope-redundancy.json").read_tex
 print(f"experiment38_status={face['status']} inherited={face['inherited_frontier_count']} feasible_noncoverage={face['summary']['feasible_noncoverage_count']} proven_infeasible={face['summary']['proven_infeasible_count']} timeouts={face['summary']['timeout_count']}")
 activation = json.loads((Path("data") / "scope-activation-depth.json").read_text(encoding="utf-8"))
 print(f"experiment39_status={activation['status']} optimal={activation['summary']['optimal_count']} infeasible={activation['summary']['infeasible_count']} timeouts={activation['summary']['timeout_or_other_count']} scope_gap={activation['summary']['scope_activation_gap']}")
+subsumption = json.loads((Path("data") / "constraint-subsumption-analysis.json").read_text(encoding="utf-8"))
+print(f"experiment40_status={subsumption['status']} frontier={subsumption['counts']['frontier_identities']} unique_neighborhoods={subsumption['counts']['unique_neighborhoods']} basis={subsumption['counts']['inclusion_minimal_basis_classes']} removed={subsumption['counts']['constraints_removed_by_basis']}")
