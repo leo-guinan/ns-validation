@@ -11,9 +11,9 @@ class SubinterfaceEmbeddingCounterfactualTests(unittest.TestCase):
         self.assertTrue(receipt["embedding"]["edge_sets_equal"])
         self.assertEqual(receipt["embedding"]["standalone_degree_vector"], receipt["embedding"]["inserted_degree_vector"])
         self.assertEqual(receipt["counterfactuals"]["forbid_i72"]["status"], "infeasible")
-        self.assertEqual(receipt["counterfactuals"]["forbid_other_additions"]["status"], "infeasible_by_unavailable_frontier_identity")
-        self.assertEqual(receipt["counterfactuals"]["forbid_other_additions"]["unavailable_frontier_count"], 69)
-        self.assertEqual(receipt["counterfactuals"]["forbid_other_additions"]["inherited_baseline_bound"], 309)
+        self.assertEqual(receipt["counterfactuals"]["forbid_other_additions"]["status"], "exact_from_unique_baseline_and_witness")
+        self.assertEqual(receipt["counterfactuals"]["forbid_other_additions"]["optimum"], 310)
+        self.assertEqual(len(receipt["counterfactuals"]["forbid_other_additions"]["witness"]), 310)
 
 
 if __name__ == "__main__":

@@ -14,7 +14,7 @@ Counterfactual set-cover results:
 
 ```text
 forbid I72:             infeasible
-forbid other additions: infeasible by 69 unavailable frontier identities; inherited unconstrained baseline 309 is not a constrained upper bound
+forbid A4:             exact optimum 310, valid witness size 310
 ```
 
-The nine removed gateways' old frontier responsibilities are decomposed by coverage from retained gateways, the inserted I72 block, and the four other additions. All results are bounded to literal direct-reference set-cover structure; they do not establish semantic composition or causal necessity.
+The nine removed gateways' old frontier responsibilities are decomposed by coverage from retained gateways, the inserted I72 block, and the four other additions. The corrected A4 counterfactual forbids exactly four declarations; the earlier 69-unavailable result came from accidentally forbidding all sixteen additions. All results are bounded to literal direct-reference set-cover structure; they do not establish semantic composition or causal necessity.

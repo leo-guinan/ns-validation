@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"A4 forbidden subset lattice receipt",
+  "type":"object",
+  "required":["experiment","status","a4_declarations","baseline_optimum","subsets","minimal_infeasible_forbidden_subsets","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"28-a4-forbidden-subset-lattice"},"status":{"type":"string"},"a4_declarations":{"type":"array"},"baseline_optimum":{"type":"integer"},"subsets":{"type":"array"},"minimal_infeasible_forbidden_subsets":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}

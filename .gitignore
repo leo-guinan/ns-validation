@@ -39,3 +39,4 @@ data/*
 !data/responsibility-flow-anatomy.json
 !data/subinterface-embedding-counterfactuals.json
 !data/memberwise-feasibility-replacement.json
+!data/a4-forbidden-subset-lattice.json
