@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Historical candidate reduction archaeology receipt",
+  "type":"object",
+  "required":["experiment","status","raw_input","reported_provenance_objects","archaeology_search","exchanged_declarations","reduction_outputs","interpretation_boundary"],
+  "properties":{"experiment":{"const":"36-historical-candidate-reduction-archaeology"},"status":{"const":"historical_candidate_reduction_partially_unrecovered"},"raw_input":{"type":"object"},"reported_provenance_objects":{"type":"object"},"archaeology_search":{"type":"object"},"exchanged_declarations":{"type":"object"},"reduction_outputs":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}
