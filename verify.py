@@ -109,3 +109,5 @@ flow = json.loads((Path("data") / "responsibility-flow-anatomy.json").read_text(
 print(f"experiment25_status={flow['status']} shared={flow['frontier_sets']['shared_count']} new={flow['frontier_sets']['new_count']} weighted_edges={flow['edit']['nonzero_weight_edge_count']}")
 embedding = json.loads((Path("data") / "subinterface-embedding-counterfactuals.json").read_text(encoding="utf-8"))
 print(f"experiment26_status={embedding['status']} literal_edges_equal={embedding['embedding']['edge_sets_equal']} forbid_i72={embedding['counterfactuals']['forbid_i72']['status']} forbid_a4={embedding['counterfactuals']['forbid_other_additions']['status']}")
+memberwise = json.loads((Path("data") / "memberwise-feasibility-replacement.json").read_text(encoding="utf-8"))
+print(f"experiment27_status={memberwise['status']} i72_infeasible={memberwise['summary']['i72_infeasible_count']} a4_infeasible={memberwise['summary']['a4_infeasible_count']}")

@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Member-wise feasibility and replacement receipt",
+  "type":"object",
+  "required":["experiment","status","baseline_optimum","groups","members","summary","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"27-memberwise-feasibility-replacement"},"status":{"type":"string"},"baseline_optimum":{"type":"integer"},"groups":{"type":"object"},"members":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}

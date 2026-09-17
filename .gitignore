@@ -38,3 +38,4 @@ data/*
 !data/interface-edit-anatomy.json
 !data/responsibility-flow-anatomy.json
 !data/subinterface-embedding-counterfactuals.json
+!data/memberwise-feasibility-replacement.json
