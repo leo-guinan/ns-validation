@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Scope effect under fixed contract receipt",
+  "type":"object",
+  "required":["experiment","status","shared_contract_inputs","contracts","scope_difference","known_optima_probe","conclusion"],
+  "properties":{"experiment":{"const":"37-scope-effect-under-fixed-contract"},"status":{"const":"exact_scope_effect_measured"},"shared_contract_inputs":{"type":"object"},"contracts":{"type":"object"},"scope_difference":{"type":"object"},"known_optima_probe":{"type":"object"},"conclusion":{"type":"string"}}
+}

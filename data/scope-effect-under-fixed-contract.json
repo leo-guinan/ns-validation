@@ -1,0 +1,79 @@
+{
+  "experiment": "37-scope-effect-under-fixed-contract",
+  "status": "exact_scope_effect_measured",
+  "shared_contract_inputs": {
+    "candidate_universe_size": 915,
+    "target_edge_count": 89216,
+    "objective": {
+      "name": "minimum_cardinality_set_cover",
+      "cost_per_candidate": 1
+    },
+    "constraints": {
+      "binary_candidates": true,
+      "coverage_constraint": "at_least_one",
+      "shared_candidate_universe": true,
+      "shared_edge_relation": "target_graph_restricted_by_frontier_scope"
+    },
+    "h_L": "976044a05ab7ac8811a4d8e8e860cf7fcc7b1316b3f6c2d9c15026bf8a0548e2",
+    "h_O": "198276b38b2ffec51261373dee9cde8f80cb7bd72f27a338f204193e1f0fdace",
+    "h_K": "8580ded4606c26cf143eccf247abad2833c4da274915e611666e12547f48cc98"
+  },
+  "contracts": {
+    "full": {
+      "frontier_size": 2522,
+      "edge_count": 89216,
+      "fingerprint": {
+        "h_L": "976044a05ab7ac8811a4d8e8e860cf7fcc7b1316b3f6c2d9c15026bf8a0548e2",
+        "h_F": "7168a56d9a53059c9aa63d41115ded72e0595fb83ddb6127ddb5ae7e7a7d503c",
+        "h_E": "44241d5a9190afe924aca3720d3a5a43579a99196541cb3bd27564928b096b01",
+        "h_O": "198276b38b2ffec51261373dee9cde8f80cb7bd72f27a338f204193e1f0fdace",
+        "h_K": "8580ded4606c26cf143eccf247abad2833c4da274915e611666e12547f48cc98",
+        "H_contract": "614aa4a13e1a80f2ea2f3f3213c81c002972c6f51ad767277709b678efbe5b58"
+      },
+      "solve_status": "optimal",
+      "minimum_cover_width": 309,
+      "witness_coverage": 2522
+    },
+    "delta_B_to_T": {
+      "frontier_size": 2508,
+      "edge_count": 85200,
+      "fingerprint": {
+        "h_L": "976044a05ab7ac8811a4d8e8e860cf7fcc7b1316b3f6c2d9c15026bf8a0548e2",
+        "h_F": "02cda90bd2328627406046890f11adbc9ea67e6fabc1fb20f968d3128826c8de",
+        "h_E": "9cf96918bbbced1666e24289b1686aa97b81c901bd5fe6706702349ebe68bb27",
+        "h_O": "198276b38b2ffec51261373dee9cde8f80cb7bd72f27a338f204193e1f0fdace",
+        "h_K": "8580ded4606c26cf143eccf247abad2833c4da274915e611666e12547f48cc98",
+        "H_contract": "edf5921e217be9b90654f73964461da626a15a6b635b6108d16cecc67679002b"
+      },
+      "solve_status": "optimal",
+      "minimum_cover_width": 309,
+      "witness_coverage": 2508
+    }
+  },
+  "scope_difference": {
+    "frontier_removed": 14,
+    "only_frontier_scope_changed": true,
+    "candidate_hash_equal": true,
+    "objective_hash_equal": true,
+    "constraint_hash_equal": true,
+    "edge_relation_is_restriction": true
+  },
+  "known_optima_probe": {
+    "I2508": {
+      "admissible": true,
+      "full_coverage": 2522,
+      "delta_coverage": 2508
+    },
+    "J_full": {
+      "admissible": true,
+      "full_coverage": 2522,
+      "delta_coverage": 2508
+    },
+    "exchange": [
+      "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+      "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+    ],
+    "distinct_width_309_witnesses": true
+  },
+  "conclusion": "Changing only required frontier scope from 2522 to 2508 leaves the measured minimum width at 309 and does not restore uniqueness: both known width-309 witnesses cover the delta contract. The result is contract-relative to the fingerprinted current graph."
+}

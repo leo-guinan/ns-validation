@@ -48,3 +48,4 @@ data/*
 !data/historical-delta-contract-replay.json
 !data/surgical-historical-contract-replay.json
 !data/historical-candidate-reduction-archaeology.json
+!data/scope-effect-under-fixed-contract.json

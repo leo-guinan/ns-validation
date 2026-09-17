@@ -129,3 +129,5 @@ surgical = json.loads((Path("data") / "surgical-historical-contract-replay.json"
 print(f"experiment35_status={surgical['status']} target_frontier={surgical['node_reproduction']['target']['frontier_count']} delta={surgical['delta_reconstruction']['frontier_size']} optimization_contract={surgical['optimization_contract']['status']}")
 archaeology = json.loads((Path("data") / "historical-candidate-reduction-archaeology.json").read_text(encoding="utf-8"))
 print(f"experiment36_status={archaeology['status']} raw_locals={archaeology['raw_input']['count']} exact_882={archaeology['archaeology_search']['preserved_exact_882_identity_list']} exact_741={archaeology['archaeology_search']['preserved_exact_741_identity_list']}")
+scope = json.loads((Path("data") / "scope-effect-under-fixed-contract.json").read_text(encoding="utf-8"))
+print(f"experiment37_status={scope['status']} full_width={scope['contracts']['full']['minimum_cover_width']} delta_width={scope['contracts']['delta_B_to_T']['minimum_cover_width']} I_delta={scope['known_optima_probe']['I2508']['delta_coverage']} J_delta={scope['known_optima_probe']['J_full']['delta_coverage']}")
