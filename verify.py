@@ -117,3 +117,5 @@ rewiring = json.loads((Path("data") / "universal-310-cover-rewiring.json").read_
 print(f"experiment29_status={rewiring['status']} full_frontier_claims_withdrawn={rewiring['scope_correction']['full_frontier_claims_withdrawn']}")
 churn = json.loads((Path("data") / "minimum-churn-310-cover.json").read_text(encoding="utf-8"))
 print(f"experiment30_status={churn['status']} full_frontier_claims_withdrawn={churn['scope_correction']['full_frontier_claims_withdrawn']}")
+scope = json.loads((Path("data") / "frontier-scope-reconciliation.json").read_text(encoding="utf-8"))
+print(f"experiment31_status={scope['status']} target={len(scope['frontiers']['target'])} delta_72={scope['delta_identity_checks']['delta_72_size']} delta_2508={scope['delta_identity_checks']['delta_2508_size']} contained={scope['delta_identity_checks']['delta_72_subset_delta_2508']}")

@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Frontier scope reconciliation receipt",
+  "type":"object",
+  "required":["experiment","status","source_sections","frontiers","transition_comparisons","delta_identity_checks","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"31-frontier-scope-reconciliation"},"status":{"type":"string"},"source_sections":{"type":"object"},"frontiers":{"type":"object"},"transition_comparisons":{"type":"object"},"delta_identity_checks":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}
