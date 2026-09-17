@@ -119,3 +119,5 @@ churn = json.loads((Path("data") / "minimum-churn-310-cover.json").read_text(enc
 print(f"experiment30_status={churn['status']} full_frontier_claims_withdrawn={churn['scope_correction']['full_frontier_claims_withdrawn']}")
 scope = json.loads((Path("data") / "frontier-scope-reconciliation.json").read_text(encoding="utf-8"))
 print(f"experiment31_status={scope['status']} target={len(scope['frontiers']['target'])} delta_72={scope['delta_identity_checks']['delta_72_size']} delta_2508={scope['delta_identity_checks']['delta_2508_size']} contained={scope['delta_identity_checks']['delta_72_subset_delta_2508']}")
+composition = json.loads((Path("data") / "full-target-composition-audit.json").read_text(encoding="utf-8"))
+print(f"experiment32_status={composition['status']} target_width={composition['full_target_optimization']['minimum_cover_width']} union_width={composition['composition_overhead']['I2436_union_I72_size']} overhead={composition['composition_overhead']['I2436_union_I72_size'] - composition['full_target_optimization']['minimum_cover_width']}")

@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Full target composition audit receipt",
+  "type":"object",
+  "required":["experiment","status","source_sections","frontier_scope","delta_interface_audit","full_target_optimization","composition_overhead","interpretation_boundary","falsifier"],
+  "properties":{"experiment":{"const":"32-full-target-composition-audit"},"status":{"type":"string"},"source_sections":{"type":"object"},"frontier_scope":{"type":"object"},"delta_interface_audit":{"type":"object"},"full_target_optimization":{"type":"object"},"composition_overhead":{"type":"object"},"interpretation_boundary":{"type":"string"},"falsifier":{"type":"object"}}
+}
