@@ -1,0 +1,107 @@
+{
+  "experiment": "38-optimal-face-scope-redundancy",
+  "status": "exact_inherited_noncoverage_sweep_complete",
+  "contract_reference": "Experiment 37 current contracts",
+  "inherited_frontier_count": 14,
+  "delta_frontier_count": 2508,
+  "width_fixed": 309,
+  "scope_relations": {
+    "frontier_identity_sets": "F_delta is a strict subset of F_full",
+    "frontier_delta_subset_full": true,
+    "feasible_cover_families": "Feas(C_full) is a subset of Feas(C_delta)"
+  },
+  "tests": [
+    {
+      "identity": "And",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "Exists",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "LT.lt",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "NavierStokes.ProblemStatement.PressureField",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "NavierStokes.ProblemStatement.Space",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "NavierStokes.ProblemStatement.VelocityField",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "Nonempty",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "Not",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "OfNat.ofNat",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "Real",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "Real.instLT",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "Real.instZero",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "Set",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    },
+    {
+      "identity": "Zero.toOfNat0",
+      "status": "proven_infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "witness": null
+    }
+  ],
+  "summary": {
+    "feasible_noncoverage_count": 0,
+    "proven_infeasible_count": 14,
+    "timeout_count": 0,
+    "optimal_family_relation": "delta_optima_equal_full_optima"
+  },
+  "interpretation_boundary": "Each test fixes cardinality 309, satisfies all 2508 delta identities, and forces one inherited identity uncovered. The 14 inherited coverage constraints are syntactically additional, but are proven redundant over the width-309 optimal face; their global redundancy is not measured. Results are current-contract-relative and do not address the historical contract.",
+  "conclusion": "All 14 forced-noncoverage problems are proven infeasible. Every width-309 current delta optimum covers every inherited frontier identity, so the current delta and full-target optimum families are equal under the fingerprinted fixed contract."
+}

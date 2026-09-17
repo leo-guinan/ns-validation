@@ -131,3 +131,5 @@ archaeology = json.loads((Path("data") / "historical-candidate-reduction-archaeo
 print(f"experiment36_status={archaeology['status']} raw_locals={archaeology['raw_input']['count']} exact_882={archaeology['archaeology_search']['preserved_exact_882_identity_list']} exact_741={archaeology['archaeology_search']['preserved_exact_741_identity_list']}")
 scope = json.loads((Path("data") / "scope-effect-under-fixed-contract.json").read_text(encoding="utf-8"))
 print(f"experiment37_status={scope['status']} full_width={scope['contracts']['full']['minimum_cover_width']} delta_width={scope['contracts']['delta_B_to_T']['minimum_cover_width']} I_delta={scope['known_optima_probe']['I2508']['delta_coverage']} J_delta={scope['known_optima_probe']['J_full']['delta_coverage']}")
+face = json.loads((Path("data") / "optimal-face-scope-redundancy.json").read_text(encoding="utf-8"))
+print(f"experiment38_status={face['status']} inherited={face['inherited_frontier_count']} feasible_noncoverage={face['summary']['feasible_noncoverage_count']} proven_infeasible={face['summary']['proven_infeasible_count']} timeouts={face['summary']['timeout_count']}")

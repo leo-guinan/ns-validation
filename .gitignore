@@ -49,3 +49,4 @@ data/*
 !data/surgical-historical-contract-replay.json
 !data/historical-candidate-reduction-archaeology.json
 !data/scope-effect-under-fixed-contract.json
+!data/optimal-face-scope-redundancy.json
