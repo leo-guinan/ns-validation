@@ -41,3 +41,4 @@ data/*
 !data/memberwise-feasibility-replacement.json
 !data/a4-forbidden-subset-lattice.json
 !data/universal-310-cover-rewiring.json
+!data/minimum-churn-310-cover.json

@@ -115,3 +115,5 @@ memberwise = json.loads((Path("data") / "memberwise-feasibility-replacement.json
 print(f"experiment27_status={memberwise['status']} i72_infeasible={memberwise['summary']['i72_infeasible_count']} a4_infeasible={memberwise['summary']['a4_infeasible_count']}")
 rewiring = json.loads((Path("data") / "universal-310-cover-rewiring.json").read_text(encoding="utf-8"))
 print(f"experiment29_status={rewiring['status']} removed={rewiring['comparison']['removed_count']} added={rewiring['comparison']['added_count']} i72_in_alternative={rewiring['comparison']['i72_subset_alternative']}")
+churn = json.loads((Path("data") / "minimum-churn-310-cover.json").read_text(encoding="utf-8"))
+print(f"experiment30_status={churn['status']} d_min={churn['comparison']['symmetric_difference_count']} collateral={churn['comparison']['collateral_removals_count']} i72_preserved={churn['alternative_witness']['preserves_i72']}")
