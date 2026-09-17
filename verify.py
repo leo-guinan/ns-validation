@@ -123,3 +123,5 @@ composition = json.loads((Path("data") / "full-target-composition-audit.json").r
 print(f"experiment32_status={composition['status']} target_width={composition['full_target_optimization']['minimum_cover_width']} union_width={composition['composition_overhead']['I2436_union_I72_size']} overhead={composition['composition_overhead']['I2436_union_I72_size'] - composition['full_target_optimization']['minimum_cover_width']}")
 exchange = json.loads((Path("data") / "full-target-optimum-exchange.json").read_text(encoding="utf-8"))
 print(f"experiment33_status={exchange['status']} feasible_forbidden={exchange['member_sweep']['feasible_count']} unresolved_forbidden={exchange['member_sweep']['infeasible_or_timeout_count']} composition_symdiff={exchange['composition_anatomy']['symmetric_difference_size']}")
+historical = json.loads((Path("data") / "historical-delta-contract-replay.json").read_text(encoding="utf-8"))
+print(f"experiment34_status={historical['status']} nodes={historical['replay_observation']['nodes_emitted']}/{historical['replay_observation']['nodes_requested']} contract_hash={historical['contract_components']['H_contract']}")

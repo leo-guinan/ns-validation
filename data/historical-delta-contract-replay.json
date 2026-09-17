@@ -1,0 +1,37 @@
+{
+  "experiment": "34-historical-delta-contract-replay",
+  "status": "historical_contract_replay_unavailable_under_current_budget",
+  "historical_commit": "b6f089b",
+  "historical_extractor": "scripts/proof_transition_graph.lean",
+  "pinned_source_checkout": "/tmp/NavierStokesAndEuler",
+  "replay_command": "lake env lean /tmp/exp34_historical_transition_graph.lean",
+  "replay_observation": {
+    "exit_status": "timeout_124",
+    "timeout_seconds": 330,
+    "nodes_requested": 6,
+    "nodes_emitted": 2,
+    "external_edges_emitted": 170254,
+    "frontier_records_emitted": 4809,
+    "partial_log_sha256": "5aff14047654377b1e5fe7799ca076f89232285aa057baf0afe7d14a159997b9",
+    "historical_extractor_sha256": "aad4e5e465830abab999aa5f97f64b522b7678f64175ce9266be976e3f5e1efc"
+  },
+  "contract_components": {
+    "h_L": null,
+    "h_F": null,
+    "h_E": null,
+    "h_O": null,
+    "h_K": null,
+    "H_contract": null
+  },
+  "missing_dependencies": [
+    "complete historical edge stream for all six transition nodes",
+    "exact historical optimization input materialization linking extracted edges to the 2508 set-cover solver",
+    "completed replay within the historical extraction contract"
+  ],
+  "replay_result": {
+    "j_full_admissibility": null,
+    "j_full_coverage": null,
+    "delta_uniqueness_falsified": null
+  },
+  "interpretation_boundary": "The partial extractor output is not substituted for the historical edge relation. This records non-reproduction under the current budget, not irrecoverability. No replay, uniqueness falsification, or contract equality claim is made."
+}

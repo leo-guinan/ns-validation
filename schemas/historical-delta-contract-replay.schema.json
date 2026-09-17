@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Historical delta contract replay receipt",
+  "type":"object",
+  "required":["experiment","status","historical_commit","replay_observation","contract_components","missing_dependencies","replay_result","interpretation_boundary"],
+  "properties":{"experiment":{"const":"34-historical-delta-contract-replay"},"status":{"const":"historical_contract_replay_unavailable"},"historical_commit":{"type":"string"},"replay_observation":{"type":"object"},"contract_components":{"type":"object"},"missing_dependencies":{"type":"array"},"replay_result":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}
