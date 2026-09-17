@@ -1,0 +1,72 @@
+{
+  "experiment": "35-surgical-historical-contract-replay",
+  "status": "node_extraction_exactly_regenerated_optimization_contract_unavailable",
+  "historical_commit": "b6f089b",
+  "extractor": "scripts/proof_transition_graph.lean",
+  "replay_scope": {
+    "source": "NavierStokesR3.ProblemStatement.breakdownStatement",
+    "target": "NavierStokesR3.theorem_1_1_with_dissipation"
+  },
+  "node_reproduction": {
+    "source": {
+      "local_count": 6,
+      "frontier_count": 14,
+      "edge_count": 17,
+      "canonical_hashes": {
+        "h_L": "7d193151f09bd183e2c10993fd728c0ba6116a54997492bdc62096ca15ea2d50",
+        "h_F": "7bf88732709f9c75420643eb02e27019a8590c1b5c0c702bee412b1bd89972ec",
+        "h_E": "342bcc6f502bea2976017b01b1d4f8de2427b7b2893fae61a994eb82e7359e86"
+      }
+    },
+    "target": {
+      "local_count": 915,
+      "frontier_count": 2522,
+      "edge_count": 89216,
+      "canonical_hashes": {
+        "h_L": "976044a05ab7ac8811a4d8e8e860cf7fcc7b1316b3f6c2d9c15026bf8a0548e2",
+        "h_F": "7168a56d9a53059c9aa63d41115ded72e0595fb83ddb6127ddb5ae7e7a7d503c",
+        "h_E": "1626fe3e4014d5d1ec1dd8088113d473c7eed032c12593bb0bcc867ea3d06957"
+      }
+    }
+  },
+  "delta_reconstruction": {
+    "frontier_size": 2508,
+    "source_only_size": 0,
+    "target_partition_verified": true
+  },
+  "isolation_falsifier": {
+    "node": "NavierStokesR3.theorem_1_1_with_initial_rest",
+    "frontier_equal_to_six_node_prefix": true,
+    "edge_equal_to_six_node_prefix": true,
+    "local_equal_to_six_node_prefix": true
+  },
+  "candidate_count_provenance": {
+    "raw_regenerated_target_minus_source_locals": 909,
+    "historically_reported_optimization_candidates": 882,
+    "later_reconstructed_inferred_delta_local_universe": 741,
+    "scopes_are_not_assumed_equal": true,
+    "reported_gap_909_to_882": 27,
+    "reported_gap_882_to_741": 141
+  },
+  "optimization_contract": {
+    "historical_candidate_count_reported": 882,
+    "regenerated_raw_target_minus_source_local_count": 909,
+    "h_L": null,
+    "h_F": null,
+    "h_E": null,
+    "h_O": null,
+    "h_K": null,
+    "H_contract": null,
+    "status": "unavailable_missing_historical_candidate_filter_and_optimization_configuration"
+  },
+  "j_full_replay": {
+    "status": "not_performed",
+    "reason": "Exact historical L/O/K contract unavailable; regenerated node graph is not substituted."
+  },
+  "missing_dependencies": [
+    "historical candidate-local filtering/reduction that produced 882 candidates from the regenerated local declarations",
+    "historical objective and constraint configuration",
+    "exact historical optimization edge artifact or reproducible reduction input"
+  ],
+  "interpretation_boundary": "Exact node extraction was regenerated and isolated-node equality was verified. The historical optimization contract was not reconstructed, so no replay or uniqueness conclusion is made."
+}

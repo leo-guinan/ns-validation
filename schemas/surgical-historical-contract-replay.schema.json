@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Surgical historical contract replay receipt",
+  "type":"object",
+  "required":["experiment","status","historical_commit","node_reproduction","delta_reconstruction","isolation_falsifier","optimization_contract","j_full_replay","missing_dependencies","interpretation_boundary"],
+  "properties":{"experiment":{"const":"35-surgical-historical-contract-replay"},"status":{"type":"string"},"historical_commit":{"type":"string"},"node_reproduction":{"type":"object"},"delta_reconstruction":{"type":"object"},"isolation_falsifier":{"type":"object"},"optimization_contract":{"type":"object"},"j_full_replay":{"type":"object"},"missing_dependencies":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}

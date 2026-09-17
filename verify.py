@@ -125,3 +125,5 @@ exchange = json.loads((Path("data") / "full-target-optimum-exchange.json").read_
 print(f"experiment33_status={exchange['status']} feasible_forbidden={exchange['member_sweep']['feasible_count']} unresolved_forbidden={exchange['member_sweep']['infeasible_or_timeout_count']} composition_symdiff={exchange['composition_anatomy']['symmetric_difference_size']}")
 historical = json.loads((Path("data") / "historical-delta-contract-replay.json").read_text(encoding="utf-8"))
 print(f"experiment34_status={historical['status']} nodes={historical['replay_observation']['nodes_emitted']}/{historical['replay_observation']['nodes_requested']} contract_hash={historical['contract_components']['H_contract']}")
+surgical = json.loads((Path("data") / "surgical-historical-contract-replay.json").read_text(encoding="utf-8"))
+print(f"experiment35_status={surgical['status']} target_frontier={surgical['node_reproduction']['target']['frontier_count']} delta={surgical['delta_reconstruction']['frontier_size']} optimization_contract={surgical['optimization_contract']['status']}")

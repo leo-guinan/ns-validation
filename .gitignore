@@ -46,3 +46,4 @@ data/*
 !data/full-target-composition-audit.json
 !data/full-target-optimum-exchange.json
 !data/historical-delta-contract-replay.json
+!data/surgical-historical-contract-replay.json
