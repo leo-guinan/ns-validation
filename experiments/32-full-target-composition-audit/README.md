@@ -20,6 +20,6 @@ I2436 ∪ I72 covers all 2522 target identities
 
 The recorded 309-member `I2508` interface also covers all 2522 target identities. An independent binary MILP on the full target graph found a 309-member optimum. Thus the measured composition overhead is `314 - 309 = 5` declarations.
 
-The full-target MILP witness differs from the recorded delta optimum by one identity, so unique-optimum status is not re-established under the full-target contract. Delta-interface uniqueness and full-target uniqueness remain separate questions.
+The recorded 309-member `I2508` is itself a full-target optimum. The independent full-target MILP found another 309-member optimum sharing only 308 declarations with it. Full-target uniqueness is therefore falsified: at least two distinct 309-member optima exist. Delta-interface uniqueness and full-target uniqueness remain separate questions.
 
 All results are contract-specific set-cover measurements; no semantic sufficiency or cross-contract identity is inferred.

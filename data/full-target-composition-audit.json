@@ -362,7 +362,17 @@
     "witness_target_coverage": 2522,
     "recorded_delta_I2508_size": 309,
     "witness_overlap_with_recorded_delta_I2508": 308,
-    "uniqueness_status": "not_unique_under_full_target_contract_or_not_reestablished",
+    "uniqueness_status": "falsified_at_least_two_distinct_optima",
+    "distinct_optima_evidence": {
+      "recorded_delta_I2508_is_full_target_optimum": true,
+      "independent_full_target_witness_is_full_target_optimum": true,
+      "recorded_optimum_width": 309,
+      "independent_witness_width": 309,
+      "intersection_size": 308,
+      "recorded_only_size": 1,
+      "independent_only_size": 1,
+      "sets_distinct": true
+    },
     "evidence": "the MILP witness differs from recorded I2508 by one identity while both have width 309"
   },
   "composition_overhead": {
