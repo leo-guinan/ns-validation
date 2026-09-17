@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Scope activation depth receipt",
+  "type":"object",
+  "required":["experiment","status","inherited_frontier_count","delta_frontier_count","baseline_delta_optimum_width","tests","summary","interpretation_boundary"],
+  "properties":{"experiment":{"const":"39-scope-activation-depth"},"status":{"const":"exact_scope_activation_sweep_complete"},"inherited_frontier_count":{"const":14},"delta_frontier_count":{"const":2508},"baseline_delta_optimum_width":{"const":309},"tests":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}

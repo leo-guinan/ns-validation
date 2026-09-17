@@ -50,3 +50,4 @@ data/*
 !data/historical-candidate-reduction-archaeology.json
 !data/scope-effect-under-fixed-contract.json
 !data/optimal-face-scope-redundancy.json
+!data/scope-activation-depth.json

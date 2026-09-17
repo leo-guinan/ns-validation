@@ -1,0 +1,130 @@
+{
+  "experiment": "39-scope-activation-depth",
+  "status": "exact_scope_activation_sweep_complete",
+  "contract_reference": "Experiment 37 current contracts",
+  "inherited_frontier_count": 14,
+  "delta_frontier_count": 2508,
+  "baseline_delta_optimum_width": 309,
+  "tests": [
+    {
+      "identity": "And",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "Exists",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "LT.lt",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "NavierStokes.ProblemStatement.PressureField",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "NavierStokes.ProblemStatement.Space",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "NavierStokes.ProblemStatement.VelocityField",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "Nonempty",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "Not",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "OfNat.ofNat",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "Real",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "Real.instLT",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "Real.instZero",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "Set",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    },
+    {
+      "identity": "Zero.toOfNat0",
+      "status": "infeasible",
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "minimum_width": null,
+      "delta_h": null,
+      "witness": null
+    }
+  ],
+  "summary": {
+    "optimal_count": 0,
+    "infeasible_count": 14,
+    "timeout_or_other_count": 0,
+    "scope_activation_gap": null,
+    "maximum_activation_gap": null
+  },
+  "interpretation_boundary": "Each result minimizes width over all binary covers of the 2508-entry delta while forcing one inherited identity uncovered. Results are current-contract-relative and do not address the historical contract."
+}

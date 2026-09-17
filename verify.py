@@ -133,3 +133,5 @@ scope = json.loads((Path("data") / "scope-effect-under-fixed-contract.json").rea
 print(f"experiment37_status={scope['status']} full_width={scope['contracts']['full']['minimum_cover_width']} delta_width={scope['contracts']['delta_B_to_T']['minimum_cover_width']} I_delta={scope['known_optima_probe']['I2508']['delta_coverage']} J_delta={scope['known_optima_probe']['J_full']['delta_coverage']}")
 face = json.loads((Path("data") / "optimal-face-scope-redundancy.json").read_text(encoding="utf-8"))
 print(f"experiment38_status={face['status']} inherited={face['inherited_frontier_count']} feasible_noncoverage={face['summary']['feasible_noncoverage_count']} proven_infeasible={face['summary']['proven_infeasible_count']} timeouts={face['summary']['timeout_count']}")
+activation = json.loads((Path("data") / "scope-activation-depth.json").read_text(encoding="utf-8"))
+print(f"experiment39_status={activation['status']} optimal={activation['summary']['optimal_count']} infeasible={activation['summary']['infeasible_count']} timeouts={activation['summary']['timeout_or_other_count']} scope_gap={activation['summary']['scope_activation_gap']}")
