@@ -44,3 +44,4 @@ data/*
 !data/minimum-churn-310-cover.json
 !data/frontier-scope-reconciliation.json
 !data/full-target-composition-audit.json
+!data/full-target-optimum-exchange.json

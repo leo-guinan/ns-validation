@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Full target optimum exchange receipt",
+  "type":"object",
+  "required":["experiment","status","contract","baseline","independent_optimum","member_sweep","composition_anatomy","interpretation_boundary"],
+  "properties":{"experiment":{"const":"33-full-target-optimum-exchange-and-composition-anatomy"},"status":{"type":"string"},"contract":{"type":"object"},"baseline":{"type":"object"},"independent_optimum":{"type":"object"},"member_sweep":{"type":"object"},"composition_anatomy":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}
