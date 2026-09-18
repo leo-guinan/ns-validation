@@ -67,3 +67,4 @@ data/*
 !data/cover-gap-incidence-decomposition.json
 !data/residual-incidence-components.json
 !data/cover-choice-classification.json
+!data/exact-witness-participation.json

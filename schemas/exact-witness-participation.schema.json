@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Exact witness participation receipt",
+  "type":"object",
+  "required":["experiment","status","scope","summary","worlds","kernel_local_participation","interpretation_boundary"],
+  "properties":{"experiment":{"const":"55-exact-witness-participation"},"status":{"const":"exact_minimum_cover_participation_measured"},"scope":{"type":"string"},"summary":{"type":"object"},"worlds":{"type":"array"},"kernel_local_participation":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}
