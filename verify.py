@@ -147,3 +147,5 @@ exchange = json.loads((Path("data") / "optimum-exchange-geometry.json").read_tex
 print(f"experiment44_status={exchange['status']} components={exchange['summary']['component_count']} connected={exchange['summary']['global_exchange_graph_connected']} diameter={exchange['summary']['global_diameter']} edges={exchange['summary']['total_local_exchange_edges']}")
 geodesic = json.loads((Path("data") / "geodesic-exchange-and-basis-axiom.json").read_text(encoding="utf-8"))
 print(f"experiment45_status={geodesic['status']} geodesic={geodesic['summary']['all_components_geodesic']} detour={geodesic['summary']['maximum_detour']} diameter={geodesic['summary']['global_diameter']} matroid={geodesic['summary']['all_components_satisfy_basis_exchange_axiom']}")
+precedence = json.loads((Path("data") / "exchange-precedence.json").read_text(encoding="utf-8"))
+print(f"experiment46_status={precedence['status']} pairs={precedence['summary']['ordered_pair_count']} precedence_pairs={precedence['summary']['pairs_with_precedence']} max_depth={precedence['summary']['maximum_precedence_depth']}")

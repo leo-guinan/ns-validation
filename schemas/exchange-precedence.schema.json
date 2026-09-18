@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Exchange precedence receipt",
+  "type":"object",
+  "required":["experiment","status","summary","component_9_precedence_witness","components","interpretation_boundary"],
+  "properties":{"experiment":{"const":"46-exchange-precedence"},"status":{"const":"exact_exchange_precedence_measured"},"summary":{"type":"object"},"component_9_precedence_witness":{"type":["object","null"]},"components":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}

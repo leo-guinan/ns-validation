@@ -58,3 +58,4 @@ data/*
 !data/exact-participation-spectrum.json
 !data/optimum-exchange-geometry.json
 !data/geodesic-exchange-and-basis-axiom.json
+!data/exchange-precedence.json
