@@ -1,0 +1,4110 @@
+{
+  "experiment": "59-survival-attack-incidence",
+  "status": "exact_survival_attack_incidence_measured",
+  "scope": "five saving-kernel components under finite uniform cover and minimum-blocker counting",
+  "components": [
+    {
+      "component_index": 8,
+      "tau": 4,
+      "kappa": 4,
+      "minimum_optimality_blocker_count": 3,
+      "minimum_feasibility_blocker_count": 1,
+      "worlds": [
+        {
+          "world_index": 140,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 141,
+          "p": "7/24",
+          "p_numerator": 7,
+          "p_denominator": 24,
+          "q_tau": "1/3",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 142,
+          "p": "1/12",
+          "p_numerator": 1,
+          "p_denominator": 12,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 143,
+          "p": "7/24",
+          "p_numerator": 7,
+          "p_denominator": 24,
+          "q_tau": "1/3",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 144,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 145,
+          "p": "1/12",
+          "p_numerator": 1,
+          "p_denominator": 12,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 146,
+          "p": "1/6",
+          "p_numerator": 1,
+          "p_denominator": 6,
+          "q_tau": "1/3",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 147,
+          "p": "1/12",
+          "p_numerator": 1,
+          "p_denominator": 12,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 148,
+          "p": "5/12",
+          "p_numerator": 5,
+          "p_denominator": 12,
+          "q_tau": "2/3",
+          "q_tau_numerator": 2,
+          "q_tau_denominator": 3,
+          "q_kappa": "1",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 149,
+          "p": "1/12",
+          "p_numerator": 1,
+          "p_denominator": 12,
+          "q_tau": "1/3",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 3,
+          "q_kappa": "1",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 150,
+          "p": "5/12",
+          "p_numerator": 5,
+          "p_denominator": 12,
+          "q_tau": "2/3",
+          "q_tau_numerator": 2,
+          "q_tau_denominator": 3,
+          "q_kappa": "1",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 151,
+          "p": "1/12",
+          "p_numerator": 1,
+          "p_denominator": 12,
+          "q_tau": "1/3",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 3,
+          "q_kappa": "1",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 152,
+          "p": "1/12",
+          "p_numerator": 1,
+          "p_denominator": 12,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 153,
+          "p": "7/24",
+          "p_numerator": 7,
+          "p_denominator": 24,
+          "q_tau": "1/3",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 154,
+          "p": "7/24",
+          "p_numerator": 7,
+          "p_denominator": 24,
+          "q_tau": "1/3",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 155,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 156,
+          "p": "1/6",
+          "p_numerator": 1,
+          "p_denominator": 6,
+          "q_tau": "1/3",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 157,
+          "p": "1/12",
+          "p_numerator": 1,
+          "p_denominator": 12,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 158,
+          "p": "1/12",
+          "p_numerator": 1,
+          "p_denominator": 12,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 159,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 3,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 1,
+          "blocker_participation_mass_tau_numerator": 0
+        }
+      ],
+      "pairwise_inversions": {
+        "p_vs_q_tau": [],
+        "p_vs_q_kappa": [
+          {
+            "a": 141,
+            "b": 149
+          },
+          {
+            "a": 141,
+            "b": 151
+          },
+          {
+            "a": 143,
+            "b": 149
+          },
+          {
+            "a": 143,
+            "b": 151
+          },
+          {
+            "a": 146,
+            "b": 149
+          },
+          {
+            "a": 146,
+            "b": 151
+          },
+          {
+            "a": 153,
+            "b": 149
+          },
+          {
+            "a": 153,
+            "b": 151
+          },
+          {
+            "a": 154,
+            "b": 149
+          },
+          {
+            "a": 154,
+            "b": 151
+          },
+          {
+            "a": 156,
+            "b": 149
+          },
+          {
+            "a": 156,
+            "b": 151
+          }
+        ]
+      },
+      "optimality_blocker_participation_mass": [
+        {
+          "blocker": [
+            146,
+            148,
+            150,
+            156
+          ],
+          "participation_mass": "7/6"
+        },
+        {
+          "blocker": [
+            148,
+            149,
+            150,
+            151
+          ],
+          "participation_mass": "1"
+        },
+        {
+          "blocker": [
+            141,
+            143,
+            153,
+            154
+          ],
+          "participation_mass": "7/6"
+        }
+      ],
+      "feasibility_blocker_participation_mass": [
+        {
+          "blocker": [
+            148,
+            149,
+            150,
+            151
+          ],
+          "participation_mass": "1"
+        }
+      ],
+      "feasibility_to_optimality_containment": [
+        {
+          "feasibility_blocker": [
+            148,
+            149,
+            150,
+            151
+          ],
+          "contained_minimum_optimality_blockers": [
+            [
+              148,
+              149,
+              150,
+              151
+            ]
+          ]
+        }
+      ],
+      "all_feasibility_blockers_are_optimality_blockers": true,
+      "minimum_feasibility_exact_one_cuts": [
+        {
+          "neighborhood": [
+            148,
+            149,
+            150,
+            151
+          ],
+          "coordinate_count": 1,
+          "all_optimum_covers_intersect_once": true
+        }
+      ],
+      "all_minimum_feasibility_neighborhoods_are_exact_one_cuts": true
+    },
+    {
+      "component_index": 11,
+      "tau": 16,
+      "kappa": 21,
+      "minimum_optimality_blocker_count": 5,
+      "minimum_feasibility_blocker_count": 2,
+      "worlds": [
+        {
+          "world_index": 168,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 169,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 170,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 171,
+          "p": "4/451",
+          "p_numerator": 4,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 172,
+          "p": "14/451",
+          "p_numerator": 14,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 173,
+          "p": "48/451",
+          "p_numerator": 48,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 174,
+          "p": "4/451",
+          "p_numerator": 4,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 175,
+          "p": "14/451",
+          "p_numerator": 14,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 176,
+          "p": "48/451",
+          "p_numerator": 48,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 177,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 178,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 179,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 180,
+          "p": "14/451",
+          "p_numerator": 14,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 181,
+          "p": "91/902",
+          "p_numerator": 91,
+          "p_denominator": 902,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 182,
+          "p": "14/451",
+          "p_numerator": 14,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 183,
+          "p": "14/451",
+          "p_numerator": 14,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 184,
+          "p": "91/902",
+          "p_numerator": 91,
+          "p_denominator": 902,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 185,
+          "p": "14/451",
+          "p_numerator": 14,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 186,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 187,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 188,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 189,
+          "p": "8/451",
+          "p_numerator": 8,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 190,
+          "p": "4/451",
+          "p_numerator": 4,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 191,
+          "p": "8/451",
+          "p_numerator": 8,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 192,
+          "p": "8/451",
+          "p_numerator": 8,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 193,
+          "p": "4/451",
+          "p_numerator": 4,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 194,
+          "p": "8/451",
+          "p_numerator": 8,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 195,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 196,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 197,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 198,
+          "p": "48/451",
+          "p_numerator": 48,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 199,
+          "p": "14/451",
+          "p_numerator": 14,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 200,
+          "p": "4/451",
+          "p_numerator": 4,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 201,
+          "p": "48/451",
+          "p_numerator": 48,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 202,
+          "p": "14/451",
+          "p_numerator": 14,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 203,
+          "p": "4/451",
+          "p_numerator": 4,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 204,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 205,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 206,
+          "p": "13/451",
+          "p_numerator": 13,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 207,
+          "p": "57/451",
+          "p_numerator": 57,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 208,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 209,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 210,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 211,
+          "p": "13/451",
+          "p_numerator": 13,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 212,
+          "p": "57/451",
+          "p_numerator": 57,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 213,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 214,
+          "p": "45/451",
+          "p_numerator": 45,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 215,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 216,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 217,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 218,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 219,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 220,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 221,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 222,
+          "p": "57/451",
+          "p_numerator": 57,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 223,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 224,
+          "p": "13/451",
+          "p_numerator": 13,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 225,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 226,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 227,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 228,
+          "p": "57/451",
+          "p_numerator": 57,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 229,
+          "p": "13/451",
+          "p_numerator": 13,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 230,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 231,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 232,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 233,
+          "p": "13/451",
+          "p_numerator": 13,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 234,
+          "p": "57/451",
+          "p_numerator": 57,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 235,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 236,
+          "p": "13/451",
+          "p_numerator": 13,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 237,
+          "p": "57/451",
+          "p_numerator": 57,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 238,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 239,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 240,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 241,
+          "p": "45/451",
+          "p_numerator": 45,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 242,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 243,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 244,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 245,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 246,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 247,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 248,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 249,
+          "p": "57/451",
+          "p_numerator": 57,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 250,
+          "p": "16/451",
+          "p_numerator": 16,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 251,
+          "p": "13/451",
+          "p_numerator": 13,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 252,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 253,
+          "p": "57/451",
+          "p_numerator": 57,
+          "p_denominator": 451,
+          "q_tau": "3/5",
+          "q_tau_numerator": 3,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 254,
+          "p": "13/451",
+          "p_numerator": 13,
+          "p_denominator": 451,
+          "q_tau": "1/5",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 255,
+          "p": "5/451",
+          "p_numerator": 5,
+          "p_denominator": 451,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 256,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 257,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 5,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        }
+      ],
+      "pairwise_inversions": {
+        "p_vs_q_tau": [],
+        "p_vs_q_kappa": [
+          {
+            "a": 172,
+            "b": 204
+          },
+          {
+            "a": 172,
+            "b": 206
+          },
+          {
+            "a": 172,
+            "b": 210
+          },
+          {
+            "a": 172,
+            "b": 211
+          },
+          {
+            "a": 172,
+            "b": 215
+          },
+          {
+            "a": 172,
+            "b": 220
+          },
+          {
+            "a": 172,
+            "b": 224
+          },
+          {
+            "a": 172,
+            "b": 225
+          },
+          {
+            "a": 172,
+            "b": 229
+          },
+          {
+            "a": 172,
+            "b": 230
+          },
+          {
+            "a": 172,
+            "b": 231
+          },
+          {
+            "a": 172,
+            "b": 233
+          },
+          {
+            "a": 172,
+            "b": 235
+          },
+          {
+            "a": 172,
+            "b": 236
+          },
+          {
+            "a": 172,
+            "b": 242
+          },
+          {
+            "a": 172,
+            "b": 245
+          },
+          {
+            "a": 172,
+            "b": 251
+          },
+          {
+            "a": 172,
+            "b": 252
+          },
+          {
+            "a": 172,
+            "b": 254
+          },
+          {
+            "a": 172,
+            "b": 255
+          },
+          {
+            "a": 173,
+            "b": 204
+          },
+          {
+            "a": 173,
+            "b": 205
+          },
+          {
+            "a": 173,
+            "b": 206
+          },
+          {
+            "a": 173,
+            "b": 210
+          },
+          {
+            "a": 173,
+            "b": 211
+          },
+          {
+            "a": 173,
+            "b": 213
+          },
+          {
+            "a": 173,
+            "b": 214
+          },
+          {
+            "a": 173,
+            "b": 215
+          },
+          {
+            "a": 173,
+            "b": 216
+          },
+          {
+            "a": 173,
+            "b": 219
+          },
+          {
+            "a": 173,
+            "b": 220
+          },
+          {
+            "a": 173,
+            "b": 221
+          },
+          {
+            "a": 173,
+            "b": 223
+          },
+          {
+            "a": 173,
+            "b": 224
+          },
+          {
+            "a": 173,
+            "b": 225
+          },
+          {
+            "a": 173,
+            "b": 229
+          },
+          {
+            "a": 173,
+            "b": 230
+          },
+          {
+            "a": 173,
+            "b": 231
+          },
+          {
+            "a": 173,
+            "b": 232
+          },
+          {
+            "a": 173,
+            "b": 233
+          },
+          {
+            "a": 173,
+            "b": 235
+          },
+          {
+            "a": 173,
+            "b": 236
+          },
+          {
+            "a": 173,
+            "b": 240
+          },
+          {
+            "a": 173,
+            "b": 241
+          },
+          {
+            "a": 173,
+            "b": 242
+          },
+          {
+            "a": 173,
+            "b": 243
+          },
+          {
+            "a": 173,
+            "b": 244
+          },
+          {
+            "a": 173,
+            "b": 245
+          },
+          {
+            "a": 173,
+            "b": 246
+          },
+          {
+            "a": 173,
+            "b": 250
+          },
+          {
+            "a": 173,
+            "b": 251
+          },
+          {
+            "a": 173,
+            "b": 252
+          },
+          {
+            "a": 173,
+            "b": 254
+          },
+          {
+            "a": 173,
+            "b": 255
+          },
+          {
+            "a": 175,
+            "b": 204
+          },
+          {
+            "a": 175,
+            "b": 206
+          },
+          {
+            "a": 175,
+            "b": 210
+          },
+          {
+            "a": 175,
+            "b": 211
+          },
+          {
+            "a": 175,
+            "b": 215
+          },
+          {
+            "a": 175,
+            "b": 220
+          },
+          {
+            "a": 175,
+            "b": 224
+          },
+          {
+            "a": 175,
+            "b": 225
+          },
+          {
+            "a": 175,
+            "b": 229
+          },
+          {
+            "a": 175,
+            "b": 230
+          },
+          {
+            "a": 175,
+            "b": 231
+          },
+          {
+            "a": 175,
+            "b": 233
+          },
+          {
+            "a": 175,
+            "b": 235
+          },
+          {
+            "a": 175,
+            "b": 236
+          },
+          {
+            "a": 175,
+            "b": 242
+          },
+          {
+            "a": 175,
+            "b": 245
+          },
+          {
+            "a": 175,
+            "b": 251
+          },
+          {
+            "a": 175,
+            "b": 252
+          },
+          {
+            "a": 175,
+            "b": 254
+          },
+          {
+            "a": 175,
+            "b": 255
+          },
+          {
+            "a": 176,
+            "b": 204
+          },
+          {
+            "a": 176,
+            "b": 205
+          },
+          {
+            "a": 176,
+            "b": 206
+          },
+          {
+            "a": 176,
+            "b": 210
+          },
+          {
+            "a": 176,
+            "b": 211
+          },
+          {
+            "a": 176,
+            "b": 213
+          },
+          {
+            "a": 176,
+            "b": 214
+          },
+          {
+            "a": 176,
+            "b": 215
+          },
+          {
+            "a": 176,
+            "b": 216
+          },
+          {
+            "a": 176,
+            "b": 219
+          },
+          {
+            "a": 176,
+            "b": 220
+          },
+          {
+            "a": 176,
+            "b": 221
+          },
+          {
+            "a": 176,
+            "b": 223
+          },
+          {
+            "a": 176,
+            "b": 224
+          },
+          {
+            "a": 176,
+            "b": 225
+          },
+          {
+            "a": 176,
+            "b": 229
+          },
+          {
+            "a": 176,
+            "b": 230
+          },
+          {
+            "a": 176,
+            "b": 231
+          },
+          {
+            "a": 176,
+            "b": 232
+          },
+          {
+            "a": 176,
+            "b": 233
+          },
+          {
+            "a": 176,
+            "b": 235
+          },
+          {
+            "a": 176,
+            "b": 236
+          },
+          {
+            "a": 176,
+            "b": 240
+          },
+          {
+            "a": 176,
+            "b": 241
+          },
+          {
+            "a": 176,
+            "b": 242
+          },
+          {
+            "a": 176,
+            "b": 243
+          },
+          {
+            "a": 176,
+            "b": 244
+          },
+          {
+            "a": 176,
+            "b": 245
+          },
+          {
+            "a": 176,
+            "b": 246
+          },
+          {
+            "a": 176,
+            "b": 250
+          },
+          {
+            "a": 176,
+            "b": 251
+          },
+          {
+            "a": 176,
+            "b": 252
+          },
+          {
+            "a": 176,
+            "b": 254
+          },
+          {
+            "a": 176,
+            "b": 255
+          },
+          {
+            "a": 180,
+            "b": 204
+          },
+          {
+            "a": 180,
+            "b": 206
+          },
+          {
+            "a": 180,
+            "b": 210
+          },
+          {
+            "a": 180,
+            "b": 211
+          },
+          {
+            "a": 180,
+            "b": 215
+          },
+          {
+            "a": 180,
+            "b": 220
+          },
+          {
+            "a": 180,
+            "b": 224
+          },
+          {
+            "a": 180,
+            "b": 225
+          },
+          {
+            "a": 180,
+            "b": 229
+          },
+          {
+            "a": 180,
+            "b": 230
+          },
+          {
+            "a": 180,
+            "b": 231
+          },
+          {
+            "a": 180,
+            "b": 233
+          },
+          {
+            "a": 180,
+            "b": 235
+          },
+          {
+            "a": 180,
+            "b": 236
+          },
+          {
+            "a": 180,
+            "b": 242
+          },
+          {
+            "a": 180,
+            "b": 245
+          },
+          {
+            "a": 180,
+            "b": 251
+          },
+          {
+            "a": 180,
+            "b": 252
+          },
+          {
+            "a": 180,
+            "b": 254
+          },
+          {
+            "a": 180,
+            "b": 255
+          },
+          {
+            "a": 181,
+            "b": 204
+          },
+          {
+            "a": 181,
+            "b": 205
+          },
+          {
+            "a": 181,
+            "b": 206
+          },
+          {
+            "a": 181,
+            "b": 210
+          },
+          {
+            "a": 181,
+            "b": 211
+          },
+          {
+            "a": 181,
+            "b": 213
+          },
+          {
+            "a": 181,
+            "b": 214
+          },
+          {
+            "a": 181,
+            "b": 215
+          },
+          {
+            "a": 181,
+            "b": 216
+          },
+          {
+            "a": 181,
+            "b": 219
+          },
+          {
+            "a": 181,
+            "b": 220
+          },
+          {
+            "a": 181,
+            "b": 221
+          },
+          {
+            "a": 181,
+            "b": 223
+          },
+          {
+            "a": 181,
+            "b": 224
+          },
+          {
+            "a": 181,
+            "b": 225
+          },
+          {
+            "a": 181,
+            "b": 229
+          },
+          {
+            "a": 181,
+            "b": 230
+          },
+          {
+            "a": 181,
+            "b": 231
+          },
+          {
+            "a": 181,
+            "b": 232
+          },
+          {
+            "a": 181,
+            "b": 233
+          },
+          {
+            "a": 181,
+            "b": 235
+          },
+          {
+            "a": 181,
+            "b": 236
+          },
+          {
+            "a": 181,
+            "b": 240
+          },
+          {
+            "a": 181,
+            "b": 241
+          },
+          {
+            "a": 181,
+            "b": 242
+          },
+          {
+            "a": 181,
+            "b": 243
+          },
+          {
+            "a": 181,
+            "b": 244
+          },
+          {
+            "a": 181,
+            "b": 245
+          },
+          {
+            "a": 181,
+            "b": 246
+          },
+          {
+            "a": 181,
+            "b": 250
+          },
+          {
+            "a": 181,
+            "b": 251
+          },
+          {
+            "a": 181,
+            "b": 252
+          },
+          {
+            "a": 181,
+            "b": 254
+          },
+          {
+            "a": 181,
+            "b": 255
+          },
+          {
+            "a": 182,
+            "b": 204
+          },
+          {
+            "a": 182,
+            "b": 206
+          },
+          {
+            "a": 182,
+            "b": 210
+          },
+          {
+            "a": 182,
+            "b": 211
+          },
+          {
+            "a": 182,
+            "b": 215
+          },
+          {
+            "a": 182,
+            "b": 220
+          },
+          {
+            "a": 182,
+            "b": 224
+          },
+          {
+            "a": 182,
+            "b": 225
+          },
+          {
+            "a": 182,
+            "b": 229
+          },
+          {
+            "a": 182,
+            "b": 230
+          },
+          {
+            "a": 182,
+            "b": 231
+          },
+          {
+            "a": 182,
+            "b": 233
+          },
+          {
+            "a": 182,
+            "b": 235
+          },
+          {
+            "a": 182,
+            "b": 236
+          },
+          {
+            "a": 182,
+            "b": 242
+          },
+          {
+            "a": 182,
+            "b": 245
+          },
+          {
+            "a": 182,
+            "b": 251
+          },
+          {
+            "a": 182,
+            "b": 252
+          },
+          {
+            "a": 182,
+            "b": 254
+          },
+          {
+            "a": 182,
+            "b": 255
+          },
+          {
+            "a": 183,
+            "b": 204
+          },
+          {
+            "a": 183,
+            "b": 206
+          },
+          {
+            "a": 183,
+            "b": 210
+          },
+          {
+            "a": 183,
+            "b": 211
+          },
+          {
+            "a": 183,
+            "b": 215
+          },
+          {
+            "a": 183,
+            "b": 220
+          },
+          {
+            "a": 183,
+            "b": 224
+          },
+          {
+            "a": 183,
+            "b": 225
+          },
+          {
+            "a": 183,
+            "b": 229
+          },
+          {
+            "a": 183,
+            "b": 230
+          },
+          {
+            "a": 183,
+            "b": 231
+          },
+          {
+            "a": 183,
+            "b": 233
+          },
+          {
+            "a": 183,
+            "b": 235
+          },
+          {
+            "a": 183,
+            "b": 236
+          },
+          {
+            "a": 183,
+            "b": 242
+          },
+          {
+            "a": 183,
+            "b": 245
+          },
+          {
+            "a": 183,
+            "b": 251
+          },
+          {
+            "a": 183,
+            "b": 252
+          },
+          {
+            "a": 183,
+            "b": 254
+          },
+          {
+            "a": 183,
+            "b": 255
+          },
+          {
+            "a": 184,
+            "b": 204
+          },
+          {
+            "a": 184,
+            "b": 205
+          },
+          {
+            "a": 184,
+            "b": 206
+          },
+          {
+            "a": 184,
+            "b": 210
+          },
+          {
+            "a": 184,
+            "b": 211
+          },
+          {
+            "a": 184,
+            "b": 213
+          },
+          {
+            "a": 184,
+            "b": 214
+          },
+          {
+            "a": 184,
+            "b": 215
+          },
+          {
+            "a": 184,
+            "b": 216
+          },
+          {
+            "a": 184,
+            "b": 219
+          },
+          {
+            "a": 184,
+            "b": 220
+          },
+          {
+            "a": 184,
+            "b": 221
+          },
+          {
+            "a": 184,
+            "b": 223
+          },
+          {
+            "a": 184,
+            "b": 224
+          },
+          {
+            "a": 184,
+            "b": 225
+          },
+          {
+            "a": 184,
+            "b": 229
+          },
+          {
+            "a": 184,
+            "b": 230
+          },
+          {
+            "a": 184,
+            "b": 231
+          },
+          {
+            "a": 184,
+            "b": 232
+          },
+          {
+            "a": 184,
+            "b": 233
+          },
+          {
+            "a": 184,
+            "b": 235
+          },
+          {
+            "a": 184,
+            "b": 236
+          },
+          {
+            "a": 184,
+            "b": 240
+          },
+          {
+            "a": 184,
+            "b": 241
+          },
+          {
+            "a": 184,
+            "b": 242
+          },
+          {
+            "a": 184,
+            "b": 243
+          },
+          {
+            "a": 184,
+            "b": 244
+          },
+          {
+            "a": 184,
+            "b": 245
+          },
+          {
+            "a": 184,
+            "b": 246
+          },
+          {
+            "a": 184,
+            "b": 250
+          },
+          {
+            "a": 184,
+            "b": 251
+          },
+          {
+            "a": 184,
+            "b": 252
+          },
+          {
+            "a": 184,
+            "b": 254
+          },
+          {
+            "a": 184,
+            "b": 255
+          },
+          {
+            "a": 185,
+            "b": 204
+          },
+          {
+            "a": 185,
+            "b": 206
+          },
+          {
+            "a": 185,
+            "b": 210
+          },
+          {
+            "a": 185,
+            "b": 211
+          },
+          {
+            "a": 185,
+            "b": 215
+          },
+          {
+            "a": 185,
+            "b": 220
+          },
+          {
+            "a": 185,
+            "b": 224
+          },
+          {
+            "a": 185,
+            "b": 225
+          },
+          {
+            "a": 185,
+            "b": 229
+          },
+          {
+            "a": 185,
+            "b": 230
+          },
+          {
+            "a": 185,
+            "b": 231
+          },
+          {
+            "a": 185,
+            "b": 233
+          },
+          {
+            "a": 185,
+            "b": 235
+          },
+          {
+            "a": 185,
+            "b": 236
+          },
+          {
+            "a": 185,
+            "b": 242
+          },
+          {
+            "a": 185,
+            "b": 245
+          },
+          {
+            "a": 185,
+            "b": 251
+          },
+          {
+            "a": 185,
+            "b": 252
+          },
+          {
+            "a": 185,
+            "b": 254
+          },
+          {
+            "a": 185,
+            "b": 255
+          },
+          {
+            "a": 189,
+            "b": 204
+          },
+          {
+            "a": 189,
+            "b": 210
+          },
+          {
+            "a": 189,
+            "b": 215
+          },
+          {
+            "a": 189,
+            "b": 220
+          },
+          {
+            "a": 189,
+            "b": 225
+          },
+          {
+            "a": 189,
+            "b": 230
+          },
+          {
+            "a": 189,
+            "b": 231
+          },
+          {
+            "a": 189,
+            "b": 235
+          },
+          {
+            "a": 189,
+            "b": 242
+          },
+          {
+            "a": 189,
+            "b": 245
+          },
+          {
+            "a": 189,
+            "b": 252
+          },
+          {
+            "a": 189,
+            "b": 255
+          },
+          {
+            "a": 191,
+            "b": 204
+          },
+          {
+            "a": 191,
+            "b": 210
+          },
+          {
+            "a": 191,
+            "b": 215
+          },
+          {
+            "a": 191,
+            "b": 220
+          },
+          {
+            "a": 191,
+            "b": 225
+          },
+          {
+            "a": 191,
+            "b": 230
+          },
+          {
+            "a": 191,
+            "b": 231
+          },
+          {
+            "a": 191,
+            "b": 235
+          },
+          {
+            "a": 191,
+            "b": 242
+          },
+          {
+            "a": 191,
+            "b": 245
+          },
+          {
+            "a": 191,
+            "b": 252
+          },
+          {
+            "a": 191,
+            "b": 255
+          },
+          {
+            "a": 192,
+            "b": 204
+          },
+          {
+            "a": 192,
+            "b": 210
+          },
+          {
+            "a": 192,
+            "b": 215
+          },
+          {
+            "a": 192,
+            "b": 220
+          },
+          {
+            "a": 192,
+            "b": 225
+          },
+          {
+            "a": 192,
+            "b": 230
+          },
+          {
+            "a": 192,
+            "b": 231
+          },
+          {
+            "a": 192,
+            "b": 235
+          },
+          {
+            "a": 192,
+            "b": 242
+          },
+          {
+            "a": 192,
+            "b": 245
+          },
+          {
+            "a": 192,
+            "b": 252
+          },
+          {
+            "a": 192,
+            "b": 255
+          },
+          {
+            "a": 194,
+            "b": 204
+          },
+          {
+            "a": 194,
+            "b": 210
+          },
+          {
+            "a": 194,
+            "b": 215
+          },
+          {
+            "a": 194,
+            "b": 220
+          },
+          {
+            "a": 194,
+            "b": 225
+          },
+          {
+            "a": 194,
+            "b": 230
+          },
+          {
+            "a": 194,
+            "b": 231
+          },
+          {
+            "a": 194,
+            "b": 235
+          },
+          {
+            "a": 194,
+            "b": 242
+          },
+          {
+            "a": 194,
+            "b": 245
+          },
+          {
+            "a": 194,
+            "b": 252
+          },
+          {
+            "a": 194,
+            "b": 255
+          },
+          {
+            "a": 198,
+            "b": 204
+          },
+          {
+            "a": 198,
+            "b": 205
+          },
+          {
+            "a": 198,
+            "b": 206
+          },
+          {
+            "a": 198,
+            "b": 210
+          },
+          {
+            "a": 198,
+            "b": 211
+          },
+          {
+            "a": 198,
+            "b": 213
+          },
+          {
+            "a": 198,
+            "b": 214
+          },
+          {
+            "a": 198,
+            "b": 215
+          },
+          {
+            "a": 198,
+            "b": 216
+          },
+          {
+            "a": 198,
+            "b": 219
+          },
+          {
+            "a": 198,
+            "b": 220
+          },
+          {
+            "a": 198,
+            "b": 221
+          },
+          {
+            "a": 198,
+            "b": 223
+          },
+          {
+            "a": 198,
+            "b": 224
+          },
+          {
+            "a": 198,
+            "b": 225
+          },
+          {
+            "a": 198,
+            "b": 229
+          },
+          {
+            "a": 198,
+            "b": 230
+          },
+          {
+            "a": 198,
+            "b": 231
+          },
+          {
+            "a": 198,
+            "b": 232
+          },
+          {
+            "a": 198,
+            "b": 233
+          },
+          {
+            "a": 198,
+            "b": 235
+          },
+          {
+            "a": 198,
+            "b": 236
+          },
+          {
+            "a": 198,
+            "b": 240
+          },
+          {
+            "a": 198,
+            "b": 241
+          },
+          {
+            "a": 198,
+            "b": 242
+          },
+          {
+            "a": 198,
+            "b": 243
+          },
+          {
+            "a": 198,
+            "b": 244
+          },
+          {
+            "a": 198,
+            "b": 245
+          },
+          {
+            "a": 198,
+            "b": 246
+          },
+          {
+            "a": 198,
+            "b": 250
+          },
+          {
+            "a": 198,
+            "b": 251
+          },
+          {
+            "a": 198,
+            "b": 252
+          },
+          {
+            "a": 198,
+            "b": 254
+          },
+          {
+            "a": 198,
+            "b": 255
+          },
+          {
+            "a": 199,
+            "b": 204
+          },
+          {
+            "a": 199,
+            "b": 206
+          },
+          {
+            "a": 199,
+            "b": 210
+          },
+          {
+            "a": 199,
+            "b": 211
+          },
+          {
+            "a": 199,
+            "b": 215
+          },
+          {
+            "a": 199,
+            "b": 220
+          },
+          {
+            "a": 199,
+            "b": 224
+          },
+          {
+            "a": 199,
+            "b": 225
+          },
+          {
+            "a": 199,
+            "b": 229
+          },
+          {
+            "a": 199,
+            "b": 230
+          },
+          {
+            "a": 199,
+            "b": 231
+          },
+          {
+            "a": 199,
+            "b": 233
+          },
+          {
+            "a": 199,
+            "b": 235
+          },
+          {
+            "a": 199,
+            "b": 236
+          },
+          {
+            "a": 199,
+            "b": 242
+          },
+          {
+            "a": 199,
+            "b": 245
+          },
+          {
+            "a": 199,
+            "b": 251
+          },
+          {
+            "a": 199,
+            "b": 252
+          },
+          {
+            "a": 199,
+            "b": 254
+          },
+          {
+            "a": 199,
+            "b": 255
+          },
+          {
+            "a": 201,
+            "b": 204
+          },
+          {
+            "a": 201,
+            "b": 205
+          },
+          {
+            "a": 201,
+            "b": 206
+          },
+          {
+            "a": 201,
+            "b": 210
+          },
+          {
+            "a": 201,
+            "b": 211
+          },
+          {
+            "a": 201,
+            "b": 213
+          },
+          {
+            "a": 201,
+            "b": 214
+          },
+          {
+            "a": 201,
+            "b": 215
+          },
+          {
+            "a": 201,
+            "b": 216
+          },
+          {
+            "a": 201,
+            "b": 219
+          },
+          {
+            "a": 201,
+            "b": 220
+          },
+          {
+            "a": 201,
+            "b": 221
+          },
+          {
+            "a": 201,
+            "b": 223
+          },
+          {
+            "a": 201,
+            "b": 224
+          },
+          {
+            "a": 201,
+            "b": 225
+          },
+          {
+            "a": 201,
+            "b": 229
+          },
+          {
+            "a": 201,
+            "b": 230
+          },
+          {
+            "a": 201,
+            "b": 231
+          },
+          {
+            "a": 201,
+            "b": 232
+          },
+          {
+            "a": 201,
+            "b": 233
+          },
+          {
+            "a": 201,
+            "b": 235
+          },
+          {
+            "a": 201,
+            "b": 236
+          },
+          {
+            "a": 201,
+            "b": 240
+          },
+          {
+            "a": 201,
+            "b": 241
+          },
+          {
+            "a": 201,
+            "b": 242
+          },
+          {
+            "a": 201,
+            "b": 243
+          },
+          {
+            "a": 201,
+            "b": 244
+          },
+          {
+            "a": 201,
+            "b": 245
+          },
+          {
+            "a": 201,
+            "b": 246
+          },
+          {
+            "a": 201,
+            "b": 250
+          },
+          {
+            "a": 201,
+            "b": 251
+          },
+          {
+            "a": 201,
+            "b": 252
+          },
+          {
+            "a": 201,
+            "b": 254
+          },
+          {
+            "a": 201,
+            "b": 255
+          },
+          {
+            "a": 202,
+            "b": 204
+          },
+          {
+            "a": 202,
+            "b": 206
+          },
+          {
+            "a": 202,
+            "b": 210
+          },
+          {
+            "a": 202,
+            "b": 211
+          },
+          {
+            "a": 202,
+            "b": 215
+          },
+          {
+            "a": 202,
+            "b": 220
+          },
+          {
+            "a": 202,
+            "b": 224
+          },
+          {
+            "a": 202,
+            "b": 225
+          },
+          {
+            "a": 202,
+            "b": 229
+          },
+          {
+            "a": 202,
+            "b": 230
+          },
+          {
+            "a": 202,
+            "b": 231
+          },
+          {
+            "a": 202,
+            "b": 233
+          },
+          {
+            "a": 202,
+            "b": 235
+          },
+          {
+            "a": 202,
+            "b": 236
+          },
+          {
+            "a": 202,
+            "b": 242
+          },
+          {
+            "a": 202,
+            "b": 245
+          },
+          {
+            "a": 202,
+            "b": 251
+          },
+          {
+            "a": 202,
+            "b": 252
+          },
+          {
+            "a": 202,
+            "b": 254
+          },
+          {
+            "a": 202,
+            "b": 255
+          }
+        ]
+      },
+      "optimality_blocker_participation_mass": [
+        {
+          "blocker": [
+            180,
+            181,
+            183,
+            184,
+            198,
+            199,
+            201,
+            202,
+            222,
+            224,
+            228,
+            229,
+            249,
+            251,
+            253,
+            254
+          ],
+          "participation_mass": "523/451"
+        },
+        {
+          "blocker": [
+            173,
+            176,
+            181,
+            184,
+            198,
+            201,
+            207,
+            212,
+            214,
+            222,
+            228,
+            234,
+            237,
+            241,
+            249,
+            253
+          ],
+          "participation_mass": "829/451"
+        },
+        {
+          "blocker": [
+            173,
+            176,
+            191,
+            194,
+            205,
+            207,
+            212,
+            214,
+            216,
+            221,
+            232,
+            234,
+            237,
+            241,
+            243,
+            246
+          ],
+          "participation_mass": "526/451"
+        },
+        {
+          "blocker": [
+            189,
+            192,
+            198,
+            201,
+            213,
+            214,
+            219,
+            222,
+            223,
+            228,
+            240,
+            241,
+            244,
+            249,
+            250,
+            253
+          ],
+          "participation_mass": "526/451"
+        },
+        {
+          "blocker": [
+            172,
+            173,
+            175,
+            176,
+            181,
+            182,
+            184,
+            185,
+            206,
+            207,
+            211,
+            212,
+            233,
+            234,
+            236,
+            237
+          ],
+          "participation_mass": "523/451"
+        }
+      ],
+      "feasibility_blocker_participation_mass": [
+        {
+          "blocker": [
+            204,
+            205,
+            206,
+            207,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            228,
+            229,
+            230
+          ],
+          "participation_mass": "1"
+        },
+        {
+          "blocker": [
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255
+          ],
+          "participation_mass": "1"
+        }
+      ],
+      "feasibility_to_optimality_containment": [
+        {
+          "feasibility_blocker": [
+            204,
+            205,
+            206,
+            207,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            228,
+            229,
+            230
+          ],
+          "contained_minimum_optimality_blockers": []
+        },
+        {
+          "feasibility_blocker": [
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255
+          ],
+          "contained_minimum_optimality_blockers": []
+        }
+      ],
+      "all_feasibility_blockers_are_optimality_blockers": true,
+      "minimum_feasibility_exact_one_cuts": [
+        {
+          "neighborhood": [
+            204,
+            205,
+            206,
+            207,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            228,
+            229,
+            230
+          ],
+          "coordinate_count": 1,
+          "all_optimum_covers_intersect_once": true
+        },
+        {
+          "neighborhood": [
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255
+          ],
+          "coordinate_count": 1,
+          "all_optimum_covers_intersect_once": true
+        }
+      ],
+      "all_minimum_feasibility_neighborhoods_are_exact_one_cuts": true
+    },
+    {
+      "component_index": 12,
+      "tau": 1,
+      "kappa": 2,
+      "minimum_optimality_blocker_count": 1,
+      "minimum_feasibility_blocker_count": 2,
+      "worlds": [
+        {
+          "world_index": 352,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 1,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 354,
+          "p": "1",
+          "p_numerator": 1,
+          "p_denominator": 1,
+          "q_tau": "1",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 1,
+          "q_kappa": "1",
+          "q_kappa_numerator": 2,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 355,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 1,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        }
+      ],
+      "pairwise_inversions": {
+        "p_vs_q_tau": [],
+        "p_vs_q_kappa": []
+      },
+      "optimality_blocker_participation_mass": [
+        {
+          "blocker": [
+            354
+          ],
+          "participation_mass": "1"
+        }
+      ],
+      "feasibility_blocker_participation_mass": [
+        {
+          "blocker": [
+            352,
+            354
+          ],
+          "participation_mass": "1"
+        },
+        {
+          "blocker": [
+            354,
+            355
+          ],
+          "participation_mass": "1"
+        }
+      ],
+      "feasibility_to_optimality_containment": [
+        {
+          "feasibility_blocker": [
+            352,
+            354
+          ],
+          "contained_minimum_optimality_blockers": [
+            [
+              354
+            ]
+          ]
+        },
+        {
+          "feasibility_blocker": [
+            354,
+            355
+          ],
+          "contained_minimum_optimality_blockers": [
+            [
+              354
+            ]
+          ]
+        }
+      ],
+      "all_feasibility_blockers_are_optimality_blockers": true,
+      "minimum_feasibility_exact_one_cuts": [
+        {
+          "neighborhood": [
+            352,
+            354
+          ],
+          "coordinate_count": 1,
+          "all_optimum_covers_intersect_once": true
+        },
+        {
+          "neighborhood": [
+            354,
+            355
+          ],
+          "coordinate_count": 1,
+          "all_optimum_covers_intersect_once": true
+        }
+      ],
+      "all_minimum_feasibility_neighborhoods_are_exact_one_cuts": true
+    },
+    {
+      "component_index": 21,
+      "tau": 1,
+      "kappa": 4,
+      "minimum_optimality_blocker_count": 2,
+      "minimum_feasibility_blocker_count": 2,
+      "worlds": [
+        {
+          "world_index": 280,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 281,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 282,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 283,
+          "p": "1",
+          "p_numerator": 1,
+          "p_denominator": 1,
+          "q_tau": "1/2",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 2,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 284,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 285,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 286,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 287,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 288,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 289,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 290,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 291,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 292,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 293,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 294,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 295,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 296,
+          "p": "1",
+          "p_numerator": 1,
+          "p_denominator": 1,
+          "q_tau": "1/2",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 2,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 297,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 298,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 299,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 2,
+          "q_kappa": "0",
+          "q_kappa_numerator": 0,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        }
+      ],
+      "pairwise_inversions": {
+        "p_vs_q_tau": [],
+        "p_vs_q_kappa": []
+      },
+      "optimality_blocker_participation_mass": [
+        {
+          "blocker": [
+            283
+          ],
+          "participation_mass": "1"
+        },
+        {
+          "blocker": [
+            296
+          ],
+          "participation_mass": "1"
+        }
+      ],
+      "feasibility_blocker_participation_mass": [
+        {
+          "blocker": [
+            280,
+            281,
+            282,
+            283
+          ],
+          "participation_mass": "1"
+        },
+        {
+          "blocker": [
+            284,
+            288,
+            292,
+            296
+          ],
+          "participation_mass": "1"
+        }
+      ],
+      "feasibility_to_optimality_containment": [
+        {
+          "feasibility_blocker": [
+            280,
+            281,
+            282,
+            283
+          ],
+          "contained_minimum_optimality_blockers": [
+            [
+              283
+            ]
+          ]
+        },
+        {
+          "feasibility_blocker": [
+            284,
+            288,
+            292,
+            296
+          ],
+          "contained_minimum_optimality_blockers": [
+            [
+              296
+            ]
+          ]
+        }
+      ],
+      "all_feasibility_blockers_are_optimality_blockers": true,
+      "minimum_feasibility_exact_one_cuts": [
+        {
+          "neighborhood": [
+            284,
+            288,
+            292,
+            296
+          ],
+          "coordinate_count": 1,
+          "all_optimum_covers_intersect_once": true
+        },
+        {
+          "neighborhood": [
+            280,
+            281,
+            282,
+            283
+          ],
+          "coordinate_count": 1,
+          "all_optimum_covers_intersect_once": true
+        }
+      ],
+      "all_minimum_feasibility_neighborhoods_are_exact_one_cuts": true
+    },
+    {
+      "component_index": 45,
+      "tau": 1,
+      "kappa": 2,
+      "minimum_optimality_blocker_count": 1,
+      "minimum_feasibility_blocker_count": 2,
+      "worlds": [
+        {
+          "world_index": 350,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 1,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 351,
+          "p": "1",
+          "p_numerator": 1,
+          "p_denominator": 1,
+          "q_tau": "1",
+          "q_tau_numerator": 1,
+          "q_tau_denominator": 1,
+          "q_kappa": "1",
+          "q_kappa_numerator": 2,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        },
+        {
+          "world_index": 353,
+          "p": "0",
+          "p_numerator": 0,
+          "p_denominator": 1,
+          "q_tau": "0",
+          "q_tau_numerator": 0,
+          "q_tau_denominator": 1,
+          "q_kappa": "1/2",
+          "q_kappa_numerator": 1,
+          "q_kappa_denominator": 2,
+          "blocker_participation_mass_tau_numerator": 0
+        }
+      ],
+      "pairwise_inversions": {
+        "p_vs_q_tau": [],
+        "p_vs_q_kappa": []
+      },
+      "optimality_blocker_participation_mass": [
+        {
+          "blocker": [
+            351
+          ],
+          "participation_mass": "1"
+        }
+      ],
+      "feasibility_blocker_participation_mass": [
+        {
+          "blocker": [
+            350,
+            351
+          ],
+          "participation_mass": "1"
+        },
+        {
+          "blocker": [
+            351,
+            353
+          ],
+          "participation_mass": "1"
+        }
+      ],
+      "feasibility_to_optimality_containment": [
+        {
+          "feasibility_blocker": [
+            350,
+            351
+          ],
+          "contained_minimum_optimality_blockers": [
+            [
+              351
+            ]
+          ]
+        },
+        {
+          "feasibility_blocker": [
+            351,
+            353
+          ],
+          "contained_minimum_optimality_blockers": [
+            [
+              351
+            ]
+          ]
+        }
+      ],
+      "all_feasibility_blockers_are_optimality_blockers": true,
+      "minimum_feasibility_exact_one_cuts": [
+        {
+          "neighborhood": [
+            351,
+            353
+          ],
+          "coordinate_count": 1,
+          "all_optimum_covers_intersect_once": true
+        },
+        {
+          "neighborhood": [
+            350,
+            351
+          ],
+          "coordinate_count": 1,
+          "all_optimum_covers_intersect_once": true
+        }
+      ],
+      "all_minimum_feasibility_neighborhoods_are_exact_one_cuts": true
+    }
+  ],
+  "interpretation_boundary": "p and q_tau are reported with zero strict-order inversions, not as identical weak rankings. All incidence fractions are combinatorial, not probabilities.",
+  "exact_one_summary": {
+    "all_components_verified": true,
+    "definition_level_containment": "Every feasibility-blocking deletion set is optimality-blocking."
+  }
+}

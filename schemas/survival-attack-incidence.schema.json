@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Survival attack incidence receipt",
+  "type":"object",
+  "required":["experiment","status","scope","components","interpretation_boundary"],
+  "properties":{"experiment":{"const":"59-survival-attack-incidence"},"status":{"const":"exact_survival_attack_incidence_measured"},"scope":{"type":"string"},"components":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}

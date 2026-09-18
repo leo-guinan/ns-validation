@@ -173,3 +173,5 @@ profiles = json.loads((Path("data") / "exact-degradation-profiles.json").read_te
 print(f"experiment57_status={profiles['status']} kernel_profiles={len(profiles['kernel_profiles'])} transitions_verified={all(t['verified'] for x in profiles['kernel_profiles'] for t in x['transitions'])}")
 blockers = json.loads((Path("data") / "exact-blocker-geometry.json").read_text(encoding="utf-8"))
 print(f"experiment58_status={blockers['status']} components={len(blockers['components'])} optimality_blockers_complete={all(x['optimality_blockers']['complete'] for x in blockers['components'])}")
+attack = json.loads((Path("data") / "survival-attack-incidence.json").read_text(encoding="utf-8"))
+print(f"experiment59_status={attack['status']} components={len(attack['components'])} tau_ordering_inversions={sum(len(x['pairwise_inversions']['p_vs_q_tau']) for x in attack['components'])} feasibility_containment={all(x['all_feasibility_blockers_are_optimality_blockers'] for x in attack['components'])}")
