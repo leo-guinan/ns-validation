@@ -52,7 +52,30 @@
       ],
       "adversarial_profile": {
         "finite_before_kappa": 3,
-        "infinity_from_budget": 4
+        "infinity_from_budget": 4,
+        "staircase": [
+          {
+            "budget": 0,
+            "value": 3
+          },
+          {
+            "budget": 1,
+            "value": 3
+          },
+          {
+            "budget": 2,
+            "value": 3
+          },
+          {
+            "budget": 3,
+            "value": 3
+          },
+          {
+            "budget": 4,
+            "value": "infinity"
+          }
+        ],
+        "finite_below_kappa_verified": true
       },
       "feasible_transition_witnesses": [
         {
@@ -224,7 +247,98 @@
       ],
       "adversarial_profile": {
         "finite_before_kappa": 3,
-        "infinity_from_budget": 21
+        "infinity_from_budget": 21,
+        "staircase": [
+          {
+            "budget": 0,
+            "value": 3
+          },
+          {
+            "budget": 1,
+            "value": 3
+          },
+          {
+            "budget": 2,
+            "value": 3
+          },
+          {
+            "budget": 3,
+            "value": 3
+          },
+          {
+            "budget": 4,
+            "value": 3
+          },
+          {
+            "budget": 5,
+            "value": 3
+          },
+          {
+            "budget": 6,
+            "value": 3
+          },
+          {
+            "budget": 7,
+            "value": 3
+          },
+          {
+            "budget": 8,
+            "value": 3
+          },
+          {
+            "budget": 9,
+            "value": 3
+          },
+          {
+            "budget": 10,
+            "value": 3
+          },
+          {
+            "budget": 11,
+            "value": 3
+          },
+          {
+            "budget": 12,
+            "value": 3
+          },
+          {
+            "budget": 13,
+            "value": 3
+          },
+          {
+            "budget": 14,
+            "value": 3
+          },
+          {
+            "budget": 15,
+            "value": 3
+          },
+          {
+            "budget": 16,
+            "value": 4
+          },
+          {
+            "budget": 17,
+            "value": 4
+          },
+          {
+            "budget": 18,
+            "value": 4
+          },
+          {
+            "budget": 19,
+            "value": 4
+          },
+          {
+            "budget": 20,
+            "value": 4
+          },
+          {
+            "budget": 21,
+            "value": "infinity"
+          }
+        ],
+        "finite_below_kappa_verified": true
       },
       "feasible_transition_witnesses": [
         {
@@ -358,7 +472,22 @@
       ],
       "adversarial_profile": {
         "finite_before_kappa": 2,
-        "infinity_from_budget": 2
+        "infinity_from_budget": 2,
+        "staircase": [
+          {
+            "budget": 0,
+            "value": 1
+          },
+          {
+            "budget": 1,
+            "value": 2
+          },
+          {
+            "budget": 2,
+            "value": "infinity"
+          }
+        ],
+        "finite_below_kappa_verified": true
       },
       "feasible_transition_witnesses": [
         {
@@ -434,7 +563,30 @@
       ],
       "adversarial_profile": {
         "finite_before_kappa": 2,
-        "infinity_from_budget": 4
+        "infinity_from_budget": 4,
+        "staircase": [
+          {
+            "budget": 0,
+            "value": 2
+          },
+          {
+            "budget": 1,
+            "value": 3
+          },
+          {
+            "budget": 2,
+            "value": 3
+          },
+          {
+            "budget": 3,
+            "value": 3
+          },
+          {
+            "budget": 4,
+            "value": "infinity"
+          }
+        ],
+        "finite_below_kappa_verified": true
       },
       "feasible_transition_witnesses": [
         {
@@ -495,7 +647,22 @@
       ],
       "adversarial_profile": {
         "finite_before_kappa": 2,
-        "infinity_from_budget": 2
+        "infinity_from_budget": 2,
+        "staircase": [
+          {
+            "budget": 0,
+            "value": 1
+          },
+          {
+            "budget": 1,
+            "value": 2
+          },
+          {
+            "budget": 2,
+            "value": "infinity"
+          }
+        ],
+        "finite_below_kappa_verified": true
       },
       "feasible_transition_witnesses": [
         {
@@ -508,7 +675,7 @@
       ]
     }
   ],
-  "interpretation_boundary": "W_adv is worst-case and becomes infinity once any infeasible deletion set exists. W_feas is a separate fixed-budget feasible envelope; preserved width witnesses do not define W_adv.",
+  "interpretation_boundary": "W_adv is the actual worst-case envelope: it incorporates every finite width threshold below kappa and becomes infinity at the first budget admitting an infeasible deletion. W_feas is a separate fixed-budget feasible envelope; preserved width witnesses do not define W_adv.",
   "definitions": {
     "W_adv": "max over deletion sets of size at most r, with infeasible valued infinity",
     "W_feas": "max surviving minimum width over feasible deletion sets of exact size r",

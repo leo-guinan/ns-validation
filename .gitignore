@@ -70,3 +70,4 @@ data/*
 !data/exact-witness-participation.json
 !data/exact-witness-network-robustness.json
 !data/exact-degradation-profiles.json
+!data/exact-blocker-geometry.json

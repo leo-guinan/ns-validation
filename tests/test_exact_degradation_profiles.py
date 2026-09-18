@@ -17,6 +17,7 @@ class ExactDegradationProfilesTests(unittest.TestCase):
         self.assertEqual(thresholds(45), [(2, 1), ("infinity", 2)])
         self.assertTrue(all(t["verified"] for x in r["kernel_profiles"] for t in x["transitions"]))
         self.assertEqual({x["component_index"]: x["adversarial_profile"]["infinity_from_budget"] for x in r["kernel_profiles"]}, {8: 4, 11: 21, 12: 2, 21: 4, 45: 2})
+        self.assertEqual({x["component_index"]: [z["value"] for z in x["adversarial_profile"]["staircase"]] for x in r["kernel_profiles"]}, {8: [3, 3, 3, 3, "infinity"], 11: [3]*16+[4]*5+["infinity"], 12: [1, 2, "infinity"], 21: [2, 3, 3, 3, "infinity"], 45: [1, 2, "infinity"]})
         self.assertEqual([(x["component_index"], x["budget"]) for x in r["same_budget_feasible_and_infeasible"]], [(8, 4), (21, 4)])
 
 
