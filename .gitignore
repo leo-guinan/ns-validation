@@ -66,3 +66,4 @@ data/*
 !data/dimensionality-atlas.json
 !data/cover-gap-incidence-decomposition.json
 !data/residual-incidence-components.json
+!data/cover-choice-classification.json

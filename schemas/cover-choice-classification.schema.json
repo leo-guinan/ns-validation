@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Cover choice classification receipt",
+  "type":"object",
+  "required":["experiment","status","scope","summary","components","interpretation_boundary"],
+  "properties":{"experiment":{"const":"54-cover-saving-versus-choice"},"status":{"const":"exact_component_cover_choice_measured"},"scope":{"type":"string"},"summary":{"type":"object"},"components":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}
