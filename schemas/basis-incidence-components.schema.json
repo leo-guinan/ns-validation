@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Basis incidence components receipt",
+  "type":"object",
+  "required":["experiment","status","components","exchange_location","summary","interpretation_boundary"],
+  "properties":{"experiment":{"const":"41-basis-incidence-components"},"status":{"const":"exact_component_minima_and_optimum_families_measured"},"components":{"type":"array"},"exchange_location":{"type":"object"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}

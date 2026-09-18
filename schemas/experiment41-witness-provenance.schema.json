@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Experiment 41 witness provenance receipt",
+  "type":"object",
+  "required":["experiment","status","witnesses","reconciliation","interpretation_boundary"],
+  "properties":{"experiment":{"const":"41-witness-provenance-reconciliation"},"status":{"const":"exp33_baseline_witness_unrecovered"},"witnesses":{"type":"object"},"reconciliation":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}

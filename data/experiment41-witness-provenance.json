@@ -1,0 +1,32 @@
+{
+  "experiment": "41-witness-provenance-reconciliation",
+  "status": "exp33_baseline_witness_unrecovered",
+  "witnesses": {
+    "current_stored_I2508": {
+      "width": 309,
+      "identity_hash": "014c2830922effa459261874c942cb7a611a804788365fe78028f0eda0af7473",
+      "tensorDiff_divergence": false,
+      "weak_pressure_poisson": true
+    },
+    "J_full": {
+      "width": 309,
+      "identity_hash": null,
+      "tensorDiff_divergence": null,
+      "weak_pressure_poisson": null
+    },
+    "Exp33_swept_baseline": {
+      "width": 309,
+      "identity_hash": null,
+      "tensorDiff_divergence": null,
+      "weak_pressure_poisson": null
+    }
+  },
+  "reconciliation": {
+    "backbone_size": 250,
+    "stored_witness_nonbackbone_size": 59,
+    "exp33_feasible_forbidden_count": 59,
+    "stored_nonbackbone_equals_exp33_feasible_forbidden": false,
+    "status": "unavailable_exact_exp33_baseline"
+  },
+  "interpretation_boundary": "The current component backbone result is not weakened. The 250 old Experiment 33 unresolved cases remain unresolved because the exact swept baseline identity set is not preserved."
+}

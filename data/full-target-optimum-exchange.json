@@ -19715,5 +19715,13 @@
     "net_overhead": 5,
     "pure_deletion": false
   },
-  "interpretation_boundary": "Replaceability is measured only by exact-width feasibility under this full-target graph. The sweep does not enumerate all optima or establish semantic necessity. Composition overhead is a declaration-set comparison, not a generic compression ratio."
+  "interpretation_boundary": "Replaceability is measured only by exact-width feasibility under this full-target graph. The sweep does not enumerate all optima or establish semantic necessity. Composition overhead is a declaration-set comparison, not a generic compression ratio.",
+  "witness_provenance": {
+    "current_stored_full_target_witness_hash": "014c2830922effa459261874c942cb7a611a804788365fe78028f0eda0af7473",
+    "J_full_identity_hash": null,
+    "exp33_swept_baseline_identity_hash": null,
+    "exp33_baseline_status": "unrecovered",
+    "reconciliation_status": "identity_set_reconciliation_unavailable",
+    "reason": "preserved artifacts contain the current one_optimum_witness list and Experiment 33 member rows, but not the exact 309-member baseline list swept by Experiment 33"
+  }
 }

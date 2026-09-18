@@ -1,0 +1,5366 @@
+{
+  "experiment": "41-basis-incidence-components",
+  "status": "exact_component_minima_and_optimum_families_measured",
+  "contract_reference": "Experiment 40 current graph basis",
+  "components": [
+    {
+      "component": 0,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedInterpolation.eLpNorm_le_rpow_mul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeightedInterpolation.eLpNorm_le_rpow_mul"
+      ]
+    },
+    {
+      "component": 1,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.abs_sq_sub_sq_le_two_mul_abs_sub"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.abs_sq_sub_sq_le_two_mul_abs_sub"
+      ]
+    },
+    {
+      "component": 2,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 3,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTestLinear"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 4,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactComparisonBounds.exists_radius_weight_derivative_zero"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactComparisonBounds.exists_radius_weight_derivative_zero"
+      ]
+    },
+    {
+      "component": 5,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.rieszTest_eq_integral_heatSecondTest"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.rieszTest_eq_integral_heatSecondTest"
+      ]
+    },
+    {
+      "component": 6,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le"
+      ]
+    },
+    {
+      "component": 7,
+      "basis_class_count": 1,
+      "candidate_count": 12,
+      "edge_count": 12,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 12,
+      "component_backbone": []
+    },
+    {
+      "component": 8,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzParseval.fourier_conj_apply"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzParseval.fourier_conj_apply"
+      ]
+    },
+    {
+      "component": 9,
+      "basis_class_count": 3,
+      "candidate_count": 5,
+      "edge_count": 8,
+      "minimum_hitting_set_width": 2,
+      "slack": 1,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 5,
+      "component_backbone": []
+    },
+    {
+      "component": 10,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left._simp_1_2"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left._simp_1_2"
+      ]
+    },
+    {
+      "component": 11,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_smul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_smul"
+      ]
+    },
+    {
+      "component": 12,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTemporalIdentity.continuous_cutoff_mul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTemporalIdentity.continuous_cutoff_mul"
+      ]
+    },
+    {
+      "component": 13,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.memLp_two_and_integral_le_of_pairing_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.memLp_two_and_integral_le_of_pairing_bound"
+      ]
+    },
+    {
+      "component": 14,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.continuousOn_timeFDeriv_of_contDiffOn"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactTimeIntegral.continuousOn_timeFDeriv_of_contDiffOn"
+      ]
+    },
+    {
+      "component": 15,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.fourier_partialCLM_apply"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.fourier_partialCLM_apply"
+      ]
+    },
+    {
+      "component": 16,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFlux.actual_flux_integrable_and_le_canonicalNorm"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.actual_flux_integrable_and_le_canonicalNorm"
+      ]
+    },
+    {
+      "component": 17,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureRecovery.compact_test_decomposition"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 18,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzParseval.integral_norm_sq_fourier"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzParseval.integral_norm_sq_fourier"
+      ]
+    },
+    {
+      "component": 19,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFlux.norm_holder_pair_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.norm_holder_pair_le"
+      ]
+    },
+    {
+      "component": 20,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTestBounds.norm_fourier_partialCLM"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.norm_fourier_partialCLM"
+      ]
+    },
+    {
+      "component": 21,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.norm_rieszTest_pairing_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.norm_rieszTest_pairing_le"
+      ]
+    },
+    {
+      "component": 22,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFunctionals.integrable_l2_pair"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFunctionals.integrable_l2_pair"
+      ]
+    },
+    {
+      "component": 23,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero._simp_1_2"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero._simp_1_2"
+      ]
+    },
+    {
+      "component": 24,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_laplacianCLM"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_laplacianCLM"
+      ]
+    },
+    {
+      "component": 25,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakTimeContinuity.norm_sub_cutoffTest_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakTimeContinuity.norm_sub_cutoffTest_le"
+      ]
+    },
+    {
+      "component": 26,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureRecovery.noncanonical_average_identity"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 27,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.ae_eq_zero_of_integral_schwartz_test_mul_eq_zero"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.ae_eq_zero_of_integral_schwartz_test_mul_eq_zero"
+      ]
+    },
+    {
+      "component": 28,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.component_test_hasDerivAt"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.component_test_hasDerivAt"
+      ]
+    },
+    {
+      "component": 29,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactSchwartz.weighted_derivative_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactSchwartz.weighted_derivative_bound"
+      ]
+    },
+    {
+      "component": 30,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.contDiff_rieszTest"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.contDiff_rieszTest"
+      ]
+    },
+    {
+      "component": 31,
+      "basis_class_count": 4,
+      "candidate_count": 11,
+      "edge_count": 14,
+      "minimum_hitting_set_width": 3,
+      "slack": 1,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 10,
+      "component_backbone": []
+    },
+    {
+      "component": 32,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.partial_comm"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.partial_comm"
+      ]
+    },
+    {
+      "component": 33,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseBump"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseBump"
+      ]
+    },
+    {
+      "component": 34,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_smooth"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_smooth"
+      ]
+    },
+    {
+      "component": 35,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_le_one"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_le_one"
+      ]
+    },
+    {
+      "component": 36,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_eq_one"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_eq_one"
+      ]
+    },
+    {
+      "component": 37,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_eq_zero"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_eq_zero"
+      ]
+    },
+    {
+      "component": 38,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale_smooth_on"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale_smooth_on"
+      ]
+    },
+    {
+      "component": 39,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_time_of_contDiffOn"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_time_of_contDiffOn"
+      ]
+    },
+    {
+      "component": 40,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.spatialPartial_continuousOn_slab"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.spatialPartial_continuousOn_slab"
+      ]
+    },
+    {
+      "component": 41,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 42,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTestBounds.integral_first_moment_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.integral_first_moment_le"
+      ]
+    },
+    {
+      "component": 43,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.continuous_of_fourierHNormSq_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.continuous_of_fourierHNormSq_bound"
+      ]
+    },
+    {
+      "component": 44,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzParseval.integral_fourier_mul_conj"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzParseval.integral_fourier_mul_conj"
+      ]
+    },
+    {
+      "component": 45,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.memLp_cutoff_pow_smul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeightedSobolev.memLp_cutoff_pow_smul"
+      ]
+    },
+    {
+      "component": 46,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 47,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.continuous_zero_of_compactSupport"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.continuous_zero_of_compactSupport"
+      ]
+    },
+    {
+      "component": 48,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 49,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTestBounds.integrable_inverse_weight_sq"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.integrable_inverse_weight_sq"
+      ]
+    },
+    {
+      "component": 50,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 51,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 52,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_measurable"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_measurable"
+      ]
+    },
+    {
+      "component": 53,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_5"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 54,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.representative_eq_zero_of_harmonic"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.representative_eq_zero_of_harmonic"
+      ]
+    },
+    {
+      "component": 55,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedTensorBounds.continuous_component"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedTensorBounds.continuous_component"
+      ]
+    },
+    {
+      "component": 56,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.B_injective"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.B_injective"
+      ]
+    },
+    {
+      "component": 57,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.locallyIntegrable_weighted_star"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.locallyIntegrable_weighted_star"
+      ]
+    },
+    {
+      "component": 58,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.fderiv_fourierInv_apply"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.fderiv_fourierInv_apply"
+      ]
+    },
+    {
+      "component": 59,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_4"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_4"
+      ]
+    },
+    {
+      "component": 60,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 61,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul"
+      ]
+    },
+    {
+      "component": 62,
+      "basis_class_count": 7,
+      "candidate_count": 13,
+      "edge_count": 20,
+      "minimum_hitting_set_width": 4,
+      "slack": 3,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+        "NavierStokesR3.PressureFlux.norm_fderiv_ofReal",
+        "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 5,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul"
+      ]
+    },
+    {
+      "component": 63,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.partial_sub"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.partial_sub"
+      ]
+    },
+    {
+      "component": 64,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.norm_partial_partial_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.norm_partial_partial_le"
+      ]
+    },
+    {
+      "component": 65,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ActualCandidate.selected_candidate_one_with_initial_rest"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.selected_candidate_one_with_initial_rest"
+      ]
+    },
+    {
+      "component": 66,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.truncate_error_weighted_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.truncate_error_weighted_le"
+      ]
+    },
+    {
+      "component": 67,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.continuous_slice"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactTimeIntegral.continuous_slice"
+      ]
+    },
+    {
+      "component": 68,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.candidate_total_dissipation_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.candidate_total_dissipation_le"
+      ]
+    },
+    {
+      "component": 69,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.forceWork_continuousOn"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.forceWork_continuousOn"
+      ]
+    },
+    {
+      "component": 70,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral"
+      ]
+    },
+    {
+      "component": 71,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.TemporalTestUniqueness.eq_zero_on_open_of_tests"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.TemporalTestUniqueness.eq_zero_on_open_of_tests"
+      ]
+    },
+    {
+      "component": 72,
+      "basis_class_count": 1,
+      "candidate_count": 5,
+      "edge_count": 5,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 5,
+      "component_backbone": []
+    },
+    {
+      "component": 73,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.continuousOn_time_weight"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.continuousOn_time_weight"
+      ]
+    },
+    {
+      "component": 74,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.cancelledComplexTimeIntegrand_measurable"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cancelledComplexTimeIntegrand_measurable"
+      ]
+    },
+    {
+      "component": 75,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFlux.cutoff_lipschitz"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.cutoff_lipschitz"
+      ]
+    },
+    {
+      "component": 76,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.HilbertFunctionalExtension.exists_inner_representation"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.HilbertFunctionalExtension.exists_inner_representation"
+      ]
+    },
+    {
+      "component": 77,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero"
+      ]
+    },
+    {
+      "component": 78,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFluxTest.norm_fderiv_r_le_raw"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFluxTest.norm_fderiv_r_le_raw"
+      ]
+    },
+    {
+      "component": 79,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedTensorBounds.cross_norm_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedTensorBounds.cross_norm_bound"
+      ]
+    },
+    {
+      "component": 80,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.smooth_memLp_six"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 81,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_memLp"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_memLp"
+      ]
+    },
+    {
+      "component": 82,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_bound"
+      ]
+    },
+    {
+      "component": 83,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedInterpolation.memLp_and_lpNorm_le_rpow_mul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeightedInterpolation.memLp_and_lpNorm_le_rpow_mul"
+      ]
+    },
+    {
+      "component": 84,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.candidate_integrable_dissipation"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.candidate_integrable_dissipation"
+      ]
+    },
+    {
+      "component": 85,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 86,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 87,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTestBounds.exists_uniform_test_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.exists_uniform_test_bound"
+      ]
+    },
+    {
+      "component": 88,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.heatKernelSecond_joint_measurable"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.heatKernelSecond_joint_measurable"
+      ]
+    },
+    {
+      "component": 89,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakTimeContinuity.continuousOn_pairing"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakTimeContinuity.continuousOn_pairing"
+      ]
+    },
+    {
+      "component": 90,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactComparisonBounds.weight_fderiv_eq_zero_of_norm_lt"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactComparisonBounds.weight_fderiv_eq_zero_of_norm_lt"
+      ]
+    },
+    {
+      "component": 91,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.integral_time_derivative_divergence_free"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.integral_time_derivative_divergence_free"
+      ]
+    },
+    {
+      "component": 92,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.B_ae_eq"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.B_ae_eq"
+      ]
+    },
+    {
+      "component": 93,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.eq_zero_of_radius_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.eq_zero_of_radius_bound"
+      ]
+    },
+    {
+      "component": 94,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.integral_weight_tendsto"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.integral_weight_tendsto"
+      ]
+    },
+    {
+      "component": 95,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.continuous_slice_of_continuousOn"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.continuous_slice_of_continuousOn"
+      ]
+    },
+    {
+      "component": 96,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.pressureGradient_component"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.pressureGradient_component"
+      ]
+    },
+    {
+      "component": 97,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.GradientOperator.partial_norm_le_sqrt_gradientSq"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.GradientOperator.partial_norm_le_sqrt_gradientSq"
+      ]
+    },
+    {
+      "component": 98,
+      "basis_class_count": 2,
+      "candidate_count": 3,
+      "edge_count": 4,
+      "minimum_hitting_set_width": 1,
+      "slack": 1,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale_laplacian"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale_laplacian"
+      ]
+    },
+    {
+      "component": 99,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.truncate_weighted_derivative_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.truncate_weighted_derivative_le"
+      ]
+    },
+    {
+      "component": 100,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 101,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_add"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_add"
+      ]
+    },
+    {
+      "component": 102,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 103,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 104,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTestBounds.norm_test_le_integral_fourier"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.norm_test_le_integral_fourier"
+      ]
+    },
+    {
+      "component": 105,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 106,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero._simp_1_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero._simp_1_1"
+      ]
+    },
+    {
+      "component": 107,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left._simp_1_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left._simp_1_1"
+      ]
+    },
+    {
+      "component": 108,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.divergence_weighted"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.divergence_weighted"
+      ]
+    },
+    {
+      "component": 109,
+      "basis_class_count": 3,
+      "candidate_count": 5,
+      "edge_count": 7,
+      "minimum_hitting_set_width": 2,
+      "slack": 1,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow",
+        "NavierStokesR3.WeakTimeContinuity.norm_pairing_sub_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 110,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.compact_scalarLaplacian"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.compact_scalarLaplacian"
+      ]
+    },
+    {
+      "component": 111,
+      "basis_class_count": 1,
+      "candidate_count": 4,
+      "edge_count": 4,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 4,
+      "component_backbone": []
+    },
+    {
+      "component": 112,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.compact_partial"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.compact_partial"
+      ]
+    },
+    {
+      "component": 113,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactForceBound.exists_uniform_l2sq_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactForceBound.exists_uniform_l2sq_bound"
+      ]
+    },
+    {
+      "component": 114,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff._proof_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff._proof_1"
+      ]
+    },
+    {
+      "component": 115,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 116,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn"
+      ]
+    },
+    {
+      "component": 117,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ScalarEnergyBound.forced_gronwall_weighted"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ScalarEnergyBound.forced_gronwall_weighted"
+      ]
+    },
+    {
+      "component": 118,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.integral_l2Norm_cumulative_eq_sq"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.integral_l2Norm_cumulative_eq_sq"
+      ]
+    },
+    {
+      "component": 119,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SharpEnergyBound.sqrt_energy_le_integral"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SharpEnergyBound.sqrt_energy_le_integral"
+      ]
+    },
+    {
+      "component": 120,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonGronwall.exp_neg_mul_le_of_deriv_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonGronwall.exp_neg_mul_le_of_deriv_le"
+      ]
+    },
+    {
+      "component": 121,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_iff_memLp"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_iff_memLp"
+      ]
+    },
+    {
+      "component": 122,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 123,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 124,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTemporalIdentity.pressure_time_identity_interval"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTemporalIdentity.pressure_time_identity_interval"
+      ]
+    },
+    {
+      "component": 125,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 126,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PositiveTimeForce.force_tsupport_subset"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PositiveTimeForce.force_tsupport_subset"
+      ]
+    },
+    {
+      "component": 127,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_1"
+      ]
+    },
+    {
+      "component": 128,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_3"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_3"
+      ]
+    },
+    {
+      "component": 129,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.candidate_energy_dissipation_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.candidate_energy_dissipation_le"
+      ]
+    },
+    {
+      "component": 130,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.tendsto_approximate"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.tendsto_approximate"
+      ]
+    },
+    {
+      "component": 131,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM_apply"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM_apply"
+      ]
+    },
+    {
+      "component": 132,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_3"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 133,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_4"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 134,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.integral_fourierInv_mul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.integral_fourierInv_mul"
+      ]
+    },
+    {
+      "component": 135,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.eq_zero_of_harmonic"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.eq_zero_of_harmonic"
+      ]
+    },
+    {
+      "component": 136,
+      "basis_class_count": 2,
+      "candidate_count": 3,
+      "edge_count": 4,
+      "minimum_hitting_set_width": 1,
+      "slack": 1,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply"
+      ]
+    },
+    {
+      "component": 137,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.cutoffSquareDifference_abs_le_scaled_min"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cutoffSquareDifference_abs_le_scaled_min"
+      ]
+    },
+    {
+      "component": 138,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_partial_partial_le_of_integrable"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_partial_partial_le_of_integrable"
+      ]
+    },
+    {
+      "component": 139,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.integral_heatKernelSecondTimeEnvelope"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.integral_heatKernelSecondTimeEnvelope"
+      ]
+    },
+    {
+      "component": 140,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonYoung.cutoff_expression_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonYoung.cutoff_expression_le"
+      ]
+    },
+    {
+      "component": 141,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 142,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_nonneg"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_nonneg"
+      ]
+    },
+    {
+      "component": 143,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left"
+      ]
+    },
+    {
+      "component": 144,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFluxTest.cutoffTest_derivative_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFluxTest.cutoffTest_derivative_bound"
+      ]
+    },
+    {
+      "component": 145,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_second_partial"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_second_partial"
+      ]
+    },
+    {
+      "component": 146,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.fourier_laplacianCLM_apply"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.fourier_laplacianCLM_apply"
+      ]
+    },
+    {
+      "component": 147,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.cancelledTimeIntegrand_measurable"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cancelledTimeIntegrand_measurable"
+      ]
+    },
+    {
+      "component": 148,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_measurable"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 149,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.aestronglyMeasurable_slab"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.aestronglyMeasurable_slab"
+      ]
+    },
+    {
+      "component": 150,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PairedKernelBound.integrable_paired_kernel"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PairedKernelBound.integrable_paired_kernel"
+      ]
+    },
+    {
+      "component": 151,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.memLp_two_timeIntegral"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.memLp_two_timeIntegral"
+      ]
+    },
+    {
+      "component": 152,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.cumulativeForceNorm_hasDerivAt"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.cumulativeForceNorm_hasDerivAt"
+      ]
+    },
+    {
+      "component": 153,
+      "basis_class_count": 2,
+      "candidate_count": 4,
+      "edge_count": 5,
+      "minimum_hitting_set_width": 1,
+      "slack": 1,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_sub"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_sub"
+      ]
+    },
+    {
+      "component": 154,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PairedKernelBound.integrable_pairing"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PairedKernelBound.integrable_pairing"
+      ]
+    },
+    {
+      "component": 155,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedFluxEstimates.neg_coupling_le_weightedEnergy"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedFluxEstimates.neg_coupling_le_weightedEnergy"
+      ]
+    },
+    {
+      "component": 156,
+      "basis_class_count": 2,
+      "candidate_count": 3,
+      "edge_count": 4,
+      "minimum_hitting_set_width": 1,
+      "slack": 1,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded"
+      ]
+    },
+    {
+      "component": 157,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.timeAverage_integrand_integrable"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.timeAverage_integrand_integrable"
+      ]
+    },
+    {
+      "component": 158,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_product_integrable"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_product_integrable"
+      ]
+    },
+    {
+      "component": 159,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.integrableOn_inverseTimeGamma"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.integrableOn_inverseTimeGamma"
+      ]
+    },
+    {
+      "component": 160,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.norm_integral_sq_le_measure_mul_integral_sq"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.norm_integral_sq_le_measure_mul_integral_sq"
+      ]
+    },
+    {
+      "component": 161,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.exists_inner_representation_of_fourierHNormSq_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.exists_inner_representation_of_fourierHNormSq_bound"
+      ]
+    },
+    {
+      "component": 162,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LpNormTools.lpNorm_two_sq_eq_l2Sq"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LpNormTools.lpNorm_two_sq_eq_l2Sq"
+      ]
+    },
+    {
+      "component": 163,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_9"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_9"
+      ]
+    },
+    {
+      "component": 164,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_4"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_4"
+      ]
+    },
+    {
+      "component": 165,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.eq_zero_of_l2Sq_eq_zero"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.eq_zero_of_l2Sq_eq_zero"
+      ]
+    },
+    {
+      "component": 166,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ProblemStatement.kineticEnergy_spatial_smul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ProblemStatement.kineticEnergy_spatial_smul"
+      ]
+    },
+    {
+      "component": 167,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_memLp_two"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_memLp_two"
+      ]
+    },
+    {
+      "component": 168,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 169,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.integrable_fourierHNormSq_four"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.integrable_fourierHNormSq_four"
+      ]
+    },
+    {
+      "component": 170,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_transport_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_transport_bound"
+      ]
+    },
+    {
+      "component": 171,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.memLp_fderiv_rieszTest"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.memLp_fderiv_rieszTest"
+      ]
+    },
+    {
+      "component": 172,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedTensorBounds.scalar_product_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedTensorBounds.scalar_product_bound"
+      ]
+    },
+    {
+      "component": 173,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.uniformFiniteEnergy_component_l2Sq_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.uniformFiniteEnergy_component_l2Sq_bound"
+      ]
+    },
+    {
+      "component": 174,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTemporalIdentity.pressure_time_identity._simp_1_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTemporalIdentity.pressure_time_identity._simp_1_1"
+      ]
+    },
+    {
+      "component": 175,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_abs_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_abs_le"
+      ]
+    },
+    {
+      "component": 176,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedTensorBounds.quadratic_cutoff_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedTensorBounds.quadratic_cutoff_bound"
+      ]
+    },
+    {
+      "component": 177,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PairedKernelBound.dominated_section_memLp_and_lpNorm_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PairedKernelBound.dominated_section_memLp_and_lpNorm_le"
+      ]
+    },
+    {
+      "component": 178,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFlux.lpNorm_ofReal"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 179,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LpNormTools.lpNorm_mono_of_norm_le_ae"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LpNormTools.lpNorm_mono_of_norm_le_ae"
+      ]
+    },
+    {
+      "component": 180,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.eLpNorm_fderiv_cutoff_smul_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.eLpNorm_fderiv_cutoff_smul_le"
+      ]
+    },
+    {
+      "component": 181,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 182,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PairedKernelBound.integrable_smul_and_integral_norm_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PairedKernelBound.integrable_smul_and_integral_norm_le"
+      ]
+    },
+    {
+      "component": 183,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.integral_partial_eq_zero"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.integral_partial_eq_zero"
+      ]
+    },
+    {
+      "component": 184,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_integrable_time"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_integrable_time"
+      ]
+    },
+    {
+      "component": 185,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.integral_inverseTimeGamma"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.integral_inverseTimeGamma"
+      ]
+    },
+    {
+      "component": 186,
+      "basis_class_count": 2,
+      "candidate_count": 3,
+      "edge_count": 4,
+      "minimum_hitting_set_width": 1,
+      "slack": 1,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le"
+      ]
+    },
+    {
+      "component": 187,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_tsupport_subset"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_tsupport_subset"
+      ]
+    },
+    {
+      "component": 188,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_support_subset"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_support_subset"
+      ]
+    },
+    {
+      "component": 189,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakTimeContinuity.continuousOn_cutoff_pairing._simp_1_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakTimeContinuity.continuousOn_cutoff_pairing._simp_1_1"
+      ]
+    },
+    {
+      "component": 190,
+      "basis_class_count": 1,
+      "candidate_count": 13,
+      "edge_count": 13,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 13,
+      "component_backbone": []
+    },
+    {
+      "component": 191,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 192,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 193,
+      "basis_class_count": 1,
+      "candidate_count": 37,
+      "edge_count": 37,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 37,
+      "component_backbone": []
+    },
+    {
+      "component": 194,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.fourierHNormSq_three_integrand_le_four"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.fourierHNormSq_three_integrand_le_four"
+      ]
+    },
+    {
+      "component": 195,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.GradientOperator.continuous_gradientSq"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.GradientOperator.continuous_gradientSq"
+      ]
+    },
+    {
+      "component": 196,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.conservative_difference_equation"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.conservative_difference_equation"
+      ]
+    },
+    {
+      "component": 197,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactComparisonBounds.exists_gradient_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactComparisonBounds.exists_gradient_bound"
+      ]
+    },
+    {
+      "component": 198,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.integral_inner_partial"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.integral_inner_partial"
+      ]
+    },
+    {
+      "component": 199,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ProblemStatement.futureDomain"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ProblemStatement.futureDomain"
+      ]
+    },
+    {
+      "component": 200,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ActualCandidate.of_localized_fields"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.of_localized_fields"
+      ]
+    },
+    {
+      "component": 201,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ActualCandidate.compactForce_smooth"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.compactForce_smooth"
+      ]
+    },
+    {
+      "component": 202,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ActualCandidate.compactForce_supported_all_times"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.compactForce_supported_all_times"
+      ]
+    },
+    {
+      "component": 203,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ActualCandidate.localized_pressure_tsupport"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.localized_pressure_tsupport"
+      ]
+    },
+    {
+      "component": 204,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ActualCandidate.localized_velocity_tsupport"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.localized_velocity_tsupport"
+      ]
+    },
+    {
+      "component": 205,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ActualCandidate.localized_residual_zero_early"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.localized_residual_zero_early"
+      ]
+    },
+    {
+      "component": 206,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_contDiff"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_contDiff"
+      ]
+    },
+    {
+      "component": 207,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_eq_one"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_eq_one"
+      ]
+    },
+    {
+      "component": 208,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_eq_zero"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_eq_zero"
+      ]
+    },
+    {
+      "component": 209,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_4"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_4"
+      ]
+    },
+    {
+      "component": 210,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.theorem_1_1_with_initial_rest"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.theorem_1_1_with_initial_rest"
+      ]
+    },
+    {
+      "component": 211,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LpNormTools.lpNorm_const_smul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LpNormTools.lpNorm_const_smul"
+      ]
+    },
+    {
+      "component": 212,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_7"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_7"
+      ]
+    },
+    {
+      "component": 213,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTemporalIdentity.compact_time_integration_by_parts"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTemporalIdentity.compact_time_integration_by_parts"
+      ]
+    },
+    {
+      "component": 214,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureRecovery.averaged_value_real_harmonic"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureRecovery.averaged_value_real_harmonic"
+      ]
+    },
+    {
+      "component": 215,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.weighted_sobolev"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeightedSobolev.weighted_sobolev"
+      ]
+    },
+    {
+      "component": 216,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_3"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 217,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.inner_B_eq_integral"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.inner_B_eq_integral"
+      ]
+    },
+    {
+      "component": 218,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.heatKernelTimeConstant_pos"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.heatKernelTimeConstant_pos"
+      ]
+    },
+    {
+      "component": 219,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.heatKernel_nonneg"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.heatKernel_nonneg"
+      ]
+    },
+    {
+      "component": 220,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_tendsto_zero"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_tendsto_zero"
+      ]
+    },
+    {
+      "component": 221,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_le"
+      ]
+    },
+    {
+      "component": 222,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedInterpolation.norm_weight_pow_eq"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeightedInterpolation.norm_weight_pow_eq"
+      ]
+    },
+    {
+      "component": 223,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_le_of_fourier_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_le_of_fourier_bound"
+      ]
+    },
+    {
+      "component": 224,
+      "basis_class_count": 1,
+      "candidate_count": 5,
+      "edge_count": 5,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 5,
+      "component_backbone": []
+    },
+    {
+      "component": 225,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale"
+      ]
+    },
+    {
+      "component": 226,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoff_pow_smul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoff_pow_smul"
+      ]
+    },
+    {
+      "component": 227,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ProblemStatement.tsupport_spatialScale_subset"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ProblemStatement.tsupport_spatialScale_subset"
+      ]
+    },
+    {
+      "component": 228,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFluxIdentity.sum_partial_realTest_weightedComponent"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFluxIdentity.sum_partial_realTest_weightedComponent"
+      ]
+    },
+    {
+      "component": 229,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 230,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.weighted_tail_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.weighted_tail_le"
+      ]
+    },
+    {
+      "component": 231,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactSchwartz.ofCompactSupport"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactSchwartz.ofCompactSupport"
+      ]
+    },
+    {
+      "component": 232,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.norm_B_eq_sqrt"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.norm_B_eq_sqrt"
+      ]
+    },
+    {
+      "component": 233,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.seminorm_truncate_sub_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.seminorm_truncate_sub_le"
+      ]
+    },
+    {
+      "component": 234,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM"
+      ]
+    },
+    {
+      "component": 235,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_8"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_8"
+      ]
+    },
+    {
+      "component": 236,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTestBounds.integral_first_moment_le._simp_1_2"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.integral_first_moment_le._simp_1_2"
+      ]
+    },
+    {
+      "component": 237,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.norm_sub_sq_le_twice"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.norm_sub_sq_le_twice"
+      ]
+    },
+    {
+      "component": 238,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale_candidate"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale_candidate"
+      ]
+    },
+    {
+      "component": 239,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.eventually_cutoff_eq_one"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.eventually_cutoff_eq_one"
+      ]
+    },
+    {
+      "component": 240,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_pairing_fourier_conj"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_pairing_fourier_conj"
+      ]
+    },
+    {
+      "component": 241,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakTimeContinuity.tendstoUniformly_cutoffTest"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakTimeContinuity.tendstoUniformly_cutoffTest"
+      ]
+    },
+    {
+      "component": 242,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakTimeContinuity.exists_test_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakTimeContinuity.exists_test_bound"
+      ]
+    },
+    {
+      "component": 243,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.energy_balance"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.energy_balance"
+      ]
+    },
+    {
+      "component": 244,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.energy_hasDerivAt"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.energy_hasDerivAt"
+      ]
+    },
+    {
+      "component": 245,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_iteratedFDeriv_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_iteratedFDeriv_le"
+      ]
+    },
+    {
+      "component": 246,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonRateBound.exists_uniform_flux_absorption"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonRateBound.exists_uniform_flux_absorption"
+      ]
+    },
+    {
+      "component": 247,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.partial_partial_eq_fderiv"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.partial_partial_eq_fderiv"
+      ]
+    },
+    {
+      "component": 248,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.fourierIntegralInv_mul_fourier"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.fourierIntegralInv_mul_fourier"
+      ]
+    },
+    {
+      "component": 249,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.riesz_commutator_eq_heatKernel"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.riesz_commutator_eq_heatKernel"
+      ]
+    },
+    {
+      "component": 250,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.heatSecondTest_eq_convolution"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 251,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 252,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 253,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.integral_inverseTimeGamma_square_scale"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.integral_inverseTimeGamma_square_scale"
+      ]
+    },
+    {
+      "component": 254,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.difference_energy_balance"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.difference_energy_balance"
+      ]
+    },
+    {
+      "component": 255,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_hasDerivAt"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_hasDerivAt"
+      ]
+    },
+    {
+      "component": 256,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedFluxEstimates.weight_iteratedFDeriv_two_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedFluxEstimates.weight_iteratedFDeriv_two_le"
+      ]
+    },
+    {
+      "component": 257,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTemporalIdentity.component_time_test_continuousOn"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTemporalIdentity.component_time_test_continuousOn"
+      ]
+    },
+    {
+      "component": 258,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_lpNorm_scale"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_lpNorm_scale"
+      ]
+    },
+    {
+      "component": 259,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_power_integrable"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_power_integrable"
+      ]
+    },
+    {
+      "component": 260,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_two_fderiv_rieszTest_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_two_fderiv_rieszTest_le"
+      ]
+    },
+    {
+      "component": 261,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.norm_scaled"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.norm_scaled"
+      ]
+    },
+    {
+      "component": 262,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.force_work_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 263,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.ae_eq_zero_of_integral_real_test_mul_eq_zero"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.ae_eq_zero_of_integral_real_test_mul_eq_zero"
+      ]
+    },
+    {
+      "component": 264,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_smooth"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_smooth"
+      ]
+    },
+    {
+      "component": 265,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.l2Sq_continuous"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.l2Sq_continuous"
+      ]
+    },
+    {
+      "component": 266,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonRateBound.exists_uniform_rate_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonRateBound.exists_uniform_rate_bound"
+      ]
+    },
+    {
+      "component": 267,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.norm_heatKernelSecond_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.norm_heatKernelSecond_le"
+      ]
+    },
+    {
+      "component": 268,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 269,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation_twelve_fifths"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation_twelve_fifths"
+      ]
+    },
+    {
+      "component": 270,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFlux.pressurePair_decomposition"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.pressurePair_decomposition"
+      ]
+    },
+    {
+      "component": 271,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.partial_mul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.partial_mul"
+      ]
+    },
+    {
+      "component": 272,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ConservativeDifference.partial_sum"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.partial_sum"
+      ]
+    },
+    {
+      "component": 273,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.norm_fderiv_cutoff_smul_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.norm_fderiv_cutoff_smul_le"
+      ]
+    },
+    {
+      "component": 274,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzParseval.integral_fourier_mul"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzParseval.integral_fourier_mul"
+      ]
+    },
+    {
+      "component": 275,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_bound"
+      ]
+    },
+    {
+      "component": 276,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.energy_balance_viscosity"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.energy_balance_viscosity"
+      ]
+    },
+    {
+      "component": 277,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 278,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.integral_heatSecondSymbol"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.integral_heatSecondSymbol"
+      ]
+    },
+    {
+      "component": 279,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.cumulativeForceNorm_continuous"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.cumulativeForceNorm_continuous"
+      ]
+    },
+    {
+      "component": 280,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale_speed_unbounded"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale_speed_unbounded"
+      ]
+    },
+    {
+      "component": 281,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 282,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_test_le_of_integrable"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_test_le_of_integrable"
+      ]
+    },
+    {
+      "component": 283,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFlux.exists_uniform_canonicalCutoffFlux_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.exists_uniform_canonicalCutoffFlux_bound"
+      ]
+    },
+    {
+      "component": 284,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFlux.cutoff_commutator_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 2,
+      "component_backbone": []
+    },
+    {
+      "component": 285,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedFluxEstimates.transport_flux_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedFluxEstimates.transport_flux_bound"
+      ]
+    },
+    {
+      "component": 286,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.weightedSchwartz_injective"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.weightedSchwartz_injective"
+      ]
+    },
+    {
+      "component": 287,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFlux.uniform_expression_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.uniform_expression_bound"
+      ]
+    },
+    {
+      "component": 288,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.Comparison.abs_sq_sub_sq_le_one"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.Comparison.abs_sq_sub_sq_le_one"
+      ]
+    },
+    {
+      "component": 289,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ScalarEnergyBound.forced_gronwall"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ScalarEnergyBound.forced_gronwall"
+      ]
+    },
+    {
+      "component": 290,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.PressureFluxIdentity.pressure_flux_eq_of_gradient_identification"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.PressureFluxIdentity.pressure_flux_eq_of_gradient_identification"
+      ]
+    },
+    {
+      "component": 291,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 3,
+      "component_backbone": []
+    },
+    {
+      "component": 292,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ProblemStatement.CandidateProperties.not_global_agreement"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ProblemStatement.CandidateProperties.not_global_agreement"
+      ]
+    },
+    {
+      "component": 293,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.memLp_two_and_integral_le_of_pairing_bound._simp_1_1"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.memLp_two_and_integral_le_of_pairing_bound._simp_1_1"
+      ]
+    },
+    {
+      "component": 294,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.uniform_cutoff_derivative_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.uniform_cutoff_derivative_bound"
+      ]
+    },
+    {
+      "component": 295,
+      "basis_class_count": 1,
+      "candidate_count": 5,
+      "edge_count": 5,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 5,
+      "component_backbone": []
+    },
+    {
+      "component": 296,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.CompactEnergy.work_le_sqrt_l2Sq"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.work_le_sqrt_l2Sq"
+      ]
+    },
+    {
+      "component": 297,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale_residual"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale_residual"
+      ]
+    },
+    {
+      "component": 298,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.LocalizedFluxEstimates.norm_fderiv_cutoff_eight_apply_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.LocalizedFluxEstimates.norm_fderiv_cutoff_eight_apply_le"
+      ]
+    },
+    {
+      "component": 299,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_two_partial_rieszTest_le"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_two_partial_rieszTest_le"
+      ]
+    },
+    {
+      "component": 300,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.WholeSpaceComparisonClosure.eq_of_pressure_flux_bound"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.WholeSpaceComparisonClosure.eq_of_pressure_flux_bound"
+      ]
+    },
+    {
+      "component": 301,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "solve_status": "optimal",
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "one_optimum": [
+        "NavierStokesR3.ComparisonYoung.exists_rpow_absorption"
+      ],
+      "enumeration_status": "complete",
+      "optimum_count": 1,
+      "component_backbone": [
+        "NavierStokesR3.ComparisonYoung.exists_rpow_absorption"
+      ]
+    }
+  ],
+  "exchange_location": {
+    "component": 31,
+    "declarations": [
+      "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+      "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+    ],
+    "same_component": true
+  },
+  "summary": {
+    "component_count": 302,
+    "basis_class_count": 320,
+    "candidate_count": 472,
+    "edge_count": 492,
+    "minimum_width_sum": 309,
+    "slack_sum": 11,
+    "optimum_family_enumeration": "complete",
+    "global_optimum_count": 1852694344344010752000000,
+    "global_backbone_count": 250
+  },
+  "interpretation_boundary": "Component minima and complete componentwise optimum-family enumeration are exact for the current 320-class inclusion-minimal basis incidence graph. The resulting backbone and optimum multiplicity are current-contract measurements, not semantic necessity or historical-contract claims."
+}

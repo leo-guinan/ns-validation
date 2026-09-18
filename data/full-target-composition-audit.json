@@ -373,7 +373,15 @@
       "independent_only_size": 1,
       "sets_distinct": true
     },
-    "evidence": "the MILP witness differs from recorded I2508 by one identity while both have width 309"
+    "evidence": "the MILP witness differs from recorded I2508 by one identity while both have width 309",
+    "witness_provenance": {
+      "name": "current_stored_full_target_witness",
+      "width": 309,
+      "identity_hash": "014c2830922effa459261874c942cb7a611a804788365fe78028f0eda0af7473",
+      "tensorDiff_divergence": false,
+      "weak_pressure_poisson": true,
+      "canonicalization": "sorted declaration identities, JSON compact separators"
+    }
   },
   "composition_overhead": {
     "I2436_union_I72_size": 314,
