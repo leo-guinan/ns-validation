@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Continuation state sufficiency receipt",
+  "type":"object",
+  "required":["experiment","status","cross_tab","summary","collision_witnesses","components","interpretation_boundary"],
+  "properties":{"experiment":{"const":"48-continuation-state-sufficiency"},"status":{"const":"exact_continuation_signatures_measured"},"cross_tab":{"type":"object"},"summary":{"type":"object"},"collision_witnesses":{"type":"object"},"components":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}

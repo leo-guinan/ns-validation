@@ -60,3 +60,4 @@ data/*
 !data/geodesic-exchange-and-basis-axiom.json
 !data/exchange-precedence.json
 !data/geodesic-retention-and-poset-test.json
+!data/continuation-state-sufficiency.json
