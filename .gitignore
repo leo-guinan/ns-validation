@@ -61,3 +61,4 @@ data/*
 !data/exchange-precedence.json
 !data/geodesic-retention-and-poset-test.json
 !data/continuation-state-sufficiency.json
+!data/minimum-distinguishing-coordinates.json

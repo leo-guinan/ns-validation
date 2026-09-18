@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Minimum distinguishing coordinates receipt",
+  "type":"object",
+  "required":["experiment","status","scope","removal","addition","interpretation_boundary"],
+  "properties":{"experiment":{"const":"49-minimum-distinguishing-coordinates"},"status":{"const":"exact_minimum_distinguishing_coordinates_measured"},"scope":{"type":"string"},"removal":{"type":"object"},"addition":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}
