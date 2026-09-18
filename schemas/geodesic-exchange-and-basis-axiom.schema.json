@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Geodesic exchange and basis axiom receipt",
+  "type":"object",
+  "required":["experiment","status","components","summary","diameter_witness","interpretation_boundary"],
+  "properties":{"experiment":{"const":"45-geodesic-exchange-and-basis-axiom"},"status":{"const":"exact_geodesic_and_basis_exchange_measured"},"components":{"type":"array"},"summary":{"type":"object"},"diameter_witness":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}

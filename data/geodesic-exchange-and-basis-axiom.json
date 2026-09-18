@@ -1,0 +1,4361 @@
+{
+  "experiment": "45-geodesic-exchange-and-basis-axiom",
+  "status": "exact_geodesic_and_basis_exchange_measured",
+  "contract_reference": "Experiment 41 current basis graph",
+  "components": [
+    {
+      "component": 0,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeightedInterpolation.eLpNorm_le_rpow_mul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 1,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.abs_sq_sub_sq_le_two_mul_abs_sub"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 2,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg"
+        ],
+        [
+          "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg"
+        ]
+      ]
+    },
+    {
+      "component": 3,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFunctionals.integralPairLinear"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.PressureFunctionals.testValueLinear"
+        ],
+        [
+          "NavierStokesR3.PressureFunctionals.integralPairLinear"
+        ]
+      ]
+    },
+    {
+      "component": 4,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactComparisonBounds.exists_radius_weight_derivative_zero"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 5,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.rieszTest_eq_integral_heatSecondTest"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 6,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 7,
+      "optimum_count": 12,
+      "pair_count": 66,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.l2Sq._proof_2"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.comparisonLpNorm._proof_2"
+        ],
+        [
+          "NavierStokesR3.CompactEnergy.l2Sq._proof_2"
+        ]
+      ]
+    },
+    {
+      "component": 8,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzParseval.fourier_conj_apply"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 9,
+      "optimum_count": 5,
+      "pair_count": 10,
+      "exchange_diameter": 2,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": false,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_iteratedFDeriv_le",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.ComparisonCutoffs.derivativeConstant",
+          "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+        ],
+        [
+          "NavierStokesR3.ComparisonCutoffs.baseCutoff_iteratedFDeriv_le",
+          "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant"
+        ]
+      ]
+    },
+    {
+      "component": 10,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left._simp_1_2"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 11,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_smul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 12,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTemporalIdentity.continuous_cutoff_mul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 13,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.memLp_two_and_integral_le_of_pairing_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 14,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.continuousOn_timeFDeriv_of_contDiffOn"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 15,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.fourier_partialCLM_apply"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 16,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFlux.actual_flux_integrable_and_le_canonicalNorm"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 17,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureRecovery.compact_harmonic_of_real"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.PressureRecovery.compact_test_decomposition"
+        ],
+        [
+          "NavierStokesR3.PressureRecovery.compact_harmonic_of_real"
+        ]
+      ]
+    },
+    {
+      "component": 18,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzParseval.integral_norm_sq_fourier"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 19,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFlux.norm_holder_pair_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 20,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTestBounds.norm_fourier_partialCLM"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 21,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.norm_rieszTest_pairing_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 22,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFunctionals.integrable_l2_pair"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 23,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero._simp_1_2"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 24,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_laplacianCLM"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 25,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakTimeContinuity.norm_sub_cutoffTest_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 26,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureRecovery.averaged_gradient_poisson_complex"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.PressureRecovery.laplacianCLM_realTest"
+        ],
+        [
+          "NavierStokesR3.PressureRecovery.averaged_gradient_poisson_complex"
+        ]
+      ]
+    },
+    {
+      "component": 27,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.ae_eq_zero_of_integral_schwartz_test_mul_eq_zero"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 28,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.component_test_hasDerivAt"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 29,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactSchwartz.weighted_derivative_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 30,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.contDiff_rieszTest"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 31,
+      "optimum_count": 10,
+      "pair_count": 45,
+      "exchange_diameter": 3,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": false,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.ConservativeDifference.advection_component",
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+          "NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+        ],
+        [
+          "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+          "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+          "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+        ]
+      ]
+    },
+    {
+      "component": 32,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.partial_comm"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 33,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseBump"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 34,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_smooth"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 35,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_le_one"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 36,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_eq_one"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 37,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_eq_zero"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 38,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale_smooth_on"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 39,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_time_of_contDiffOn"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 40,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.spatialPartial_continuousOn_slab"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 41,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero"
+        ],
+        [
+          "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero"
+        ]
+      ]
+    },
+    {
+      "component": 42,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTestBounds.integral_first_moment_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 43,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.continuous_of_fourierHNormSq_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 44,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzParseval.integral_fourier_mul_conj"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 45,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeightedSobolev.memLp_cutoff_pow_smul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 46,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.l2Norm_continuous"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude"
+        ],
+        [
+          "NavierStokesR3.CompactEnergy.l2Norm_continuous"
+        ]
+      ]
+    },
+    {
+      "component": 47,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.continuous_zero_of_compactSupport"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 48,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1"
+        ],
+        [
+          "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2"
+        ]
+      ]
+    },
+    {
+      "component": 49,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTestBounds.integrable_inverse_weight_sq"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 50,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_10"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.rieszTest._proof_10"
+        ],
+        [
+          "NavierStokesR3.Comparison.heatSecondTest._proof_10"
+        ]
+      ]
+    },
+    {
+      "component": 51,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_11"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.rieszTest._proof_11"
+        ],
+        [
+          "NavierStokesR3.Comparison.heatSecondTest._proof_11"
+        ]
+      ]
+    },
+    {
+      "component": 52,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_measurable"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 53,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.RieszTestOperators.partialTest._proof_5"
+        ],
+        [
+          "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4"
+        ]
+      ]
+    },
+    {
+      "component": 54,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.representative_eq_zero_of_harmonic"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 55,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedTensorBounds.continuous_component"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 56,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.B_injective"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 57,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.locallyIntegrable_weighted_star"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 58,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.fderiv_fourierInv_apply"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 59,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_4"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 60,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply"
+        ],
+        [
+          "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul"
+        ]
+      ]
+    },
+    {
+      "component": 61,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 62,
+      "optimum_count": 5,
+      "pair_count": 10,
+      "exchange_diameter": 3,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": false,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+        "NavierStokesR3.GradientOperator.fderiv_apply_eq_sum",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+        "NavierStokesR3.PressureFlux.norm_fderiv_ofReal"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+          "NavierStokesR3.PressureFluxTest.cutoffTest_four_bound",
+          "NavierStokesR3.PressureRecovery.partial_ofReal",
+          "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms"
+        ],
+        [
+          "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+          "NavierStokesR3.GradientOperator.fderiv_apply_eq_sum",
+          "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+          "NavierStokesR3.PressureFlux.norm_fderiv_ofReal"
+        ]
+      ]
+    },
+    {
+      "component": 63,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.partial_sub"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 64,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.norm_partial_partial_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 65,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ActualCandidate.selected_candidate_one_with_initial_rest"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 66,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.truncate_error_weighted_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 67,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.continuous_slice"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 68,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.candidate_total_dissipation_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 69,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.forceWork_continuousOn"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 70,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 71,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.TemporalTestUniqueness.eq_zero_on_open_of_tests"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 72,
+      "optimum_count": 5,
+      "pair_count": 10,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactComparisonBounds.continuousOn_integral_norm_cube"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.CompactComparisonBounds.uniformFiniteEnergy_of_compact_slab"
+        ],
+        [
+          "NavierStokesR3.CompactComparisonBounds.continuousOn_integral_norm_cube"
+        ]
+      ]
+    },
+    {
+      "component": 73,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.continuousOn_time_weight"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 74,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.cancelledComplexTimeIntegrand_measurable"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 75,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFlux.cutoff_lipschitz"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 76,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HilbertFunctionalExtension.exists_inner_representation"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 77,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 78,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFluxTest.norm_fderiv_r_le_raw"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 79,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedTensorBounds.cross_norm_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 80,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.RieszTestOperators.smooth_memLp_six"
+        ],
+        [
+          "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le"
+        ]
+      ]
+    },
+    {
+      "component": 81,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_memLp"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 82,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 83,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeightedInterpolation.memLp_and_lpNorm_le_rpow_mul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 84,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.candidate_integrable_dissipation"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 85,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureRecovery.averaged_gradient_poisson"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage"
+        ],
+        [
+          "NavierStokesR3.PressureRecovery.averaged_gradient_poisson"
+        ]
+      ]
+    },
+    {
+      "component": 86,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.WeightedInterpolation.cutoff_interpolation"
+        ],
+        [
+          "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le"
+        ]
+      ]
+    },
+    {
+      "component": 87,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTestBounds.exists_uniform_test_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 88,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatKernelSecond_joint_measurable"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 89,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakTimeContinuity.continuousOn_pairing"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 90,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactComparisonBounds.weight_fderiv_eq_zero_of_norm_lt"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 91,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.integral_time_derivative_divergence_free"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 92,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.B_ae_eq"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 93,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.eq_zero_of_radius_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 94,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.integral_weight_tendsto"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 95,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.continuous_slice_of_continuousOn"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 96,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.pressureGradient_component"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 97,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.GradientOperator.partial_norm_le_sqrt_gradientSq"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 98,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale_laplacian"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 99,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.truncate_weighted_derivative_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 100,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_5"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.rieszTest._proof_5"
+        ],
+        [
+          "NavierStokesR3.Comparison.heatSecondTest._proof_5"
+        ]
+      ]
+    },
+    {
+      "component": 101,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_add"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 102,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_9"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.rieszTest._proof_9"
+        ],
+        [
+          "NavierStokesR3.Comparison.heatSecondTest._proof_9"
+        ]
+      ]
+    },
+    {
+      "component": 103,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_8"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.rieszTest._proof_8"
+        ],
+        [
+          "NavierStokesR3.Comparison.heatSecondTest._proof_8"
+        ]
+      ]
+    },
+    {
+      "component": 104,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTestBounds.norm_test_le_integral_fourier"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 105,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_7"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.rieszTest._proof_7"
+        ],
+        [
+          "NavierStokesR3.Comparison.heatSecondTest._proof_7"
+        ]
+      ]
+    },
+    {
+      "component": 106,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero._simp_1_1"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 107,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left._simp_1_1"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 108,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.divergence_weighted"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 109,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 2,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": false,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow",
+        "NavierStokesR3.Comparison.cutoffSquareDifference_smul"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.WeakTimeContinuity.norm_pairing_sub_le",
+          "NavierStokesR3.WeightedInterpolation.pow_four_rpow"
+        ],
+        [
+          "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow",
+          "NavierStokesR3.Comparison.cutoffSquareDifference_smul"
+        ]
+      ]
+    },
+    {
+      "component": 110,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.compact_scalarLaplacian"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 111,
+      "optimum_count": 4,
+      "pair_count": 6,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFlux.fluxFunction_compact"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.PressureFluxIdentity.fluxFunction_hasCompactSupport"
+        ],
+        [
+          "NavierStokesR3.PressureFlux.fluxFunction_compact"
+        ]
+      ]
+    },
+    {
+      "component": 112,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.compact_partial"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 113,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactForceBound.exists_uniform_l2sq_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 114,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff._proof_1"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 115,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt"
+        ],
+        [
+          "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn"
+        ]
+      ]
+    },
+    {
+      "component": 116,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 117,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ScalarEnergyBound.forced_gronwall_weighted"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 118,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.integral_l2Norm_cumulative_eq_sq"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 119,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SharpEnergyBound.sqrt_energy_le_integral"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 120,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonGronwall.exp_neg_mul_le_of_deriv_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 121,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_iff_memLp"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 122,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1"
+        ],
+        [
+          "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1"
+        ]
+      ]
+    },
+    {
+      "component": 123,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1"
+        ],
+        [
+          "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1"
+        ]
+      ]
+    },
+    {
+      "component": 124,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTemporalIdentity.pressure_time_identity_interval"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 125,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.B._proof_1"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5"
+        ],
+        [
+          "NavierStokesR3.FourierSobolevWeights.B._proof_1"
+        ]
+      ]
+    },
+    {
+      "component": 126,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PositiveTimeForce.force_tsupport_subset"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 127,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_1"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 128,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_3"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 129,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.candidate_energy_dissipation_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 130,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.tendsto_approximate"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 131,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM_apply"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 132,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.RieszTestOperators.partialTest._proof_3"
+        ],
+        [
+          "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2"
+        ]
+      ]
+    },
+    {
+      "component": 133,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.RieszTestOperators.partialTest._proof_4"
+        ],
+        [
+          "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3"
+        ]
+      ]
+    },
+    {
+      "component": 134,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.integral_fourierInv_mul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 135,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.eq_zero_of_harmonic"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 136,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 137,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.cutoffSquareDifference_abs_le_scaled_min"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 138,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_partial_partial_le_of_integrable"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 139,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.integral_heatKernelSecondTimeEnvelope"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 140,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonYoung.cutoff_expression_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 141,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.weight_hasCompactSupport"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_memLp"
+        ],
+        [
+          "NavierStokesR3.ComparisonCutoffs.weight_hasCompactSupport"
+        ]
+      ]
+    },
+    {
+      "component": 142,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_nonneg"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 143,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 144,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFluxTest.cutoffTest_derivative_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 145,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_second_partial"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 146,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.fourier_laplacianCLM_apply"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 147,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.cancelledTimeIntegrand_measurable"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 148,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.cancelledTimeKernel_measurable"
+        ],
+        [
+          "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable"
+        ]
+      ]
+    },
+    {
+      "component": 149,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.aestronglyMeasurable_slab"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 150,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PairedKernelBound.integrable_paired_kernel"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 151,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.memLp_two_timeIntegral"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 152,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.cumulativeForceNorm_hasDerivAt"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 153,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_sub"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 154,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PairedKernelBound.integrable_pairing"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 155,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedFluxEstimates.neg_coupling_le_weightedEnergy"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 156,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 157,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.timeAverage_integrand_integrable"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 158,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_product_integrable"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 159,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.integrableOn_inverseTimeGamma"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 160,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.norm_integral_sq_le_measure_mul_integral_sq"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 161,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.HarmonicTestFunctionals.exists_inner_representation_of_fourierHNormSq_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 162,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LpNormTools.lpNorm_two_sq_eq_l2Sq"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 163,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_9"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 164,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_4"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 165,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.eq_zero_of_l2Sq_eq_zero"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 166,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ProblemStatement.kineticEnergy_spatial_smul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 167,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_memLp_two"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 168,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled"
+        ],
+        [
+          "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled"
+        ]
+      ]
+    },
+    {
+      "component": 169,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.integrable_fourierHNormSq_four"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 170,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_transport_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 171,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.memLp_fderiv_rieszTest"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 172,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedTensorBounds.scalar_product_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 173,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.uniformFiniteEnergy_component_l2Sq_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 174,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTemporalIdentity.pressure_time_identity._simp_1_1"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 175,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_abs_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 176,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedTensorBounds.quadratic_cutoff_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 177,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PairedKernelBound.dominated_section_memLp_and_lpNorm_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 178,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.PressureFlux.lpNorm_ofReal"
+        ],
+        [
+          "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest"
+        ]
+      ]
+    },
+    {
+      "component": 179,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LpNormTools.lpNorm_mono_of_norm_le_ae"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 180,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.eLpNorm_fderiv_cutoff_smul_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 181,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm"
+        ],
+        [
+          "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm"
+        ]
+      ]
+    },
+    {
+      "component": 182,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PairedKernelBound.integrable_smul_and_integral_norm_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 183,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.integral_partial_eq_zero"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 184,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_integrable_time"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 185,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.integral_inverseTimeGamma"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 186,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 187,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_tsupport_subset"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 188,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_support_subset"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 189,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakTimeContinuity.continuousOn_cutoff_pairing._simp_1_1"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 190,
+      "optimum_count": 13,
+      "pair_count": 78,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.l2Sq._proof_1"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.comparisonLpNorm._proof_1"
+        ],
+        [
+          "NavierStokesR3.CompactEnergy.l2Sq._proof_1"
+        ]
+      ]
+    },
+    {
+      "component": 191,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_6"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.rieszTest._proof_6"
+        ],
+        [
+          "NavierStokesR3.Comparison.heatSecondTest._proof_6"
+        ]
+      ]
+    },
+    {
+      "component": 192,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+        ],
+        [
+          "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le"
+        ]
+      ]
+    },
+    {
+      "component": 193,
+      "optimum_count": 37,
+      "pair_count": 666,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.energyRate._proof_1"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.cutoffL6._proof_1"
+        ],
+        [
+          "NavierStokesR3.CompactEnergy.energyRate._proof_1"
+        ]
+      ]
+    },
+    {
+      "component": 194,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.fourierHNormSq_three_integrand_le_four"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 195,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.GradientOperator.continuous_gradientSq"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 196,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.conservative_difference_equation"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 197,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactComparisonBounds.exists_gradient_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 198,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.integral_inner_partial"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 199,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ProblemStatement.futureDomain"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 200,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ActualCandidate.of_localized_fields"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 201,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ActualCandidate.compactForce_smooth"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 202,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ActualCandidate.compactForce_supported_all_times"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 203,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ActualCandidate.localized_pressure_tsupport"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 204,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ActualCandidate.localized_velocity_tsupport"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 205,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ActualCandidate.localized_residual_zero_early"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 206,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_contDiff"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 207,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_eq_one"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 208,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_eq_zero"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 209,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_4"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 210,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.theorem_1_1_with_initial_rest"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 211,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LpNormTools.lpNorm_const_smul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 212,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_7"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 213,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTemporalIdentity.compact_time_integration_by_parts"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 214,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureRecovery.averaged_value_real_harmonic"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 215,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeightedSobolev.weighted_sobolev"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 216,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.continuousOn_tensorDiff_field"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale"
+        ],
+        [
+          "NavierStokesR3.Comparison.continuousOn_tensorDiff_field"
+        ]
+      ]
+    },
+    {
+      "component": 217,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.inner_B_eq_integral"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 218,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatKernelTimeConstant_pos"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 219,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatKernel_nonneg"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 220,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_tendsto_zero"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 221,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 222,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeightedInterpolation.norm_weight_pow_eq"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 223,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_le_of_fourier_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 224,
+      "optimum_count": 5,
+      "pair_count": 10,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_6"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_3"
+        ],
+        [
+          "NavierStokesR3.FourierSobolevWeights.BCLM._proof_6"
+        ]
+      ]
+    },
+    {
+      "component": 225,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 226,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoff_pow_smul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 227,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ProblemStatement.tsupport_spatialScale_subset"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 228,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFluxIdentity.sum_partial_realTest_weightedComponent"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 229,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier"
+        ],
+        [
+          "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable"
+        ]
+      ]
+    },
+    {
+      "component": 230,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.weighted_tail_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 231,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactSchwartz.ofCompactSupport"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 232,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.norm_B_eq_sqrt"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 233,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.seminorm_truncate_sub_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 234,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 235,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_8"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 236,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTestBounds.integral_first_moment_le._simp_1_2"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 237,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.norm_sub_sq_le_twice"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 238,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale_candidate"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 239,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.eventually_cutoff_eq_one"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 240,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_pairing_fourier_conj"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 241,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakTimeContinuity.tendstoUniformly_cutoffTest"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 242,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakTimeContinuity.exists_test_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 243,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.energy_balance"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 244,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.energy_hasDerivAt"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 245,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_iteratedFDeriv_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 246,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonRateBound.exists_uniform_flux_absorption"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 247,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.partial_partial_eq_fderiv"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 248,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.fourierIntegralInv_mul_fourier"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 249,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.riesz_commutator_eq_heatKernel"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 250,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.heatSecondTest_eq_convolution"
+        ],
+        [
+          "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable"
+        ]
+      ]
+    },
+    {
+      "component": 251,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space"
+        ],
+        [
+          "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol"
+        ]
+      ]
+    },
+    {
+      "component": 252,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition"
+        ],
+        [
+          "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq"
+        ]
+      ]
+    },
+    {
+      "component": 253,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.integral_inverseTimeGamma_square_scale"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 254,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.difference_energy_balance"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 255,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_hasDerivAt"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 256,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedFluxEstimates.weight_iteratedFDeriv_two_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 257,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTemporalIdentity.component_time_test_continuousOn"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 258,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_lpNorm_scale"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 259,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_power_integrable"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 260,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_two_fderiv_rieszTest_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 261,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.norm_scaled"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 262,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.energy_rate_le"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.CompactEnergy.force_work_le"
+        ],
+        [
+          "NavierStokesR3.CompactEnergy.energy_rate_le"
+        ]
+      ]
+    },
+    {
+      "component": 263,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeakFourierUniqueness.ae_eq_zero_of_integral_real_test_mul_eq_zero"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 264,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_smooth"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 265,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.l2Sq_continuous"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 266,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonRateBound.exists_uniform_rate_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 267,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.norm_heatKernelSecond_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 268,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le"
+        ],
+        [
+          "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one"
+        ]
+      ]
+    },
+    {
+      "component": 269,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation_twelve_fifths"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 270,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFlux.pressurePair_decomposition"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 271,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.partial_mul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 272,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ConservativeDifference.partial_sum"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 273,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.norm_fderiv_cutoff_smul_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 274,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzParseval.integral_fourier_mul"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 275,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 276,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.energy_balance_viscosity"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 277,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.integral_laplacian_energy"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian"
+        ],
+        [
+          "NavierStokesR3.CompactEnergy.integral_laplacian_energy"
+        ]
+      ]
+    },
+    {
+      "component": 278,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.integral_heatSecondSymbol"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 279,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.cumulativeForceNorm_continuous"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 280,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale_speed_unbounded"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 281,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactComparisonBounds.hasCompactSupport_slice"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.ComparisonCutoffs.cutoff_hasCompactSupport"
+        ],
+        [
+          "NavierStokesR3.CompactComparisonBounds.hasCompactSupport_slice"
+        ]
+      ]
+    },
+    {
+      "component": 282,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_test_le_of_integrable"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 283,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFlux.exists_uniform_canonicalCutoffFlux_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 284,
+      "optimum_count": 2,
+      "pair_count": 1,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFlux.commutatorConstant_nonneg"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.PressureFlux.cutoff_commutator_bound"
+        ],
+        [
+          "NavierStokesR3.PressureFlux.commutatorConstant_nonneg"
+        ]
+      ]
+    },
+    {
+      "component": 285,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedFluxEstimates.transport_flux_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 286,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.FourierSobolevWeights.weightedSchwartz_injective"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 287,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFlux.uniform_expression_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 288,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.Comparison.abs_sq_sub_sq_le_one"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 289,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ScalarEnergyBound.forced_gronwall"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 290,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.PressureFluxIdentity.pressure_flux_eq_of_gradient_identification"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 291,
+      "optimum_count": 3,
+      "pair_count": 3,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_fderiv_le"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.ComparisonCutoffs.cutoff_second_fderiv_le"
+        ],
+        [
+          "NavierStokesR3.ComparisonCutoffs.cutoff_fderiv_le"
+        ]
+      ]
+    },
+    {
+      "component": 292,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ProblemStatement.CandidateProperties.not_global_agreement"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 293,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.memLp_two_and_integral_le_of_pairing_bound._simp_1_1"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 294,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.SchwartzCompactApproximation.uniform_cutoff_derivative_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 295,
+      "optimum_count": 5,
+      "pair_count": 10,
+      "exchange_diameter": 1,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonCutoffs.weight_le_one"
+      ],
+      "diameter_pair": [
+        [
+          "NavierStokesR3.LocalizedTensorBounds.norm_weighted_tensorDiff_le"
+        ],
+        [
+          "NavierStokesR3.ComparisonCutoffs.weight_le_one"
+        ]
+      ]
+    },
+    {
+      "component": 296,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.CompactEnergy.work_le_sqrt_l2Sq"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 297,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ViscosityScaling.rescale_residual"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 298,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.LocalizedFluxEstimates.norm_fderiv_cutoff_eight_apply_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 299,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_two_partial_rieszTest_le"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 300,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.WholeSpaceComparisonClosure.eq_of_pressure_flux_bound"
+      ],
+      "diameter_pair": null
+    },
+    {
+      "component": 301,
+      "optimum_count": 1,
+      "pair_count": 0,
+      "exchange_diameter": 0,
+      "max_detour": 0,
+      "geodesic": true,
+      "basis_exchange_axiom": true,
+      "canonical_optimum": [
+        "NavierStokesR3.ComparisonYoung.exists_rpow_absorption"
+      ],
+      "diameter_pair": null
+    }
+  ],
+  "summary": {
+    "component_count": 302,
+    "all_components_geodesic": true,
+    "maximum_detour": 0,
+    "global_diameter": 59,
+    "all_components_satisfy_basis_exchange_axiom": false,
+    "matroid_counterexample": {
+      "component": 9,
+      "S": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_iteratedFDeriv_le",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant"
+      ],
+      "T": [
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+      ],
+      "x": "NavierStokesR3.ComparisonCutoffs.baseCutoff_iteratedFDeriv_le",
+      "T_minus_S": [
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+      ]
+    }
+  },
+  "diameter_witness": {
+    "endpoint_A_hash": "8a6ec4e3e09254736b916536ac2a5378a35cff67f1503c5cdecf5235626ff059",
+    "endpoint_B_hash": "ad29529bcac9164241ab1fdd4cd353301c76f0599eb984059be6c21993d6cb38",
+    "endpoint_size": 309,
+    "endpoint_intersection_size": 250,
+    "symmetric_difference_cardinality": 118,
+    "replacement_distance": 59,
+    "johnson_distance": 59,
+    "path_length": 59,
+    "path_certificate_status": "componentwise concatenation of shortest local paths"
+  },
+  "geometry": "The optimum exchange graph is an isometric subgraph of the fixed-cardinality Johnson graph under replacement distance.",
+  "interpretation_boundary": "Geodesicity and basis-exchange results describe the finite current optimum family under the current graph contract. A passed basis-exchange axiom supports the finite matroid-basis identification; no semantic or historical claim follows."
+}

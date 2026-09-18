@@ -57,3 +57,4 @@ data/*
 !data/exact-flexible-shell.json
 !data/exact-participation-spectrum.json
 !data/optimum-exchange-geometry.json
+!data/geodesic-exchange-and-basis-axiom.json
