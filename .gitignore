@@ -54,3 +54,4 @@ data/*
 !data/constraint-subsumption-analysis.json
 !data/basis-incidence-components.json
 !data/experiment41-witness-provenance.json
+!data/exact-flexible-shell.json

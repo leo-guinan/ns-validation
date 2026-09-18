@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Exact flexible shell receipt",
+  "type":"object",
+  "required":["experiment","status","candidate_universe","optimum_support","component_categories","components","factorization","interpretation_boundary"],
+  "properties":{"experiment":{"const":"42-exact-flexible-shell"},"status":{"const":"exact_component_support_measured"},"candidate_universe":{"type":"object"},"optimum_support":{"type":"object"},"component_categories":{"type":"object"},"components":{"type":"array"},"factorization":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}

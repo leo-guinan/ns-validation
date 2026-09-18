@@ -1,0 +1,5535 @@
+{
+  "experiment": "42-exact-flexible-shell",
+  "status": "exact_component_support_measured",
+  "contract_reference": "Experiment 41 current basis incidence graph",
+  "candidate_universe": {
+    "total": 915,
+    "basis_touching": 472,
+    "basis_disconnected": 443,
+    "basis_touching_but_never_optimal": 22
+  },
+  "optimum_support": {
+    "backbone_size": 250,
+    "support_size": 450,
+    "flexible_shell_size": 200,
+    "flexible_slots_per_optimum": 59,
+    "support_hash": "fbe7bebaf1d2b2d2d41f3154ffeed83696c90ecac2d4c2b4fd6f64342267f666",
+    "backbone_hash": "6f5b21d2ff82a09392a8620f780b728c8771ba38bf1f7414a33d1e1d971cb945"
+  },
+  "component_categories": {
+    "rigid_local": {
+      "components": 244,
+      "optimum_factor": 1,
+      "slack_sum": 0,
+      "width_sum": 244
+    },
+    "pure_substitution": {
+      "components": 49,
+      "optimum_factor": 2470259125792014336000,
+      "slack_sum": 0,
+      "width_sum": 49
+    },
+    "slack_and_substitution": {
+      "components": 4,
+      "optimum_factor": 750,
+      "slack_sum": 6,
+      "width_sum": 11
+    },
+    "shared_realization_rigid": {
+      "components": 5,
+      "optimum_factor": 1,
+      "slack_sum": 5,
+      "width_sum": 5
+    }
+  },
+  "components": [
+    {
+      "component": 0,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeightedInterpolation.eLpNorm_le_rpow_mul"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeightedInterpolation.eLpNorm_le_rpow_mul"
+      ]
+    },
+    {
+      "component": 1,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.abs_sq_sub_sq_le_two_mul_abs_sub"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.abs_sq_sub_sq_le_two_mul_abs_sub"
+      ]
+    },
+    {
+      "component": 2,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg",
+        "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg"
+      ]
+    },
+    {
+      "component": 3,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.PressureFunctionals.integralPairLinear",
+        "NavierStokesR3.PressureFunctionals.testValueLinear",
+        "NavierStokesR3.RieszTestOperators.rieszTestLinear"
+      ]
+    },
+    {
+      "component": 4,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactComparisonBounds.exists_radius_weight_derivative_zero"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactComparisonBounds.exists_radius_weight_derivative_zero"
+      ]
+    },
+    {
+      "component": 5,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.rieszTest_eq_integral_heatSecondTest"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.rieszTest_eq_integral_heatSecondTest"
+      ]
+    },
+    {
+      "component": 6,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le"
+      ]
+    },
+    {
+      "component": 7,
+      "basis_class_count": 1,
+      "candidate_count": 12,
+      "edge_count": 12,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 12,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.l2Sq._proof_2",
+        "NavierStokesR3.Comparison.comparisonLpNorm._proof_2",
+        "NavierStokesR3.Comparison.heatSecondTest._proof_1",
+        "NavierStokesR3.Comparison.rieszTest._proof_1",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_2",
+        "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_2",
+        "NavierStokesR3.PressureFlux.commutatorPair._proof_2",
+        "NavierStokesR3.PressureFluxIdentity.canonicalPressureLinear._proof_2",
+        "NavierStokesR3.PressureFunctionals.integralPairLinear._proof_2",
+        "NavierStokesR3.PressureTestBounds.fourierMomentConstant._proof_2",
+        "NavierStokesR3.ProblemStatement.SquareIntegrableAtTime._proof_2",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2"
+      ]
+    },
+    {
+      "component": 8,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzParseval.fourier_conj_apply"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzParseval.fourier_conj_apply"
+      ]
+    },
+    {
+      "component": 9,
+      "basis_class_count": 3,
+      "candidate_count": 5,
+      "edge_count": 8,
+      "minimum_hitting_set_width": 2,
+      "slack": 1,
+      "optimum_count": 5,
+      "multiple_optima": true,
+      "slack_positive": true,
+      "type": "slack_and_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_iteratedFDeriv_le",
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant",
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+      ]
+    },
+    {
+      "component": 10,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left._simp_1_2"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left._simp_1_2"
+      ]
+    },
+    {
+      "component": 11,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_smul"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_smul"
+      ]
+    },
+    {
+      "component": 12,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTemporalIdentity.continuous_cutoff_mul"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTemporalIdentity.continuous_cutoff_mul"
+      ]
+    },
+    {
+      "component": 13,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.memLp_two_and_integral_le_of_pairing_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.memLp_two_and_integral_le_of_pairing_bound"
+      ]
+    },
+    {
+      "component": 14,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactTimeIntegral.continuousOn_timeFDeriv_of_contDiffOn"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactTimeIntegral.continuousOn_timeFDeriv_of_contDiffOn"
+      ]
+    },
+    {
+      "component": 15,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.fourier_partialCLM_apply"
+      ],
+      "component_support": [
+        "NavierStokesR3.HarmonicTestFunctionals.fourier_partialCLM_apply"
+      ]
+    },
+    {
+      "component": 16,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.actual_flux_integrable_and_le_canonicalNorm"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFlux.actual_flux_integrable_and_le_canonicalNorm"
+      ]
+    },
+    {
+      "component": 17,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.PressureRecovery.compact_harmonic_of_real",
+        "NavierStokesR3.PressureRecovery.compact_test_decomposition"
+      ]
+    },
+    {
+      "component": 18,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzParseval.integral_norm_sq_fourier"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzParseval.integral_norm_sq_fourier"
+      ]
+    },
+    {
+      "component": 19,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.norm_holder_pair_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFlux.norm_holder_pair_le"
+      ]
+    },
+    {
+      "component": 20,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.norm_fourier_partialCLM"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTestBounds.norm_fourier_partialCLM"
+      ]
+    },
+    {
+      "component": 21,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.norm_rieszTest_pairing_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.norm_rieszTest_pairing_le"
+      ]
+    },
+    {
+      "component": 22,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFunctionals.integrable_l2_pair"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFunctionals.integrable_l2_pair"
+      ]
+    },
+    {
+      "component": 23,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero._simp_1_2"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero._simp_1_2"
+      ]
+    },
+    {
+      "component": 24,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_laplacianCLM"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_laplacianCLM"
+      ]
+    },
+    {
+      "component": 25,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakTimeContinuity.norm_sub_cutoffTest_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakTimeContinuity.norm_sub_cutoffTest_le"
+      ]
+    },
+    {
+      "component": 26,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.PressureRecovery.averaged_gradient_poisson_complex",
+        "NavierStokesR3.PressureRecovery.laplacianCLM_realTest",
+        "NavierStokesR3.PressureRecovery.noncanonical_average_identity"
+      ]
+    },
+    {
+      "component": 27,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.ae_eq_zero_of_integral_schwartz_test_mul_eq_zero"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakFourierUniqueness.ae_eq_zero_of_integral_schwartz_test_mul_eq_zero"
+      ]
+    },
+    {
+      "component": 28,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.component_test_hasDerivAt"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.component_test_hasDerivAt"
+      ]
+    },
+    {
+      "component": 29,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactSchwartz.weighted_derivative_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactSchwartz.weighted_derivative_bound"
+      ]
+    },
+    {
+      "component": 30,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.contDiff_rieszTest"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.contDiff_rieszTest"
+      ]
+    },
+    {
+      "component": 31,
+      "basis_class_count": 4,
+      "candidate_count": 11,
+      "edge_count": 14,
+      "minimum_hitting_set_width": 3,
+      "slack": 1,
+      "optimum_count": 10,
+      "multiple_optima": true,
+      "slack_positive": true,
+      "type": "slack_and_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+        "NavierStokesR3.ConservativeDifference.advection_component",
+        "NavierStokesR3.ConservativeDifference.partial_component",
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+      ]
+    },
+    {
+      "component": 32,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.partial_comm"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.partial_comm"
+      ]
+    },
+    {
+      "component": 33,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseBump"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.baseBump"
+      ]
+    },
+    {
+      "component": 34,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_smooth"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_smooth"
+      ]
+    },
+    {
+      "component": 35,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_le_one"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_le_one"
+      ]
+    },
+    {
+      "component": 36,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_eq_one"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_eq_one"
+      ]
+    },
+    {
+      "component": 37,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_eq_zero"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_eq_zero"
+      ]
+    },
+    {
+      "component": 38,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale_smooth_on"
+      ],
+      "component_support": [
+        "NavierStokesR3.ViscosityScaling.rescale_smooth_on"
+      ]
+    },
+    {
+      "component": 39,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_time_of_contDiffOn"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_time_of_contDiffOn"
+      ]
+    },
+    {
+      "component": 40,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.spatialPartial_continuousOn_slab"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.spatialPartial_continuousOn_slab"
+      ]
+    },
+    {
+      "component": 41,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero",
+        "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero"
+      ]
+    },
+    {
+      "component": 42,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.integral_first_moment_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTestBounds.integral_first_moment_le"
+      ]
+    },
+    {
+      "component": 43,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.continuous_of_fourierHNormSq_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.HarmonicTestFunctionals.continuous_of_fourierHNormSq_bound"
+      ]
+    },
+    {
+      "component": 44,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzParseval.integral_fourier_mul_conj"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzParseval.integral_fourier_mul_conj"
+      ]
+    },
+    {
+      "component": 45,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeightedSobolev.memLp_cutoff_pow_smul"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeightedSobolev.memLp_cutoff_pow_smul"
+      ]
+    },
+    {
+      "component": 46,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.l2Norm_continuous",
+        "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude"
+      ]
+    },
+    {
+      "component": 47,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.continuous_zero_of_compactSupport"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzCompactApproximation.continuous_zero_of_compactSupport"
+      ]
+    },
+    {
+      "component": 48,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2",
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1"
+      ]
+    },
+    {
+      "component": 49,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.integrable_inverse_weight_sq"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTestBounds.integrable_inverse_weight_sq"
+      ]
+    },
+    {
+      "component": 50,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_10",
+        "NavierStokesR3.Comparison.rieszTest._proof_10",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16"
+      ]
+    },
+    {
+      "component": 51,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_11",
+        "NavierStokesR3.Comparison.rieszTest._proof_11",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17"
+      ]
+    },
+    {
+      "component": 52,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_measurable"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_measurable"
+      ]
+    },
+    {
+      "component": 53,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_5"
+      ]
+    },
+    {
+      "component": 54,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.representative_eq_zero_of_harmonic"
+      ],
+      "component_support": [
+        "NavierStokesR3.HarmonicTestFunctionals.representative_eq_zero_of_harmonic"
+      ]
+    },
+    {
+      "component": 55,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedTensorBounds.continuous_component"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedTensorBounds.continuous_component"
+      ]
+    },
+    {
+      "component": 56,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.B_injective"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.B_injective"
+      ]
+    },
+    {
+      "component": 57,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.locallyIntegrable_weighted_star"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakFourierUniqueness.locallyIntegrable_weighted_star"
+      ]
+    },
+    {
+      "component": 58,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.fderiv_fourierInv_apply"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.fderiv_fourierInv_apply"
+      ]
+    },
+    {
+      "component": 59,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_4"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_4"
+      ]
+    },
+    {
+      "component": 60,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul",
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply"
+      ]
+    },
+    {
+      "component": 61,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul"
+      ]
+    },
+    {
+      "component": 62,
+      "basis_class_count": 7,
+      "candidate_count": 13,
+      "edge_count": 20,
+      "minimum_hitting_set_width": 4,
+      "slack": 3,
+      "optimum_count": 5,
+      "multiple_optima": true,
+      "slack_positive": true,
+      "type": "slack_and_substitution",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.integral_scalarLaplacian_mul",
+        "NavierStokesR3.GradientOperator.fderiv_apply_eq_sum",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le",
+        "NavierStokesR3.PressureFlux.norm_fderiv_ofReal",
+        "NavierStokesR3.PressureFluxTest.cutoffTest_four_bound",
+        "NavierStokesR3.PressureRecovery.partial_ofReal",
+        "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms"
+      ]
+    },
+    {
+      "component": 63,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.partial_sub"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.partial_sub"
+      ]
+    },
+    {
+      "component": 64,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.norm_partial_partial_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.norm_partial_partial_le"
+      ]
+    },
+    {
+      "component": 65,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.selected_candidate_one_with_initial_rest"
+      ],
+      "component_support": [
+        "NavierStokesR3.ActualCandidate.selected_candidate_one_with_initial_rest"
+      ]
+    },
+    {
+      "component": 66,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.truncate_error_weighted_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzCompactApproximation.truncate_error_weighted_le"
+      ]
+    },
+    {
+      "component": 67,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactTimeIntegral.continuous_slice"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactTimeIntegral.continuous_slice"
+      ]
+    },
+    {
+      "component": 68,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.candidate_total_dissipation_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.candidate_total_dissipation_le"
+      ]
+    },
+    {
+      "component": 69,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.forceWork_continuousOn"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.forceWork_continuousOn"
+      ]
+    },
+    {
+      "component": 70,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral"
+      ]
+    },
+    {
+      "component": 71,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.TemporalTestUniqueness.eq_zero_on_open_of_tests"
+      ],
+      "component_support": [
+        "NavierStokesR3.TemporalTestUniqueness.eq_zero_on_open_of_tests"
+      ]
+    },
+    {
+      "component": 72,
+      "basis_class_count": 1,
+      "candidate_count": 5,
+      "edge_count": 5,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 5,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactComparisonBounds.continuousOn_integral_norm_cube",
+        "NavierStokesR3.CompactComparisonBounds.uniformFiniteEnergy_of_compact_slab",
+        "NavierStokesR3.CompactEnergy.dissipation_continuousOn",
+        "NavierStokesR3.Comparison.timeAverage_integrand_integrable_sq_norm",
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn"
+      ]
+    },
+    {
+      "component": 73,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.continuousOn_time_weight"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.continuousOn_time_weight"
+      ]
+    },
+    {
+      "component": 74,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cancelledComplexTimeIntegrand_measurable"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.cancelledComplexTimeIntegrand_measurable"
+      ]
+    },
+    {
+      "component": 75,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.cutoff_lipschitz"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFlux.cutoff_lipschitz"
+      ]
+    },
+    {
+      "component": 76,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.HilbertFunctionalExtension.exists_inner_representation"
+      ],
+      "component_support": [
+        "NavierStokesR3.HilbertFunctionalExtension.exists_inner_representation"
+      ]
+    },
+    {
+      "component": 77,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero"
+      ]
+    },
+    {
+      "component": 78,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFluxTest.norm_fderiv_r_le_raw"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFluxTest.norm_fderiv_r_le_raw"
+      ]
+    },
+    {
+      "component": 79,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedTensorBounds.cross_norm_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedTensorBounds.cross_norm_bound"
+      ]
+    },
+    {
+      "component": 80,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le",
+        "NavierStokesR3.RieszTestOperators.smooth_memLp_six"
+      ]
+    },
+    {
+      "component": 81,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_memLp"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_memLp"
+      ]
+    },
+    {
+      "component": 82,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_bound"
+      ]
+    },
+    {
+      "component": 83,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeightedInterpolation.memLp_and_lpNorm_le_rpow_mul"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeightedInterpolation.memLp_and_lpNorm_le_rpow_mul"
+      ]
+    },
+    {
+      "component": 84,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.candidate_integrable_dissipation"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.candidate_integrable_dissipation"
+      ]
+    },
+    {
+      "component": 85,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.PressureRecovery.averaged_gradient_poisson",
+        "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage"
+      ]
+    },
+    {
+      "component": 86,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le",
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation"
+      ]
+    },
+    {
+      "component": 87,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.exists_uniform_test_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTestBounds.exists_uniform_test_bound"
+      ]
+    },
+    {
+      "component": 88,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.heatKernelSecond_joint_measurable"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatKernelSecond_joint_measurable"
+      ]
+    },
+    {
+      "component": 89,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakTimeContinuity.continuousOn_pairing"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakTimeContinuity.continuousOn_pairing"
+      ]
+    },
+    {
+      "component": 90,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactComparisonBounds.weight_fderiv_eq_zero_of_norm_lt"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactComparisonBounds.weight_fderiv_eq_zero_of_norm_lt"
+      ]
+    },
+    {
+      "component": 91,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.integral_time_derivative_divergence_free"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.integral_time_derivative_divergence_free"
+      ]
+    },
+    {
+      "component": 92,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.B_ae_eq"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.B_ae_eq"
+      ]
+    },
+    {
+      "component": 93,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.eq_zero_of_radius_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.eq_zero_of_radius_bound"
+      ]
+    },
+    {
+      "component": 94,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.integral_weight_tendsto"
+      ],
+      "component_support": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.integral_weight_tendsto"
+      ]
+    },
+    {
+      "component": 95,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.continuous_slice_of_continuousOn"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.continuous_slice_of_continuousOn"
+      ]
+    },
+    {
+      "component": 96,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.pressureGradient_component"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.pressureGradient_component"
+      ]
+    },
+    {
+      "component": 97,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.GradientOperator.partial_norm_le_sqrt_gradientSq"
+      ],
+      "component_support": [
+        "NavierStokesR3.GradientOperator.partial_norm_le_sqrt_gradientSq"
+      ]
+    },
+    {
+      "component": 98,
+      "basis_class_count": 2,
+      "candidate_count": 3,
+      "edge_count": 4,
+      "minimum_hitting_set_width": 1,
+      "slack": 1,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": true,
+      "type": "shared_realization_rigid",
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale_laplacian"
+      ],
+      "component_support": [
+        "NavierStokesR3.ViscosityScaling.rescale_laplacian"
+      ]
+    },
+    {
+      "component": 99,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.truncate_weighted_derivative_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzCompactApproximation.truncate_weighted_derivative_le"
+      ]
+    },
+    {
+      "component": 100,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_5",
+        "NavierStokesR3.Comparison.rieszTest._proof_5",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11"
+      ]
+    },
+    {
+      "component": 101,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_add"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_add"
+      ]
+    },
+    {
+      "component": 102,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_9",
+        "NavierStokesR3.Comparison.rieszTest._proof_9",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15"
+      ]
+    },
+    {
+      "component": 103,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_8",
+        "NavierStokesR3.Comparison.rieszTest._proof_8",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14"
+      ]
+    },
+    {
+      "component": 104,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.norm_test_le_integral_fourier"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTestBounds.norm_test_le_integral_fourier"
+      ]
+    },
+    {
+      "component": 105,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_7",
+        "NavierStokesR3.Comparison.rieszTest._proof_7",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13"
+      ]
+    },
+    {
+      "component": 106,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero._simp_1_1"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakFourierUniqueness.eq_zero_of_integral_weight_normSq_test_eq_zero._simp_1_1"
+      ]
+    },
+    {
+      "component": 107,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left._simp_1_1"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left._simp_1_1"
+      ]
+    },
+    {
+      "component": 108,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.divergence_weighted"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.divergence_weighted"
+      ]
+    },
+    {
+      "component": 109,
+      "basis_class_count": 3,
+      "candidate_count": 5,
+      "edge_count": 7,
+      "minimum_hitting_set_width": 2,
+      "slack": 1,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": true,
+      "type": "slack_and_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow",
+        "NavierStokesR3.Comparison.cutoffSquareDifference_smul",
+        "NavierStokesR3.WeakTimeContinuity.norm_pairing_sub_le",
+        "NavierStokesR3.WeightedInterpolation.pow_four_rpow"
+      ]
+    },
+    {
+      "component": 110,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.compact_scalarLaplacian"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.compact_scalarLaplacian"
+      ]
+    },
+    {
+      "component": 111,
+      "basis_class_count": 1,
+      "candidate_count": 4,
+      "edge_count": 4,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 4,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.PressureFlux.fluxFunction_compact",
+        "NavierStokesR3.PressureFluxIdentity.fluxFunction_hasCompactSupport",
+        "NavierStokesR3.PressureFluxTest.memLp_fderiv_r",
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le"
+      ]
+    },
+    {
+      "component": 112,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.compact_partial"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.compact_partial"
+      ]
+    },
+    {
+      "component": 113,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactForceBound.exists_uniform_l2sq_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactForceBound.exists_uniform_l2sq_bound"
+      ]
+    },
+    {
+      "component": 114,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff._proof_1"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff._proof_1"
+      ]
+    },
+    {
+      "component": 115,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn",
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt"
+      ]
+    },
+    {
+      "component": 116,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn"
+      ]
+    },
+    {
+      "component": 117,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ScalarEnergyBound.forced_gronwall_weighted"
+      ],
+      "component_support": [
+        "NavierStokesR3.ScalarEnergyBound.forced_gronwall_weighted"
+      ]
+    },
+    {
+      "component": 118,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.integral_l2Norm_cumulative_eq_sq"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.integral_l2Norm_cumulative_eq_sq"
+      ]
+    },
+    {
+      "component": 119,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SharpEnergyBound.sqrt_energy_le_integral"
+      ],
+      "component_support": [
+        "NavierStokesR3.SharpEnergyBound.sqrt_energy_le_integral"
+      ]
+    },
+    {
+      "component": 120,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonGronwall.exp_neg_mul_le_of_deriv_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonGronwall.exp_neg_mul_le_of_deriv_le"
+      ]
+    },
+    {
+      "component": 121,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_iff_memLp"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_iff_memLp"
+      ]
+    },
+    {
+      "component": 122,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1",
+        "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1"
+      ]
+    },
+    {
+      "component": 123,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1",
+        "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1"
+      ]
+    },
+    {
+      "component": 124,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTemporalIdentity.pressure_time_identity_interval"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTemporalIdentity.pressure_time_identity_interval"
+      ]
+    },
+    {
+      "component": 125,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.B._proof_1",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5"
+      ]
+    },
+    {
+      "component": 126,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PositiveTimeForce.force_tsupport_subset"
+      ],
+      "component_support": [
+        "NavierStokesR3.PositiveTimeForce.force_tsupport_subset"
+      ]
+    },
+    {
+      "component": 127,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_1"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_1"
+      ]
+    },
+    {
+      "component": 128,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_3"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_3"
+      ]
+    },
+    {
+      "component": 129,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.candidate_energy_dissipation_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.candidate_energy_dissipation_le"
+      ]
+    },
+    {
+      "component": 130,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.tendsto_approximate"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzCompactApproximation.tendsto_approximate"
+      ]
+    },
+    {
+      "component": 131,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM_apply"
+      ],
+      "component_support": [
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM_apply"
+      ]
+    },
+    {
+      "component": 132,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_3"
+      ]
+    },
+    {
+      "component": 133,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3",
+        "NavierStokesR3.RieszTestOperators.partialTest._proof_4"
+      ]
+    },
+    {
+      "component": 134,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.integral_fourierInv_mul"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.integral_fourierInv_mul"
+      ]
+    },
+    {
+      "component": 135,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.eq_zero_of_harmonic"
+      ],
+      "component_support": [
+        "NavierStokesR3.HarmonicTestFunctionals.eq_zero_of_harmonic"
+      ]
+    },
+    {
+      "component": 136,
+      "basis_class_count": 2,
+      "candidate_count": 3,
+      "edge_count": 4,
+      "minimum_hitting_set_width": 1,
+      "slack": 1,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": true,
+      "type": "shared_realization_rigid",
+      "component_backbone": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_apply"
+      ]
+    },
+    {
+      "component": 137,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cutoffSquareDifference_abs_le_scaled_min"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.cutoffSquareDifference_abs_le_scaled_min"
+      ]
+    },
+    {
+      "component": 138,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_partial_partial_le_of_integrable"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_partial_partial_le_of_integrable"
+      ]
+    },
+    {
+      "component": 139,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.integral_heatKernelSecondTimeEnvelope"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.integral_heatKernelSecondTimeEnvelope"
+      ]
+    },
+    {
+      "component": 140,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonYoung.cutoff_expression_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonYoung.cutoff_expression_le"
+      ]
+    },
+    {
+      "component": 141,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.weight_hasCompactSupport",
+        "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_memLp",
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude"
+      ]
+    },
+    {
+      "component": 142,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_nonneg"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_nonneg"
+      ]
+    },
+    {
+      "component": 143,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.compact_inner_left"
+      ]
+    },
+    {
+      "component": 144,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFluxTest.cutoffTest_derivative_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFluxTest.cutoffTest_derivative_bound"
+      ]
+    },
+    {
+      "component": 145,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_second_partial"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_second_partial"
+      ]
+    },
+    {
+      "component": 146,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.fourier_laplacianCLM_apply"
+      ],
+      "component_support": [
+        "NavierStokesR3.HarmonicTestFunctionals.fourier_laplacianCLM_apply"
+      ]
+    },
+    {
+      "component": 147,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cancelledTimeIntegrand_measurable"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.cancelledTimeIntegrand_measurable"
+      ]
+    },
+    {
+      "component": 148,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable",
+        "NavierStokesR3.Comparison.cancelledTimeKernel_measurable"
+      ]
+    },
+    {
+      "component": 149,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.aestronglyMeasurable_slab"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.aestronglyMeasurable_slab"
+      ]
+    },
+    {
+      "component": 150,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PairedKernelBound.integrable_paired_kernel"
+      ],
+      "component_support": [
+        "NavierStokesR3.PairedKernelBound.integrable_paired_kernel"
+      ]
+    },
+    {
+      "component": 151,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.memLp_two_timeIntegral"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.memLp_two_timeIntegral"
+      ]
+    },
+    {
+      "component": 152,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.cumulativeForceNorm_hasDerivAt"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.cumulativeForceNorm_hasDerivAt"
+      ]
+    },
+    {
+      "component": 153,
+      "basis_class_count": 2,
+      "candidate_count": 4,
+      "edge_count": 5,
+      "minimum_hitting_set_width": 1,
+      "slack": 1,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": true,
+      "type": "shared_realization_rigid",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_sub"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.squareIntegrableAtTime_sub"
+      ]
+    },
+    {
+      "component": 154,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PairedKernelBound.integrable_pairing"
+      ],
+      "component_support": [
+        "NavierStokesR3.PairedKernelBound.integrable_pairing"
+      ]
+    },
+    {
+      "component": 155,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedFluxEstimates.neg_coupling_le_weightedEnergy"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedFluxEstimates.neg_coupling_le_weightedEnergy"
+      ]
+    },
+    {
+      "component": 156,
+      "basis_class_count": 2,
+      "candidate_count": 3,
+      "edge_count": 4,
+      "minimum_hitting_set_width": 1,
+      "slack": 1,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": true,
+      "type": "shared_realization_rigid",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_bounded"
+      ]
+    },
+    {
+      "component": 157,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.timeAverage_integrand_integrable"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.timeAverage_integrand_integrable"
+      ]
+    },
+    {
+      "component": 158,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_product_integrable"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_product_integrable"
+      ]
+    },
+    {
+      "component": 159,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.integrableOn_inverseTimeGamma"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.integrableOn_inverseTimeGamma"
+      ]
+    },
+    {
+      "component": 160,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.norm_integral_sq_le_measure_mul_integral_sq"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.norm_integral_sq_le_measure_mul_integral_sq"
+      ]
+    },
+    {
+      "component": 161,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.HarmonicTestFunctionals.exists_inner_representation_of_fourierHNormSq_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.HarmonicTestFunctionals.exists_inner_representation_of_fourierHNormSq_bound"
+      ]
+    },
+    {
+      "component": 162,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LpNormTools.lpNorm_two_sq_eq_l2Sq"
+      ],
+      "component_support": [
+        "NavierStokesR3.LpNormTools.lpNorm_two_sq_eq_l2Sq"
+      ]
+    },
+    {
+      "component": 163,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_9"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_9"
+      ]
+    },
+    {
+      "component": 164,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_4"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_4"
+      ]
+    },
+    {
+      "component": 165,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.eq_zero_of_l2Sq_eq_zero"
+      ],
+      "component_support": [
+        "NavierStokesR3.WholeSpaceEnergyLimit.eq_zero_of_l2Sq_eq_zero"
+      ]
+    },
+    {
+      "component": 166,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ProblemStatement.kineticEnergy_spatial_smul"
+      ],
+      "component_support": [
+        "NavierStokesR3.ProblemStatement.kineticEnergy_spatial_smul"
+      ]
+    },
+    {
+      "component": 167,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_memLp_two"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.timeAverage_complex_pairing_of_memLp_two"
+      ]
+    },
+    {
+      "component": 168,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled",
+        "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled"
+      ]
+    },
+    {
+      "component": 169,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.integrable_fourierHNormSq_four"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.integrable_fourierHNormSq_four"
+      ]
+    },
+    {
+      "component": 170,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_transport_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_transport_bound"
+      ]
+    },
+    {
+      "component": 171,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.memLp_fderiv_rieszTest"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.memLp_fderiv_rieszTest"
+      ]
+    },
+    {
+      "component": 172,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedTensorBounds.scalar_product_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedTensorBounds.scalar_product_bound"
+      ]
+    },
+    {
+      "component": 173,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.uniformFiniteEnergy_component_l2Sq_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.uniformFiniteEnergy_component_l2Sq_bound"
+      ]
+    },
+    {
+      "component": 174,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTemporalIdentity.pressure_time_identity._simp_1_1"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTemporalIdentity.pressure_time_identity._simp_1_1"
+      ]
+    },
+    {
+      "component": 175,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_abs_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_abs_le"
+      ]
+    },
+    {
+      "component": 176,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedTensorBounds.quadratic_cutoff_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedTensorBounds.quadratic_cutoff_bound"
+      ]
+    },
+    {
+      "component": 177,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PairedKernelBound.dominated_section_memLp_and_lpNorm_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.PairedKernelBound.dominated_section_memLp_and_lpNorm_le"
+      ]
+    },
+    {
+      "component": 178,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest",
+        "NavierStokesR3.PressureFlux.lpNorm_ofReal"
+      ]
+    },
+    {
+      "component": 179,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LpNormTools.lpNorm_mono_of_norm_le_ae"
+      ],
+      "component_support": [
+        "NavierStokesR3.LpNormTools.lpNorm_mono_of_norm_le_ae"
+      ]
+    },
+    {
+      "component": 180,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.eLpNorm_fderiv_cutoff_smul_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.eLpNorm_fderiv_cutoff_smul_le"
+      ]
+    },
+    {
+      "component": 181,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm",
+        "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm"
+      ]
+    },
+    {
+      "component": 182,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PairedKernelBound.integrable_smul_and_integral_norm_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.PairedKernelBound.integrable_smul_and_integral_norm_le"
+      ]
+    },
+    {
+      "component": 183,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.integral_partial_eq_zero"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.integral_partial_eq_zero"
+      ]
+    },
+    {
+      "component": 184,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_integrable_time"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.cancelledTimeKernel_integrable_time"
+      ]
+    },
+    {
+      "component": 185,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.integral_inverseTimeGamma"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.integral_inverseTimeGamma"
+      ]
+    },
+    {
+      "component": 186,
+      "basis_class_count": 2,
+      "candidate_count": 3,
+      "edge_count": 4,
+      "minimum_hitting_set_width": 1,
+      "slack": 1,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": true,
+      "type": "shared_realization_rigid",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatKernelSecond_integral_norm_le"
+      ]
+    },
+    {
+      "component": 187,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_tsupport_subset"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_tsupport_subset"
+      ]
+    },
+    {
+      "component": 188,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_support_subset"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_support_subset"
+      ]
+    },
+    {
+      "component": 189,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakTimeContinuity.continuousOn_cutoff_pairing._simp_1_1"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakTimeContinuity.continuousOn_cutoff_pairing._simp_1_1"
+      ]
+    },
+    {
+      "component": 190,
+      "basis_class_count": 1,
+      "candidate_count": 13,
+      "edge_count": 13,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 13,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.l2Sq._proof_1",
+        "NavierStokesR3.Comparison.comparisonLpNorm._proof_1",
+        "NavierStokesR3.Comparison.heatSecondTest._proof_2",
+        "NavierStokesR3.Comparison.rieszTest._proof_2",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_1",
+        "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_1",
+        "NavierStokesR3.PressureFlux.commutatorPair._proof_1",
+        "NavierStokesR3.PressureFluxIdentity.canonicalPressureLinear._proof_1",
+        "NavierStokesR3.PressureFunctionals.integralPairLinear._proof_1",
+        "NavierStokesR3.PressureTestBounds.fourierMomentConstant._proof_1",
+        "NavierStokesR3.ProblemStatement.SquareIntegrableAtTime._proof_1",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_1",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3"
+      ]
+    },
+    {
+      "component": 191,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatSecondTest._proof_6",
+        "NavierStokesR3.Comparison.rieszTest._proof_6",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12"
+      ]
+    },
+    {
+      "component": 192,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+      ]
+    },
+    {
+      "component": 193,
+      "basis_class_count": 1,
+      "candidate_count": 37,
+      "edge_count": 37,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 37,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.energyRate._proof_1",
+        "NavierStokesR3.Comparison.cutoffL6._proof_1",
+        "NavierStokesR3.Comparison.heatKernel._proof_1",
+        "NavierStokesR3.Comparison.heatKernel._proof_2",
+        "NavierStokesR3.Comparison.heatKernel._proof_3",
+        "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_1",
+        "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_2",
+        "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_3",
+        "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_4",
+        "NavierStokesR3.Comparison.heatSecondSymbol._proof_1",
+        "NavierStokesR3.Comparison.radialCommutatorKernel._proof_1",
+        "NavierStokesR3.Comparison.rieszCommutatorConstant._proof_1",
+        "NavierStokesR3.Comparison.rieszCommutatorConstant._proof_2",
+        "NavierStokesR3.Comparison.weightedEnergyRate._proof_1",
+        "NavierStokesR3.ComparisonCutoffs.baseBump._proof_1",
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_4",
+        "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_3",
+        "NavierStokesR3.LocalizedFluxEstimates.weightLaplacianConstant._proof_1",
+        "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_1",
+        "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_2",
+        "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_3",
+        "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_4",
+        "NavierStokesR3.PressureFlux.commutatorConstant._proof_1",
+        "NavierStokesR3.PressureFlux.rieszSobolevConstant._proof_1",
+        "NavierStokesR3.PressureFlux.uniformCoefficient._proof_1",
+        "NavierStokesR3.PressureFlux.uniformCoefficient._proof_2",
+        "NavierStokesR3.PressureFluxTest.cutoffDerivativeConstant._proof_1",
+        "NavierStokesR3.PressureFluxTest.cutoffDerivativeConstant._proof_2",
+        "NavierStokesR3.PressureFluxTest.r._proof_1",
+        "NavierStokesR3.PressureFunctionals.l2PairLinear._proof_1",
+        "NavierStokesR3.ProblemStatement.kineticEnergy._proof_1",
+        "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_5",
+        "NavierStokesR3.WeightedSobolev.weightedSobolevConstant._proof_1",
+        "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_1",
+        "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_2",
+        "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_3",
+        "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4"
+      ]
+    },
+    {
+      "component": 194,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.fourierHNormSq_three_integrand_le_four"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.fourierHNormSq_three_integrand_le_four"
+      ]
+    },
+    {
+      "component": 195,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.GradientOperator.continuous_gradientSq"
+      ],
+      "component_support": [
+        "NavierStokesR3.GradientOperator.continuous_gradientSq"
+      ]
+    },
+    {
+      "component": 196,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.conservative_difference_equation"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.conservative_difference_equation"
+      ]
+    },
+    {
+      "component": 197,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactComparisonBounds.exists_gradient_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactComparisonBounds.exists_gradient_bound"
+      ]
+    },
+    {
+      "component": 198,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.integral_inner_partial"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.integral_inner_partial"
+      ]
+    },
+    {
+      "component": 199,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ProblemStatement.futureDomain"
+      ],
+      "component_support": [
+        "NavierStokesR3.ProblemStatement.futureDomain"
+      ]
+    },
+    {
+      "component": 200,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.of_localized_fields"
+      ],
+      "component_support": [
+        "NavierStokesR3.ActualCandidate.of_localized_fields"
+      ]
+    },
+    {
+      "component": 201,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.compactForce_smooth"
+      ],
+      "component_support": [
+        "NavierStokesR3.ActualCandidate.compactForce_smooth"
+      ]
+    },
+    {
+      "component": 202,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.compactForce_supported_all_times"
+      ],
+      "component_support": [
+        "NavierStokesR3.ActualCandidate.compactForce_supported_all_times"
+      ]
+    },
+    {
+      "component": 203,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.localized_pressure_tsupport"
+      ],
+      "component_support": [
+        "NavierStokesR3.ActualCandidate.localized_pressure_tsupport"
+      ]
+    },
+    {
+      "component": 204,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.localized_velocity_tsupport"
+      ],
+      "component_support": [
+        "NavierStokesR3.ActualCandidate.localized_velocity_tsupport"
+      ]
+    },
+    {
+      "component": 205,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ActualCandidate.localized_residual_zero_early"
+      ],
+      "component_support": [
+        "NavierStokesR3.ActualCandidate.localized_residual_zero_early"
+      ]
+    },
+    {
+      "component": 206,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_contDiff"
+      ],
+      "component_support": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_contDiff"
+      ]
+    },
+    {
+      "component": 207,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_eq_one"
+      ],
+      "component_support": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_eq_one"
+      ]
+    },
+    {
+      "component": 208,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_eq_zero"
+      ],
+      "component_support": [
+        "NavierStokesR3.PositiveTimeForce.timeCutoff_eq_zero"
+      ]
+    },
+    {
+      "component": 209,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_4"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_4"
+      ]
+    },
+    {
+      "component": 210,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.theorem_1_1_with_initial_rest"
+      ],
+      "component_support": [
+        "NavierStokesR3.theorem_1_1_with_initial_rest"
+      ]
+    },
+    {
+      "component": 211,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LpNormTools.lpNorm_const_smul"
+      ],
+      "component_support": [
+        "NavierStokesR3.LpNormTools.lpNorm_const_smul"
+      ]
+    },
+    {
+      "component": 212,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_7"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_7"
+      ]
+    },
+    {
+      "component": 213,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTemporalIdentity.compact_time_integration_by_parts"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTemporalIdentity.compact_time_integration_by_parts"
+      ]
+    },
+    {
+      "component": 214,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureRecovery.averaged_value_real_harmonic"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureRecovery.averaged_value_real_harmonic"
+      ]
+    },
+    {
+      "component": 215,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeightedSobolev.weighted_sobolev"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeightedSobolev.weighted_sobolev"
+      ]
+    },
+    {
+      "component": 216,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.continuousOn_tensorDiff_field",
+        "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale",
+        "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_3"
+      ]
+    },
+    {
+      "component": 217,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.inner_B_eq_integral"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.inner_B_eq_integral"
+      ]
+    },
+    {
+      "component": 218,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.heatKernelTimeConstant_pos"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatKernelTimeConstant_pos"
+      ]
+    },
+    {
+      "component": 219,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.heatKernel_nonneg"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatKernel_nonneg"
+      ]
+    },
+    {
+      "component": 220,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_tendsto_zero"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_tendsto_zero"
+      ]
+    },
+    {
+      "component": 221,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_le"
+      ]
+    },
+    {
+      "component": 222,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeightedInterpolation.norm_weight_pow_eq"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeightedInterpolation.norm_weight_pow_eq"
+      ]
+    },
+    {
+      "component": 223,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_le_of_fourier_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_le_of_fourier_bound"
+      ]
+    },
+    {
+      "component": 224,
+      "basis_class_count": 1,
+      "candidate_count": 5,
+      "edge_count": 5,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 5,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_6",
+        "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_3",
+        "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_3",
+        "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_2",
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1"
+      ]
+    },
+    {
+      "component": 225,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale"
+      ],
+      "component_support": [
+        "NavierStokesR3.ViscosityScaling.rescale"
+      ]
+    },
+    {
+      "component": 226,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoff_pow_smul"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoff_pow_smul"
+      ]
+    },
+    {
+      "component": 227,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ProblemStatement.tsupport_spatialScale_subset"
+      ],
+      "component_support": [
+        "NavierStokesR3.ProblemStatement.tsupport_spatialScale_subset"
+      ]
+    },
+    {
+      "component": 228,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFluxIdentity.sum_partial_realTest_weightedComponent"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFluxIdentity.sum_partial_realTest_weightedComponent"
+      ]
+    },
+    {
+      "component": 229,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable",
+        "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier"
+      ]
+    },
+    {
+      "component": 230,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.weighted_tail_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzCompactApproximation.weighted_tail_le"
+      ]
+    },
+    {
+      "component": 231,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactSchwartz.ofCompactSupport"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactSchwartz.ofCompactSupport"
+      ]
+    },
+    {
+      "component": 232,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.norm_B_eq_sqrt"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.norm_B_eq_sqrt"
+      ]
+    },
+    {
+      "component": 233,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.seminorm_truncate_sub_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzCompactApproximation.seminorm_truncate_sub_le"
+      ]
+    },
+    {
+      "component": 234,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM"
+      ]
+    },
+    {
+      "component": 235,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_8"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.BCLM._proof_8"
+      ]
+    },
+    {
+      "component": 236,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.integral_first_moment_le._simp_1_2"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTestBounds.integral_first_moment_le._simp_1_2"
+      ]
+    },
+    {
+      "component": 237,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.norm_sub_sq_le_twice"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.norm_sub_sq_le_twice"
+      ]
+    },
+    {
+      "component": 238,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale_candidate"
+      ],
+      "component_support": [
+        "NavierStokesR3.ViscosityScaling.rescale_candidate"
+      ]
+    },
+    {
+      "component": 239,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.eventually_cutoff_eq_one"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.eventually_cutoff_eq_one"
+      ]
+    },
+    {
+      "component": 240,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_pairing_fourier_conj"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.rieszTest_pairing_fourier_conj"
+      ]
+    },
+    {
+      "component": 241,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakTimeContinuity.tendstoUniformly_cutoffTest"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakTimeContinuity.tendstoUniformly_cutoffTest"
+      ]
+    },
+    {
+      "component": 242,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakTimeContinuity.exists_test_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakTimeContinuity.exists_test_bound"
+      ]
+    },
+    {
+      "component": 243,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.energy_balance"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.energy_balance"
+      ]
+    },
+    {
+      "component": 244,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.energy_hasDerivAt"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.energy_hasDerivAt"
+      ]
+    },
+    {
+      "component": 245,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_iteratedFDeriv_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_iteratedFDeriv_le"
+      ]
+    },
+    {
+      "component": 246,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonRateBound.exists_uniform_flux_absorption"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonRateBound.exists_uniform_flux_absorption"
+      ]
+    },
+    {
+      "component": 247,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.partial_partial_eq_fderiv"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.partial_partial_eq_fderiv"
+      ]
+    },
+    {
+      "component": 248,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.fourierIntegralInv_mul_fourier"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.fourierIntegralInv_mul_fourier"
+      ]
+    },
+    {
+      "component": 249,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.riesz_commutator_eq_heatKernel"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.riesz_commutator_eq_heatKernel"
+      ]
+    },
+    {
+      "component": 250,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable",
+        "NavierStokesR3.Comparison.heatSecondTest_eq_convolution"
+      ]
+    },
+    {
+      "component": 251,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol",
+        "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space"
+      ]
+    },
+    {
+      "component": 252,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq",
+        "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition"
+      ]
+    },
+    {
+      "component": 253,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.integral_inverseTimeGamma_square_scale"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.integral_inverseTimeGamma_square_scale"
+      ]
+    },
+    {
+      "component": 254,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.difference_energy_balance"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.difference_energy_balance"
+      ]
+    },
+    {
+      "component": 255,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_hasDerivAt"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_hasDerivAt"
+      ]
+    },
+    {
+      "component": 256,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedFluxEstimates.weight_iteratedFDeriv_two_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedFluxEstimates.weight_iteratedFDeriv_two_le"
+      ]
+    },
+    {
+      "component": 257,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTemporalIdentity.component_time_test_continuousOn"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTemporalIdentity.component_time_test_continuousOn"
+      ]
+    },
+    {
+      "component": 258,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_lpNorm_scale"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_lpNorm_scale"
+      ]
+    },
+    {
+      "component": 259,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_power_integrable"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.radialCommutatorKernel_power_integrable"
+      ]
+    },
+    {
+      "component": 260,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_two_fderiv_rieszTest_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_two_fderiv_rieszTest_le"
+      ]
+    },
+    {
+      "component": 261,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.norm_scaled"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.norm_scaled"
+      ]
+    },
+    {
+      "component": 262,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.energy_rate_le",
+        "NavierStokesR3.CompactEnergy.force_work_le"
+      ]
+    },
+    {
+      "component": 263,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeakFourierUniqueness.ae_eq_zero_of_integral_real_test_mul_eq_zero"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeakFourierUniqueness.ae_eq_zero_of_integral_real_test_mul_eq_zero"
+      ]
+    },
+    {
+      "component": 264,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_smooth"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_smooth"
+      ]
+    },
+    {
+      "component": 265,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.l2Sq_continuous"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.l2Sq_continuous"
+      ]
+    },
+    {
+      "component": 266,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonRateBound.exists_uniform_rate_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonRateBound.exists_uniform_rate_bound"
+      ]
+    },
+    {
+      "component": 267,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.norm_heatKernelSecond_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.norm_heatKernelSecond_le"
+      ]
+    },
+    {
+      "component": 268,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one",
+        "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le"
+      ]
+    },
+    {
+      "component": 269,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation_twelve_fifths"
+      ],
+      "component_support": [
+        "NavierStokesR3.WeightedInterpolation.cutoff_interpolation_twelve_fifths"
+      ]
+    },
+    {
+      "component": 270,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.pressurePair_decomposition"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFlux.pressurePair_decomposition"
+      ]
+    },
+    {
+      "component": 271,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.partial_mul"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.partial_mul"
+      ]
+    },
+    {
+      "component": 272,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ConservativeDifference.partial_sum"
+      ],
+      "component_support": [
+        "NavierStokesR3.ConservativeDifference.partial_sum"
+      ]
+    },
+    {
+      "component": 273,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.norm_fderiv_cutoff_smul_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.norm_fderiv_cutoff_smul_le"
+      ]
+    },
+    {
+      "component": 274,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzParseval.integral_fourier_mul"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzParseval.integral_fourier_mul"
+      ]
+    },
+    {
+      "component": 275,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFunctionals.averagedPressureDifference_bound"
+      ]
+    },
+    {
+      "component": 276,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.energy_balance_viscosity"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.energy_balance_viscosity"
+      ]
+    },
+    {
+      "component": 277,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.integral_laplacian_energy",
+        "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian"
+      ]
+    },
+    {
+      "component": 278,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.integral_heatSecondSymbol"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.integral_heatSecondSymbol"
+      ]
+    },
+    {
+      "component": 279,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.cumulativeForceNorm_continuous"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.cumulativeForceNorm_continuous"
+      ]
+    },
+    {
+      "component": 280,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale_speed_unbounded"
+      ],
+      "component_support": [
+        "NavierStokesR3.ViscosityScaling.rescale_speed_unbounded"
+      ]
+    },
+    {
+      "component": 281,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.CompactComparisonBounds.hasCompactSupport_slice",
+        "NavierStokesR3.ComparisonCutoffs.cutoff_hasCompactSupport",
+        "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport"
+      ]
+    },
+    {
+      "component": 282,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_test_le_of_integrable"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureTestBounds.sqrt_l2Sq_test_le_of_integrable"
+      ]
+    },
+    {
+      "component": 283,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.exists_uniform_canonicalCutoffFlux_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFlux.exists_uniform_canonicalCutoffFlux_bound"
+      ]
+    },
+    {
+      "component": 284,
+      "basis_class_count": 1,
+      "candidate_count": 2,
+      "edge_count": 2,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 2,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.PressureFlux.commutatorConstant_nonneg",
+        "NavierStokesR3.PressureFlux.cutoff_commutator_bound"
+      ]
+    },
+    {
+      "component": 285,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedFluxEstimates.transport_flux_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedFluxEstimates.transport_flux_bound"
+      ]
+    },
+    {
+      "component": 286,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.FourierSobolevWeights.weightedSchwartz_injective"
+      ],
+      "component_support": [
+        "NavierStokesR3.FourierSobolevWeights.weightedSchwartz_injective"
+      ]
+    },
+    {
+      "component": 287,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFlux.uniform_expression_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFlux.uniform_expression_bound"
+      ]
+    },
+    {
+      "component": 288,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.Comparison.abs_sq_sub_sq_le_one"
+      ],
+      "component_support": [
+        "NavierStokesR3.Comparison.abs_sq_sub_sq_le_one"
+      ]
+    },
+    {
+      "component": 289,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ScalarEnergyBound.forced_gronwall"
+      ],
+      "component_support": [
+        "NavierStokesR3.ScalarEnergyBound.forced_gronwall"
+      ]
+    },
+    {
+      "component": 290,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.PressureFluxIdentity.pressure_flux_eq_of_gradient_identification"
+      ],
+      "component_support": [
+        "NavierStokesR3.PressureFluxIdentity.pressure_flux_eq_of_gradient_identification"
+      ]
+    },
+    {
+      "component": 291,
+      "basis_class_count": 1,
+      "candidate_count": 3,
+      "edge_count": 3,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 3,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.cutoff_fderiv_le",
+        "NavierStokesR3.ComparisonCutoffs.cutoff_second_fderiv_le",
+        "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le"
+      ]
+    },
+    {
+      "component": 292,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ProblemStatement.CandidateProperties.not_global_agreement"
+      ],
+      "component_support": [
+        "NavierStokesR3.ProblemStatement.CandidateProperties.not_global_agreement"
+      ]
+    },
+    {
+      "component": 293,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.memLp_two_and_integral_le_of_pairing_bound._simp_1_1"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.memLp_two_and_integral_le_of_pairing_bound._simp_1_1"
+      ]
+    },
+    {
+      "component": 294,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.SchwartzCompactApproximation.uniform_cutoff_derivative_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.SchwartzCompactApproximation.uniform_cutoff_derivative_bound"
+      ]
+    },
+    {
+      "component": 295,
+      "basis_class_count": 1,
+      "candidate_count": 5,
+      "edge_count": 5,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 5,
+      "multiple_optima": true,
+      "slack_positive": false,
+      "type": "pure_substitution",
+      "component_backbone": [],
+      "component_support": [
+        "NavierStokesR3.ComparisonCutoffs.weight_le_one",
+        "NavierStokesR3.LocalizedTensorBounds.norm_weighted_tensorDiff_le",
+        "NavierStokesR3.PressureFluxTest.norm_fderiv_r_le_amplitude",
+        "NavierStokesR3.PressureFluxTest.norm_r_le",
+        "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude"
+      ]
+    },
+    {
+      "component": 296,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.CompactEnergy.work_le_sqrt_l2Sq"
+      ],
+      "component_support": [
+        "NavierStokesR3.CompactEnergy.work_le_sqrt_l2Sq"
+      ]
+    },
+    {
+      "component": 297,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ViscosityScaling.rescale_residual"
+      ],
+      "component_support": [
+        "NavierStokesR3.ViscosityScaling.rescale_residual"
+      ]
+    },
+    {
+      "component": 298,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.LocalizedFluxEstimates.norm_fderiv_cutoff_eight_apply_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.LocalizedFluxEstimates.norm_fderiv_cutoff_eight_apply_le"
+      ]
+    },
+    {
+      "component": 299,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_two_partial_rieszTest_le"
+      ],
+      "component_support": [
+        "NavierStokesR3.RieszTestOperators.lpNorm_two_partial_rieszTest_le"
+      ]
+    },
+    {
+      "component": 300,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.WholeSpaceComparisonClosure.eq_of_pressure_flux_bound"
+      ],
+      "component_support": [
+        "NavierStokesR3.WholeSpaceComparisonClosure.eq_of_pressure_flux_bound"
+      ]
+    },
+    {
+      "component": 301,
+      "basis_class_count": 1,
+      "candidate_count": 1,
+      "edge_count": 1,
+      "minimum_hitting_set_width": 1,
+      "slack": 0,
+      "optimum_count": 1,
+      "multiple_optima": false,
+      "slack_positive": false,
+      "type": "rigid_local",
+      "component_backbone": [
+        "NavierStokesR3.ComparisonYoung.exists_rpow_absorption"
+      ],
+      "component_support": [
+        "NavierStokesR3.ComparisonYoung.exists_rpow_absorption"
+      ]
+    }
+  ],
+  "factorization": {
+    "global_optimum_count": 1852694344344010752000000,
+    "zero_slack_substitution_factor": 2470259125792014336000,
+    "positive_slack_factor": 750,
+    "sum_widths": 309,
+    "sum_slack": 11
+  },
+  "interpretation_boundary": "Support, backbone, component categories, and multiplicities are exact under the current fingerprinted graph contract. They are not semantic necessity claims or historical-contract claims."
+}
