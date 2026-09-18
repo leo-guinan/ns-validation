@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Optimum exchange geometry receipt",
+  "type":"object",
+  "required":["experiment","status","components","summary","interpretation_boundary"],
+  "properties":{"experiment":{"const":"44-optimum-exchange-geometry"},"status":{"const":"exact_component_exchange_geometry_measured"},"components":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}

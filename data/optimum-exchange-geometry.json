@@ -1,0 +1,2734 @@
+{
+  "experiment": "44-optimum-exchange-geometry",
+  "status": "exact_component_exchange_geometry_measured",
+  "contract_reference": "Experiment 41 current basis graph",
+  "components": [
+    {
+      "component": 0,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 1,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 2,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 3,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 4,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 5,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 6,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 7,
+      "optimum_count": 12,
+      "exchange_edge_count": 66,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 8,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 9,
+      "optimum_count": 5,
+      "exchange_edge_count": 6,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 2,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 10,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 11,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 12,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 13,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 14,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 15,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 16,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 17,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 18,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 19,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 20,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 21,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 22,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 23,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 24,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 25,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 26,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 27,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 28,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 29,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 30,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 31,
+      "optimum_count": 10,
+      "exchange_edge_count": 17,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 3,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 32,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 33,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 34,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 35,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 36,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 37,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 38,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 39,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 40,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 41,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 42,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 43,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 44,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 45,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 46,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 47,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 48,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 49,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 50,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 51,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 52,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 53,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 54,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 55,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 56,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 57,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 58,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 59,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 60,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 61,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 62,
+      "optimum_count": 5,
+      "exchange_edge_count": 5,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 3,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 63,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 64,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 65,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 66,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 67,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 68,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 69,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 70,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 71,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 72,
+      "optimum_count": 5,
+      "exchange_edge_count": 10,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 73,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 74,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 75,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 76,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 77,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 78,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 79,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 80,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 81,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 82,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 83,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 84,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 85,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 86,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 87,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 88,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 89,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 90,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 91,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 92,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 93,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 94,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 95,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 96,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 97,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 98,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 99,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 100,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 101,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 102,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 103,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 104,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 105,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 106,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 107,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 108,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 109,
+      "optimum_count": 3,
+      "exchange_edge_count": 2,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 2,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 110,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 111,
+      "optimum_count": 4,
+      "exchange_edge_count": 6,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 112,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 113,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 114,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 115,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 116,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 117,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 118,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 119,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 120,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 121,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 122,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 123,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 124,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 125,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 126,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 127,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 128,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 129,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 130,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 131,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 132,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 133,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 134,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 135,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 136,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 137,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 138,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 139,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 140,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 141,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 142,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 143,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 144,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 145,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 146,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 147,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 148,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 149,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 150,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 151,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 152,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 153,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 154,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 155,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 156,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 157,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 158,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 159,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 160,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 161,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 162,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 163,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 164,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 165,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 166,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 167,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 168,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 169,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 170,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 171,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 172,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 173,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 174,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 175,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 176,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 177,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 178,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 179,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 180,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 181,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 182,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 183,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 184,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 185,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 186,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 187,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 188,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 189,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 190,
+      "optimum_count": 13,
+      "exchange_edge_count": 78,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 191,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 192,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 193,
+      "optimum_count": 37,
+      "exchange_edge_count": 666,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 194,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 195,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 196,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 197,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 198,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 199,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 200,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 201,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 202,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 203,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 204,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 205,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 206,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 207,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 208,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 209,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 210,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 211,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 212,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 213,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 214,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 215,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 216,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 217,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 218,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 219,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 220,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 221,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 222,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 223,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 224,
+      "optimum_count": 5,
+      "exchange_edge_count": 10,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 225,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 226,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 227,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 228,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 229,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 230,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 231,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 232,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 233,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 234,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 235,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 236,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 237,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 238,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 239,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 240,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 241,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 242,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 243,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 244,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 245,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 246,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 247,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 248,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 249,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 250,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 251,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 252,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 253,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 254,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 255,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 256,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 257,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 258,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 259,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 260,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 261,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 262,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 263,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 264,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 265,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 266,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 267,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 268,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 269,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 270,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 271,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 272,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 273,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 274,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 275,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 276,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 277,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 278,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 279,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 280,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 281,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 282,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 283,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 284,
+      "optimum_count": 2,
+      "exchange_edge_count": 1,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 285,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 286,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 287,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 288,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 289,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 290,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 291,
+      "optimum_count": 3,
+      "exchange_edge_count": 3,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 292,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 293,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 294,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 295,
+      "optimum_count": 5,
+      "exchange_edge_count": 10,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 1,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 296,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 297,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 298,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 299,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 300,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    },
+    {
+      "component": 301,
+      "optimum_count": 1,
+      "exchange_edge_count": 0,
+      "exchange_components": 1,
+      "connected": true,
+      "diameter": 0,
+      "minimum_inter_basin_symmetric_difference": null
+    }
+  ],
+  "summary": {
+    "component_count": 302,
+    "all_local_exchange_graphs_connected": true,
+    "global_exchange_graph_connected": true,
+    "global_diameter": 59,
+    "disconnected_component_count": 0,
+    "total_local_exchange_edges": 944
+  },
+  "interpretation_boundary": "Connectivity and diameter describe width-preserving one-for-one exchange geometry of the finite current optimum family. They do not establish semantic adaptivity or historical-contract properties."
+}
