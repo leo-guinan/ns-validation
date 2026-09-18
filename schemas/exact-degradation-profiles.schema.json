@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Exact degradation profiles receipt",
+  "type":"object",
+  "required":["experiment","status","scope","pure_substitution_profile","kernel_profiles","interpretation_boundary"],
+  "properties":{"experiment":{"const":"57-exact-degradation-profiles"},"status":{"const":"exact_adversarial_degradation_profiles_measured"},"scope":{"type":"string"},"pure_substitution_profile":{"type":"object"},"kernel_profiles":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}
