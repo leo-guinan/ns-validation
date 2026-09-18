@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Dimensionality atlas receipt",
+  "type":"object",
+  "required":["experiment","status","summary","removal_world_cover","addition_world_cover","removal_necessity_degree","addition_necessity_degree","pair_incidence","interpretation_boundary"],
+  "properties":{"experiment":{"const":"51-dimensionality-atlas"},"status":{"const":"exact_local_global_dimensionality_incidence_measured"},"summary":{"type":"object"},"removal_world_cover":{"type":"object"},"addition_world_cover":{"type":"object"},"removal_necessity_degree":{"type":"object"},"addition_necessity_degree":{"type":"object"},"pair_incidence":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}
