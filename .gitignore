@@ -65,3 +65,4 @@ data/*
 !data/pair-local-state-dimensions.json
 !data/dimensionality-atlas.json
 !data/cover-gap-incidence-decomposition.json
+!data/residual-incidence-components.json

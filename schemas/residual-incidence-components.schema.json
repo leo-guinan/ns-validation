@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Residual incidence components receipt",
+  "type":"object",
+  "required":["experiment","status","scope","removal","addition","summary","interpretation_boundary"],
+  "properties":{"experiment":{"const":"53-residual-incidence-components"},"status":{"const":"exact_residual_incidence_components_measured"},"scope":{"type":"string"},"removal":{"type":"array"},"addition":{"type":"array"},"summary":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}
