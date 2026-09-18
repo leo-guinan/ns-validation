@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Exact witness network robustness receipt",
+  "type":"object",
+  "required":["experiment","status","scope","summary","single_failure_taxonomy","components","interpretation_boundary"],
+  "properties":{"experiment":{"const":"56-exact-witness-network-robustness"},"status":{"const":"exact_world_failure_robustness_measured"},"scope":{"type":"string"},"summary":{"type":"object"},"single_failure_taxonomy":{"type":"object"},"components":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}

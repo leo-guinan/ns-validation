@@ -68,3 +68,4 @@ data/*
 !data/residual-incidence-components.json
 !data/cover-choice-classification.json
 !data/exact-witness-participation.json
+!data/exact-witness-network-robustness.json
