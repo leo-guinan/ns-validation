@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Pair local state dimensions receipt",
+  "type":"object",
+  "required":["experiment","status","scope","summary","coordinate_necessity_frequency_R","coordinate_necessity_frequency_A","pairs","interpretation_boundary"],
+  "properties":{"experiment":{"const":"50-pair-local-state-dimensions"},"status":{"const":"exact_pair_local_dimensions_measured"},"scope":{"type":"string"},"summary":{"type":"object"},"coordinate_necessity_frequency_R":{"type":"object"},"coordinate_necessity_frequency_A":{"type":"object"},"pairs":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}

@@ -62,3 +62,4 @@ data/*
 !data/geodesic-retention-and-poset-test.json
 !data/continuation-state-sufficiency.json
 !data/minimum-distinguishing-coordinates.json
+!data/pair-local-state-dimensions.json
