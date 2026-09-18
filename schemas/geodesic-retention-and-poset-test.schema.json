@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Geodesic retention and poset test receipt",
+  "type":"object",
+  "required":["experiment","status","summary","component_9_reference","poset_counterexample","components","interpretation_boundary"],
+  "properties":{"experiment":{"const":"47-geodesic-retention-and-poset-test"},"status":{"const":"exact_geodesic_retention_measured"},"summary":{"type":"object"},"component_9_reference":{"type":["object","null"]},"poset_counterexample":{"type":["object","null"]},"components":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}

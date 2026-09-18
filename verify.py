@@ -149,3 +149,5 @@ geodesic = json.loads((Path("data") / "geodesic-exchange-and-basis-axiom.json").
 print(f"experiment45_status={geodesic['status']} geodesic={geodesic['summary']['all_components_geodesic']} detour={geodesic['summary']['maximum_detour']} diameter={geodesic['summary']['global_diameter']} matroid={geodesic['summary']['all_components_satisfy_basis_exchange_axiom']}")
 precedence = json.loads((Path("data") / "exchange-precedence.json").read_text(encoding="utf-8"))
 print(f"experiment46_status={precedence['status']} pairs={precedence['summary']['ordered_pair_count']} precedence_pairs={precedence['summary']['pairs_with_precedence']} max_depth={precedence['summary']['maximum_precedence_depth']}")
+retention = json.loads((Path("data") / "geodesic-retention-and-poset-test.json").read_text(encoding="utf-8"))
+print(f"experiment47_status={retention['status']} pairs={retention['summary']['ordered_pair_count']} full_retention={retention['summary']['full_retention_pairs']} partial={retention['summary']['partial_retention_pairs']} convex={retention['summary']['geodesically_convex']} poset_failures={retention['summary']['pairs_not_poset_exact']}")
