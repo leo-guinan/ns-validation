@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Exact participation spectrum receipt",
+  "type":"object",
+  "required":["experiment","status","checksum","candidate_classes","candidates","components","spectrum","interpretation_boundary"],
+  "properties":{"experiment":{"const":"43-exact-participation-spectrum"},"status":{"const":"exact_component_participation_measured"},"checksum":{"type":"object"},"candidate_classes":{"type":"object"},"candidates":{"type":"object"},"components":{"type":"array"},"spectrum":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}

@@ -55,3 +55,4 @@ data/*
 !data/basis-incidence-components.json
 !data/experiment41-witness-provenance.json
 !data/exact-flexible-shell.json
+!data/exact-participation-spectrum.json
