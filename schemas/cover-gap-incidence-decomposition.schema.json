@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Cover gap incidence decomposition receipt",
+  "type":"object",
+  "required":["experiment","status","scope","global_cover_counts","removal","addition","interpretation_boundary"],
+  "properties":{"experiment":{"const":"52-cover-gap-incidence-decomposition"},"status":{"const":"exact_backbone_incidence_decomposition_measured"},"scope":{"type":"string"},"global_cover_counts":{"type":"object"},"removal":{"type":"object"},"addition":{"type":"object"},"interpretation_boundary":{"type":"string"}}
+}

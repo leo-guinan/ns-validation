@@ -1,0 +1,2116 @@
+{
+  "experiment": "52-cover-gap-incidence-decomposition",
+  "status": "exact_backbone_incidence_decomposition_measured",
+  "scope": "optional-shell pair-local backbone/support incidence under the current finite contract",
+  "global_cover_counts": {
+    "removal": 188,
+    "addition": 188,
+    "counting_lower_bound": 67
+  },
+  "removal": {
+    "necessity_degree_histogram": {
+      "1": 58,
+      "2": 43,
+      "3": 4,
+      "4": 18,
+      "6": 8,
+      "11": 12,
+      "12": 13,
+      "21": 2,
+      "24": 5,
+      "36": 37
+    },
+    "support_degree_histogram": {
+      "1": 58,
+      "2": 43,
+      "3": 4,
+      "4": 18,
+      "6": 8,
+      "11": 12,
+      "12": 13,
+      "21": 2,
+      "24": 5,
+      "36": 37
+    },
+    "private_coordinate_count": 58,
+    "private_coordinates": [
+      "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero",
+      "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero",
+      "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1",
+      "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1",
+      "NavierStokesR3.CompactEnergy.energy_rate_le",
+      "NavierStokesR3.CompactEnergy.force_work_le",
+      "NavierStokesR3.CompactEnergy.integral_laplacian_energy",
+      "NavierStokesR3.CompactEnergy.l2Norm_continuous",
+      "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn",
+      "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt",
+      "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable",
+      "NavierStokesR3.Comparison.cancelledTimeKernel_measurable",
+      "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol",
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq",
+      "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition",
+      "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable",
+      "NavierStokesR3.Comparison.heatSecondTest_eq_convolution",
+      "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space",
+      "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one",
+      "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le",
+      "NavierStokesR3.FourierSobolevWeights.B._proof_1",
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5",
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul",
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2",
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply",
+      "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1",
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2",
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3",
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4",
+      "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian",
+      "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm",
+      "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled",
+      "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm",
+      "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled",
+      "NavierStokesR3.PressureFlux.commutatorConstant_nonneg",
+      "NavierStokesR3.PressureFlux.cutoff_commutator_bound",
+      "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest",
+      "NavierStokesR3.PressureFlux.lpNorm_ofReal",
+      "NavierStokesR3.PressureRecovery.averaged_gradient_poisson",
+      "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage",
+      "NavierStokesR3.PressureRecovery.compact_harmonic_of_real",
+      "NavierStokesR3.PressureRecovery.compact_test_decomposition",
+      "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable",
+      "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier",
+      "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le",
+      "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le",
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_3",
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_4",
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_5",
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1",
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le",
+      "NavierStokesR3.RieszTestOperators.smooth_memLp_six",
+      "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg",
+      "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg",
+      "NavierStokesR3.WeightedInterpolation.cutoff_interpolation",
+      "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude",
+      "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1",
+      "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+    ],
+    "forced_world_count": 58,
+    "forced_world_indices": [
+      0,
+      1,
+      160,
+      161,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      276,
+      277,
+      278,
+      279,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      556,
+      557,
+      1916,
+      1917,
+      1918,
+      1919,
+      1920,
+      1921,
+      1922,
+      1923,
+      1924,
+      1925,
+      1926,
+      1927,
+      1928,
+      1929,
+      1936,
+      1937
+    ],
+    "forced_covered_coordinate_count": 58,
+    "residual_coordinate_count": 142,
+    "residual_world_cover_count": 130,
+    "residual_world_indices": [
+      3,
+      5,
+      7,
+      18,
+      29,
+      40,
+      51,
+      62,
+      73,
+      84,
+      95,
+      106,
+      117,
+      128,
+      139,
+      143,
+      150,
+      158,
+      163,
+      165,
+      167,
+      202,
+      212,
+      253,
+      265,
+      267,
+      269,
+      271,
+      273,
+      275,
+      283,
+      296,
+      303,
+      307,
+      311,
+      315,
+      319,
+      327,
+      329,
+      331,
+      333,
+      335,
+      337,
+      339,
+      341,
+      343,
+      345,
+      347,
+      349,
+      351,
+      354,
+      358,
+      361,
+      364,
+      367,
+      381,
+      383,
+      385,
+      405,
+      417,
+      429,
+      441,
+      453,
+      465,
+      477,
+      489,
+      501,
+      513,
+      525,
+      537,
+      549,
+      551,
+      553,
+      555,
+      593,
+      629,
+      665,
+      701,
+      737,
+      773,
+      809,
+      845,
+      881,
+      917,
+      953,
+      989,
+      1025,
+      1061,
+      1097,
+      1133,
+      1169,
+      1205,
+      1241,
+      1277,
+      1313,
+      1349,
+      1385,
+      1421,
+      1457,
+      1493,
+      1529,
+      1565,
+      1601,
+      1637,
+      1673,
+      1709,
+      1745,
+      1781,
+      1817,
+      1853,
+      1889,
+      1891,
+      1893,
+      1895,
+      1899,
+      1903,
+      1907,
+      1911,
+      1915,
+      1931,
+      1933,
+      1935,
+      1939,
+      1941,
+      1943,
+      1947,
+      1951,
+      1955,
+      1959,
+      1963
+    ],
+    "residual_cover_verified": true,
+    "forced_plus_residual": 188,
+    "solver_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "degree_by_coordinate": {
+      "NavierStokesR3.Comparison.heatSecondTest._proof_11": 2,
+      "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": 6,
+      "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg": 1,
+      "NavierStokesR3.PressureFluxIdentity.canonicalPressureLinear._proof_1": 12,
+      "NavierStokesR3.PressureTestBounds.fourierMomentConstant._proof_2": 11,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_3": 36,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul": 1,
+      "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1": 1,
+      "NavierStokesR3.RieszTestOperators.rieszTestLinear": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12": 2,
+      "NavierStokesR3.PressureFluxIdentity.fluxFunction_hasCompactSupport": 3,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear._proof_2": 11,
+      "NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 24,
+      "NavierStokesR3.PressureRecovery.compact_harmonic_of_real": 1,
+      "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled": 1,
+      "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest": 1,
+      "NavierStokesR3.PressureFlux.fluxFunction_compact": 3,
+      "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms": 4,
+      "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable": 1,
+      "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos": 6,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14": 2,
+      "NavierStokesR3.CompactEnergy.integral_laplacian_energy": 1,
+      "NavierStokesR3.WeightedSobolev.weightedSobolevConstant._proof_1": 36,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_2": 11,
+      "NavierStokesR3.Comparison.cancelledTimeKernel_measurable": 1,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq": 1,
+      "NavierStokesR3.WeightedInterpolation.cutoff_interpolation": 1,
+      "NavierStokesR3.Comparison.heatKernel._proof_2": 36,
+      "NavierStokesR3.ComparisonCutoffs.baseCutoff_iteratedFDeriv_le": 6,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_3": 36,
+      "NavierStokesR3.PressureFluxTest.cutoffTest_four_bound": 6,
+      "NavierStokesR3.LocalizedTensorBounds.norm_weighted_tensorDiff_le": 4,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_4": 36,
+      "NavierStokesR3.PressureFlux.rieszSobolevConstant._proof_1": 36,
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le": 1,
+      "NavierStokesR3.PressureTestBounds.fourierMomentConstant._proof_1": 12,
+      "NavierStokesR3.Comparison.rieszTest._proof_2": 12,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_1": 12,
+      "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn": 4,
+      "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le": 6,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_1": 11,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3": 12,
+      "NavierStokesR3.CompactEnergy.dissipation_continuousOn": 4,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2": 11,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_1": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_5": 2,
+      "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le": 1,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_hasCompactSupport": 2,
+      "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero": 1,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2": 1,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_1": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_6": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_5": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_2": 4,
+      "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant": 6,
+      "NavierStokesR3.PressureFunctionals.l2PairLinear._proof_1": 36,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_3": 36,
+      "NavierStokesR3.ComparisonCutoffs.weight_le_one": 4,
+      "NavierStokesR3.Comparison.cutoffSquareDifference_smul": 2,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_2": 36,
+      "NavierStokesR3.PressureFlux.commutatorConstant_nonneg": 1,
+      "NavierStokesR3.Comparison.heatSecondSymbol._proof_1": 36,
+      "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_4": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_10": 2,
+      "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude": 4,
+      "NavierStokesR3.CompactComparisonBounds.uniformFiniteEnergy_of_compact_slab": 4,
+      "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff": 24,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one": 1,
+      "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_2": 11,
+      "NavierStokesR3.PressureRecovery.averaged_gradient_poisson_complex": 2,
+      "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable": 1,
+      "NavierStokesR3.CompactEnergy.l2Sq._proof_1": 12,
+      "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol": 1,
+      "NavierStokesR3.PressureFlux.cutoff_commutator_bound": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4": 1,
+      "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage": 1,
+      "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian": 1,
+      "NavierStokesR3.ComparisonCutoffs.weight_hasCompactSupport": 2,
+      "NavierStokesR3.PressureFluxTest.norm_fderiv_r_le_amplitude": 4,
+      "NavierStokesR3.PressureRecovery.laplacianCLM_realTest": 2,
+      "NavierStokesR3.WeakTimeContinuity.norm_pairing_sub_le": 2,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear._proof_1": 12,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_3": 36,
+      "NavierStokesR3.ProblemStatement.SquareIntegrableAtTime._proof_2": 11,
+      "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_3": 4,
+      "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1": 1,
+      "NavierStokesR3.Comparison.rieszTest._proof_7": 2,
+      "NavierStokesR3.PressureFlux.commutatorPair._proof_1": 12,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16": 2,
+      "NavierStokesR3.PressureFluxIdentity.canonicalPressureLinear._proof_2": 11,
+      "NavierStokesR3.PressureRecovery.averaged_gradient_poisson": 1,
+      "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm": 1,
+      "NavierStokesR3.Comparison.comparisonLpNorm._proof_1": 12,
+      "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm": 1,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_2": 36,
+      "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space": 1,
+      "NavierStokesR3.Comparison.rieszTest._proof_9": 2,
+      "NavierStokesR3.PressureFluxTest.memLp_fderiv_r": 3,
+      "NavierStokesR3.Comparison.radialCommutatorKernel._proof_1": 36,
+      "NavierStokesR3.Comparison.heatKernel._proof_1": 36,
+      "NavierStokesR3.PressureFluxTest.cutoffDerivativeConstant._proof_2": 36,
+      "NavierStokesR3.RieszTestOperators.smooth_memLp_six": 1,
+      "NavierStokesR3.Comparison.weightedEnergyRate._proof_1": 36,
+      "NavierStokesR3.PressureFlux.uniformCoefficient._proof_1": 36,
+      "NavierStokesR3.LocalizedFluxEstimates.weightLaplacianConstant._proof_1": 36,
+      "NavierStokesR3.CompactEnergy.force_work_le": 1,
+      "NavierStokesR3.ProblemStatement.SquareIntegrableAtTime._proof_1": 12,
+      "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition": 1,
+      "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_9": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_3": 1,
+      "NavierStokesR3.ComparisonCutoffs.baseBump._proof_1": 36,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_fderiv_le": 2,
+      "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable": 1,
+      "NavierStokesR3.PressureFunctionals.testValueLinear": 2,
+      "NavierStokesR3.CompactEnergy.l2Norm_continuous": 1,
+      "NavierStokesR3.CompactEnergy.l2Sq._proof_2": 11,
+      "NavierStokesR3.PressureFluxTest.cutoffDerivativeConstant._proof_1": 36,
+      "NavierStokesR3.ProblemStatement.kineticEnergy._proof_1": 36,
+      "NavierStokesR3.CompactComparisonBounds.hasCompactSupport_slice": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_4": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17": 2,
+      "NavierStokesR3.ConservativeDifference.tensorDiff_divergence": 24,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply": 1,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg": 1,
+      "NavierStokesR3.CompactEnergy.energyRate._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.B._proof_1": 1,
+      "NavierStokesR3.PressureFlux.uniformCoefficient._proof_2": 36,
+      "NavierStokesR3.WeightedSobolev.lpNorm_six_le": 3,
+      "NavierStokesR3.PressureRecovery.compact_test_decomposition": 1,
+      "NavierStokesR3.PressureFluxTest.norm_r_le": 4,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_7": 2,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_1": 12,
+      "NavierStokesR3.PressureRecovery.partial_ofReal": 6,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4": 36,
+      "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude": 2,
+      "NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 24,
+      "NavierStokesR3.ConservativeDifference.partial_component": 21,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_8": 2,
+      "NavierStokesR3.Comparison.heatKernel._proof_3": 36,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_2": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_1": 11,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_4": 36,
+      "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le": 2,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_1": 36,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3": 1,
+      "NavierStokesR3.PressureFlux.commutatorConstant._proof_1": 36,
+      "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_10": 2,
+      "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le": 1,
+      "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport": 2,
+      "NavierStokesR3.CompactEnergy.energy_rate_le": 1,
+      "NavierStokesR3.PressureFlux.commutatorPair._proof_2": 11,
+      "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt": 1,
+      "NavierStokesR3.WeightedInterpolation.pow_four_rpow": 2,
+      "NavierStokesR3.PressureFlux.lpNorm_ofReal": 1,
+      "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1": 4,
+      "NavierStokesR3.Comparison.timeAverage_integrand_integrable_sq_norm": 4,
+      "NavierStokesR3.PressureFluxTest.r._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_6": 4,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_second_fderiv_le": 2,
+      "NavierStokesR3.GradientOperator.fderiv_apply_eq_sum": 4,
+      "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg": 1,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_3": 4,
+      "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_memLp": 2,
+      "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero": 1,
+      "NavierStokesR3.Comparison.comparisonLpNorm._proof_2": 11,
+      "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled": 1,
+      "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_1": 12,
+      "NavierStokesR3.Comparison.heatSecondTest_eq_convolution": 1,
+      "NavierStokesR3.PressureFlux.norm_fderiv_ofReal": 6,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_5": 36,
+      "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_3": 2,
+      "NavierStokesR3.PressureRecovery.noncanonical_average_identity": 2,
+      "NavierStokesR3.CompactComparisonBounds.continuousOn_integral_norm_cube": 4,
+      "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_2": 12,
+      "NavierStokesR3.Comparison.rieszCommutatorConstant._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11": 2,
+      "NavierStokesR3.CompactEnergy.integral_fderiv_apply": 24,
+      "NavierStokesR3.Comparison.rieszTest._proof_11": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_5": 2,
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1": 1,
+      "NavierStokesR3.Comparison.rieszCommutatorConstant._proof_2": 36,
+      "NavierStokesR3.ComparisonCutoffs.derivativeConstant": 4,
+      "NavierStokesR3.ConservativeDifference.advection_component": 21,
+      "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_6": 2,
+      "NavierStokesR3.Comparison.cutoffL6._proof_1": 36,
+      "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale": 2,
+      "NavierStokesR3.Comparison.continuousOn_tensorDiff_field": 2,
+      "NavierStokesR3.Comparison.rieszTest._proof_8": 2
+    },
+    "support_degree_by_coordinate": {
+      "NavierStokesR3.Comparison.heatSecondTest._proof_11": 2,
+      "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": 6,
+      "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg": 1,
+      "NavierStokesR3.PressureFluxIdentity.canonicalPressureLinear._proof_1": 12,
+      "NavierStokesR3.PressureTestBounds.fourierMomentConstant._proof_2": 11,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_3": 36,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul": 1,
+      "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1": 1,
+      "NavierStokesR3.RieszTestOperators.rieszTestLinear": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12": 2,
+      "NavierStokesR3.PressureFluxIdentity.fluxFunction_hasCompactSupport": 3,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear._proof_2": 11,
+      "NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 24,
+      "NavierStokesR3.PressureRecovery.compact_harmonic_of_real": 1,
+      "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled": 1,
+      "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest": 1,
+      "NavierStokesR3.PressureFlux.fluxFunction_compact": 3,
+      "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms": 4,
+      "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable": 1,
+      "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos": 6,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14": 2,
+      "NavierStokesR3.CompactEnergy.integral_laplacian_energy": 1,
+      "NavierStokesR3.WeightedSobolev.weightedSobolevConstant._proof_1": 36,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_2": 11,
+      "NavierStokesR3.Comparison.cancelledTimeKernel_measurable": 1,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq": 1,
+      "NavierStokesR3.WeightedInterpolation.cutoff_interpolation": 1,
+      "NavierStokesR3.Comparison.heatKernel._proof_2": 36,
+      "NavierStokesR3.ComparisonCutoffs.baseCutoff_iteratedFDeriv_le": 6,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_3": 36,
+      "NavierStokesR3.PressureFluxTest.cutoffTest_four_bound": 6,
+      "NavierStokesR3.LocalizedTensorBounds.norm_weighted_tensorDiff_le": 4,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_4": 36,
+      "NavierStokesR3.PressureFlux.rieszSobolevConstant._proof_1": 36,
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le": 1,
+      "NavierStokesR3.PressureTestBounds.fourierMomentConstant._proof_1": 12,
+      "NavierStokesR3.Comparison.rieszTest._proof_2": 12,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_1": 12,
+      "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn": 4,
+      "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le": 6,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_1": 11,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3": 12,
+      "NavierStokesR3.CompactEnergy.dissipation_continuousOn": 4,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2": 11,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_1": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_5": 2,
+      "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le": 1,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_hasCompactSupport": 2,
+      "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero": 1,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2": 1,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_1": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_6": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_5": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_2": 4,
+      "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant": 6,
+      "NavierStokesR3.PressureFunctionals.l2PairLinear._proof_1": 36,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_3": 36,
+      "NavierStokesR3.ComparisonCutoffs.weight_le_one": 4,
+      "NavierStokesR3.Comparison.cutoffSquareDifference_smul": 2,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_2": 36,
+      "NavierStokesR3.PressureFlux.commutatorConstant_nonneg": 1,
+      "NavierStokesR3.Comparison.heatSecondSymbol._proof_1": 36,
+      "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_4": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_10": 2,
+      "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude": 4,
+      "NavierStokesR3.CompactComparisonBounds.uniformFiniteEnergy_of_compact_slab": 4,
+      "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff": 24,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one": 1,
+      "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_2": 11,
+      "NavierStokesR3.PressureRecovery.averaged_gradient_poisson_complex": 2,
+      "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable": 1,
+      "NavierStokesR3.CompactEnergy.l2Sq._proof_1": 12,
+      "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol": 1,
+      "NavierStokesR3.PressureFlux.cutoff_commutator_bound": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4": 1,
+      "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage": 1,
+      "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian": 1,
+      "NavierStokesR3.ComparisonCutoffs.weight_hasCompactSupport": 2,
+      "NavierStokesR3.PressureFluxTest.norm_fderiv_r_le_amplitude": 4,
+      "NavierStokesR3.PressureRecovery.laplacianCLM_realTest": 2,
+      "NavierStokesR3.WeakTimeContinuity.norm_pairing_sub_le": 2,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear._proof_1": 12,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_3": 36,
+      "NavierStokesR3.ProblemStatement.SquareIntegrableAtTime._proof_2": 11,
+      "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_3": 4,
+      "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1": 1,
+      "NavierStokesR3.Comparison.rieszTest._proof_7": 2,
+      "NavierStokesR3.PressureFlux.commutatorPair._proof_1": 12,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16": 2,
+      "NavierStokesR3.PressureFluxIdentity.canonicalPressureLinear._proof_2": 11,
+      "NavierStokesR3.PressureRecovery.averaged_gradient_poisson": 1,
+      "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm": 1,
+      "NavierStokesR3.Comparison.comparisonLpNorm._proof_1": 12,
+      "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm": 1,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_2": 36,
+      "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space": 1,
+      "NavierStokesR3.Comparison.rieszTest._proof_9": 2,
+      "NavierStokesR3.PressureFluxTest.memLp_fderiv_r": 3,
+      "NavierStokesR3.Comparison.radialCommutatorKernel._proof_1": 36,
+      "NavierStokesR3.Comparison.heatKernel._proof_1": 36,
+      "NavierStokesR3.PressureFluxTest.cutoffDerivativeConstant._proof_2": 36,
+      "NavierStokesR3.RieszTestOperators.smooth_memLp_six": 1,
+      "NavierStokesR3.Comparison.weightedEnergyRate._proof_1": 36,
+      "NavierStokesR3.PressureFlux.uniformCoefficient._proof_1": 36,
+      "NavierStokesR3.LocalizedFluxEstimates.weightLaplacianConstant._proof_1": 36,
+      "NavierStokesR3.CompactEnergy.force_work_le": 1,
+      "NavierStokesR3.ProblemStatement.SquareIntegrableAtTime._proof_1": 12,
+      "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition": 1,
+      "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_9": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_3": 1,
+      "NavierStokesR3.ComparisonCutoffs.baseBump._proof_1": 36,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_fderiv_le": 2,
+      "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable": 1,
+      "NavierStokesR3.PressureFunctionals.testValueLinear": 2,
+      "NavierStokesR3.CompactEnergy.l2Norm_continuous": 1,
+      "NavierStokesR3.CompactEnergy.l2Sq._proof_2": 11,
+      "NavierStokesR3.PressureFluxTest.cutoffDerivativeConstant._proof_1": 36,
+      "NavierStokesR3.ProblemStatement.kineticEnergy._proof_1": 36,
+      "NavierStokesR3.CompactComparisonBounds.hasCompactSupport_slice": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_4": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17": 2,
+      "NavierStokesR3.ConservativeDifference.tensorDiff_divergence": 24,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply": 1,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg": 1,
+      "NavierStokesR3.CompactEnergy.energyRate._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.B._proof_1": 1,
+      "NavierStokesR3.PressureFlux.uniformCoefficient._proof_2": 36,
+      "NavierStokesR3.WeightedSobolev.lpNorm_six_le": 3,
+      "NavierStokesR3.PressureRecovery.compact_test_decomposition": 1,
+      "NavierStokesR3.PressureFluxTest.norm_r_le": 4,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_7": 2,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_1": 12,
+      "NavierStokesR3.PressureRecovery.partial_ofReal": 6,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4": 36,
+      "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude": 2,
+      "NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 24,
+      "NavierStokesR3.ConservativeDifference.partial_component": 21,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_8": 2,
+      "NavierStokesR3.Comparison.heatKernel._proof_3": 36,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_2": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_1": 11,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_4": 36,
+      "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le": 2,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_1": 36,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3": 1,
+      "NavierStokesR3.PressureFlux.commutatorConstant._proof_1": 36,
+      "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_10": 2,
+      "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le": 1,
+      "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport": 2,
+      "NavierStokesR3.CompactEnergy.energy_rate_le": 1,
+      "NavierStokesR3.PressureFlux.commutatorPair._proof_2": 11,
+      "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt": 1,
+      "NavierStokesR3.WeightedInterpolation.pow_four_rpow": 2,
+      "NavierStokesR3.PressureFlux.lpNorm_ofReal": 1,
+      "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1": 4,
+      "NavierStokesR3.Comparison.timeAverage_integrand_integrable_sq_norm": 4,
+      "NavierStokesR3.PressureFluxTest.r._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_6": 4,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_second_fderiv_le": 2,
+      "NavierStokesR3.GradientOperator.fderiv_apply_eq_sum": 4,
+      "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg": 1,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_3": 4,
+      "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_memLp": 2,
+      "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero": 1,
+      "NavierStokesR3.Comparison.comparisonLpNorm._proof_2": 11,
+      "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled": 1,
+      "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_1": 12,
+      "NavierStokesR3.Comparison.heatSecondTest_eq_convolution": 1,
+      "NavierStokesR3.PressureFlux.norm_fderiv_ofReal": 6,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_5": 36,
+      "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_3": 2,
+      "NavierStokesR3.PressureRecovery.noncanonical_average_identity": 2,
+      "NavierStokesR3.CompactComparisonBounds.continuousOn_integral_norm_cube": 4,
+      "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_2": 12,
+      "NavierStokesR3.Comparison.rieszCommutatorConstant._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11": 2,
+      "NavierStokesR3.CompactEnergy.integral_fderiv_apply": 24,
+      "NavierStokesR3.Comparison.rieszTest._proof_11": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_5": 2,
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1": 1,
+      "NavierStokesR3.Comparison.rieszCommutatorConstant._proof_2": 36,
+      "NavierStokesR3.ComparisonCutoffs.derivativeConstant": 4,
+      "NavierStokesR3.ConservativeDifference.advection_component": 21,
+      "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_6": 2,
+      "NavierStokesR3.Comparison.cutoffL6._proof_1": 36,
+      "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale": 2,
+      "NavierStokesR3.Comparison.continuousOn_tensorDiff_field": 2,
+      "NavierStokesR3.Comparison.rieszTest._proof_8": 2
+    },
+    "forced_backbone_union_size": 58,
+    "all_forced_world_backbones_singleton": true,
+    "forced_world_backbone_identities": [
+      {
+        "pair_index": 0,
+        "backbone": [
+          "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg"
+        ]
+      },
+      {
+        "pair_index": 1,
+        "backbone": [
+          "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg"
+        ]
+      },
+      {
+        "pair_index": 160,
+        "backbone": [
+          "NavierStokesR3.PressureRecovery.compact_harmonic_of_real"
+        ]
+      },
+      {
+        "pair_index": 161,
+        "backbone": [
+          "NavierStokesR3.PressureRecovery.compact_test_decomposition"
+        ]
+      },
+      {
+        "pair_index": 258,
+        "backbone": [
+          "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero"
+        ]
+      },
+      {
+        "pair_index": 259,
+        "backbone": [
+          "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero"
+        ]
+      },
+      {
+        "pair_index": 260,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.l2Norm_continuous"
+        ]
+      },
+      {
+        "pair_index": 261,
+        "backbone": [
+          "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude"
+        ]
+      },
+      {
+        "pair_index": 262,
+        "backbone": [
+          "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2"
+        ]
+      },
+      {
+        "pair_index": 263,
+        "backbone": [
+          "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1"
+        ]
+      },
+      {
+        "pair_index": 276,
+        "backbone": [
+          "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4"
+        ]
+      },
+      {
+        "pair_index": 277,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.partialTest._proof_5"
+        ]
+      },
+      {
+        "pair_index": 278,
+        "backbone": [
+          "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul"
+        ]
+      },
+      {
+        "pair_index": 279,
+        "backbone": [
+          "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply"
+        ]
+      },
+      {
+        "pair_index": 320,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le"
+        ]
+      },
+      {
+        "pair_index": 321,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.smooth_memLp_six"
+        ]
+      },
+      {
+        "pair_index": 322,
+        "backbone": [
+          "NavierStokesR3.PressureRecovery.averaged_gradient_poisson"
+        ]
+      },
+      {
+        "pair_index": 323,
+        "backbone": [
+          "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage"
+        ]
+      },
+      {
+        "pair_index": 324,
+        "backbone": [
+          "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le"
+        ]
+      },
+      {
+        "pair_index": 325,
+        "backbone": [
+          "NavierStokesR3.WeightedInterpolation.cutoff_interpolation"
+        ]
+      },
+      {
+        "pair_index": 368,
+        "backbone": [
+          "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn"
+        ]
+      },
+      {
+        "pair_index": 369,
+        "backbone": [
+          "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt"
+        ]
+      },
+      {
+        "pair_index": 370,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1"
+        ]
+      },
+      {
+        "pair_index": 371,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1"
+        ]
+      },
+      {
+        "pair_index": 372,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1"
+        ]
+      },
+      {
+        "pair_index": 373,
+        "backbone": [
+          "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1"
+        ]
+      },
+      {
+        "pair_index": 374,
+        "backbone": [
+          "NavierStokesR3.FourierSobolevWeights.B._proof_1"
+        ]
+      },
+      {
+        "pair_index": 375,
+        "backbone": [
+          "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5"
+        ]
+      },
+      {
+        "pair_index": 376,
+        "backbone": [
+          "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2"
+        ]
+      },
+      {
+        "pair_index": 377,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.partialTest._proof_3"
+        ]
+      },
+      {
+        "pair_index": 378,
+        "backbone": [
+          "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3"
+        ]
+      },
+      {
+        "pair_index": 379,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.partialTest._proof_4"
+        ]
+      },
+      {
+        "pair_index": 386,
+        "backbone": [
+          "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable"
+        ]
+      },
+      {
+        "pair_index": 387,
+        "backbone": [
+          "NavierStokesR3.Comparison.cancelledTimeKernel_measurable"
+        ]
+      },
+      {
+        "pair_index": 388,
+        "backbone": [
+          "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled"
+        ]
+      },
+      {
+        "pair_index": 389,
+        "backbone": [
+          "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled"
+        ]
+      },
+      {
+        "pair_index": 390,
+        "backbone": [
+          "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest"
+        ]
+      },
+      {
+        "pair_index": 391,
+        "backbone": [
+          "NavierStokesR3.PressureFlux.lpNorm_ofReal"
+        ]
+      },
+      {
+        "pair_index": 392,
+        "backbone": [
+          "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm"
+        ]
+      },
+      {
+        "pair_index": 393,
+        "backbone": [
+          "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm"
+        ]
+      },
+      {
+        "pair_index": 556,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le"
+        ]
+      },
+      {
+        "pair_index": 557,
+        "backbone": [
+          "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+        ]
+      },
+      {
+        "pair_index": 1916,
+        "backbone": [
+          "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable"
+        ]
+      },
+      {
+        "pair_index": 1917,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier"
+        ]
+      },
+      {
+        "pair_index": 1918,
+        "backbone": [
+          "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable"
+        ]
+      },
+      {
+        "pair_index": 1919,
+        "backbone": [
+          "NavierStokesR3.Comparison.heatSecondTest_eq_convolution"
+        ]
+      },
+      {
+        "pair_index": 1920,
+        "backbone": [
+          "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol"
+        ]
+      },
+      {
+        "pair_index": 1921,
+        "backbone": [
+          "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space"
+        ]
+      },
+      {
+        "pair_index": 1922,
+        "backbone": [
+          "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq"
+        ]
+      },
+      {
+        "pair_index": 1923,
+        "backbone": [
+          "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition"
+        ]
+      },
+      {
+        "pair_index": 1924,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.energy_rate_le"
+        ]
+      },
+      {
+        "pair_index": 1925,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.force_work_le"
+        ]
+      },
+      {
+        "pair_index": 1926,
+        "backbone": [
+          "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one"
+        ]
+      },
+      {
+        "pair_index": 1927,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le"
+        ]
+      },
+      {
+        "pair_index": 1928,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.integral_laplacian_energy"
+        ]
+      },
+      {
+        "pair_index": 1929,
+        "backbone": [
+          "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian"
+        ]
+      },
+      {
+        "pair_index": 1936,
+        "backbone": [
+          "NavierStokesR3.PressureFlux.commutatorConstant_nonneg"
+        ]
+      },
+      {
+        "pair_index": 1937,
+        "backbone": [
+          "NavierStokesR3.PressureFlux.cutoff_commutator_bound"
+        ]
+      }
+    ],
+    "forced_world_witness_sha256": "55aaaadc47dfc3eaffb6e7b75cedab6b01f3af68647c5264a0cf5f794c592baf",
+    "residual_world_witness_sha256": "785e6002f5db2abd83069d57ca1aba0a589a8882f656dbb918ebfa25728efa3b"
+  },
+  "addition": {
+    "necessity_degree_histogram": {
+      "1": 58,
+      "2": 43,
+      "3": 4,
+      "4": 18,
+      "6": 8,
+      "11": 12,
+      "12": 13,
+      "21": 2,
+      "24": 5,
+      "36": 37
+    },
+    "support_degree_histogram": {
+      "1": 58,
+      "2": 43,
+      "3": 4,
+      "4": 18,
+      "6": 8,
+      "11": 12,
+      "12": 13,
+      "21": 2,
+      "24": 5,
+      "36": 37
+    },
+    "private_coordinate_count": 58,
+    "private_coordinates": [
+      "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero",
+      "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero",
+      "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1",
+      "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1",
+      "NavierStokesR3.CompactEnergy.energy_rate_le",
+      "NavierStokesR3.CompactEnergy.force_work_le",
+      "NavierStokesR3.CompactEnergy.integral_laplacian_energy",
+      "NavierStokesR3.CompactEnergy.l2Norm_continuous",
+      "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn",
+      "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt",
+      "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable",
+      "NavierStokesR3.Comparison.cancelledTimeKernel_measurable",
+      "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol",
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq",
+      "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition",
+      "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable",
+      "NavierStokesR3.Comparison.heatSecondTest_eq_convolution",
+      "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space",
+      "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one",
+      "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le",
+      "NavierStokesR3.FourierSobolevWeights.B._proof_1",
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5",
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul",
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2",
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply",
+      "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1",
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2",
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3",
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4",
+      "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian",
+      "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm",
+      "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled",
+      "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm",
+      "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled",
+      "NavierStokesR3.PressureFlux.commutatorConstant_nonneg",
+      "NavierStokesR3.PressureFlux.cutoff_commutator_bound",
+      "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest",
+      "NavierStokesR3.PressureFlux.lpNorm_ofReal",
+      "NavierStokesR3.PressureRecovery.averaged_gradient_poisson",
+      "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage",
+      "NavierStokesR3.PressureRecovery.compact_harmonic_of_real",
+      "NavierStokesR3.PressureRecovery.compact_test_decomposition",
+      "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable",
+      "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier",
+      "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le",
+      "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le",
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_3",
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_4",
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_5",
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1",
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le",
+      "NavierStokesR3.RieszTestOperators.smooth_memLp_six",
+      "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg",
+      "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg",
+      "NavierStokesR3.WeightedInterpolation.cutoff_interpolation",
+      "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude",
+      "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1",
+      "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+    ],
+    "forced_world_count": 58,
+    "forced_world_indices": [
+      0,
+      1,
+      160,
+      161,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      276,
+      277,
+      278,
+      279,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      556,
+      557,
+      1916,
+      1917,
+      1918,
+      1919,
+      1920,
+      1921,
+      1922,
+      1923,
+      1924,
+      1925,
+      1926,
+      1927,
+      1928,
+      1929,
+      1936,
+      1937
+    ],
+    "forced_covered_coordinate_count": 58,
+    "residual_coordinate_count": 142,
+    "residual_world_cover_count": 130,
+    "residual_world_indices": [
+      5,
+      6,
+      7,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      150,
+      154,
+      156,
+      165,
+      166,
+      167,
+      212,
+      244,
+      249,
+      267,
+      268,
+      269,
+      273,
+      274,
+      275,
+      283,
+      296,
+      315,
+      316,
+      317,
+      318,
+      319,
+      329,
+      330,
+      331,
+      335,
+      336,
+      337,
+      341,
+      342,
+      343,
+      347,
+      348,
+      349,
+      351,
+      354,
+      364,
+      365,
+      366,
+      367,
+      383,
+      384,
+      385,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      553,
+      554,
+      555,
+      1853,
+      1854,
+      1855,
+      1856,
+      1857,
+      1858,
+      1859,
+      1860,
+      1861,
+      1862,
+      1863,
+      1864,
+      1865,
+      1866,
+      1867,
+      1868,
+      1869,
+      1870,
+      1871,
+      1872,
+      1873,
+      1874,
+      1875,
+      1876,
+      1877,
+      1878,
+      1879,
+      1880,
+      1881,
+      1882,
+      1883,
+      1884,
+      1885,
+      1886,
+      1887,
+      1888,
+      1889,
+      1893,
+      1894,
+      1895,
+      1911,
+      1912,
+      1913,
+      1914,
+      1915,
+      1933,
+      1934,
+      1935,
+      1941,
+      1942,
+      1943,
+      1959,
+      1960,
+      1961,
+      1962,
+      1963
+    ],
+    "residual_cover_verified": true,
+    "forced_plus_residual": 188,
+    "solver_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "degree_by_coordinate": {
+      "NavierStokesR3.Comparison.heatSecondTest._proof_11": 2,
+      "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": 6,
+      "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg": 1,
+      "NavierStokesR3.PressureFluxIdentity.canonicalPressureLinear._proof_1": 12,
+      "NavierStokesR3.PressureTestBounds.fourierMomentConstant._proof_2": 11,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_3": 36,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul": 1,
+      "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1": 1,
+      "NavierStokesR3.RieszTestOperators.rieszTestLinear": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12": 2,
+      "NavierStokesR3.PressureFluxIdentity.fluxFunction_hasCompactSupport": 3,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear._proof_2": 11,
+      "NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 24,
+      "NavierStokesR3.PressureRecovery.compact_harmonic_of_real": 1,
+      "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled": 1,
+      "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest": 1,
+      "NavierStokesR3.PressureFlux.fluxFunction_compact": 3,
+      "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms": 4,
+      "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable": 1,
+      "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos": 6,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14": 2,
+      "NavierStokesR3.CompactEnergy.integral_laplacian_energy": 1,
+      "NavierStokesR3.WeightedSobolev.weightedSobolevConstant._proof_1": 36,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_2": 11,
+      "NavierStokesR3.Comparison.cancelledTimeKernel_measurable": 1,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq": 1,
+      "NavierStokesR3.WeightedInterpolation.cutoff_interpolation": 1,
+      "NavierStokesR3.Comparison.heatKernel._proof_2": 36,
+      "NavierStokesR3.ComparisonCutoffs.baseCutoff_iteratedFDeriv_le": 6,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_3": 36,
+      "NavierStokesR3.PressureFluxTest.cutoffTest_four_bound": 6,
+      "NavierStokesR3.LocalizedTensorBounds.norm_weighted_tensorDiff_le": 4,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_4": 36,
+      "NavierStokesR3.PressureFlux.rieszSobolevConstant._proof_1": 36,
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le": 1,
+      "NavierStokesR3.PressureTestBounds.fourierMomentConstant._proof_1": 12,
+      "NavierStokesR3.Comparison.rieszTest._proof_2": 12,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_1": 12,
+      "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn": 4,
+      "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le": 6,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_1": 11,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3": 12,
+      "NavierStokesR3.CompactEnergy.dissipation_continuousOn": 4,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2": 11,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_1": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_5": 2,
+      "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le": 1,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_hasCompactSupport": 2,
+      "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero": 1,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2": 1,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_1": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_6": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_5": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_2": 4,
+      "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant": 6,
+      "NavierStokesR3.PressureFunctionals.l2PairLinear._proof_1": 36,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_3": 36,
+      "NavierStokesR3.ComparisonCutoffs.weight_le_one": 4,
+      "NavierStokesR3.Comparison.cutoffSquareDifference_smul": 2,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_2": 36,
+      "NavierStokesR3.PressureFlux.commutatorConstant_nonneg": 1,
+      "NavierStokesR3.Comparison.heatSecondSymbol._proof_1": 36,
+      "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_4": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_10": 2,
+      "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude": 4,
+      "NavierStokesR3.CompactComparisonBounds.uniformFiniteEnergy_of_compact_slab": 4,
+      "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff": 24,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one": 1,
+      "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_2": 11,
+      "NavierStokesR3.PressureRecovery.averaged_gradient_poisson_complex": 2,
+      "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable": 1,
+      "NavierStokesR3.CompactEnergy.l2Sq._proof_1": 12,
+      "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol": 1,
+      "NavierStokesR3.PressureFlux.cutoff_commutator_bound": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4": 1,
+      "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage": 1,
+      "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian": 1,
+      "NavierStokesR3.ComparisonCutoffs.weight_hasCompactSupport": 2,
+      "NavierStokesR3.PressureFluxTest.norm_fderiv_r_le_amplitude": 4,
+      "NavierStokesR3.PressureRecovery.laplacianCLM_realTest": 2,
+      "NavierStokesR3.WeakTimeContinuity.norm_pairing_sub_le": 2,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear._proof_1": 12,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_3": 36,
+      "NavierStokesR3.ProblemStatement.SquareIntegrableAtTime._proof_2": 11,
+      "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_3": 4,
+      "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1": 1,
+      "NavierStokesR3.Comparison.rieszTest._proof_7": 2,
+      "NavierStokesR3.PressureFlux.commutatorPair._proof_1": 12,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16": 2,
+      "NavierStokesR3.PressureFluxIdentity.canonicalPressureLinear._proof_2": 11,
+      "NavierStokesR3.PressureRecovery.averaged_gradient_poisson": 1,
+      "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm": 1,
+      "NavierStokesR3.Comparison.comparisonLpNorm._proof_1": 12,
+      "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm": 1,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_2": 36,
+      "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space": 1,
+      "NavierStokesR3.Comparison.rieszTest._proof_9": 2,
+      "NavierStokesR3.PressureFluxTest.memLp_fderiv_r": 3,
+      "NavierStokesR3.Comparison.radialCommutatorKernel._proof_1": 36,
+      "NavierStokesR3.Comparison.heatKernel._proof_1": 36,
+      "NavierStokesR3.PressureFluxTest.cutoffDerivativeConstant._proof_2": 36,
+      "NavierStokesR3.RieszTestOperators.smooth_memLp_six": 1,
+      "NavierStokesR3.Comparison.weightedEnergyRate._proof_1": 36,
+      "NavierStokesR3.PressureFlux.uniformCoefficient._proof_1": 36,
+      "NavierStokesR3.LocalizedFluxEstimates.weightLaplacianConstant._proof_1": 36,
+      "NavierStokesR3.CompactEnergy.force_work_le": 1,
+      "NavierStokesR3.ProblemStatement.SquareIntegrableAtTime._proof_1": 12,
+      "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition": 1,
+      "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_9": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_3": 1,
+      "NavierStokesR3.ComparisonCutoffs.baseBump._proof_1": 36,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_fderiv_le": 2,
+      "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable": 1,
+      "NavierStokesR3.PressureFunctionals.testValueLinear": 2,
+      "NavierStokesR3.CompactEnergy.l2Norm_continuous": 1,
+      "NavierStokesR3.CompactEnergy.l2Sq._proof_2": 11,
+      "NavierStokesR3.PressureFluxTest.cutoffDerivativeConstant._proof_1": 36,
+      "NavierStokesR3.ProblemStatement.kineticEnergy._proof_1": 36,
+      "NavierStokesR3.CompactComparisonBounds.hasCompactSupport_slice": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_4": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17": 2,
+      "NavierStokesR3.ConservativeDifference.tensorDiff_divergence": 24,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply": 1,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg": 1,
+      "NavierStokesR3.CompactEnergy.energyRate._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.B._proof_1": 1,
+      "NavierStokesR3.PressureFlux.uniformCoefficient._proof_2": 36,
+      "NavierStokesR3.WeightedSobolev.lpNorm_six_le": 3,
+      "NavierStokesR3.PressureRecovery.compact_test_decomposition": 1,
+      "NavierStokesR3.PressureFluxTest.norm_r_le": 4,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_7": 2,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_1": 12,
+      "NavierStokesR3.PressureRecovery.partial_ofReal": 6,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4": 36,
+      "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude": 2,
+      "NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 24,
+      "NavierStokesR3.ConservativeDifference.partial_component": 21,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_8": 2,
+      "NavierStokesR3.Comparison.heatKernel._proof_3": 36,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_2": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_1": 11,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_4": 36,
+      "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le": 2,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_1": 36,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3": 1,
+      "NavierStokesR3.PressureFlux.commutatorConstant._proof_1": 36,
+      "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_10": 2,
+      "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le": 1,
+      "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport": 2,
+      "NavierStokesR3.CompactEnergy.energy_rate_le": 1,
+      "NavierStokesR3.PressureFlux.commutatorPair._proof_2": 11,
+      "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt": 1,
+      "NavierStokesR3.WeightedInterpolation.pow_four_rpow": 2,
+      "NavierStokesR3.PressureFlux.lpNorm_ofReal": 1,
+      "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1": 4,
+      "NavierStokesR3.Comparison.timeAverage_integrand_integrable_sq_norm": 4,
+      "NavierStokesR3.PressureFluxTest.r._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_6": 4,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_second_fderiv_le": 2,
+      "NavierStokesR3.GradientOperator.fderiv_apply_eq_sum": 4,
+      "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg": 1,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_3": 4,
+      "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_memLp": 2,
+      "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero": 1,
+      "NavierStokesR3.Comparison.comparisonLpNorm._proof_2": 11,
+      "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled": 1,
+      "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_1": 12,
+      "NavierStokesR3.Comparison.heatSecondTest_eq_convolution": 1,
+      "NavierStokesR3.PressureFlux.norm_fderiv_ofReal": 6,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_5": 36,
+      "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_3": 2,
+      "NavierStokesR3.PressureRecovery.noncanonical_average_identity": 2,
+      "NavierStokesR3.CompactComparisonBounds.continuousOn_integral_norm_cube": 4,
+      "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_2": 12,
+      "NavierStokesR3.Comparison.rieszCommutatorConstant._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11": 2,
+      "NavierStokesR3.CompactEnergy.integral_fderiv_apply": 24,
+      "NavierStokesR3.Comparison.rieszTest._proof_11": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_5": 2,
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1": 1,
+      "NavierStokesR3.Comparison.rieszCommutatorConstant._proof_2": 36,
+      "NavierStokesR3.ComparisonCutoffs.derivativeConstant": 4,
+      "NavierStokesR3.ConservativeDifference.advection_component": 21,
+      "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_6": 2,
+      "NavierStokesR3.Comparison.cutoffL6._proof_1": 36,
+      "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale": 2,
+      "NavierStokesR3.Comparison.continuousOn_tensorDiff_field": 2,
+      "NavierStokesR3.Comparison.rieszTest._proof_8": 2
+    },
+    "support_degree_by_coordinate": {
+      "NavierStokesR3.Comparison.heatSecondTest._proof_11": 2,
+      "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": 6,
+      "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg": 1,
+      "NavierStokesR3.PressureFluxIdentity.canonicalPressureLinear._proof_1": 12,
+      "NavierStokesR3.PressureTestBounds.fourierMomentConstant._proof_2": 11,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_3": 36,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul": 1,
+      "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1": 1,
+      "NavierStokesR3.RieszTestOperators.rieszTestLinear": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_12": 2,
+      "NavierStokesR3.PressureFluxIdentity.fluxFunction_hasCompactSupport": 3,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear._proof_2": 11,
+      "NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 24,
+      "NavierStokesR3.PressureRecovery.compact_harmonic_of_real": 1,
+      "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled": 1,
+      "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest": 1,
+      "NavierStokesR3.PressureFlux.fluxFunction_compact": 3,
+      "NavierStokesR3.RieszTestOperators.norm_clm_le_sum_coordinate_norms": 4,
+      "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable": 1,
+      "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos": 6,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_14": 2,
+      "NavierStokesR3.CompactEnergy.integral_laplacian_energy": 1,
+      "NavierStokesR3.WeightedSobolev.weightedSobolevConstant._proof_1": 36,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_2": 11,
+      "NavierStokesR3.Comparison.cancelledTimeKernel_measurable": 1,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq": 1,
+      "NavierStokesR3.WeightedInterpolation.cutoff_interpolation": 1,
+      "NavierStokesR3.Comparison.heatKernel._proof_2": 36,
+      "NavierStokesR3.ComparisonCutoffs.baseCutoff_iteratedFDeriv_le": 6,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_3": 36,
+      "NavierStokesR3.PressureFluxTest.cutoffTest_four_bound": 6,
+      "NavierStokesR3.LocalizedTensorBounds.norm_weighted_tensorDiff_le": 4,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_4": 36,
+      "NavierStokesR3.PressureFlux.rieszSobolevConstant._proof_1": 36,
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le": 1,
+      "NavierStokesR3.PressureTestBounds.fourierMomentConstant._proof_1": 12,
+      "NavierStokesR3.Comparison.rieszTest._proof_2": 12,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_1": 12,
+      "NavierStokesR3.LocalizedDifferenceEnergy.weightedEnergy_continuousOn": 4,
+      "NavierStokesR3.LocalizedFluxEstimates.weight_laplacian_le": 6,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_15": 2,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_1": 11,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_3": 12,
+      "NavierStokesR3.CompactEnergy.dissipation_continuousOn": 4,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_2": 11,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_1": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_5": 2,
+      "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le": 1,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_hasCompactSupport": 2,
+      "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero": 1,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2": 1,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_1": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_6": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_5": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_2": 4,
+      "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant": 6,
+      "NavierStokesR3.PressureFunctionals.l2PairLinear._proof_1": 36,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_3": 36,
+      "NavierStokesR3.ComparisonCutoffs.weight_le_one": 4,
+      "NavierStokesR3.Comparison.cutoffSquareDifference_smul": 2,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_2": 36,
+      "NavierStokesR3.PressureFlux.commutatorConstant_nonneg": 1,
+      "NavierStokesR3.Comparison.heatSecondSymbol._proof_1": 36,
+      "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_4": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_10": 2,
+      "NavierStokesR3.WeightedSobolev.norm_fderiv_cutoff_four_le_amplitude": 4,
+      "NavierStokesR3.CompactComparisonBounds.uniformFiniteEnergy_of_compact_slab": 4,
+      "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff": 24,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one": 1,
+      "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_2": 11,
+      "NavierStokesR3.PressureRecovery.averaged_gradient_poisson_complex": 2,
+      "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable": 1,
+      "NavierStokesR3.CompactEnergy.l2Sq._proof_1": 12,
+      "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol": 1,
+      "NavierStokesR3.PressureFlux.cutoff_commutator_bound": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4": 1,
+      "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage": 1,
+      "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian": 1,
+      "NavierStokesR3.ComparisonCutoffs.weight_hasCompactSupport": 2,
+      "NavierStokesR3.PressureFluxTest.norm_fderiv_r_le_amplitude": 4,
+      "NavierStokesR3.PressureRecovery.laplacianCLM_realTest": 2,
+      "NavierStokesR3.WeakTimeContinuity.norm_pairing_sub_le": 2,
+      "NavierStokesR3.PressureFunctionals.integralPairLinear._proof_1": 12,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_3": 36,
+      "NavierStokesR3.ProblemStatement.SquareIntegrableAtTime._proof_2": 11,
+      "NavierStokesR3.FourierSobolevWeights.coordinateMul._proof_3": 4,
+      "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1": 1,
+      "NavierStokesR3.Comparison.rieszTest._proof_7": 2,
+      "NavierStokesR3.PressureFlux.commutatorPair._proof_1": 12,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_16": 2,
+      "NavierStokesR3.PressureFluxIdentity.canonicalPressureLinear._proof_2": 11,
+      "NavierStokesR3.PressureRecovery.averaged_gradient_poisson": 1,
+      "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm": 1,
+      "NavierStokesR3.Comparison.comparisonLpNorm._proof_1": 12,
+      "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm": 1,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_2": 36,
+      "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space": 1,
+      "NavierStokesR3.Comparison.rieszTest._proof_9": 2,
+      "NavierStokesR3.PressureFluxTest.memLp_fderiv_r": 3,
+      "NavierStokesR3.Comparison.radialCommutatorKernel._proof_1": 36,
+      "NavierStokesR3.Comparison.heatKernel._proof_1": 36,
+      "NavierStokesR3.PressureFluxTest.cutoffDerivativeConstant._proof_2": 36,
+      "NavierStokesR3.RieszTestOperators.smooth_memLp_six": 1,
+      "NavierStokesR3.Comparison.weightedEnergyRate._proof_1": 36,
+      "NavierStokesR3.PressureFlux.uniformCoefficient._proof_1": 36,
+      "NavierStokesR3.LocalizedFluxEstimates.weightLaplacianConstant._proof_1": 36,
+      "NavierStokesR3.CompactEnergy.force_work_le": 1,
+      "NavierStokesR3.ProblemStatement.SquareIntegrableAtTime._proof_1": 12,
+      "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition": 1,
+      "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_9": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_3": 1,
+      "NavierStokesR3.ComparisonCutoffs.baseBump._proof_1": 36,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_fderiv_le": 2,
+      "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable": 1,
+      "NavierStokesR3.PressureFunctionals.testValueLinear": 2,
+      "NavierStokesR3.CompactEnergy.l2Norm_continuous": 1,
+      "NavierStokesR3.CompactEnergy.l2Sq._proof_2": 11,
+      "NavierStokesR3.PressureFluxTest.cutoffDerivativeConstant._proof_1": 36,
+      "NavierStokesR3.ProblemStatement.kineticEnergy._proof_1": 36,
+      "NavierStokesR3.CompactComparisonBounds.hasCompactSupport_slice": 2,
+      "NavierStokesR3.RieszTestOperators.partialTest._proof_4": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_17": 2,
+      "NavierStokesR3.ConservativeDifference.tensorDiff_divergence": 24,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply": 1,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg": 1,
+      "NavierStokesR3.CompactEnergy.energyRate._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.B._proof_1": 1,
+      "NavierStokesR3.PressureFlux.uniformCoefficient._proof_2": 36,
+      "NavierStokesR3.WeightedSobolev.lpNorm_six_le": 3,
+      "NavierStokesR3.PressureRecovery.compact_test_decomposition": 1,
+      "NavierStokesR3.PressureFluxTest.norm_r_le": 4,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_7": 2,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_1": 12,
+      "NavierStokesR3.PressureRecovery.partial_ofReal": 6,
+      "NavierStokesR3.WholeSpaceComparisonClosure.pressureEnvelope._proof_4": 36,
+      "NavierStokesR3.WeightedSobolev.hasCompactSupport_cutoffGradientAmplitude": 2,
+      "NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 24,
+      "NavierStokesR3.ConservativeDifference.partial_component": 21,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_8": 2,
+      "NavierStokesR3.Comparison.heatKernel._proof_3": 36,
+      "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope._proof_2": 36,
+      "NavierStokesR3.Comparison.rieszTest._proof_1": 11,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_4": 36,
+      "NavierStokesR3.LocalizedFluxEstimates.weight_second_fderiv_le": 2,
+      "NavierStokesR3.PositiveTimeForce.timeCutoff._proof_1": 36,
+      "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3": 1,
+      "NavierStokesR3.PressureFlux.commutatorConstant._proof_1": 36,
+      "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn": 1,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_10": 2,
+      "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le": 1,
+      "NavierStokesR3.PositiveTimeForce.force_compactPositiveTimeSupport": 2,
+      "NavierStokesR3.CompactEnergy.energy_rate_le": 1,
+      "NavierStokesR3.PressureFlux.commutatorPair._proof_2": 11,
+      "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt": 1,
+      "NavierStokesR3.WeightedInterpolation.pow_four_rpow": 2,
+      "NavierStokesR3.PressureFlux.lpNorm_ofReal": 1,
+      "NavierStokesR3.PressureFunctionals.averagedPressureDifference._proof_1": 4,
+      "NavierStokesR3.Comparison.timeAverage_integrand_integrable_sq_norm": 4,
+      "NavierStokesR3.PressureFluxTest.r._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_6": 4,
+      "NavierStokesR3.ComparisonCutoffs.cutoff_second_fderiv_le": 2,
+      "NavierStokesR3.GradientOperator.fderiv_apply_eq_sum": 4,
+      "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg": 1,
+      "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_3": 4,
+      "NavierStokesR3.LocalizedTensorBounds.weighted_tensorDiff_memLp": 2,
+      "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero": 1,
+      "NavierStokesR3.Comparison.comparisonLpNorm._proof_2": 11,
+      "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled": 1,
+      "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude": 1,
+      "NavierStokesR3.HarmonicTestFunctionals.FrequencyL2._proof_1": 12,
+      "NavierStokesR3.Comparison.heatSecondTest_eq_convolution": 1,
+      "NavierStokesR3.PressureFlux.norm_fderiv_ofReal": 6,
+      "NavierStokesR3.WeightedSobolev.sobolevConstant._proof_5": 36,
+      "NavierStokesR3.ViscosityScaling.normalized_global_solution._proof_3": 2,
+      "NavierStokesR3.PressureRecovery.noncanonical_average_identity": 2,
+      "NavierStokesR3.CompactComparisonBounds.continuousOn_integral_norm_cube": 4,
+      "NavierStokesR3.CompactComparisonBounds.lpNorm_three_eq_integral_norm_cube_rpow": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_2": 12,
+      "NavierStokesR3.Comparison.rieszCommutatorConstant._proof_1": 36,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_11": 2,
+      "NavierStokesR3.CompactEnergy.integral_fderiv_apply": 24,
+      "NavierStokesR3.Comparison.rieszTest._proof_11": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_5": 2,
+      "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1": 1,
+      "NavierStokesR3.Comparison.rieszCommutatorConstant._proof_2": 36,
+      "NavierStokesR3.ComparisonCutoffs.derivativeConstant": 4,
+      "NavierStokesR3.ConservativeDifference.advection_component": 21,
+      "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier": 1,
+      "NavierStokesR3.FourierSobolevWeights.BCLM._proof_13": 2,
+      "NavierStokesR3.Comparison.heatSecondTest._proof_6": 2,
+      "NavierStokesR3.Comparison.cutoffL6._proof_1": 36,
+      "NavierStokesR3.ProblemStatement.CompactPositiveTimeSupport.spatialScale": 2,
+      "NavierStokesR3.Comparison.continuousOn_tensorDiff_field": 2,
+      "NavierStokesR3.Comparison.rieszTest._proof_8": 2
+    },
+    "forced_backbone_union_size": 58,
+    "all_forced_world_backbones_singleton": true,
+    "forced_world_backbone_identities": [
+      {
+        "pair_index": 0,
+        "backbone": [
+          "NavierStokesR3.SchwartzCompactApproximation.productTailBound_nonneg"
+        ]
+      },
+      {
+        "pair_index": 1,
+        "backbone": [
+          "NavierStokesR3.SchwartzCompactApproximation.errorTailBound_nonneg"
+        ]
+      },
+      {
+        "pair_index": 160,
+        "backbone": [
+          "NavierStokesR3.PressureRecovery.compact_test_decomposition"
+        ]
+      },
+      {
+        "pair_index": 161,
+        "backbone": [
+          "NavierStokesR3.PressureRecovery.compact_harmonic_of_real"
+        ]
+      },
+      {
+        "pair_index": 258,
+        "backbone": [
+          "NavierStokesR3.ActualCandidate.activatedVelocity_eventually_zero"
+        ]
+      },
+      {
+        "pair_index": 259,
+        "backbone": [
+          "NavierStokesR3.ActualCandidate.activatedPressure_eventually_zero"
+        ]
+      },
+      {
+        "pair_index": 260,
+        "backbone": [
+          "NavierStokesR3.WeightedSobolev.continuous_cutoffGradientAmplitude"
+        ]
+      },
+      {
+        "pair_index": 261,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.l2Norm_continuous"
+        ]
+      },
+      {
+        "pair_index": 262,
+        "backbone": [
+          "NavierStokesR3.HarmonicTestFunctionals.laplacianCLM._proof_1"
+        ]
+      },
+      {
+        "pair_index": 263,
+        "backbone": [
+          "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul._proof_2"
+        ]
+      },
+      {
+        "pair_index": 276,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.partialTest._proof_5"
+        ]
+      },
+      {
+        "pair_index": 277,
+        "backbone": [
+          "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_4"
+        ]
+      },
+      {
+        "pair_index": 278,
+        "backbone": [
+          "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul_apply"
+        ]
+      },
+      {
+        "pair_index": 279,
+        "backbone": [
+          "NavierStokesR3.FourierSobolevWeights.oneAddNormSqMul"
+        ]
+      },
+      {
+        "pair_index": 320,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.smooth_memLp_six"
+        ]
+      },
+      {
+        "pair_index": 321,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_toReal_le"
+        ]
+      },
+      {
+        "pair_index": 322,
+        "backbone": [
+          "NavierStokesR3.PressureRecovery.canonical_sum_timeAverage"
+        ]
+      },
+      {
+        "pair_index": 323,
+        "backbone": [
+          "NavierStokesR3.PressureRecovery.averaged_gradient_poisson"
+        ]
+      },
+      {
+        "pair_index": 324,
+        "backbone": [
+          "NavierStokesR3.WeightedInterpolation.cutoff_interpolation"
+        ]
+      },
+      {
+        "pair_index": 325,
+        "backbone": [
+          "NavierStokesR3.ComparisonGronwall.le_div_radius_of_deriv_le"
+        ]
+      },
+      {
+        "pair_index": 368,
+        "backbone": [
+          "NavierStokesR3.CompactTimeIntegral.hasDerivAt_integral_of_contDiffOn_of_hasDerivAt"
+        ]
+      },
+      {
+        "pair_index": 369,
+        "backbone": [
+          "NavierStokesR3.CompactTimeIntegral.continuousOn_timeDeriv_of_contDiffOn"
+        ]
+      },
+      {
+        "pair_index": 370,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.energy_balance_viscosity._abel_1_1"
+        ]
+      },
+      {
+        "pair_index": 371,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.energy_balance._abel_1_1"
+        ]
+      },
+      {
+        "pair_index": 372,
+        "backbone": [
+          "NavierStokesR3.WeightedSobolev.lpNorm_six_le._proof_1_1"
+        ]
+      },
+      {
+        "pair_index": 373,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.smooth_eLpNorm_six_le._proof_1_1"
+        ]
+      },
+      {
+        "pair_index": 374,
+        "backbone": [
+          "NavierStokesR3.FourierSobolevWeights.BCLM._proof_5"
+        ]
+      },
+      {
+        "pair_index": 375,
+        "backbone": [
+          "NavierStokesR3.FourierSobolevWeights.B._proof_1"
+        ]
+      },
+      {
+        "pair_index": 376,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.partialTest._proof_3"
+        ]
+      },
+      {
+        "pair_index": 377,
+        "backbone": [
+          "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_2"
+        ]
+      },
+      {
+        "pair_index": 378,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.partialTest._proof_4"
+        ]
+      },
+      {
+        "pair_index": 379,
+        "backbone": [
+          "NavierStokesR3.HarmonicTestFunctionals.partialCLM._proof_3"
+        ]
+      },
+      {
+        "pair_index": 386,
+        "backbone": [
+          "NavierStokesR3.Comparison.cancelledTimeKernel_measurable"
+        ]
+      },
+      {
+        "pair_index": 387,
+        "backbone": [
+          "NavierStokesR3.Comparison.absoluteCancelledTimeKernel_measurable"
+        ]
+      },
+      {
+        "pair_index": 388,
+        "backbone": [
+          "NavierStokesR3.PairedKernelBound.norm_paired_kernel_le_scaled"
+        ]
+      },
+      {
+        "pair_index": 389,
+        "backbone": [
+          "NavierStokesR3.PairedKernelBound.dominated_section_integrable_and_integral_norm_le_scaled"
+        ]
+      },
+      {
+        "pair_index": 390,
+        "backbone": [
+          "NavierStokesR3.PressureFlux.lpNorm_ofReal"
+        ]
+      },
+      {
+        "pair_index": 391,
+        "backbone": [
+          "NavierStokesR3.PressureFlux.lpNorm_fderiv_realTest"
+        ]
+      },
+      {
+        "pair_index": 392,
+        "backbone": [
+          "NavierStokesR3.PairedKernelBound.lpNorm_one_eq_integral_norm"
+        ]
+      },
+      {
+        "pair_index": 393,
+        "backbone": [
+          "NavierStokesR3.LpNormTools.lpNorm_one_eq_integral_norm"
+        ]
+      },
+      {
+        "pair_index": 556,
+        "backbone": [
+          "NavierStokesR3.WeightedSobolev.sobolevConstant_nonneg"
+        ]
+      },
+      {
+        "pair_index": 557,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.lpNorm_six_rieszTest_le"
+        ]
+      },
+      {
+        "pair_index": 1916,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.integrable_pow_mul_norm_rieszMultiplier"
+        ]
+      },
+      {
+        "pair_index": 1917,
+        "backbone": [
+          "NavierStokesR3.PressureTestBounds.integral_norm_fourier_partialCLM_le_of_integrable"
+        ]
+      },
+      {
+        "pair_index": 1918,
+        "backbone": [
+          "NavierStokesR3.Comparison.heatSecondTest_eq_convolution"
+        ]
+      },
+      {
+        "pair_index": 1919,
+        "backbone": [
+          "NavierStokesR3.Comparison.heatSecondTest_convolution_integrable"
+        ]
+      },
+      {
+        "pair_index": 1920,
+        "backbone": [
+          "NavierStokesR3.Comparison.integrable_heatSecondSymbol_space"
+        ]
+      },
+      {
+        "pair_index": 1921,
+        "backbone": [
+          "NavierStokesR3.Comparison.fourierIntegralInv_heatSecondSymbol"
+        ]
+      },
+      {
+        "pair_index": 1922,
+        "backbone": [
+          "NavierStokesR3.Comparison.heatKernelSecond_inverseTime_decomposition"
+        ]
+      },
+      {
+        "pair_index": 1923,
+        "backbone": [
+          "NavierStokesR3.Comparison.heatKernelSecondTimeEnvelope_eq"
+        ]
+      },
+      {
+        "pair_index": 1924,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.force_work_le"
+        ]
+      },
+      {
+        "pair_index": 1925,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.energy_rate_le"
+        ]
+      },
+      {
+        "pair_index": 1926,
+        "backbone": [
+          "NavierStokesR3.RieszTestOperators.norm_rieszSymbol_le"
+        ]
+      },
+      {
+        "pair_index": 1927,
+        "backbone": [
+          "NavierStokesR3.ComparisonCutoffs.cutoff_eq_one"
+        ]
+      },
+      {
+        "pair_index": 1928,
+        "backbone": [
+          "NavierStokesR3.LocalizedDifferenceEnergy.integral_weighted_laplacian"
+        ]
+      },
+      {
+        "pair_index": 1929,
+        "backbone": [
+          "NavierStokesR3.CompactEnergy.integral_laplacian_energy"
+        ]
+      },
+      {
+        "pair_index": 1936,
+        "backbone": [
+          "NavierStokesR3.PressureFlux.cutoff_commutator_bound"
+        ]
+      },
+      {
+        "pair_index": 1937,
+        "backbone": [
+          "NavierStokesR3.PressureFlux.commutatorConstant_nonneg"
+        ]
+      }
+    ],
+    "forced_world_witness_sha256": "55aaaadc47dfc3eaffb6e7b75cedab6b01f3af68647c5264a0cf5f794c592baf",
+    "residual_world_witness_sha256": "78b2f2292cde5cfd284e0bd1de46c2771dd00d1e889a2178f2d59f6fd0c4c0a8"
+  },
+  "paired_removal_degree_support_histogram": {
+    "1,1": 58,
+    "4,4": 18,
+    "2,2": 43,
+    "36,36": 37,
+    "24,24": 5,
+    "12,12": 13,
+    "11,11": 12,
+    "6,6": 8,
+    "21,21": 2,
+    "3,3": 4
+  },
+  "interpretation_boundary": "Minimum world cover counts worlds; global literal vocabulary counts declaration dimensions. No residual mechanism is named beyond the measured incidence/set-cover structure.",
+  "unit_separation": {
+    "global_literal_vocabulary_dimensions": 200,
+    "minimum_world_cover": 188,
+    "summary_reworded": true
+  }
+}

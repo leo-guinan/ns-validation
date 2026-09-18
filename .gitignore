@@ -64,3 +64,4 @@ data/*
 !data/minimum-distinguishing-coordinates.json
 !data/pair-local-state-dimensions.json
 !data/dimensionality-atlas.json
+!data/cover-gap-incidence-decomposition.json
