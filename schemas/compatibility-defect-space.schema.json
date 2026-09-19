@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Compatibility defect space receipt",
+  "type":"object",
+  "required":["experiment","status","scope","components","interpretation_boundary"],
+  "properties":{"experiment":{"const":"63-compatibility-defect-space"},"status":{"const":"exact_boolean_compatibility_defect_space_measured"},"scope":{"type":"string"},"components":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}

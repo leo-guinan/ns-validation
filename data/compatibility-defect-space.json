@@ -1,0 +1,306 @@
+{
+  "experiment": "63-compatibility-defect-space",
+  "status": "exact_boolean_compatibility_defect_space_measured",
+  "scope": "components 8 and 11 using unique minimum repair obligations in the original coverage contract",
+  "components": [
+    {
+      "component_index": 8,
+      "repair_obligations": [
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+      ],
+      "repair_dimension": 2,
+      "reconstructed_count": 144,
+      "optimum_count": 48,
+      "zero_defect_count": 48,
+      "zero_defect_equals_opt": true,
+      "realized_nonzero_defect_vectors": [
+        "01",
+        "10",
+        "11"
+      ],
+      "all_nonzero_vectors_realized": true,
+      "defect_vector_multiplicities": {
+        "00": 48,
+        "01": 32,
+        "10": 46,
+        "11": 18
+      },
+      "defect_to_violation_signatures": {
+        "00": [
+          []
+        ],
+        "01": [
+          [
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+          ]
+        ],
+        "10": [
+          [
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant"
+          ]
+        ],
+        "11": [
+          [
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant",
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+          ]
+        ]
+      },
+      "defect_determines_violation_signature": true,
+      "literal_defect_examples": {
+        "00": [
+          141,
+          148,
+          152
+        ],
+        "01": [
+          141,
+          149,
+          152
+        ],
+        "10": [
+          142,
+          148,
+          152
+        ],
+        "11": [
+          142,
+          149,
+          152
+        ]
+      }
+    },
+    {
+      "component_index": 11,
+      "repair_obligations": [
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+      ],
+      "repair_dimension": 4,
+      "reconstructed_count": 10584,
+      "optimum_count": 902,
+      "zero_defect_count": 902,
+      "zero_defect_equals_opt": true,
+      "realized_nonzero_defect_vectors": [
+        "0001",
+        "0010",
+        "0011",
+        "0100",
+        "0101",
+        "0110",
+        "0111",
+        "1000",
+        "1001",
+        "1010",
+        "1011",
+        "1100",
+        "1101",
+        "1110",
+        "1111"
+      ],
+      "all_nonzero_vectors_realized": true,
+      "defect_vector_multiplicities": {
+        "0000": 902,
+        "0001": 836,
+        "0010": 794,
+        "0011": 1294,
+        "0100": 794,
+        "0101": 380,
+        "0110": 536,
+        "0111": 424,
+        "1000": 836,
+        "1001": 610,
+        "1010": 380,
+        "1011": 432,
+        "1100": 1294,
+        "1101": 432,
+        "1110": 424,
+        "1111": 216
+      },
+      "defect_to_violation_signatures": {
+        "0000": [
+          []
+        ],
+        "0001": [
+          [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ]
+        ],
+        "0010": [
+          [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ]
+        ],
+        "0011": [
+          [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ]
+        ],
+        "0100": [
+          [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+          ]
+        ],
+        "0101": [
+          [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ]
+        ],
+        "0110": [
+          [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ]
+        ],
+        "0111": [
+          [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ]
+        ],
+        "1000": [
+          [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff"
+          ]
+        ],
+        "1001": [
+          [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ]
+        ],
+        "1010": [
+          [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ]
+        ],
+        "1011": [
+          [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ]
+        ],
+        "1100": [
+          [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+          ]
+        ],
+        "1101": [
+          [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ]
+        ],
+        "1110": [
+          [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ]
+        ],
+        "1111": [
+          [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ]
+        ]
+      },
+      "defect_determines_violation_signature": true,
+      "literal_defect_examples": {
+        "0000": [
+          171,
+          207,
+          249
+        ],
+        "0001": [
+          171,
+          206,
+          241
+        ],
+        "0010": [
+          171,
+          207,
+          251
+        ],
+        "0011": [
+          171,
+          204,
+          234
+        ],
+        "0100": [
+          171,
+          206,
+          249
+        ],
+        "0101": [
+          171,
+          206,
+          240
+        ],
+        "0110": [
+          171,
+          206,
+          251
+        ],
+        "0111": [
+          171,
+          204,
+          233
+        ],
+        "1000": [
+          171,
+          205,
+          249
+        ],
+        "1001": [
+          171,
+          204,
+          241
+        ],
+        "1010": [
+          171,
+          205,
+          251
+        ],
+        "1011": [
+          171,
+          204,
+          232
+        ],
+        "1100": [
+          171,
+          204,
+          249
+        ],
+        "1101": [
+          171,
+          204,
+          240
+        ],
+        "1110": [
+          171,
+          204,
+          251
+        ],
+        "1111": [
+          171,
+          204,
+          231
+        ]
+      }
+    }
+  ],
+  "interpretation_boundary": "Repair dimension counts Boolean coordinates indexed by original coverage obligations. It is not a general encoding-size, semantic-complexity, or failure-probability claim."
+}

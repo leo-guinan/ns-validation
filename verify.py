@@ -181,3 +181,5 @@ interface = json.loads((Path("data") / "exact-one-interface-sufficiency.json").r
 print(f"experiment61_status={interface['status']} components={len(interface['components'])} reconstructions_equal={sum(x['reconstruction_equal'] for x in interface['components'])}/{len(interface['components'])}")
 repair = json.loads((Path("data") / "minimum-compatibility-repair.json").read_text(encoding="utf-8"))
 print(f"experiment62_status={repair['status']} components={len(repair['components'])} repaired_equal={all(x['repaired_reconstruction_equal'] for x in repair['components'])}")
+defect = json.loads((Path("data") / "compatibility-defect-space.json").read_text(encoding="utf-8"))
+print(f"experiment63_status={defect['status']} components={len(defect['components'])} all_nonzero_realized={all(x['all_nonzero_vectors_realized'] for x in defect['components'])}")

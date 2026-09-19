@@ -75,3 +75,4 @@ data/*
 !data/exact-order-and-cut-structure.json
 !data/exact-one-interface-sufficiency.json
 !data/minimum-compatibility-repair.json
+!data/compatibility-defect-space.json
