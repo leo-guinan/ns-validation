@@ -72,3 +72,4 @@ data/*
 !data/exact-degradation-profiles.json
 !data/exact-blocker-geometry.json
 !data/survival-attack-incidence.json
+!data/exact-order-and-cut-structure.json

@@ -175,3 +175,5 @@ blockers = json.loads((Path("data") / "exact-blocker-geometry.json").read_text(e
 print(f"experiment58_status={blockers['status']} components={len(blockers['components'])} optimality_blockers_complete={all(x['optimality_blockers']['complete'] for x in blockers['components'])}")
 attack = json.loads((Path("data") / "survival-attack-incidence.json").read_text(encoding="utf-8"))
 print(f"experiment59_status={attack['status']} components={len(attack['components'])} tau_ordering_inversions={sum(len(x['pairwise_inversions']['p_vs_q_tau']) for x in attack['components'])} feasibility_containment={all(x['all_feasibility_blockers_are_optimality_blockers'] for x in attack['components'])}")
+order = json.loads((Path("data") / "exact-order-and-cut-structure.json").read_text(encoding="utf-8"))
+print(f"experiment60_status={order['status']} components={len(order['components'])} equal_p_qtau={sum(x['equal_p_imply_equal_qtau'] for x in order['components'])}/{len(order['components'])}")
