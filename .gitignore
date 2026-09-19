@@ -74,3 +74,4 @@ data/*
 !data/survival-attack-incidence.json
 !data/exact-order-and-cut-structure.json
 !data/exact-one-interface-sufficiency.json
+!data/minimum-compatibility-repair.json

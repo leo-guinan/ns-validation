@@ -1,0 +1,112 @@
+{
+  "experiment": "62-minimum-compatibility-repair",
+  "status": "exact_minimum_compatibility_repair_measured",
+  "scope": "components 8 and 11 under the original fixed coverage contract",
+  "components": [
+    {
+      "component_index": 8,
+      "coordinate_count": 5,
+      "false_positive_count": 96,
+      "false_positive_violation_signature_counts": {
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": 32,
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant": 46,
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant|NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": 18
+      },
+      "minimum_repair_size": 2,
+      "minimum_repair_count": 1,
+      "minimum_repair_sets": [
+        [
+          "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant",
+          "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+        ]
+      ],
+      "repair_backbone": [
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+      ],
+      "repair_support": [
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant",
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+      ],
+      "repaired_reconstruction_equal": true,
+      "same_signature_substitution_witness": [
+        {
+          "valid_world": 141,
+          "invalid_same_signature_world": 142,
+          "surrounding_selection": [
+            148,
+            152
+          ]
+        }
+      ],
+      "same_signature_witness_found": true,
+      "exact_one_coordinates": [
+        "NavierStokesR3.ComparisonCutoffs.baseCutoff_iteratedFDeriv_le",
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant",
+        "NavierStokesR3.ComparisonCutoffs.derivativeConstant_pos"
+      ]
+    },
+    {
+      "component_index": 11,
+      "coordinate_count": 7,
+      "false_positive_count": 9682,
+      "false_positive_violation_signature_counts": {
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 216,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 432,
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 424,
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 1294,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 432,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 610,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence": 1294,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 424,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff": 836,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 380,
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 380,
+        "NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 836,
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence": 794,
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 536,
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 794
+      },
+      "minimum_repair_size": 4,
+      "minimum_repair_count": 1,
+      "minimum_repair_sets": [
+        [
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+          "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+          "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+          "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+        ]
+      ],
+      "repair_backbone": [
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+      ],
+      "repair_support": [
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff",
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+        "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+      ],
+      "repaired_reconstruction_equal": true,
+      "same_signature_substitution_witness": [
+        {
+          "valid_world": 207,
+          "invalid_same_signature_world": 204,
+          "surrounding_selection": [
+            171,
+            249
+          ]
+        }
+      ],
+      "same_signature_witness_found": true,
+      "exact_one_coordinates": [
+        "NavierStokesR3.CompactEnergy.integral_fderiv_apply",
+        "NavierStokesR3.ConservativeDifference.advection_component",
+        "NavierStokesR3.ConservativeDifference.partial_component"
+      ]
+    }
+  ],
+  "interpretation_boundary": "Repairs restore original coverage constraints to the exact-one interface. This measures finite contract sufficiency, not semantic compression."
+}

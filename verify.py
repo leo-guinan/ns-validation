@@ -179,3 +179,5 @@ order = json.loads((Path("data") / "exact-order-and-cut-structure.json").read_te
 print(f"experiment60_status={order['status']} components={len(order['components'])} equal_p_qtau={sum(x['equal_p_imply_equal_qtau'] for x in order['components'])}/{len(order['components'])}")
 interface = json.loads((Path("data") / "exact-one-interface-sufficiency.json").read_text(encoding="utf-8"))
 print(f"experiment61_status={interface['status']} components={len(interface['components'])} reconstructions_equal={sum(x['reconstruction_equal'] for x in interface['components'])}/{len(interface['components'])}")
+repair = json.loads((Path("data") / "minimum-compatibility-repair.json").read_text(encoding="utf-8"))
+print(f"experiment62_status={repair['status']} components={len(repair['components'])} repaired_equal={all(x['repaired_reconstruction_equal'] for x in repair['components'])}")
