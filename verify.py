@@ -183,3 +183,5 @@ repair = json.loads((Path("data") / "minimum-compatibility-repair.json").read_te
 print(f"experiment62_status={repair['status']} components={len(repair['components'])} repaired_equal={all(x['repaired_reconstruction_equal'] for x in repair['components'])}")
 defect = json.loads((Path("data") / "compatibility-defect-space.json").read_text(encoding="utf-8"))
 print(f"experiment63_status={defect['status']} components={len(defect['components'])} all_nonzero_realized={all(x['all_nonzero_vectors_realized'] for x in defect['components'])}")
+logic = json.loads((Path("data") / "defect-logic.json").read_text(encoding="utf-8"))
+print(f"experiment64_status={logic['status']} components={len(logic['components'])} monotone_components={sum(x['monotone_violation_map'] for x in logic['components'])}")

@@ -76,3 +76,4 @@ data/*
 !data/exact-one-interface-sufficiency.json
 !data/minimum-compatibility-repair.json
 !data/compatibility-defect-space.json
+!data/defect-logic.json
