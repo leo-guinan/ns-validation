@@ -1,0 +1,711 @@
+{
+  "experiment": "61-exact-one-interface-sufficiency",
+  "status": "exact_one_interface_sufficiency_measured",
+  "scope": "five saving-kernel components under the fixed finite cover contract",
+  "components": [
+    {
+      "component_index": 8,
+      "candidate_count": 20,
+      "coordinate_count": 5,
+      "minimum_width": 3,
+      "distinct_coordinate_neighborhood_count": 5,
+      "exact_one_neighborhood_count": 3,
+      "exact_one_neighborhoods": [
+        [
+          152,
+          153,
+          154,
+          156,
+          157,
+          158
+        ],
+        [
+          148,
+          149,
+          150,
+          151
+        ],
+        [
+          141,
+          142,
+          143,
+          145,
+          146,
+          147
+        ]
+      ],
+      "optimum_count": 48,
+      "reconstructed_count": 144,
+      "false_positive_count": 96,
+      "opt_subset_reconstructed": true,
+      "reconstruction_equal": false,
+      "false_positive_witnesses": [
+        [
+          141,
+          149,
+          152
+        ],
+        [
+          141,
+          149,
+          153
+        ],
+        [
+          141,
+          149,
+          154
+        ],
+        [
+          141,
+          149,
+          157
+        ],
+        [
+          141,
+          149,
+          158
+        ],
+        [
+          141,
+          151,
+          152
+        ],
+        [
+          141,
+          151,
+          153
+        ],
+        [
+          141,
+          151,
+          154
+        ],
+        [
+          141,
+          151,
+          157
+        ],
+        [
+          141,
+          151,
+          158
+        ]
+      ],
+      "membership_signatures": {
+        "140": "000",
+        "141": "001",
+        "142": "001",
+        "143": "001",
+        "144": "000",
+        "145": "001",
+        "146": "001",
+        "147": "001",
+        "148": "010",
+        "149": "010",
+        "150": "010",
+        "151": "010",
+        "152": "100",
+        "153": "100",
+        "154": "100",
+        "155": "000",
+        "156": "100",
+        "157": "100",
+        "158": "100",
+        "159": "000"
+      },
+      "signature_groups": {
+        "000": [
+          140,
+          144,
+          155,
+          159
+        ],
+        "001": [
+          141,
+          142,
+          143,
+          145,
+          146,
+          147
+        ],
+        "010": [
+          148,
+          149,
+          150,
+          151
+        ],
+        "100": [
+          152,
+          153,
+          154,
+          156,
+          157,
+          158
+        ]
+      },
+      "maximum_pairwise_disjoint_exact_one_neighborhoods": 3,
+      "lower_bound_tight": true,
+      "OE_transpose_all_ones": true
+    },
+    {
+      "component_index": 11,
+      "candidate_count": 90,
+      "coordinate_count": 7,
+      "minimum_width": 3,
+      "distinct_coordinate_neighborhood_count": 7,
+      "exact_one_neighborhood_count": 3,
+      "exact_one_neighborhoods": [
+        [
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255
+        ],
+        [
+          204,
+          205,
+          206,
+          207,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          228,
+          229,
+          230
+        ],
+        [
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203
+        ]
+      ],
+      "optimum_count": 902,
+      "reconstructed_count": 10584,
+      "false_positive_count": 9682,
+      "opt_subset_reconstructed": true,
+      "reconstruction_equal": false,
+      "false_positive_witnesses": [
+        [
+          171,
+          204,
+          231
+        ],
+        [
+          171,
+          204,
+          232
+        ],
+        [
+          171,
+          204,
+          233
+        ],
+        [
+          171,
+          204,
+          234
+        ],
+        [
+          171,
+          204,
+          235
+        ],
+        [
+          171,
+          204,
+          236
+        ],
+        [
+          171,
+          204,
+          237
+        ],
+        [
+          171,
+          204,
+          240
+        ],
+        [
+          171,
+          204,
+          241
+        ],
+        [
+          171,
+          204,
+          242
+        ]
+      ],
+      "membership_signatures": {
+        "168": "000",
+        "169": "000",
+        "170": "000",
+        "171": "001",
+        "172": "001",
+        "173": "001",
+        "174": "001",
+        "175": "001",
+        "176": "001",
+        "177": "000",
+        "178": "000",
+        "179": "000",
+        "180": "001",
+        "181": "001",
+        "182": "001",
+        "183": "001",
+        "184": "001",
+        "185": "001",
+        "186": "000",
+        "187": "000",
+        "188": "000",
+        "189": "001",
+        "190": "001",
+        "191": "001",
+        "192": "001",
+        "193": "001",
+        "194": "001",
+        "195": "000",
+        "196": "000",
+        "197": "000",
+        "198": "001",
+        "199": "001",
+        "200": "001",
+        "201": "001",
+        "202": "001",
+        "203": "001",
+        "204": "010",
+        "205": "010",
+        "206": "010",
+        "207": "010",
+        "208": "000",
+        "209": "000",
+        "210": "010",
+        "211": "010",
+        "212": "010",
+        "213": "010",
+        "214": "010",
+        "215": "010",
+        "216": "010",
+        "217": "000",
+        "218": "000",
+        "219": "010",
+        "220": "010",
+        "221": "010",
+        "222": "010",
+        "223": "010",
+        "224": "010",
+        "225": "010",
+        "226": "000",
+        "227": "000",
+        "228": "010",
+        "229": "010",
+        "230": "010",
+        "231": "100",
+        "232": "100",
+        "233": "100",
+        "234": "100",
+        "235": "100",
+        "236": "100",
+        "237": "100",
+        "238": "000",
+        "239": "000",
+        "240": "100",
+        "241": "100",
+        "242": "100",
+        "243": "100",
+        "244": "100",
+        "245": "100",
+        "246": "100",
+        "247": "000",
+        "248": "000",
+        "249": "100",
+        "250": "100",
+        "251": "100",
+        "252": "100",
+        "253": "100",
+        "254": "100",
+        "255": "100",
+        "256": "000",
+        "257": "000"
+      },
+      "signature_groups": {
+        "000": [
+          168,
+          169,
+          170,
+          177,
+          178,
+          179,
+          186,
+          187,
+          188,
+          195,
+          196,
+          197,
+          208,
+          209,
+          217,
+          218,
+          226,
+          227,
+          238,
+          239,
+          247,
+          248,
+          256,
+          257
+        ],
+        "001": [
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203
+        ],
+        "010": [
+          204,
+          205,
+          206,
+          207,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          228,
+          229,
+          230
+        ],
+        "100": [
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255
+        ]
+      },
+      "maximum_pairwise_disjoint_exact_one_neighborhoods": 3,
+      "lower_bound_tight": true,
+      "OE_transpose_all_ones": true
+    },
+    {
+      "component_index": 12,
+      "candidate_count": 3,
+      "coordinate_count": 2,
+      "minimum_width": 1,
+      "distinct_coordinate_neighborhood_count": 2,
+      "exact_one_neighborhood_count": 2,
+      "exact_one_neighborhoods": [
+        [
+          354,
+          355
+        ],
+        [
+          352,
+          354
+        ]
+      ],
+      "optimum_count": 1,
+      "reconstructed_count": 1,
+      "false_positive_count": 0,
+      "opt_subset_reconstructed": true,
+      "reconstruction_equal": true,
+      "false_positive_witnesses": [],
+      "membership_signatures": {
+        "352": "01",
+        "354": "11",
+        "355": "10"
+      },
+      "signature_groups": {
+        "01": [
+          352
+        ],
+        "11": [
+          354
+        ],
+        "10": [
+          355
+        ]
+      },
+      "maximum_pairwise_disjoint_exact_one_neighborhoods": 1,
+      "lower_bound_tight": true,
+      "OE_transpose_all_ones": true
+    },
+    {
+      "component_index": 21,
+      "candidate_count": 20,
+      "coordinate_count": 6,
+      "minimum_width": 2,
+      "distinct_coordinate_neighborhood_count": 6,
+      "exact_one_neighborhood_count": 6,
+      "exact_one_neighborhoods": [
+        [
+          292,
+          293,
+          294,
+          296,
+          297,
+          298
+        ],
+        [
+          280,
+          281,
+          282,
+          283
+        ],
+        [
+          282,
+          283,
+          286,
+          287,
+          290,
+          291
+        ],
+        [
+          284,
+          288,
+          292,
+          296
+        ],
+        [
+          288,
+          289,
+          290,
+          296,
+          297,
+          299
+        ],
+        [
+          281,
+          283,
+          285,
+          287,
+          294,
+          295
+        ]
+      ],
+      "optimum_count": 1,
+      "reconstructed_count": 1,
+      "false_positive_count": 0,
+      "opt_subset_reconstructed": true,
+      "reconstruction_equal": true,
+      "false_positive_witnesses": [],
+      "membership_signatures": {
+        "280": "010000",
+        "281": "010001",
+        "282": "011000",
+        "283": "011001",
+        "284": "000100",
+        "285": "000001",
+        "286": "001000",
+        "287": "001001",
+        "288": "000110",
+        "289": "000010",
+        "290": "001010",
+        "291": "001000",
+        "292": "100100",
+        "293": "100000",
+        "294": "100001",
+        "295": "000001",
+        "296": "100110",
+        "297": "100010",
+        "298": "100000",
+        "299": "000010"
+      },
+      "signature_groups": {
+        "010000": [
+          280
+        ],
+        "010001": [
+          281
+        ],
+        "011000": [
+          282
+        ],
+        "011001": [
+          283
+        ],
+        "000100": [
+          284
+        ],
+        "000001": [
+          285,
+          295
+        ],
+        "001000": [
+          286,
+          291
+        ],
+        "001001": [
+          287
+        ],
+        "000110": [
+          288
+        ],
+        "000010": [
+          289,
+          299
+        ],
+        "001010": [
+          290
+        ],
+        "100100": [
+          292
+        ],
+        "100000": [
+          293,
+          298
+        ],
+        "100001": [
+          294
+        ],
+        "100110": [
+          296
+        ],
+        "100010": [
+          297
+        ]
+      },
+      "maximum_pairwise_disjoint_exact_one_neighborhoods": 2,
+      "lower_bound_tight": true,
+      "OE_transpose_all_ones": true
+    },
+    {
+      "component_index": 45,
+      "candidate_count": 3,
+      "coordinate_count": 2,
+      "minimum_width": 1,
+      "distinct_coordinate_neighborhood_count": 2,
+      "exact_one_neighborhood_count": 2,
+      "exact_one_neighborhoods": [
+        [
+          350,
+          351
+        ],
+        [
+          351,
+          353
+        ]
+      ],
+      "optimum_count": 1,
+      "reconstructed_count": 1,
+      "false_positive_count": 0,
+      "opt_subset_reconstructed": true,
+      "reconstruction_equal": true,
+      "false_positive_witnesses": [],
+      "membership_signatures": {
+        "350": "10",
+        "351": "11",
+        "353": "01"
+      },
+      "signature_groups": {
+        "10": [
+          350
+        ],
+        "11": [
+          351
+        ],
+        "01": [
+          353
+        ]
+      },
+      "maximum_pairwise_disjoint_exact_one_neighborhoods": 1,
+      "lower_bound_tight": true,
+      "OE_transpose_all_ones": true
+    }
+  ],
+  "interpretation_boundary": "E z = 1 is tested as a finite representation interface. Reconstruction equality or false positives concerns contract sufficiency, not semantic compression."
+}

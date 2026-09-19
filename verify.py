@@ -177,3 +177,5 @@ attack = json.loads((Path("data") / "survival-attack-incidence.json").read_text(
 print(f"experiment59_status={attack['status']} components={len(attack['components'])} tau_ordering_inversions={sum(len(x['pairwise_inversions']['p_vs_q_tau']) for x in attack['components'])} feasibility_containment={all(x['all_feasibility_blockers_are_optimality_blockers'] for x in attack['components'])}")
 order = json.loads((Path("data") / "exact-order-and-cut-structure.json").read_text(encoding="utf-8"))
 print(f"experiment60_status={order['status']} components={len(order['components'])} equal_p_qtau={sum(x['equal_p_imply_equal_qtau'] for x in order['components'])}/{len(order['components'])}")
+interface = json.loads((Path("data") / "exact-one-interface-sufficiency.json").read_text(encoding="utf-8"))
+print(f"experiment61_status={interface['status']} components={len(interface['components'])} reconstructions_equal={sum(x['reconstruction_equal'] for x in interface['components'])}/{len(interface['components'])}")
