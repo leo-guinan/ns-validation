@@ -191,3 +191,5 @@ anf = json.loads((Path("data") / "anf-law-classes-and-orbits.json").read_text(en
 print(f"experiment66_status={anf['status']} components={len(anf['components'])} xor_closed={sum(x['xor_closure_of_nonzero_functions'] for x in anf['components'])}/{len(anf['components'])}")
 affine = json.loads((Path("data") / "affine-defect-linearization.json").read_text(encoding="utf-8"))
 print(f"experiment67_status={affine['status']} components={len(affine['components'])} translated_xor_closed={sum(x['translated_mask_xor_closed'] for x in affine['components'])}/{len(affine['components'])}")
+parity = json.loads((Path("data") / "lower-order-parity-check.json").read_text(encoding="utf-8"))
+print(f"experiment68_status={parity['status']} components={len(parity['components'])} reversal_invariant={sum(x['reversal_invariant'] for x in parity['components'])}/{len(parity['components'])}")

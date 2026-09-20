@@ -80,3 +80,4 @@ data/*
 !data/boolean-defect-structure.json
 !data/anf-law-classes-and-orbits.json
 !data/affine-defect-linearization.json
+!data/lower-order-parity-check.json
