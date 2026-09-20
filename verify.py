@@ -189,3 +189,5 @@ structure = json.loads((Path("data") / "boolean-defect-structure.json").read_tex
 print(f"experiment65_status={structure['status']} components={len(structure['components'])} automorphism_certificates={sum(x['global_reversal_automorphism']['certificate_verified'] for x in structure['components'])}/{len(structure['components'])}")
 anf = json.loads((Path("data") / "anf-law-classes-and-orbits.json").read_text(encoding="utf-8"))
 print(f"experiment66_status={anf['status']} components={len(anf['components'])} xor_closed={sum(x['xor_closure_of_nonzero_functions'] for x in anf['components'])}/{len(anf['components'])}")
+affine = json.loads((Path("data") / "affine-defect-linearization.json").read_text(encoding="utf-8"))
+print(f"experiment67_status={affine['status']} components={len(affine['components'])} translated_xor_closed={sum(x['translated_mask_xor_closed'] for x in affine['components'])}/{len(affine['components'])}")

@@ -79,3 +79,4 @@ data/*
 !data/defect-logic.json
 !data/boolean-defect-structure.json
 !data/anf-law-classes-and-orbits.json
+!data/affine-defect-linearization.json

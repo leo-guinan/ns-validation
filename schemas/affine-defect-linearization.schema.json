@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Affine defect linearization receipt",
+  "type":"object",
+  "required":["experiment","status","scope","components","interpretation_boundary"],
+  "properties":{"experiment":{"const":"67-affine-defect-linearization"},"status":{"const":"exact_affine_defect_linearization_measured"},"scope":{"type":"string"},"components":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}
