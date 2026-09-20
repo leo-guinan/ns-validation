@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Minimum direct observability receipt",
+  "type":"object",
+  "required":["experiment","status","scope","components","interpretation_boundary"],
+  "properties":{"experiment":{"const":"70-minimum-direct-observability"},"status":{"const":"exact_minimum_direct_observability_measured"},"scope":{"type":"string"},"components":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}
