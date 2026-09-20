@@ -185,3 +185,5 @@ defect = json.loads((Path("data") / "compatibility-defect-space.json").read_text
 print(f"experiment63_status={defect['status']} components={len(defect['components'])} all_nonzero_realized={all(x['all_nonzero_vectors_realized'] for x in defect['components'])}")
 logic = json.loads((Path("data") / "defect-logic.json").read_text(encoding="utf-8"))
 print(f"experiment64_status={logic['status']} components={len(logic['components'])} monotone_components={sum(x['monotone_violation_map'] for x in logic['components'])}")
+structure = json.loads((Path("data") / "boolean-defect-structure.json").read_text(encoding="utf-8"))
+print(f"experiment65_status={structure['status']} components={len(structure['components'])} automorphism_certificates={sum(x['global_reversal_automorphism']['certificate_verified'] for x in structure['components'])}/{len(structure['components'])}")

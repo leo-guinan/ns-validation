@@ -77,3 +77,4 @@ data/*
 !data/minimum-compatibility-repair.json
 !data/compatibility-defect-space.json
 !data/defect-logic.json
+!data/boolean-defect-structure.json

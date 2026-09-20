@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Boolean defect structure receipt",
+  "type":"object",
+  "required":["experiment","status","scope","components","interpretation_boundary"],
+  "properties":{"experiment":{"const":"65-boolean-defect-structure"},"status":{"const":"exact_boolean_defect_structure_measured"},"scope":{"type":"string"},"components":{"type":"array"},"interpretation_boundary":{"type":"string"}}
+}

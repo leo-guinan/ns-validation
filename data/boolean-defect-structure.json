@@ -1,0 +1,646 @@
+{
+  "experiment": "65-boolean-defect-structure",
+  "status": "exact_boolean_defect_structure_measured",
+  "scope": "components 8 and 11 under the fixed repair-coordinate and coverage-obligation contracts",
+  "components": [
+    {
+      "component_index": 8,
+      "repair_dimension": 2,
+      "boolean_degrees": {
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant": 2,
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant|NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": 2,
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": 2
+      },
+      "degree_histogram": {
+        "2": 3
+      },
+      "anf_monomial_supports": {
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant": [
+          "10",
+          "11"
+        ],
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant|NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": [
+          "11"
+        ],
+        "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": [
+          "01",
+          "11"
+        ]
+      },
+      "transition_class_counts": {
+        "pure-add": 2,
+        "replacement": 2
+      },
+      "transition_edges": [
+        {
+          "from": "00",
+          "to": "10",
+          "coordinate": 0,
+          "added": [
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant"
+          ],
+          "removed": [],
+          "class": "pure-add"
+        },
+        {
+          "from": "00",
+          "to": "01",
+          "coordinate": 1,
+          "added": [
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+          ],
+          "removed": [],
+          "class": "pure-add"
+        },
+        {
+          "from": "01",
+          "to": "11",
+          "coordinate": 0,
+          "added": [
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant|NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+          ],
+          "removed": [
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "10",
+          "to": "11",
+          "coordinate": 1,
+          "added": [
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant|NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos"
+          ],
+          "removed": [
+            "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant"
+          ],
+          "class": "replacement"
+        }
+      ],
+      "monotone_edge_count": 2,
+      "replacement_nonorigin_edges": 2,
+      "all_nonorigin_edges_replacement": true,
+      "global_reversal_automorphism": {
+        "exists": true,
+        "obligation_permutation": {
+          "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant": "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos",
+          "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant|NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant|NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos",
+          "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant"
+        },
+        "candidate_count_by_obligation": {
+          "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant": 1,
+          "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant|NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": 1,
+          "NavierStokesR3.LocalizedFluxEstimates.weightSecondDerivativeConstant_pos": 1
+        },
+        "certificate_verified": true,
+        "counterexample": null
+      }
+    },
+    {
+      "component_index": 11,
+      "repair_dimension": 4,
+      "boolean_degrees": {
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff": 4,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence": 4,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 4,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 4,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 4,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 4,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 4,
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 4,
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence": 4,
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 4,
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 4,
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 4,
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 4,
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 4,
+        "NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 4
+      },
+      "degree_histogram": {
+        "4": 15
+      },
+      "anf_monomial_supports": {
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff": [
+          "1000",
+          "1001",
+          "1010",
+          "1011",
+          "1100",
+          "1101",
+          "1110",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence": [
+          "1100",
+          "1101",
+          "1110",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": [
+          "1110",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": [
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": [
+          "1101",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": [
+          "1010",
+          "1011",
+          "1110",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": [
+          "1011",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": [
+          "1001",
+          "1011",
+          "1101",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence": [
+          "0100",
+          "0101",
+          "0110",
+          "0111",
+          "1100",
+          "1101",
+          "1110",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": [
+          "0110",
+          "0111",
+          "1110",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": [
+          "0111",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": [
+          "0101",
+          "0111",
+          "1101",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient": [
+          "0010",
+          "0011",
+          "0110",
+          "0111",
+          "1010",
+          "1011",
+          "1110",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": [
+          "0011",
+          "0111",
+          "1011",
+          "1111"
+        ],
+        "NavierStokesR3.ConservativeDifference.weak_pressure_poisson": [
+          "0001",
+          "0011",
+          "0101",
+          "0111",
+          "1001",
+          "1011",
+          "1101",
+          "1111"
+        ]
+      },
+      "transition_class_counts": {
+        "pure-add": 4,
+        "replacement": 28
+      },
+      "transition_edges": [
+        {
+          "from": "0000",
+          "to": "1000",
+          "coordinate": 0,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff"
+          ],
+          "removed": [],
+          "class": "pure-add"
+        },
+        {
+          "from": "0000",
+          "to": "0100",
+          "coordinate": 1,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+          ],
+          "removed": [],
+          "class": "pure-add"
+        },
+        {
+          "from": "0000",
+          "to": "0010",
+          "coordinate": 2,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "removed": [],
+          "class": "pure-add"
+        },
+        {
+          "from": "0000",
+          "to": "0001",
+          "coordinate": 3,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [],
+          "class": "pure-add"
+        },
+        {
+          "from": "0001",
+          "to": "1001",
+          "coordinate": 0,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0001",
+          "to": "0101",
+          "coordinate": 1,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0001",
+          "to": "0011",
+          "coordinate": 2,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0010",
+          "to": "1010",
+          "coordinate": 0,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0010",
+          "to": "0110",
+          "coordinate": 1,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0010",
+          "to": "0011",
+          "coordinate": 3,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0011",
+          "to": "1011",
+          "coordinate": 0,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0011",
+          "to": "0111",
+          "coordinate": 1,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0100",
+          "to": "1100",
+          "coordinate": 0,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0100",
+          "to": "0110",
+          "coordinate": 2,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0100",
+          "to": "0101",
+          "coordinate": 3,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0101",
+          "to": "1101",
+          "coordinate": 0,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0101",
+          "to": "0111",
+          "coordinate": 2,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0110",
+          "to": "1110",
+          "coordinate": 0,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0110",
+          "to": "0111",
+          "coordinate": 3,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "0111",
+          "to": "1111",
+          "coordinate": 0,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1000",
+          "to": "1100",
+          "coordinate": 1,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1000",
+          "to": "1010",
+          "coordinate": 2,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1000",
+          "to": "1001",
+          "coordinate": 3,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1001",
+          "to": "1101",
+          "coordinate": 1,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1001",
+          "to": "1011",
+          "coordinate": 2,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1010",
+          "to": "1110",
+          "coordinate": 1,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1010",
+          "to": "1011",
+          "coordinate": 3,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1011",
+          "to": "1111",
+          "coordinate": 1,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1100",
+          "to": "1110",
+          "coordinate": 2,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1100",
+          "to": "1101",
+          "coordinate": 3,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1101",
+          "to": "1111",
+          "coordinate": 2,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "class": "replacement"
+        },
+        {
+          "from": "1110",
+          "to": "1111",
+          "coordinate": 3,
+          "added": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson"
+          ],
+          "removed": [
+            "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient"
+          ],
+          "class": "replacement"
+        }
+      ],
+      "monotone_edge_count": 4,
+      "replacement_nonorigin_edges": 28,
+      "all_nonorigin_edges_replacement": true,
+      "global_reversal_automorphism": {
+        "exists": true,
+        "obligation_permutation": {
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff": "NavierStokesR3.ConservativeDifference.weak_pressure_poisson",
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence": "NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson",
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson",
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson",
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson",
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson",
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson",
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_poisson",
+          "NavierStokesR3.ConservativeDifference.tensorDiff_divergence": "NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+          "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+          "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+          "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient",
+          "NavierStokesR3.ConservativeDifference.weak_pressure_gradient": "NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+          "NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence",
+          "NavierStokesR3.ConservativeDifference.weak_pressure_poisson": "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff"
+        },
+        "candidate_count_by_obligation": {
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff": 1,
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence": 1,
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 1,
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 1,
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 1,
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 1,
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 1,
+          "NavierStokesR3.ConservativeDifference.scalarLaplacian_contDiff|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 1,
+          "NavierStokesR3.ConservativeDifference.tensorDiff_divergence": 1,
+          "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 1,
+          "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 1,
+          "NavierStokesR3.ConservativeDifference.tensorDiff_divergence|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 1,
+          "NavierStokesR3.ConservativeDifference.weak_pressure_gradient": 1,
+          "NavierStokesR3.ConservativeDifference.weak_pressure_gradient|NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 1,
+          "NavierStokesR3.ConservativeDifference.weak_pressure_poisson": 1
+        },
+        "certificate_verified": true,
+        "counterexample": null
+      }
+    }
+  ],
+  "interpretation_boundary": "Algebraic degree, ANF support, edge labels, and automorphism certificates are exact finite representations. They are not semantic complexity, causal mechanism, or storage-cost claims."
+}
