@@ -81,3 +81,4 @@ data/*
 !data/anf-law-classes-and-orbits.json
 !data/affine-defect-linearization.json
 !data/lower-order-parity-check.json
+!data/violation-basis-state-decoder.json

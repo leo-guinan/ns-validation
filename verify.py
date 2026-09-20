@@ -193,3 +193,5 @@ affine = json.loads((Path("data") / "affine-defect-linearization.json").read_tex
 print(f"experiment67_status={affine['status']} components={len(affine['components'])} translated_xor_closed={sum(x['translated_mask_xor_closed'] for x in affine['components'])}/{len(affine['components'])}")
 parity = json.loads((Path("data") / "lower-order-parity-check.json").read_text(encoding="utf-8"))
 print(f"experiment68_status={parity['status']} components={len(parity['components'])} reversal_invariant={sum(x['reversal_invariant'] for x in parity['components'])}/{len(parity['components'])}")
+basis = json.loads((Path("data") / "violation-basis-state-decoder.json").read_text(encoding="utf-8"))
+print(f"experiment69_status={basis['status']} components={len(basis['components'])} basis_rank_verified={sum(x['violation_predicates_basis_of_zero_origin_space'] for x in basis['components'])}/{len(basis['components'])}")
